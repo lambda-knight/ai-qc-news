@@ -1,0 +1,9 @@
+title: "ai-qc-news | AI・量子コンピュータニュース"
+description: "生成AI・量子コンピュータの最新ニュースをずんだもん＋四国めたんが解説"
+baseurl: "/ai-qc-news"
+url: "https://lambda-knight.github.io"
+theme: minima
+lang: ja
+
+plugins:
+  - jekyll-feed
