@@ -12,8 +12,6 @@ MathJax = { tex: { inlineMath: [['$','$'],['\\(','\\)']], displayMath: [['$$','$
 
 **2026-06-18 / arxiv AI論文解説**
 
-<video controls width="100%" src="https://archive.org/download/news-pickup-2026-06-18-arxiv-ai/arxiv_ai_yukkuri.mp4"></video>
-
 <audio controls src="https://archive.org/download/news-pickup-2026-06-18-arxiv-ai/arxiv_ai_yukkuri.m4a" style="width:100%;margin-top:4px"></audio>
 
 - [Internet Archive](https://archive.org/details/news-pickup-2026-06-18-arxiv-ai)
