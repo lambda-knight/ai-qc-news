@@ -42,6 +42,21 @@ export default async function EpisodePage({ params }: { params: Promise<{ date: 
             {seg.audioUrl && (
               <audio controls style={{ width: "100%", marginTop: seg.videoUrl ? 8 : 0 }} src={seg.audioUrl} />
             )}
+            {seg.papers && seg.papers.length > 0 && (
+              <details style={{ marginTop: 12 }}>
+                <summary>参考論文（{seg.papers.length}本）</summary>
+                <ol style={{ margin: "8px 0 0 1.2em", lineHeight: 2, fontSize: 13 }}>
+                  {seg.papers.map((p) => (
+                    <li key={p.url}>
+                      <a href={p.url} target="_blank" rel="noopener">{p.title}</a>
+                      <span style={{ marginLeft: 8, color: "var(--muted)", fontSize: 11 }}>
+                        {p.url.replace("https://arxiv.org/abs/", "arXiv:")}
+                      </span>
+                    </li>
+                  ))}
+                </ol>
+              </details>
+            )}
             {seg.markdown && (
               <details style={{ marginTop: 12 }}>
                 <summary>スライド（クリックで展開）</summary>

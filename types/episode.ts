@@ -1,3 +1,8 @@
+export interface Paper {
+  url: string;
+  title: string;
+}
+
 export interface Segment {
   mode: string;
   label: string;
@@ -6,6 +11,7 @@ export interface Segment {
   markdown?: string;
   iaId: string;
   title?: string;
+  papers?: Paper[];
 }
 
 export interface Episode {
