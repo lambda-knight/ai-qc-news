@@ -192,3 +192,7 @@ MicrosoftがBuild 2026でMAI-Thinking-1・Project Solara・Scout・Surface RTX S
 ---
 
 [← 2026-06-03 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

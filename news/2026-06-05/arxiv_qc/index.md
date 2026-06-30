@@ -211,3 +211,7 @@ https://arxiv.org/abs/2606.04062
 ---
 
 [← 2026-06-05 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

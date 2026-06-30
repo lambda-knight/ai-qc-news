@@ -173,3 +173,7 @@ https://arxiv.org/abs/2606.05411  — 会話型AGIのためのモチベーショ
 ---
 
 [← 2026-06-07 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

@@ -173,3 +173,7 @@ https://arxiv.org/abs/2606.20544  — Mixture-of-Expertsの分布シフト下キ
 ---
 
 [← 2026-06-22 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

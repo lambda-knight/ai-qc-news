@@ -243,3 +243,7 @@ https://arxiv.org/abs/2606.06320  — トークンレベル重要度学習によ
 ---
 
 [← 2026-06-08 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

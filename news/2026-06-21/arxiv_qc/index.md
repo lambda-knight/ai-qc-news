@@ -101,3 +101,7 @@ https://arxiv.org/abs/2606.20441  — パウリ伝播を用いたノイズキャ
 ---
 
 [← 2026-06-21 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*
