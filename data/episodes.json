@@ -1,5 +1,81 @@
 [
   {
+    "date": "2026-07-16",
+    "segments": [
+      {
+        "mode": "ai",
+        "label": "生成AIニュース",
+        "iaId": "news-pickup-2026-07-16-ai",
+        "title": "学習データ・中国展開・光量子計算を読む【生成AIニュース 2026/07/16】",
+        "videoUrl": "https://archive.org/download/news-pickup-2026-07-16-ai/ai_yukkuri.mp4",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-07-16-ai/ai_yukkuri.m4a",
+        "markdown": "<h1>生成AIニュース：用途別モデル、学習データ、中国展開と光量子計算（2026年7月16日）</h1>\n<p><strong>キーワード:</strong> Inkling / Suno / 学習データ / Apple Intelligence / Qwen / PsiQuantum</p>\n<h2>Thinking Machines、初の公開モデル「Inkling」を発表</h2>\n<ul>\n<li>AIスタートアップのThinking Machinesは、初の公開モデル「Inkling」を発表した。記事は、同社が画一的なモデルではなく、用途に応じたAIを重視する方針を強めたものと位置付けている。</li>\n<li>モデルを公開することは、研究者や開発者が性能、安全性、使い勝手を独自に検証する入口になる。一方、導入側は、用途・利用規約・評価方法が自社の要件に合うかを確認する必要がある。</li>\n</ul>\n<h2>Sunoの学習データ疑惑：侵害で示されたYouTube音源の取得手法</h2>\n<ul>\n<li>AI音楽生成サービスSunoについて、従業員の認証情報を使った侵害で得られたソースコードから、長年分のYouTube音源を収集する仕組みが示されたとTechCrunchが報じた。</li>\n<li>これは外部から持ち出された情報に基づく報道であり、学習データの適法性を最終判断するものではない。ただ、生成AIの品質競争は、データの出所、権利者への説明、異議申立ての手続きと切り離せない。</li>\n<li>利用者や音楽制作者にとっては、生成物の便利さだけでなく、どのデータをどう扱うサービスなのかを確認する問題になっている。</li>\n</ul>\n<h2>Apple Intelligence、中国でAlibabaのQwenと提供承認</h2>\n<ul>\n<li>Apple Intelligenceは、中国でAlibabaのQwen AIと組み合わせて提供することが承認されたと報じられた。Appleにとって、中国市場でのAI展開を進める節目となる。</li>\n<li>国や地域ごとにAIサービスの提供条件、連携先、データの扱いが異なれば、同じ製品名でも利用できる機能や説明責任は一様ではない。</li>\n<li>これはAIが単なる端末機能ではなく、事業提携と各国の制度の下で提供される社会インフラになりつつあることを示している。</li>\n</ul>\n<h2>OpenAI、Codex向けの小型キーボードを発売</h2>\n<ul>\n<li>OpenAIは、エージェント型コーディングアプリCodexと組み合わせる発光キーボードを230ドルで発売したと報じられた。</li>\n<li>専用機器の狙いは、複数のAIエージェントの状態確認や操作を、開発者の作業環境に組み込むことにある。実際の価値は、ハードウェアそのものより、エージェントの作業を人がどう監督できるかで決まる。</li>\n<li>AIがコードを書いたり外部ツールを使ったりする場合は、権限を絞り、変更内容を確認し、機密情報を渡し過ぎない運用が必要である。</li>\n</ul>\n<h2>PsiQuantum、光を用いる大規模量子コンピュータ計画</h2>\n<ul>\n<li>PsiQuantumは、光を使う大規模量子コンピュータの計画を紹介した。記事によれば、装置は液体ヘリウムで低温に保つ多数のステンレス製キャビネットからなるデータセンター規模の構成を想定する。</li>\n<li>量子計算の実用化では、量子ビットの方式だけでなく、冷却、光学部品、制御、製造、運用をまとめて成立させる必要がある。</li>\n<li>計画段階の構想を完成した実用機と混同してはならないが、量子技術が実験室の小型装置から産業インフラの設計へ移っていることを示すニュースである。</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>今日のAIニュースは、モデルの作り方、学習データの正当性、各国での提供条件、開発者の操作環境まで、技術と社会の接点が広がっていることを示した。</li>\n<li>量子コンピュータも、方式の比較だけではなく、大規模な設備を継続して運用できるかという現実的な競争に入っている。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li>TechCrunch: Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling — https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/</li>\n<li>TechCrunch: Hack suggests AI music generator Suno scraped YouTube for training data — https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/</li>\n<li>TechCrunch: Apple Intelligence approved for launch in China with Alibaba’s Qwen AI — https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/</li>\n<li>TechCrunch: Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex — https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/</li>\n<li>MIT Technology Review: PsiQuantum has a plan to make a massive quantum computer out of light — https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/</li>\n</ul>"
+      },
+      {
+        "mode": "arxiv_ai",
+        "label": "arxiv AI論文解説",
+        "iaId": "news-pickup-2026-07-16-arxiv-ai",
+        "title": "未来を見ないAIは作れる？医療・点字・RAGの最新論文5本【2026/07/16】",
+        "papers": [
+          {
+            "url": "https://arxiv.org/abs/2607.11889",
+            "title": "未来情報を混ぜない言語モデル"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.11891",
+            "title": "専門領域QA評価"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.11893",
+            "title": "点字翻訳の課題"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.11933",
+            "title": "RAG再順位付け"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12051",
+            "title": "医療AIエージェント"
+          }
+        ],
+        "videoUrl": "https://archive.org/download/news-pickup-2026-07-16-arxiv-ai/arxiv_ai_yukkuri.mp4",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-07-16-arxiv-ai/arxiv_ai_yukkuri.m4a",
+        "markdown": "<h1>arXiv生成AIニュース（2026年7月16日）</h1>\n<p><strong>キーワード:</strong> 時点固定学習 / 医療AI / 点字翻訳 / RAG再順位付け / AIエージェント / 信頼性</p>\n<h2>論文1: 未来情報を混ぜない時点固定言語モデル</h2>\n<ul>\n<li>時系列の金融・社会研究では、未来に公開された文章が学習データに混ざると検証結果が過大になる。</li>\n<li>研究チームは各暦日までに公開された文章だけを使い、2013年から2024年までの月ごとのモデルを作った。</li>\n<li>最大40億パラメータ、1兆トークンで学習し、同規模の一般公開モデルに近づく性能を報告する。未来を知っているモデルとの性能差はなお残る。</li>\n</ul>\n<h2>論文2: 専門領域の質問に文脈に沿って答える評価セット</h2>\n<ul>\n<li>医療診断や金融助言では、一般知識の正答だけでなく、利用者の状況に合う根拠ある回答が必要になる。</li>\n<li>専門家が整えた質問を、直接の情報抽出と状況を踏まえる多段推論に分け、十を超えるモデルを評価した。</li>\n<li>検索と規則推論を組み合わせる軽量方式を基準に置き、汎用モデル単独の限界を示した。</li>\n</ul>\n<h2>論文3: 点字で露わになった大規模言語モデルのアクセシビリティ課題</h2>\n<ul>\n<li>韓国語と点字の双方向翻訳で、最先端モデルの出力は不安定で、人の評価とも大きく食い違った。</li>\n<li>同じデータで小型モデルを教師あり微調整すると、ゼロショットやプロンプト方式を大きく上回った。</li>\n<li>多言語対応を掲げるモデルでも、構造化された文字体系への配慮と専用データは別途必要だと示す。</li>\n</ul>\n<h2>論文4: RAGの再順位付けを軽量化する蒸留モデル</h2>\n<ul>\n<li>検索拡張生成では、候補文書を精密に並べ替える再順位付けが精度を左右するが、計算量が重い。</li>\n<li>8B級言語モデルを再順位付け役に微調整し、4ビット量子化して、キーワード検索とベクトル検索の二系統に組み込んだ。</li>\n<li>著者らは領域別の評価で回答の関連性と正しさが改善したと報告するが、比較条件は限定的で追試が必要だ。</li>\n</ul>\n<h2>論文5: 乳がん治療提案で試すAIエージェントの限界</h2>\n<ul>\n<li>実際の72症例を使い、単独モデル、ツール利用、複数エージェントの治療提案を比べた。</li>\n<li>最良の構成でも総合スコアは0.594にとどまり、誤った推奨、根拠不足、古い情報、過信が残った。</li>\n<li>医師の代替ではなく、監督下での補助としても検証・引用確認が不可欠だとする結果である。</li>\n</ul>\n<h2>参考論文</h2>\n<ul>\n<li>arXiv:2607.11889 — https://arxiv.org/abs/2607.11889</li>\n<li>arXiv:2607.11891 — https://arxiv.org/abs/2607.11891</li>\n<li>arXiv:2607.11893 — https://arxiv.org/abs/2607.11893</li>\n<li>arXiv:2607.11933 — https://arxiv.org/abs/2607.11933</li>\n<li>arXiv:2607.12051 — https://arxiv.org/abs/2607.12051</li>\n</ul>"
+      },
+      {
+        "mode": "arxiv_qc",
+        "label": "arxiv 量子コンピュータ論文解説",
+        "iaId": "news-pickup-2026-07-16-arxiv-qc",
+        "title": "量子ネットワークはどこまで来た？高速シミュレーターと量子AI安全性【2026/07/16】",
+        "papers": [
+          {
+            "url": "https://arxiv.org/abs/2607.11985",
+            "title": "状態ベクトル量子シミュレーター"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.11992",
+            "title": "光スピン量子ビット"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12002",
+            "title": "遠隔もつれ"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12047",
+            "title": "ホログラフィック符号"
+          },
+          {
+            "url": "https://arxiv.org/abs/2607.12055",
+            "title": "量子AIバックドア"
+          }
+        ],
+        "videoUrl": "https://archive.org/download/news-pickup-2026-07-16-arxiv-qc/arxiv_qc_yukkuri.mp4",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-07-16-arxiv-qc/arxiv_qc_yukkuri.m4a",
+        "markdown": "<h1>arXiv量子コンピュータニュース（2026年7月16日）</h1>\n<p><strong>キーワード:</strong> 量子シミュレーター / 光スピン量子ビット / 遠隔もつれ / ホログラフィック符号 / 量子セキュリティ / 量子機械学習</p>\n<h2>論文1: 一度のコンパイルで高速化する状態ベクトル量子シミュレーター</h2>\n<ul>\n<li>変分量子回路を何度も評価する処理では、毎回コンパイルする負担が大きい。</li>\n<li>提案するシミュレーターは回路構造を一度だけコンパイルし、パラメーターだけを差し替えて反復実行する。</li>\n<li>既存汎用フレームワークとの比較で、回路の反復評価が多い場面の高速化を狙う。実機の量子優位を示す研究ではない。</li>\n</ul>\n<h2>論文2: 光と結合するスピン量子ビットで計算とネットワークをつなぐ</h2>\n<ul>\n<li>スピン量子ビットは情報を保持しやすい一方、遠隔ノードを結ぶ光との接続が課題である。</li>\n<li>研究は光学的なスピン量子ビットを使い、量子古典ハイブリッドの計算と通信を併せる構想を示す。</li>\n<li>素子・制御・ネットワークを別々に最適化するのでなく、全体の接続性で設計する必要を論じた。</li>\n</ul>\n<h2>論文3: 広帯域導波路に組み込んだ固体スピン量子ビットの遠隔もつれ</h2>\n<ul>\n<li>離れた量子ビットをもつれさせることは、量子ネットワークの基礎となる。</li>\n<li>固体中のスピン量子ビットを広帯域の導波路へ集積し、光子を介した遠隔もつれ生成を扱う。</li>\n<li>量子インターネットには、単一素子の品質だけでなく、光の損失と集積製造の両方が問われる。</li>\n</ul>\n<h2>論文4: 量子コンピュータ上のホログラフィック符号で重力らしい振る舞いを観測</h2>\n<ul>\n<li>ホログラフィック符号は、境界側の量子情報から内部空間を表現する理論モデルである。</li>\n<li>量子回路上で符号を実装し、重力に似た特徴量を観測したと報告する。</li>\n<li>宇宙の重力を直接シミュレーションした証明ではなく、量子誤り訂正と時空の関係を実験的に探る一歩である。</li>\n</ul>\n<h2>論文5: 量子ニューラルネットワークへの調和的バックドア攻撃</h2>\n<ul>\n<li>学習済みモデルに特定入力でだけ誤動作する仕掛けを埋め込むバックドアは、量子機械学習にも起こりうる。</li>\n<li>研究は量子ニューラルネットワークの表現に合わせ、通常精度を保ったまま標的動作を誘う攻撃を検討した。</li>\n<li>量子AIを実用化する前に、学習データ、回路、評価環境を含むセキュリティ検査が必要になる。</li>\n</ul>\n<h2>参考論文</h2>\n<ul>\n<li>arXiv:2607.11985 — https://arxiv.org/abs/2607.11985</li>\n<li>arXiv:2607.11992 — https://arxiv.org/abs/2607.11992</li>\n<li>arXiv:2607.12002 — https://arxiv.org/abs/2607.12002</li>\n<li>arXiv:2607.12047 — https://arxiv.org/abs/2607.12047</li>\n<li>arXiv:2607.12055 — https://arxiv.org/abs/2607.12055</li>\n</ul>"
+      }
+    ]
+  },
+  {
     "date": "2026-07-15",
     "segments": [
       {
