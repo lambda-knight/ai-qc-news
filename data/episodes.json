@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-17",
+    "segments": [
+      {
+        "mode": "ai",
+        "label": "生成AIニュース",
+        "iaId": "news-pickup-2026-07-17-ai",
+        "title": "AIが本人・アプリ・注文を動かす時代、表現の自由と量子実証【生成AIニュース 2026/07/17】",
+        "videoUrl": "https://archive.org/download/news-pickup-2026-07-17-ai/ai_yukkuri.mp4",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-07-17-ai/ai_yukkuri.m4a",
+        "markdown": "<h1>生成AIニュース：アバター、エージェントの実行権限、表現の自由と量子実証（2026年7月17日）</h1>\n<p><strong>キーワード:</strong> Google Vids / AIエージェント / DoorDash / 表現の自由 / ESA / 量子コンピュータ</p>\n<h2>Google Vidsの個人アバター：本人らしさを誰が管理するか</h2>\n<ul>\n<li>Googleは、動画作成サービスVidsで、本人を模したAIアバターを使える機能を追加した。Gemini Omniを使う生成・編集機能も組み合わせる。</li>\n<li>顔や声に近い表現を扱う機能では、同意、利用範囲、共有先、削除方法を利用者が確認できる設計が重要になる。</li>\n</ul>\n<h2>Google AI Mode、外部アプリをつないで操作へ</h2>\n<ul>\n<li>GoogleはAI Modeで、選択したアプリを接続し、質問への回答だけでなくアプリをまたぐ作業をできるようにしたと発表した。</li>\n<li>便利さの裏側では、AIに渡すデータ、接続を許すサービス、実行前の確認画面を利用者が管理する必要がある。</li>\n</ul>\n<h2>DoorDashのdd-cli：AIエージェントが注文まで行う試験</h2>\n<ul>\n<li>DoorDashは、開発者やAIエージェントが端末から店舗検索、カート作成、注文を行える限定ベータのdd-cliを始めた。</li>\n<li>購入を伴うエージェントでは、予算、配送先、注文の確定権限を分け、意図しない注文を止める仕組みが不可欠である。</li>\n</ul>\n<h2>AIと政治表現：監督委員会が透明性を求める報告</h2>\n<ul>\n<li>Oversight Boardは、主要な商用LLMが、表現の自由を制限する政府や指導者への批判を求める質問で、拒否しやすい傾向を示したと報告した。</li>\n<li>報告は10モデルを対象に、2026年3月に同じ質問群で試験したものだ。設計上の意図を断定せず、人権デューデリジェンスと評価の透明性を求めている。</li>\n<li>安全対策は必要だが、政治的な表現や抗議に関する応答が地域によって不当に狭まらないかを検証する論点が残る。</li>\n</ul>\n<h2>ESA、地球観測向けにBell-1量子コンピュータを導入</h2>\n<ul>\n<li>欧州宇宙機関ESAは、地球観測の複雑な問題で量子・古典ハイブリッド計算の利点を調べるため、Equal1のBell-1をデータセンターに導入中だと発表した。</li>\n<li>Bell-1は6量子ビットの装置で、地表被覆分類や衛星ミッション計画などを候補に、既存の高性能計算と組み合わせて検証する。</li>\n<li>ESA自身が、量子優位の実証はなお難しく、現在の装置には規模や誤り率の制約があると明記している。実用性を実データで測る段階のニュースである。</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>今日の焦点は、AIが生成するだけでなく、本人らしさ、外部アプリ、購入といった現実の行為に近づく中で、同意と権限管理をどう設けるかにある。</li>\n<li>量子計算は、誇大な性能競争ではなく、既存計算機と組み合わせて特定の実務課題で価値を測る実証へ進んでいる。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li>TechCrunch: Google Vids now lets you star in your own AI videos — https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/</li>\n<li>TechCrunch: Google’s AI Mode now lets you link and interact with select apps — https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/</li>\n<li>TechCrunch: Yes, you can now order DoorDash from the command line — https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/</li>\n<li>Oversight Board: Are LLMs Stifling Political Speech? — https://www.oversightboard.com/news/are-llms-stifling-political-speech-an-assessment-of-how-ai-models-protect-free-expression/</li>\n<li>ESA Φ-lab: ESA’s first quantum computer will shift computing frontiers in space — https://philab.esa.int/esas-first-quantum-computer-will-shift-computing-frontiers-in-space/</li>\n</ul>"
+      },
+      {
+        "mode": "arxiv_ai",
+        "label": "arxiv AI論文解説",
+        "iaId": "news-pickup-2026-07-17-arxiv-ai",
+        "title": "医療LLM・クラウド障害・KVキャッシュ最新論文5本【arXiv AI 2026/07/17】",
+        "videoUrl": "https://archive.org/download/news-pickup-2026-07-17-arxiv-ai/arxiv_ai_yukkuri.mp4",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-07-17-arxiv-ai/arxiv_ai_yukkuri.m4a",
+        "markdown": "<h1>arXiv生成AI論文解説（2026年7月17日）</h1>\n<p><strong>キーワード:</strong> クラウド障害 / 医療LLM / ペルソナベクトル / KVキャッシュ / 強化学習</p>\n<h2>論文1: クラウド障害からの自動トラブルシュート手順書</h2>\n<ul>\n<li>Unnikrishnanらは、過去のクラウド障害データからLLMで手順書を作るFixItFlowを提案した。</li>\n<li>技術者の操作から診断パターンを抽出し、検証済みコマンドを含む構造化手順を生成する。26人の技術者評価で明確さの肯定評価は61.5%、関連手順がある障害の緩和時間は2.3倍短縮だった。</li>\n<li>実運用では、生成内容の検証と更新責任を人が持つことが前提となる。</li>\n</ul>\n<h2>論文2: 精神医療で「診断前に尋ねる」LLM評価</h2>\n<ul>\n<li>Presacanらは、情報が段階的に出る精神医療の記録を使うSafe-Psychを提案した。1,000件超の記録を、診断・追加質問・保留の行動ラベル付きで評価する。</li>\n<li>評価したモデルは不十分な情報でも早く診断しがちで、多くのモデルで保留不足が60%を超えた。</li>\n<li>医療支援では答える能力だけでなく、情報不足を認識して尋ね返す能力が安全性の中心になる。</li>\n</ul>\n<h2>論文3: ペルソナベクトルで開放型LLMの行動を監査</h2>\n<ul>\n<li>Zengらは、活性化空間の方向として行動特性を探るペルソナベクトルを、二つのオープンウェイトモデルで体系的に調べた。</li>\n<li>53特性を自然に現れる、誘導できる潜在特性、通常の抽出に抵抗する特性へ分類した。</li>\n<li>モデルの振る舞いを単純なオン・オフではなく、どの特性が表出しやすいかとして監査する視点を示す。</li>\n</ul>\n<h2>論文4: KVキャッシュの役割別フィルタリング</h2>\n<ul>\n<li>Mandalは、長文LLMのメモリーを圧縮するKVキャッシュで、JSONなどの構造トークンが内容より過剰に残る偏りを分析した。</li>\n<li>役割別の配分を使う再学習不要の方法で、低いメモリー予算でも既存手法との差の63〜98%を埋めると報告した。</li>\n<li>長い文脈を安く扱うには、重要そうな単語を残すだけでなく、構造と内容を分ける必要がある。</li>\n</ul>\n<h2>論文5: GFlowRLによるLLM向け分布一致強化学習</h2>\n<ul>\n<li>Liuらは、報酬が高い出力だけでなく、多様な良い出力の分布に合わせる強化学習をLLMへ拡張するGFlowRLを提案した。</li>\n<li>タイトルが示す中心は、単一の最適解へ偏りやすい最適化ではなく、望ましい出力の多様性を保つ学習である。</li>\n<li>論文段階の提案であり、実サービスでの安全性や有用性は独立した検証が必要だ。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li>arXiv:2607.13035 https://arxiv.org/abs/2607.13035</li>\n<li>arXiv:2607.13036 https://arxiv.org/abs/2607.13036</li>\n<li>arXiv:2607.13162 https://arxiv.org/abs/2607.13162</li>\n<li>arXiv:2607.13205 https://arxiv.org/abs/2607.13205</li>\n<li>arXiv:2607.13394 https://arxiv.org/abs/2607.13394</li>\n</ul>"
+      },
+      {
+        "mode": "arxiv_qc",
+        "label": "arxiv 量子コンピュータ論文解説",
+        "iaId": "news-pickup-2026-07-17-arxiv-qc",
+        "title": "量子優位性・誤り訂正・アニーリング最新論文5本【arXiv量子 2026/07/17】",
+        "videoUrl": "https://archive.org/download/news-pickup-2026-07-17-arxiv-qc/arxiv_qc_yukkuri.mp4",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-07-17-arxiv-qc/arxiv_qc_yukkuri.m4a",
+        "markdown": "<h1>arXiv量子コンピュータ論文解説（2026年7月17日）</h1>\n<p><strong>キーワード:</strong> 量子優位性 / 量子誤り訂正 / 量子アニーリング / イオントラップ / 量子アルゴリズム</p>\n<h2>論文1: 量子優位性を抜け穴に強く認証する</h2>\n<ul>\n<li>Palらは、量子優位性の認証を、見逃されがちな抜け穴に強くする方法を扱う。量子計算が古典計算より有利だという主張は、実験条件と検証手順の両方で支える必要がある。</li>\n<li>タイトルの中心は性能の主張そのものではなく、その主張をどの条件で信頼できるかである。</li>\n</ul>\n<h2>論文2: 偏ったノイズに向けた猫量子ビット誤り訂正符号</h2>\n<ul>\n<li>Hoらは、Clifford演算だけを使う量子リード・ソロモン符号と連接構成を、偏ったノイズを受ける猫量子ビット向けに提案した。</li>\n<li>誤り訂正は、物理量子ビットの不完全さから計算を守る技術であり、ノイズの偏りを利用できるかが資源量に影響する。</li>\n</ul>\n<h2>論文3: 横磁場でXX触媒を模倣する量子アニーリング</h2>\n<ul>\n<li>DadgarとBaldwinは、量子アニーリングで使われるXX触媒を、自己無撞着な横磁場で模倣する方法を検討した。</li>\n<li>量子アニーリングは、最適化問題を低いエネルギー状態へ導く計算方式であり、途中の障害を避ける設計が性能に関わる。</li>\n</ul>\n<h2>論文4: 摂動論に頼らないイオントラップ量子論理</h2>\n<ul>\n<li>StefanescuとMintertは、イオントラップ量子計算で、近似的な摂動論に頼らない堅牢な量子論理を扱う。</li>\n<li>量子ゲートは、狙った操作だけを正確に実行し、余分な相互作用や制御誤差を抑える必要がある。</li>\n</ul>\n<h2>論文5: クディットで行うヤコビ法のスペクトル分解</h2>\n<ul>\n<li>Mandilaraは、二準位の量子ビットより多い状態を持つクディットで、行列のスペクトル分解を行う構造化量子アルゴリズムを提案した。</li>\n<li>スペクトル分解は、行列の重要な方向や値を取り出す基礎計算であり、量子系の表現を変えて資源をどう配分するかが論点となる。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li>arXiv:2607.13090 https://arxiv.org/abs/2607.13090</li>\n<li>arXiv:2607.13105 https://arxiv.org/abs/2607.13105</li>\n<li>arXiv:2607.13150 https://arxiv.org/abs/2607.13150</li>\n<li>arXiv:2607.13166 https://arxiv.org/abs/2607.13166</li>\n<li>arXiv:2607.13244 https://arxiv.org/abs/2607.13244</li>\n</ul>"
+      }
+    ]
+  },
+  {
     "date": "2026-07-16",
     "segments": [
       {
