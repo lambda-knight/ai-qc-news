@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-18",
+    "segments": [
+      {
+        "mode": "ai",
+        "label": "生成AIニュース",
+        "iaId": "news-pickup-2026-07-18-ai",
+        "title": "AIエージェント、創作者保護、量子実用化【生成AIニュース 2026/07/18】",
+        "videoUrl": "https://archive.org/download/news-pickup-2026-07-18-ai/ai_yukkuri.mp4",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-07-18-ai/ai_yukkuri.m4a",
+        "markdown": "<h1>生成AIニュース（2026年7月18日）</h1>\n<p><strong>キーワード:</strong> AIエージェント / スクレイピング / スマートフォン / 量子コンピュータ / 実用化</p>\n<h2>Vertuの高額AIエージェント</h2>\n<ul>\n<li>Vertuは6,880ドルのAIエージェントを売り出した。権限と責任分界の確認が必要である。</li>\n</ul>\n<h2>PatreonのAIスクレイピング遮断</h2>\n<ul>\n<li>PatreonはAIボットへの要請から技術的遮断へ方針を変えた。創作者と学習データが論点となる。</li>\n</ul>\n<h2>AI起因のスマホ部材不足</h2>\n<ul>\n<li>AI需要によるメモリー供給の圧迫が、スマートフォン市場へ波及したと報じられた。</li>\n</ul>\n<h2>量子計算の実用化をどう測るか</h2>\n<ul>\n<li>量子計算は性能だけでなく、誤り率、運用、古典計算との比較、実データでの価値を確認する段階にある。</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>AIの影響はサービス、創作者、端末供給へ広がる。量子は実証を慎重に読む必要がある。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li>TechCrunch https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/</li>\n<li>TechCrunch https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/</li>\n</ul>"
+      }
+    ]
+  },
+  {
     "date": "2026-07-17",
     "segments": [
       {
