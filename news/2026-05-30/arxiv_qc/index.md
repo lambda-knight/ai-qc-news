@@ -173,3 +173,7 @@ arxiv: <a href="https://arxiv.org/abs/2605.30217">2605.30217</a>
 ---
 
 [← 2026-05-30 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

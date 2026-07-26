@@ -193,3 +193,7 @@ OpenAIの生命科学特化推論AI「GPT-Rosalind」がバイオディフェン
 ---
 
 [← 2026-05-30 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

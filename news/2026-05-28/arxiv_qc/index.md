@@ -192,3 +192,7 @@ https://arxiv.org/abs/2605.26389  — Scar Full Eigenstate Thermalization Hypoth
 ---
 
 [← 2026-05-28 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

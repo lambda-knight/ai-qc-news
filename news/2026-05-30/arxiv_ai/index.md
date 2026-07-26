@@ -151,3 +151,7 @@ https://arxiv.org/abs/2605.30334  — Demystifying Data Organization：データ
 ---
 
 [← 2026-05-30 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

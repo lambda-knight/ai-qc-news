@@ -343,3 +343,7 @@ $$n_d^*(t, \varepsilon) \le \frac{2d+3}{8} \|L\|_\infty^2 \cdot \frac{t^2}{\vare
 ---
 
 [← 2026-05-31 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

@@ -105,3 +105,7 @@ https://arxiv.org/abs/2605.27443  — GFSPXブロック暗号の量子回路実�
 ---
 
 [← 2026-05-29 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*

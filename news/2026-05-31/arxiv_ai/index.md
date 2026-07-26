@@ -398,3 +398,7 @@ https://arxiv.org/abs/2605.30323 — インコンテキスト報酬適応でRLHF
 ---
 
 [← 2026-05-31 の一覧に戻る](../)
+
+---
+
+*音声合成: [VOICEVOX](https://voicevox.hiroshiba.jp/) / キャラクター: [ずんだもん](https://zunko.jp/) ・ [四国めたん](https://zunko.jp/)*
