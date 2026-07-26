@@ -18,6 +18,7 @@ const MODE_LABEL: Record<string, string> = {
   ai_gougai: "生成AI 号外",
   arxiv_ai: "arxiv AI 論文解説",
   arxiv_qc: "arxiv 量子コンピュータ論文解説",
+  security: "セキュリティニュース",
   domestic: "国内メディア比較",
 };
 

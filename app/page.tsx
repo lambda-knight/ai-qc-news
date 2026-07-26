@@ -8,6 +8,7 @@ const MODE_BADGE: Record<string, string> = {
   ai: "AI",
   arxiv_ai: "arxiv AI",
   arxiv_qc: "arxiv QC",
+  security: "セキュリティ",
   domestic: "国内",
 };
 
