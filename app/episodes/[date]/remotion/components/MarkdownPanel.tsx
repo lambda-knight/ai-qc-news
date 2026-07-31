@@ -11,6 +11,7 @@ interface Props {
   currentSectionName?: string;
   sectionStartIndex?: number; // 現在のセクションの開始セグメント index
   sectionEndIndex?: number;   // 次のセクションの開始セグメント index（最後のセクションなら totalSegments）
+  scrollOffsetPx?: number;
 }
 
 const PANEL_HEIGHT = 666; // visible area height px (720 - title bar 54)
@@ -99,8 +100,9 @@ export const MarkdownPanel: React.FC<Props> = ({
   currentSectionName = '',
   sectionStartIndex = 0,
   sectionEndIndex = totalSegments,
+  scrollOffsetPx = 0,
 }) => {
-  const scrollY = calcScrollY(
+  const calculatedScrollY = calcScrollY(
     markdown,
     currentSectionName,
     currentSegmentIndex,
@@ -108,6 +110,7 @@ export const MarkdownPanel: React.FC<Props> = ({
     sectionStartIndex,
     sectionEndIndex,
   );
+  const scrollY = Math.max(0, calculatedScrollY + scrollOffsetPx);
 
   return (
     <div

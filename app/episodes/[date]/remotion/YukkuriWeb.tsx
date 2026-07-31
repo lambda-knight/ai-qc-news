@@ -8,6 +8,9 @@ import { CharacterFace } from './components/CharacterFace';
 interface Props {
   timingData: TimingData;
   audioUrl: string;
+  manualSectionName?: string;
+  scrollOffsetPx?: number;
+  timingOffsetFrames?: number;
 }
 
 const TITLE_H = 54;
@@ -31,8 +34,11 @@ const DEFAULT_CHARS = {
   B: { name: '四国めたん', color: '#e91e8c', imageClose: '', imageOpen: undefined as string | undefined },
 };
 
-export const YukkuriWeb: React.FC<Props> = ({ timingData, audioUrl }) => {
+export const YukkuriWeb: React.FC<Props> = ({
+  timingData, audioUrl, manualSectionName, scrollOffsetPx = 0, timingOffsetFrames = 0,
+}) => {
   const frame = useCurrentFrame();
+  const syncFrame = Math.max(0, Math.min(timingData.totalFrames - 1, frame + timingOffsetFrames));
   const { title, markdown, segments, youtubeScreens, slideMode, slides } = timingData;
 
   // characters 省略時は従来どおり ずんだもん/四国めたん（imageClose 空 → CharacterFace がデフォルト立ち絵を使用）
@@ -42,11 +48,11 @@ export const YukkuriWeb: React.FC<Props> = ({ timingData, audioUrl }) => {
   const colorFor = (sp: 'A' | 'B') => (sp === 'A' ? charA.color : charB.color);
 
   const currentSeg: Segment | undefined = segments.find(
-    (s) => frame >= s.startFrame && frame < s.endFrame
+    (s) => syncFrame >= s.startFrame && syncFrame < s.endFrame
   );
 
   // セグメント間ギャップでも直前セクションを維持（ちらつき防止）
-  const prevSeg: Segment | undefined = [...segments].reverse().find((s) => s.startFrame <= frame);
+  const prevSeg: Segment | undefined = [...segments].reverse().find((s) => s.startFrame <= syncFrame);
   const effectiveSection = prevSeg?.section ?? 'main';
 
   const speakingA = currentSeg?.speaker === 'A';
@@ -58,13 +64,16 @@ export const YukkuriWeb: React.FC<Props> = ({ timingData, audioUrl }) => {
 
   // 現在のセクション（sectionName）が segments 配列のどこからどこまでかを求める
   // → MarkdownPanel でセクション内を徐々にスクロールさせるために使う
-  const currentSectionName = prevSeg?.sectionName ?? '';
+  const currentSectionName = manualSectionName ?? prevSeg?.sectionName ?? '';
   let sectionStartIndex = 0;
   let sectionEndIndex = segments.length;
   if (prevSeg) {
-    let start = segIdx;
+    const sectionAnchor = manualSectionName
+      ? Math.max(0, segments.findIndex((s) => s.sectionName === manualSectionName))
+      : segIdx;
+    let start = sectionAnchor;
     while (start > 0 && segments[start - 1].sectionName === currentSectionName) start--;
-    let end = segIdx + 1;
+    let end = sectionAnchor + 1;
     while (end < segments.length && segments[end].sectionName === currentSectionName) end++;
     sectionStartIndex = start;
     sectionEndIndex = end;
@@ -241,6 +250,7 @@ export const YukkuriWeb: React.FC<Props> = ({ timingData, audioUrl }) => {
                 currentSectionName={currentSectionName}
                 sectionStartIndex={sectionStartIndex}
                 sectionEndIndex={sectionEndIndex}
+                scrollOffsetPx={scrollOffsetPx}
               />
             )}
           </div>

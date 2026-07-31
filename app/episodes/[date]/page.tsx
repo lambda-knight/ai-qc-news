@@ -46,6 +46,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ date: 
               <AnimatedEpisode
                 audioUrl={seg.audioUrl}
                 title={seg.title ?? MODE_LABEL[seg.mode] ?? seg.label}
+                mode={seg.mode}
                 markdownSource={seg.markdownSource}
                 timeline={seg.timeline}
               />
