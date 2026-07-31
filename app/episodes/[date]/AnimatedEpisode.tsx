@@ -13,6 +13,28 @@ type AnimationProps = {
 
 const ASSET_ROOT = "https://lambda-knight.github.io/ai-qc-news";
 
+type Slide = { title: string; html: string; plainLength: number };
+
+function plainText(html: string) {
+  return html.replace(/<[^>]+>/g, " ").replace(/&[^;]+;/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function normalizeHeading(value: string) {
+  return value.replace(/[\s　:：―—・\-]/g, "").toLowerCase();
+}
+
+function splitIntoSlides(markdown = ""): Slide[] {
+  const starts = [...markdown.matchAll(/<h2[^>]*>/g)].map((match) => match.index ?? 0);
+  if (!starts.length) {
+    return [{ title: "解説", html: markdown, plainLength: plainText(markdown).length }];
+  }
+  return starts.map((start, index) => {
+    const html = markdown.slice(start, starts[index + 1] ?? markdown.length);
+    const heading = html.match(/<h2[^>]*>([\s\S]*?)<\/h2>/)?.[1] ?? "解説";
+    return { title: plainText(heading), html, plainLength: plainText(html).length };
+  });
+}
+
 function Character({
   side,
   speaking,
@@ -46,6 +68,25 @@ function TalkingComposition({ audioUrl, title, markdown, timeline }: AnimationPr
   const cue = timeline.cues.find((item) => frame >= item.startFrame && frame < item.endFrame)
     ?? timeline.cues[timeline.cues.length - 1];
   const progress = Math.min(100, (frame / timeline.totalFrames) * 100);
+  const slides = splitIntoSlides(markdown);
+  const sectionKey = normalizeHeading(cue?.section ?? "");
+  const matchedSlide = slides.find((item) => {
+    const titleKey = normalizeHeading(item.title);
+    return titleKey === sectionKey || titleKey.includes(sectionKey) || sectionKey.includes(titleKey);
+  });
+  const fallbackHtml = `<h2>${cue?.section ?? "解説"}</h2><p>${cue?.text ?? ""}</p>`;
+  const slide = matchedSlide ?? {
+    title: cue?.section ?? "解説",
+    html: fallbackHtml,
+    plainLength: plainText(fallbackHtml).length,
+  };
+  const sectionCues = timeline.cues.filter((item) => item.section === cue?.section);
+  const sectionStart = sectionCues[0]?.startFrame ?? 0;
+  const sectionEnd = sectionCues[sectionCues.length - 1]?.endFrame ?? timeline.totalFrames;
+  const sectionProgress = Math.max(0, Math.min(1, (frame - sectionStart) / Math.max(1, sectionEnd - sectionStart)));
+  const estimatedRows = Math.ceil(slide.plainLength / 52) + (slide.html.match(/<(h2|h3|li|tr)/g)?.length ?? 0);
+  const maxScroll = Math.max(0, estimatedRows * 31 - 340);
+  const scrollY = maxScroll * sectionProgress;
 
   return (
     <AbsoluteFill style={{
@@ -68,22 +109,28 @@ function TalkingComposition({ audioUrl, title, markdown, timeline }: AnimationPr
         <div style={{ fontSize: 18, color: "#a78bfa", whiteSpace: "nowrap" }}>{cue?.section}</div>
       </div>
 
-      <div style={{ position: "absolute", inset: "74px 0 174px", padding: "28px 56px", overflow: "hidden" }}>
-        <div
-          style={{
-            background: "rgba(255,255,255,.95)",
-            color: "#182033",
-            borderRadius: 18,
-            height: "100%",
-            padding: "24px 34px",
-            boxSizing: "border-box",
-            overflow: "hidden",
-            fontSize: 18,
-            lineHeight: 1.65,
-            transform: `translateY(-${Math.max(0, progress - 18) * 3}px)`,
-          }}
-          dangerouslySetInnerHTML={{ __html: markdown ?? "" }}
-        />
+      <div style={{ position: "absolute", inset: "74px 0 174px", padding: "22px 48px", overflow: "hidden" }}>
+        <div style={{
+          background: "rgba(255,255,255,.97)",
+          color: "#182033",
+          borderRadius: 18,
+          height: "100%",
+          padding: "24px 36px",
+          boxSizing: "border-box",
+          overflow: "hidden",
+          boxShadow: "0 18px 42px rgba(0,0,0,.24)",
+        }}>
+          <div
+            className="remotion-slide-content"
+            style={{ transform: `translateY(-${scrollY}px)` }}
+            dangerouslySetInnerHTML={{ __html: slide.html }}
+          />
+        </div>
+        {maxScroll > 0 && (
+          <div style={{ position: "absolute", right: 55, top: 40, bottom: 40, width: 5, borderRadius: 5, background: "rgba(20,28,48,.12)" }}>
+            <div style={{ height: "18%", transform: `translateY(${sectionProgress * 360}px)`, borderRadius: 5, background: "#7c6af7" }} />
+          </div>
+        )}
       </div>
 
       <div style={{
