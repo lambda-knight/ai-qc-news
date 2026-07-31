@@ -23,6 +23,7 @@ export interface Segment {
   videoUrl?: string;
   audioUrl?: string;
   markdown?: string;
+  markdownSource?: string;
   iaId: string;
   title?: string;
   papers?: Paper[];
