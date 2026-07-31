@@ -29,6 +29,27 @@ const DEFAULT_ADJUSTMENTS: Adjustments = {
   characterScale: 1,
 };
 
+type IconButtonProps = {
+  icon: string;
+  label: string;
+  active?: boolean;
+  onClick: () => void;
+};
+
+function IconButton({ icon, label, active = false, onClick }: IconButtonProps) {
+  return (
+    <button
+      type="button"
+      className={`adjuster-icon${active ? " is-active" : ""}`}
+      aria-label={label}
+      data-tooltip={label}
+      onClick={onClick}
+    >
+      <span aria-hidden="true">{icon}</span>
+    </button>
+  );
+}
+
 function toTimingData(props: AnimationProps): TimingData {
   return {
     title: props.title,
@@ -108,23 +129,21 @@ export function AnimatedEpisode(props: AnimationProps) {
         controls
         style={{ width: "100%", aspectRatio: "16 / 9", borderRadius: 10, overflow: "hidden" }}
       />
-      <div className="remotion-adjuster">
-        <button type="button" onClick={() => moveSection(-1)}>← 前の章</button>
-        <button type="button" onClick={() => moveSection(1)}>次の章 →</button>
-        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, manualSectionName: undefined }))}>音声追従</button>
-        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, scrollOffsetPx: v.scrollOffsetPx - 80 }))}>画面 ↑</button>
-        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, scrollOffsetPx: v.scrollOffsetPx + 80 }))}>画面 ↓</button>
-        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, timingOffsetFrames: v.timingOffsetFrames - 3 }))}>同期 −0.1秒</button>
-        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, timingOffsetFrames: v.timingOffsetFrames + 3 }))}>同期 ＋0.1秒</button>
-        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, showSubtitles: !v.showSubtitles }))}>
-          字幕 {adjustments.showSubtitles ? "OFF" : "ON"}
-        </button>
-        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, characterScale: Math.max(0.6, +(v.characterScale - 0.1).toFixed(1)) }))}>キャラ縮小</button>
-        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, characterScale: 1 }))}>キャラ標準</button>
-        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, characterScale: Math.min(1.6, +(v.characterScale + 0.1).toFixed(1)) }))}>キャラ拡大</button>
-        <button type="button" onClick={save}>保存</button>
-        <button type="button" onClick={exportJson}>JSON出力</button>
-        <button type="button" onClick={reset}>リセット</button>
+      <div className="remotion-adjuster" role="toolbar" aria-label="表示と同期の調整">
+        <IconButton icon="⏮" label="前の章を表示" onClick={() => moveSection(-1)} />
+        <IconButton icon="⏭" label="次の章を表示" onClick={() => moveSection(1)} />
+        <IconButton icon="🔄" label="表示する章を音声に追従" active={!adjustments.manualSectionName} onClick={() => setAdjustments((v) => ({ ...v, manualSectionName: undefined }))} />
+        <IconButton icon="⇧" label="スライドを上へ80ピクセル調整" onClick={() => setAdjustments((v) => ({ ...v, scrollOffsetPx: v.scrollOffsetPx - 80 }))} />
+        <IconButton icon="⇩" label="スライドを下へ80ピクセル調整" onClick={() => setAdjustments((v) => ({ ...v, scrollOffsetPx: v.scrollOffsetPx + 80 }))} />
+        <IconButton icon="◀︎⏱" label="字幕と画面の同期を0.1秒早める" onClick={() => setAdjustments((v) => ({ ...v, timingOffsetFrames: v.timingOffsetFrames - 3 }))} />
+        <IconButton icon="⏱▶︎" label="字幕と画面の同期を0.1秒遅らせる" onClick={() => setAdjustments((v) => ({ ...v, timingOffsetFrames: v.timingOffsetFrames + 3 }))} />
+        <IconButton icon={adjustments.showSubtitles ? "CC" : "CC̸"} label={adjustments.showSubtitles ? "字幕を非表示" : "字幕を表示"} active={adjustments.showSubtitles} onClick={() => setAdjustments((v) => ({ ...v, showSubtitles: !v.showSubtitles }))} />
+        <IconButton icon="👤−" label="キャラクターを10%縮小" onClick={() => setAdjustments((v) => ({ ...v, characterScale: Math.max(0.6, +(v.characterScale - 0.1).toFixed(1)) }))} />
+        <IconButton icon="👤" label="キャラクターを標準サイズに戻す" active={adjustments.characterScale === 1} onClick={() => setAdjustments((v) => ({ ...v, characterScale: 1 }))} />
+        <IconButton icon="👤＋" label="キャラクターを10%拡大" onClick={() => setAdjustments((v) => ({ ...v, characterScale: Math.min(1.6, +(v.characterScale + 0.1).toFixed(1)) }))} />
+        <IconButton icon="💾" label="この端末のブラウザに調整値を保存" onClick={save} />
+        <IconButton icon="⇩ JSON" label="調整値をJSONファイルとして出力" onClick={exportJson} />
+        <IconButton icon="↺" label="すべての調整を初期値に戻す" onClick={reset} />
         <span>時刻 {adjustments.timingOffsetFrames / 30 >= 0 ? "+" : ""}{(adjustments.timingOffsetFrames / 30).toFixed(1)}秒 / 画面 {adjustments.scrollOffsetPx}px / キャラ {Math.round(adjustments.characterScale * 100)}%</span>
       </div>
       <div style={{ marginTop: 8, display: "flex", justifyContent: "space-between", gap: 12, color: "var(--muted)", fontSize: 12 }}>
