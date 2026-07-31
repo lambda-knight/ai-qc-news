@@ -3,6 +3,20 @@ export interface Paper {
   title: string;
 }
 
+export interface TimelineCue {
+  speaker: "A" | "B";
+  text: string;
+  section: string;
+  startFrame: number;
+  endFrame: number;
+}
+
+export interface EpisodeTimeline {
+  fps: number;
+  totalFrames: number;
+  cues: TimelineCue[];
+}
+
 export interface Segment {
   mode: string;
   label: string;
@@ -12,6 +26,7 @@ export interface Segment {
   iaId: string;
   title?: string;
   papers?: Paper[];
+  timeline?: EpisodeTimeline;
 }
 
 export interface Episode {

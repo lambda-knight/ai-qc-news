@@ -1,6 +1,7 @@
 import episodesData from "@/data/episodes.json";
 import type { Episode } from "@/types/episode";
 import { MathContent } from "./MathContent";
+import { AnimatedEpisode } from "./AnimatedEpisode";
 
 const episodes = episodesData as Episode[];
 
@@ -41,7 +42,14 @@ export default async function EpisodePage({ params }: { params: Promise<{ date: 
             {seg.videoUrl && (
               <video controls style={{ width: "100%" }} src={seg.videoUrl} />
             )}
-            {seg.audioUrl && (
+            {date === "2026-07-31" && seg.audioUrl && seg.timeline ? (
+              <AnimatedEpisode
+                audioUrl={seg.audioUrl}
+                title={seg.title ?? MODE_LABEL[seg.mode] ?? seg.label}
+                markdown={seg.markdown}
+                timeline={seg.timeline}
+              />
+            ) : seg.audioUrl && (
               <audio controls style={{ width: "100%", marginTop: seg.videoUrl ? 8 : 0 }} src={seg.audioUrl} />
             )}
             {seg.papers && seg.papers.length > 0 && (
