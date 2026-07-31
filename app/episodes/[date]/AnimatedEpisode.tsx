@@ -7,6 +7,7 @@ import { YukkuriWeb } from "./remotion/YukkuriWeb";
 import type { TimingData } from "./remotion/types";
 
 type AnimationProps = {
+  date: string;
   audioUrl: string;
   title: string;
   mode: string;
@@ -77,7 +78,7 @@ function toTimingData(props: AnimationProps): TimingData {
 export function AnimatedEpisode(props: AnimationProps) {
   const timingData = toTimingData(props);
   const playerRef = useRef<PlayerRef>(null);
-  const storageKey = `ai-qc-news:adjustment:2026-07-31:${props.mode}`;
+  const storageKey = `ai-qc-news:adjustment:${props.date}:${props.mode}`;
   const [adjustments, setAdjustments] = useState<Adjustments>(DEFAULT_ADJUSTMENTS);
   const sections = useMemo(
     () => [...new Set(timingData.segments.map((segment) => segment.sectionName))],
@@ -108,11 +109,11 @@ export function AnimatedEpisode(props: AnimationProps) {
     setAdjustments(DEFAULT_ADJUSTMENTS);
   };
   const exportJson = () => {
-    const blob = new Blob([JSON.stringify({ date: "2026-07-31", mode: props.mode, ...adjustments }, null, 2)], { type: "application/json" });
+    const blob = new Blob([JSON.stringify({ date: props.date, mode: props.mode, ...adjustments }, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = `2026-07-31_${props.mode}_adjustment.json`;
+    link.download = `${props.date}_${props.mode}_adjustment.json`;
     link.click();
     URL.revokeObjectURL(url);
   };
@@ -147,7 +148,7 @@ export function AnimatedEpisode(props: AnimationProps) {
         <span>時刻 {adjustments.timingOffsetFrames / 30 >= 0 ? "+" : ""}{(adjustments.timingOffsetFrames / 30).toFixed(1)}秒 / 画面 {adjustments.scrollOffsetPx}px / キャラ {Math.round(adjustments.characterScale * 100)}%</span>
       </div>
       <div style={{ marginTop: 8, display: "flex", justifyContent: "space-between", gap: 12, color: "var(--muted)", fontSize: 12 }}>
-        <span>動画プレビュー共通画面・音声同期Web版（2026-07-31限定）</span>
+        <span>動画プレビュー共通画面・音声同期Web版</span>
         <a href={props.audioUrl}>音声ファイルを直接開く</a>
       </div>
     </div>
