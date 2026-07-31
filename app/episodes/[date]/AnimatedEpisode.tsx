@@ -18,9 +18,16 @@ type Adjustments = {
   timingOffsetFrames: number;
   scrollOffsetPx: number;
   manualSectionName?: string;
+  showSubtitles: boolean;
+  characterScale: number;
 };
 
-const DEFAULT_ADJUSTMENTS: Adjustments = { timingOffsetFrames: 0, scrollOffsetPx: 0 };
+const DEFAULT_ADJUSTMENTS: Adjustments = {
+  timingOffsetFrames: 0,
+  scrollOffsetPx: 0,
+  showSubtitles: true,
+  characterScale: 1,
+};
 
 function toTimingData(props: AnimationProps): TimingData {
   return {
@@ -58,7 +65,7 @@ export function AnimatedEpisode(props: AnimationProps) {
 
   useEffect(() => {
     const saved = window.localStorage.getItem(storageKey);
-    if (saved) setAdjustments(JSON.parse(saved) as Adjustments);
+    if (saved) setAdjustments({ ...DEFAULT_ADJUSTMENTS, ...(JSON.parse(saved) as Partial<Adjustments>) });
   }, [storageKey]);
 
   const currentSection = () => {
@@ -109,10 +116,16 @@ export function AnimatedEpisode(props: AnimationProps) {
         <button type="button" onClick={() => setAdjustments((v) => ({ ...v, scrollOffsetPx: v.scrollOffsetPx + 80 }))}>画面 ↓</button>
         <button type="button" onClick={() => setAdjustments((v) => ({ ...v, timingOffsetFrames: v.timingOffsetFrames - 3 }))}>同期 −0.1秒</button>
         <button type="button" onClick={() => setAdjustments((v) => ({ ...v, timingOffsetFrames: v.timingOffsetFrames + 3 }))}>同期 ＋0.1秒</button>
+        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, showSubtitles: !v.showSubtitles }))}>
+          字幕 {adjustments.showSubtitles ? "OFF" : "ON"}
+        </button>
+        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, characterScale: Math.max(0.6, +(v.characterScale - 0.1).toFixed(1)) }))}>キャラ縮小</button>
+        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, characterScale: 1 }))}>キャラ標準</button>
+        <button type="button" onClick={() => setAdjustments((v) => ({ ...v, characterScale: Math.min(1.6, +(v.characterScale + 0.1).toFixed(1)) }))}>キャラ拡大</button>
         <button type="button" onClick={save}>保存</button>
         <button type="button" onClick={exportJson}>JSON出力</button>
         <button type="button" onClick={reset}>リセット</button>
-        <span>時刻 {adjustments.timingOffsetFrames / 30 >= 0 ? "+" : ""}{(adjustments.timingOffsetFrames / 30).toFixed(1)}秒 / 画面 {adjustments.scrollOffsetPx}px</span>
+        <span>時刻 {adjustments.timingOffsetFrames / 30 >= 0 ? "+" : ""}{(adjustments.timingOffsetFrames / 30).toFixed(1)}秒 / 画面 {adjustments.scrollOffsetPx}px / キャラ {Math.round(adjustments.characterScale * 100)}%</span>
       </div>
       <div style={{ marginTop: 8, display: "flex", justifyContent: "space-between", gap: 12, color: "var(--muted)", fontSize: 12 }}>
         <span>動画プレビュー共通画面・音声同期Web版（2026-07-31限定）</span>

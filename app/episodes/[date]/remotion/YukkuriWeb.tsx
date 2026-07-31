@@ -11,6 +11,8 @@ interface Props {
   manualSectionName?: string;
   scrollOffsetPx?: number;
   timingOffsetFrames?: number;
+  showSubtitles?: boolean;
+  characterScale?: number;
 }
 
 const TITLE_H = 54;
@@ -36,6 +38,7 @@ const DEFAULT_CHARS = {
 
 export const YukkuriWeb: React.FC<Props> = ({
   timingData, audioUrl, manualSectionName, scrollOffsetPx = 0, timingOffsetFrames = 0,
+  showSubtitles = true, characterScale = 1,
 }) => {
   const frame = useCurrentFrame();
   const syncFrame = Math.max(0, Math.min(timingData.totalFrames - 1, frame + timingOffsetFrames));
@@ -125,7 +128,7 @@ export const YukkuriWeb: React.FC<Props> = ({
             }}
           >
             {/* 話者A large */}
-            <CharacterFace character="A" isSpeaking={speakingA} side="left" size={CHAR_SIZE_YOUTUBE} imageClose={charA.imageClose || undefined} imageOpen={charA.imageOpen} />
+            <CharacterFace character="A" isSpeaking={speakingA} side="left" size={CHAR_SIZE_YOUTUBE * characterScale} imageClose={charA.imageClose || undefined} imageOpen={charA.imageOpen} />
 
             {/* Center text */}
             <div
@@ -165,7 +168,7 @@ export const YukkuriWeb: React.FC<Props> = ({
             </div>
 
             {/* 話者B large */}
-            <CharacterFace character="B" isSpeaking={speakingB} side="right" size={CHAR_SIZE_YOUTUBE} imageClose={charB.imageClose || undefined} imageOpen={charB.imageOpen} />
+            <CharacterFace character="B" isSpeaking={speakingB} side="right" size={CHAR_SIZE_YOUTUBE * characterScale} imageClose={charB.imageClose || undefined} imageOpen={charB.imageOpen} />
           </div>
 
           {/* Bottom subtitle bar */}
@@ -191,7 +194,7 @@ export const YukkuriWeb: React.FC<Props> = ({
                 textShadow: '0 1px 4px rgba(0,0,0,0.8)',
               }}
             >
-              {subtitle}
+              {showSubtitles ? subtitle : ''}
             </div>
           </div>
 
@@ -257,14 +260,14 @@ export const YukkuriWeb: React.FC<Props> = ({
 
           {/* Characters – anchored to outer edges */}
           <div style={{ position: 'absolute', bottom: 0, left: 0 }}>
-            <CharacterFace character="A" isSpeaking={speakingA} side="left" size={CHAR_SIZE_NORMAL} imageClose={charA.imageClose || undefined} imageOpen={charA.imageOpen} />
+            <CharacterFace character="A" isSpeaking={speakingA} side="left" size={CHAR_SIZE_NORMAL * characterScale} imageClose={charA.imageClose || undefined} imageOpen={charA.imageOpen} />
           </div>
           <div style={{ position: 'absolute', bottom: 0, right: 0 }}>
-            <CharacterFace character="B" isSpeaking={speakingB} side="right" size={CHAR_SIZE_NORMAL} imageClose={charB.imageClose || undefined} imageOpen={charB.imageOpen} />
+            <CharacterFace character="B" isSpeaking={speakingB} side="right" size={CHAR_SIZE_NORMAL * characterScale} imageClose={charB.imageClose || undefined} imageOpen={charB.imageOpen} />
           </div>
 
           {/* Subtitle – centered between characters with a background that keeps it legible over slides. */}
-          <div
+          {showSubtitles && <div
             style={{
               position: 'absolute',
               bottom: 12,
@@ -288,7 +291,7 @@ export const YukkuriWeb: React.FC<Props> = ({
             >
               {subtitle}
             </span>
-          </div>
+          </div>}
 
           {/* Speaker name badge */}
           {currentSeg && (
