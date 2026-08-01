@@ -1,3 +1,5 @@
+"use client";
+
 import episodesData from "@/data/episodes.json";
 import type { Episode } from "@/types/episode";
 import { MathContent } from "./MathContent";
