@@ -129,13 +129,16 @@ details[open] > summary { color: var(--accent2); }
   text-align: left;
 }
 .slide-content th {
-  background: rgba(103, 232, 249, 0.08);
+  background: rgba(103, 232, 249, 0.2);
   color: #67e8f9;
   font-weight: 600;
   font-size: 0.88rem;
 }
 .slide-content tr:nth-child(even) td {
-  background: rgba(255,255,255,0.02);
+  background: rgba(124, 106, 247, 0.1);
+}
+.slide-content tr:nth-child(odd) td {
+  background: rgba(255,255,255,0.03);
 }
 
 .slide-content blockquote {
