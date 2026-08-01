@@ -1,9 +1,11 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import episodesData from "@/data/episodes.json";
 import type { Episode } from "@/types/episode";
 import { MathContent } from "./MathContent";
-import { AnimatedEpisode } from "./AnimatedEpisode";
+
+const AnimatedEpisode = dynamic(() => import("./AnimatedEpisode").then(mod => ({ default: mod.AnimatedEpisode })), { ssr: false });
 
 const episodes = episodesData as Episode[];
 
