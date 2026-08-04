@@ -42,7 +42,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ date: 
             {seg.videoUrl && (
               <video controls style={{ width: "100%" }} src={seg.videoUrl} />
             )}
-          {["2026-07-31", "2026-08-01"].includes(date) && seg.audioUrl && seg.timeline ? (
+          {seg.audioUrl && seg.timeline ? (
               <AnimatedEpisode
                 date={date}
                 audioUrl={seg.audioUrl}
