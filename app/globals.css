@@ -193,11 +193,12 @@ details[open] > summary { color: var(--accent2); }
 .test-karaoke-subtitle b { flex: 0 0 auto; padding: 5px 9px; border-radius: 7px; background: #4338ca; font-size: 14px; }
 .test-karaoke-subtitle i { color: #94a3b8; font-style: normal; text-shadow: 1px 1px 2px #000; }
 .test-karaoke-subtitle i.read { color: #fde047; text-shadow: 0 0 9px rgba(253,224,71,.55); }
-.test-living-background { position: absolute; z-index: 3; inset: 54px 0 0; pointer-events: none; overflow: hidden; opacity: .22; mix-blend-mode: multiply; background-image: radial-gradient(#4f46e5 1px, transparent 1px); background-size: 19px 19px; }
-.test-living-background > span { position: absolute; top: 14px; right: 20px; color: #312e81; font-weight: 900; letter-spacing: 2px; }
-.test-blob { position: absolute; width: 420px; height: 420px; border-radius: 48% 52% 66% 34%; filter: blur(35px); }
-.test-blob.one { left: -90px; top: -100px; background: #67e8f9; }
-.test-blob.two { right: -80px; bottom: -120px; background: #a78bfa; }
+.test-living-background { position: absolute; z-index: 3; inset: 54px 0 0; pointer-events: none; overflow: hidden; background-color: transparent; background-image: radial-gradient(rgba(79,70,229,.16) 1px, transparent 1.5px); background-size: 23px 23px; }
+.test-living-background > span { position: absolute; top: 14px; right: 20px; color: rgba(49,46,129,.48); font-size: 12px; font-weight: 900; letter-spacing: 2px; }
+.test-living-background .particle { position: absolute; display: block; border-radius: 50%; border: 2px solid rgba(79,70,229,.2); background: transparent; box-shadow: 0 0 18px rgba(34,211,238,.15); }
+.test-living-background .p1 { left: 9%; top: 15%; width: 90px; height: 90px; }
+.test-living-background .p2 { right: 8%; top: 28%; width: 140px; height: 140px; }
+.test-living-background .p3 { left: 48%; bottom: 9%; width: 64px; height: 64px; }
 .test-code-editor { position: absolute; z-index: 20; top: 86px; right: 36px; width: 560px; height: 245px; overflow: hidden; border: 1px solid #475569; border-radius: 13px; background: rgba(2,6,23,.95); box-shadow: 0 18px 50px rgba(0,0,0,.42); color: #a5f3fc; }
 .test-window-bar { display: flex; align-items: center; gap: 7px; height: 36px; padding: 0 12px; background: #1e293b; }
 .test-window-bar i { width: 11px; height: 11px; border-radius: 50%; background: #fb7185; }.test-window-bar i:nth-child(2){background:#fbbf24}.test-window-bar i:nth-child(3){background:#4ade80}.test-window-bar span{margin-left:8px;color:#94a3b8;font-size:13px}

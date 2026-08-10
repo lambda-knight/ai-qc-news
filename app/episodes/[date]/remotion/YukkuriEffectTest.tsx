@@ -50,9 +50,10 @@ export const YukkuriEffectTest: React.FC<Props> = (props) => {
     </div>}
 
     {effectMode === 4 && <div className="test-living-background" style={{backgroundPosition: `${frame * .35}px ${frame * .18}px`}}>
-      <div className="test-blob one" style={{transform: `translate(${Math.sin(frame / 45) * 35}px, ${Math.cos(frame / 60) * 25}px)`}} />
-      <div className="test-blob two" style={{transform: `translate(${Math.cos(frame / 55) * 42}px, ${Math.sin(frame / 40) * 28}px)`}} />
-      <span>TEST 04 / LIVING BACKGROUND</span>
+      <i className="particle p1" style={{transform: `translate(${Math.sin(frame / 45) * 35}px, ${Math.cos(frame / 60) * 25}px)`}} />
+      <i className="particle p2" style={{transform: `translate(${Math.cos(frame / 55) * 42}px, ${Math.sin(frame / 40) * 28}px)`}} />
+      <i className="particle p3" style={{transform: `translate(${Math.sin(frame / 38) * 28}px, ${Math.cos(frame / 52) * 38}px)`}} />
+      <span>TEST 04 / TRANSPARENT PARTICLES</span>
     </div>}
 
     {effectMode === 5 && <div className="test-code-editor">
