@@ -189,7 +189,7 @@ details[open] > summary { color: var(--accent2); }
 .prezi-board ul, .prezi-board ol { margin: 7px 0; padding-left: 26px; }
 .prezi-board table { width: 100%; border-collapse: collapse; font-size: 15px; }
 .prezi-board th, .prezi-board td { padding: 5px 7px; border: 1px solid #94a3b8; }
-.test-karaoke-subtitle { position: absolute; z-index: 20; left: 235px; right: 275px; bottom: 10px; display: flex; align-items: center; gap: 15px; min-height: 78px; padding: 8px 18px; border-radius: 14px; background: rgba(15,23,42,.88); color: white; font-size: 30px; font-weight: 800; line-height: 1.45; }
+.test-karaoke-subtitle { position: absolute; z-index: 20; left: 235px; right: 275px; bottom: 10px; display: flex; align-items: center; gap: 15px; min-height: 78px; padding: 8px 18px; border-radius: 14px; background: transparent; color: white; font-size: 30px; font-weight: 800; line-height: 1.45; }
 .test-karaoke-subtitle b { flex: 0 0 auto; padding: 5px 9px; border-radius: 7px; background: #4338ca; font-size: 14px; }
 .test-karaoke-subtitle i { color: #94a3b8; font-style: normal; text-shadow: 1px 1px 2px #000; }
 .test-karaoke-subtitle i.read { color: #fde047; text-shadow: 0 0 9px rgba(253,224,71,.55); }
