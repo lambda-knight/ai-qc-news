@@ -4,7 +4,6 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Player, type PlayerRef } from "@remotion/player";
 import type { EpisodeTimeline } from "@/types/episode";
 import { YukkuriWeb } from "./remotion/YukkuriWeb";
-import { News3DPrototype } from "./remotion/News3DPrototype";
 import type { TimingData } from "./remotion/types";
 
 type AnimationProps = {
@@ -83,7 +82,6 @@ export function AnimatedEpisode(props: AnimationProps) {
   const fullscreenRef = useRef<HTMLDivElement>(null);
   const storageKey = `ai-qc-news:adjustment:${props.date}:${props.mode}`;
   const [adjustments, setAdjustments] = useState<Adjustments>(DEFAULT_ADJUSTMENTS);
-  const [viewMode, setViewMode] = useState<"2d" | "3d">("2d");
   const sections = useMemo(
     () => [...new Set(timingData.segments.map((segment) => segment.sectionName))],
     [timingData.segments],
@@ -92,7 +90,6 @@ export function AnimatedEpisode(props: AnimationProps) {
   useEffect(() => {
     const saved = window.localStorage.getItem(storageKey);
     if (saved) setAdjustments({ ...DEFAULT_ADJUSTMENTS, ...(JSON.parse(saved) as Partial<Adjustments>) });
-    if (new URLSearchParams(window.location.search).get("view") === "3d") setViewMode("3d");
   }, [storageKey]);
 
   const currentSection = () => {
@@ -136,13 +133,9 @@ export function AnimatedEpisode(props: AnimationProps) {
   return (
     <div style={{ marginTop: 8 }}>
       <div ref={fullscreenRef} className="animation-fullscreen-shell">
-      <div className="view-mode-switch" role="group" aria-label="表示モード">
-        <button type="button" className={viewMode === "2d" ? "is-active" : ""} onClick={() => setViewMode("2d")}>2D</button>
-        <button type="button" className={viewMode === "3d" ? "is-active" : ""} onClick={() => setViewMode("3d")}>3D 試作</button>
-      </div>
       <Player
         ref={playerRef}
-        component={viewMode === "3d" ? News3DPrototype : YukkuriWeb}
+        component={YukkuriWeb}
         inputProps={{ timingData, audioUrl: props.audioUrl, ...adjustments }}
         durationInFrames={timingData.totalFrames}
         compositionWidth={1280}
