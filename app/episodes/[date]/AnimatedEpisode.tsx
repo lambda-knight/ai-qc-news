@@ -143,7 +143,7 @@ export function AnimatedEpisode(props: AnimationProps) {
       <Player
         ref={playerRef}
         component={viewMode === "3d" ? News3DPrototype : YukkuriWeb}
-        inputProps={{ timingData, audioUrl: props.audioUrl, ...adjustments }}
+        inputProps={{ timingData, audioUrl: props.audioUrl, mode: props.mode, ...adjustments }}
         durationInFrames={timingData.totalFrames}
         compositionWidth={1280}
         compositionHeight={720}
@@ -184,7 +184,7 @@ export function AnimatedEpisode(props: AnimationProps) {
         <span>時刻 {adjustments.timingOffsetFrames / 30 >= 0 ? "+" : ""}{(adjustments.timingOffsetFrames / 30).toFixed(1)}秒 / 画面 {adjustments.scrollOffsetPx}px / キャラ {Math.round(adjustments.characterScale * 100)}%</span>
       </div>
       <div style={{ marginTop: 8, display: "flex", justifyContent: "space-between", gap: 12, color: "var(--muted)", fontSize: 12 }}>
-        <span>動画プレビュー共通画面・音声同期Web版</span>
+        <span>動画プレビュー共通画面・音声同期Web版{viewMode === "3d" ? " / ずんだもん3Dモデル: SSS LLC." : ""}</span>
         <a href={props.audioUrl}>音声ファイルを直接開く</a>
       </div>
     </div>

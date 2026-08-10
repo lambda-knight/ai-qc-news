@@ -1,14 +1,17 @@
 import React from "react";
+import {ThreeCanvas} from "@remotion/three";
 import {AbsoluteFill, interpolate, useCurrentFrame} from "remotion";
 import type {TimingData, Segment} from "./types";
 import {MarkdownPanel} from "./components/MarkdownPanel";
 import {CharacterFace} from "./components/CharacterFace";
+import {ZundamonVrm} from "./components/ZundamonVrm";
 
 type Props = {
   timingData: TimingData;
   audioUrl: string;
   timingOffsetFrames?: number;
   showSubtitles?: boolean;
+  mode?: string;
 };
 
 const TITLE_H = 54;
@@ -22,6 +25,7 @@ export const News3DPrototype: React.FC<Props> = ({
   timingData,
   timingOffsetFrames = 0,
   showSubtitles = true,
+  mode = "news",
 }) => {
   const frame = useCurrentFrame();
   const syncFrame = Math.max(0, Math.min(timingData.totalFrames - 1, frame + timingOffsetFrames));
@@ -63,7 +67,13 @@ export const News3DPrototype: React.FC<Props> = ({
         />
       </div>
 
-      <div className="news-3d-match-character left"><CharacterFace character="A" isSpeaking={speakingA} side="left" size={CHARACTER_SIZE} /></div>
+      <div className="news-3d-vrm-character left">
+        <ThreeCanvas width={360} height={410} camera={{fov: 30, near: 0.1, far: 20, position: [0, 0.82, 2.18]}}>
+          <ambientLight intensity={2.2} />
+          <directionalLight position={[2, 4, 3]} intensity={3.2} />
+          <ZundamonVrm src={`${process.env.NODE_ENV === "production" ? "/ai-qc-news" : ""}/models/Zundamon_2025_VRM10A.vrm?instance=${mode}`} isSpeaking={speakingA} />
+        </ThreeCanvas>
+      </div>
       <div className="news-3d-match-character right"><CharacterFace character="B" isSpeaking={speakingB} side="right" size={CHARACTER_SIZE} /></div>
 
       {showSubtitles && <div style={{position: "absolute", zIndex: 5, bottom: 12, left: SUBTITLE_LEFT_INSET, right: SUBTITLE_RIGHT_INSET, textAlign: multiline ? "left" : "center"}}>
