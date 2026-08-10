@@ -172,6 +172,22 @@ details[open] > summary { color: var(--accent2); }
 }
 
 /* 2026-07-31 Remotion Player: 章単位スライド */
+.view-mode-switch { display: inline-flex; gap: 3px; margin: 0 0 8px; padding: 3px; border: 1px solid #30364f; border-radius: 9px; background: #111522; }
+.view-mode-switch button { border: 0; border-radius: 6px; padding: 6px 14px; color: #9ca3af; background: transparent; cursor: pointer; font-weight: 700; }
+.view-mode-switch button.is-active { color: #06111e; background: linear-gradient(135deg, #67e8f9, #a78bfa); }
+.prezi-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(30,64,175,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(30,64,175,.07) 1px, transparent 1px); background-size: 42px 42px; }
+.prezi-camera { position: absolute; left: 0; top: 0; width: 1px; height: 1px; transform-origin: 0 0; }
+.prezi-board { position: absolute; width: 900px; height: 480px; overflow: hidden; box-sizing: border-box; padding: 30px 42px; border-radius: 18px; border: 2px solid #cbd5e1; background: rgba(250,250,250,.97); color: #1e293b; box-shadow: 0 22px 55px rgba(15,23,42,.22); opacity: .72; }
+.prezi-board.is-active { border-color: #4a90d9; opacity: 1; box-shadow: 0 28px 70px rgba(15,23,42,.3), 0 0 0 6px rgba(74,144,217,.12); }
+.prezi-board-number { position: absolute; top: 16px; right: 22px; color: #94a3b8; font-size: 15px; font-weight: 900; letter-spacing: 2px; }
+.prezi-board h1 { margin: 5px 0 12px; color: #1a1a2e; font-size: 34px; }
+.prezi-board h2 { margin: 6px 0 16px; padding-bottom: 8px; border-bottom: 3px solid #4a90d9; color: #16213e; font-size: 30px; line-height: 1.25; }
+.prezi-board h3 { margin: 14px 0 7px; color: #0f3460; font-size: 23px; }
+.prezi-board p, .prezi-board li { color: #334155; font-size: 19px; line-height: 1.55; }
+.prezi-board p { margin: 7px 0; }
+.prezi-board ul, .prezi-board ol { margin: 7px 0; padding-left: 26px; }
+.prezi-board table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.prezi-board th, .prezi-board td { padding: 5px 7px; border: 1px solid #94a3b8; }
 .remotion-slide-content {
   font-size: 20px;
   line-height: 1.65;
