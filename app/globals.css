@@ -208,7 +208,6 @@ details[open] > summary { color: var(--accent2); }
 .news-3d-match-character { position: absolute; z-index: 4; bottom: 0; filter: drop-shadow(0 9px 12px rgba(15,23,42,.18)); }
 .news-3d-match-character.left { left: 0; transform: perspective(900px) rotateY(5deg); transform-origin: bottom left; }
 .news-3d-match-character.right { right: 0; transform: perspective(900px) rotateY(-5deg); transform-origin: bottom right; }
-.news-3d-vrm-character { position: absolute; z-index: 4; left: -22px; bottom: -28px; width: 360px; height: 410px; overflow: hidden; filter: drop-shadow(0 10px 12px rgba(15,23,42,.22)); }
 .remotion-slide-content {
   font-size: 20px;
   line-height: 1.65;
