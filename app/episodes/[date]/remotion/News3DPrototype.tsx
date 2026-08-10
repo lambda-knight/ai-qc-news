@@ -1,5 +1,5 @@
 import React, {useMemo} from "react";
-import {RoundedBox} from "@react-three/drei";
+import {Html, RoundedBox} from "@react-three/drei";
 import {ThreeCanvas} from "@remotion/three";
 import {useThree} from "@react-three/fiber";
 import ReactMarkdown from "react-markdown";
@@ -49,7 +49,7 @@ const StarField: React.FC = () => {
   ))}</group>;
 };
 
-const NewsBoard: React.FC<{sectionIndex: number; sectionFrame: number}> = ({sectionIndex, sectionFrame}) => {
+const NewsBoard: React.FC<{markdown: string; title: string; sectionIndex: number; sectionFrame: number}> = ({markdown, title, sectionIndex, sectionFrame}) => {
   const appear = interpolate(sectionFrame, [0, 24], [0, 1], clamp);
   return (
     <group position={[0, interpolate(appear, [0, 1], [-0.25, 0], clamp), 0]} rotation={[0.02, interpolate(appear, [0, 1], [-0.08, 0], clamp), 0]} scale={interpolate(appear, [0, 1], [0.82, 1], clamp)}>
@@ -60,6 +60,13 @@ const NewsBoard: React.FC<{sectionIndex: number; sectionFrame: number}> = ({sect
         <boxGeometry args={[9.9, 0.07, 0.04]} />
         <meshBasicMaterial color={sectionIndex % 2 ? "#a78bfa" : "#22d3ee"} />
       </mesh>
+      <Html transform position={[0, 0, 0.17]} distanceFactor={7.35} style={{pointerEvents: "none"}}>
+        <article className="news-3d-board">
+          <div className="news-3d-kicker">LIVE / {String(sectionIndex + 1).padStart(2, "0")}</div>
+          <div className="news-3d-program">{title}</div>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
+        </article>
+      </Html>
     </group>
   );
 };
@@ -75,9 +82,6 @@ export const News3DPrototype: React.FC<Props> = ({timingData, timingOffsetFrames
   const sectionFrame = Math.max(0, syncFrame - (firstInSection?.startFrame ?? 0));
   const markdown = sectionMarkdown(timingData.markdown, previous?.sectionName ?? "");
   const speakerA = current?.speaker !== "B";
-  const appear = interpolate(sectionFrame, [0, 24], [0, 1], clamp);
-  const panelRotate = interpolate(appear, [0, 1], [-5, 0], clamp) + Math.sin(frame / 90) * 0.55;
-  const panelScale = interpolate(appear, [0, 1], [0.92, 1], clamp);
 
   return (
     <AbsoluteFill className="news-3d-root">
@@ -89,24 +93,11 @@ export const News3DPrototype: React.FC<Props> = ({timingData, timingOffsetFrames
         <pointLight position={[-5, -1, 4]} intensity={35} color="#22d3ee" />
         <StarField />
         <CameraRig sectionIndex={sectionIndex} sectionFrame={sectionFrame} />
-        <NewsBoard sectionIndex={sectionIndex} sectionFrame={sectionFrame} />
+        <NewsBoard markdown={markdown} title={timingData.title} sectionIndex={sectionIndex} sectionFrame={sectionFrame} />
       </ThreeCanvas>
       <div className="news-3d-topline"><span>NEWS SPACE</span><span>3D PROTOTYPE</span></div>
-      <div className="news-3d-content-frame" style={{transform: `perspective(1100px) rotateY(${panelRotate}deg) scale(${panelScale})`}}>
-        <article className="news-3d-board">
-          <div className="news-3d-kicker">LIVE / {String(sectionIndex + 1).padStart(2, "0")}</div>
-          <div className="news-3d-program">{timingData.title}</div>
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown}</ReactMarkdown>
-        </article>
-      </div>
-      <div className={`news-3d-character-rig left${speakerA ? " speaking" : ""}`}>
-        <Img className="news-3d-character depth" src={publicAsset("zundamon_close.png")} />
-        <Img className="news-3d-character front" src={publicAsset("zundamon_close.png")} />
-      </div>
-      <div className={`news-3d-character-rig right${!speakerA ? " speaking" : ""}`}>
-        <Img className="news-3d-character depth" src={publicAsset("metan.png")} />
-        <Img className="news-3d-character front" src={publicAsset("metan.png")} />
-      </div>
+      <Img className={`news-3d-character left${speakerA ? " speaking" : ""}`} src={publicAsset("zundamon_close.png")} />
+      <Img className={`news-3d-character right${!speakerA ? " speaking" : ""}`} src={publicAsset("metan.png")} />
       {showSubtitles && current && <div className={`news-3d-subtitle ${current.speaker === "A" ? "speaker-a" : "speaker-b"}`}>
         <b>{current.speaker === "A" ? "ずんだもん" : "四国めたん"}</b><span>{current.text}</span>
       </div>}
