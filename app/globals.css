@@ -204,10 +204,6 @@ details[open] > summary { color: var(--accent2); }
 .news-3d-subtitle b { flex: 0 0 auto; padding: 6px 10px; border-radius: 8px; font-size: 15px; }
 .news-3d-subtitle.speaker-a b { background: #16a34a; }
 .news-3d-subtitle.speaker-b b { background: #db2777; }
-.news-3d-match-panel { position: absolute; top: 54px; left: 0; width: 1280px; height: 666px; overflow: hidden; transform-origin: center; box-shadow: 0 10px 30px rgba(15,23,42,.12); }
-.news-3d-match-character { position: absolute; z-index: 4; bottom: 0; filter: drop-shadow(0 9px 12px rgba(15,23,42,.18)); }
-.news-3d-match-character.left { left: 0; transform: perspective(900px) rotateY(5deg); transform-origin: bottom left; }
-.news-3d-match-character.right { right: 0; transform: perspective(900px) rotateY(-5deg); transform-origin: bottom right; }
 .remotion-slide-content {
   font-size: 20px;
   line-height: 1.65;
