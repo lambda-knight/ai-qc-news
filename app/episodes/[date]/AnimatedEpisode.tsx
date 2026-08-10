@@ -145,7 +145,7 @@ export function AnimatedEpisode(props: AnimationProps) {
         <button type="button" className={viewMode === "normal" ? "is-active" : ""} onClick={() => setViewMode("normal")}>通常</button>
         <button type="button" className={viewMode === "prezi" ? "is-active" : ""} onClick={() => setViewMode("prezi")}>1 Prezi</button>
         <button type="button" disabled title="音声解析の前処理後に有効化">2 音声連動</button>
-        {([4, 5, 6, 7, 8] as const).map((number) => <button key={number} type="button" disabled={number === 4} title={number === 4 ? "現行レイアウトでは背景領域がなく効果を評価しにくいため不採用" : undefined} className={viewMode === `effect${number}` ? "is-active" : ""} onClick={() => setViewMode(`effect${number}`)}>{number} {({4: "背景 ×", 5: "コード", 6: "グラフ", 7: "ティッカー", 8: "Lottie"} as const)[number]}</button>)}
+        {([4, 5, 6, 7, 8] as const).map((number) => <button key={number} type="button" disabled={number === 4} title={number === 4 ? "現行レイアウトでは背景領域がなく効果を評価しにくいため不採用" : undefined} className={viewMode === `effect${number}` ? "is-active" : ""} onClick={() => setViewMode(`effect${number}`)}>{number} {({4: "背景 ×", 5: "Markdown", 6: "グラフ", 7: "ティッカー", 8: "Lottie"} as const)[number]}</button>)}
       </div>
       <Player
         ref={playerRef}
