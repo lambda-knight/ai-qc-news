@@ -7,7 +7,7 @@ import {YukkuriWeb} from "./YukkuriWeb";
 type Props = {
   timingData: TimingData;
   audioUrl: string;
-  effectMode: 4 | 6 | 7 | 8;
+  effectMode: 4 | 6 | 8;
   timingOffsetFrames?: number;
   scrollOffsetPx?: number;
   manualSectionName?: string;
@@ -37,7 +37,6 @@ export const YukkuriEffectTest: React.FC<Props> = (props) => {
   const current: Segment | undefined = timingData.segments.find((cue) => syncFrame >= cue.startFrame && syncFrame < cue.endFrame);
   const cueProgress = current ? (syncFrame - current.startFrame) / Math.max(1, current.endFrame - current.startFrame) : 0;
   const chartProgress = interpolate(cueProgress, [0, .7], [0, 1], clamp);
-  const tickerX = 1280 - ((frame * 3.1) % 2700);
 
   return <AbsoluteFill>
     <YukkuriWeb {...props} />
@@ -55,8 +54,6 @@ export const YukkuriEffectTest: React.FC<Props> = (props) => {
         <span>{["技術", "制度", "市場", "社会"][index]}</span><i><b style={{width: `${value * chartProgress}%`}} /></i><em>{Math.round(value * chartProgress)}</em>
       </div>)}
     </div>}
-
-    {effectMode === 7 && <div className="test-ticker"><div style={{transform: `translateX(${tickerX}px)`}}>速報　{timingData.title}　◆　{current?.sectionName ?? "ニュースを解析中"}　◆　音声と独立して流れる補足情報</div></div>}
 
     {effectMode === 8 && <div className="test-lottie-card"><Lottie animationData={LOTTIE_DATA} loop style={{width: 180, height: 180}} /><b>NEWS<br />UPDATE</b><span>Lottie / TEST 08</span></div>}
   </AbsoluteFill>;
