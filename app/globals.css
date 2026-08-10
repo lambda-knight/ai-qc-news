@@ -199,17 +199,6 @@ details[open] > summary { color: var(--accent2); }
 .test-living-background .p1 { left: 9%; top: 15%; width: 90px; height: 90px; }
 .test-living-background .p2 { right: 8%; top: 28%; width: 140px; height: 140px; }
 .test-living-background .p3 { left: 48%; bottom: 9%; width: 64px; height: 64px; }
-.test-markdown-typing { position: absolute; z-index: 10; top: 72px; left: 178px; right: 178px; bottom: 112px; overflow: hidden; border: 1px solid #94a3b8; border-radius: 13px; background: #fafafa; box-shadow: 0 18px 50px rgba(15,23,42,.3); color: #333; font-family: "Hiragino Sans", "Noto Sans JP", sans-serif; }
-.test-window-bar { display: flex; align-items: center; gap: 7px; height: 36px; padding: 0 12px; background: #1e293b; }
-.test-window-bar i { width: 11px; height: 11px; border-radius: 50%; background: #fb7185; }.test-window-bar i:nth-child(2){background:#fbbf24}.test-window-bar i:nth-child(3){background:#4ade80}.test-window-bar span{margin-left:8px;color:#94a3b8;font-size:13px}
-.test-markdown-body { height: calc(100% - 36px); overflow: hidden; box-sizing: border-box; padding: 16px 28px 28px; font-size: 19px; line-height: 1.55; }
-.test-markdown-body h2 { margin: 5px 0 12px; padding-bottom: 7px; border-bottom: 3px solid #4a90d9; color: #16213e; font-size: 29px; }
-.test-markdown-body h3 { margin: 13px 0 6px; color: #0f3460; font-size: 23px; }
-.test-markdown-body p, .test-markdown-body li { margin-top: 5px; margin-bottom: 5px; }
-.test-markdown-body ul, .test-markdown-body ol { margin: 6px 0; padding-left: 28px; }
-.test-markdown-body .is-typing { margin-left: -9px; padding-left: 7px; border-left: 3px solid #2563eb; background: linear-gradient(90deg, rgba(37,99,235,.18), transparent 82%); }
-.test-markdown-body .katex-display { margin: .7em 0; overflow: hidden; }
-.test-cursor{color:#2563eb}
 .test-chart-card { position: absolute; z-index: 20; top: 88px; right: 38px; width: 500px; padding: 20px 24px; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 16px 44px rgba(15,23,42,.28); color: #1e293b; }.test-chart-card>strong{display:block;margin-bottom:15px;font-size:24px}
 .test-chart-row { display: grid; grid-template-columns: 55px 1fr 35px; align-items: center; gap: 10px; margin: 11px 0; }.test-chart-row>i{height:18px;overflow:hidden;border-radius:9px;background:#e2e8f0}.test-chart-row>i>b{display:block;height:100%;border-radius:9px;background:linear-gradient(90deg,#4f46e5,#22d3ee)}.test-chart-row em{font-style:normal;font-weight:800}
 .test-ticker { position: absolute; z-index: 20; left: 0; right: 0; bottom: 153px; height: 43px; overflow: hidden; border-top: 3px solid #fbbf24; background: #172554; color: white; font-size: 21px; font-weight: 800; line-height: 40px; white-space: nowrap; }.test-ticker>div{width:max-content}

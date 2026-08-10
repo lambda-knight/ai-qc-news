@@ -1,8 +1,4 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import remarkMath from "remark-math";
-import rehypeKatex from "rehype-katex";
 import {Lottie, type LottieAnimationData} from "@remotion/lottie";
 import {AbsoluteFill, interpolate, useCurrentFrame} from "remotion";
 import type {TimingData, Segment} from "./types";
@@ -11,7 +7,7 @@ import {YukkuriWeb} from "./YukkuriWeb";
 type Props = {
   timingData: TimingData;
   audioUrl: string;
-  effectMode: 4 | 5 | 6 | 7 | 8;
+  effectMode: 4 | 6 | 7 | 8;
   timingOffsetFrames?: number;
   scrollOffsetPx?: number;
   manualSectionName?: string;
@@ -21,20 +17,6 @@ type Props = {
 };
 
 const clamp = {extrapolateLeft: "clamp", extrapolateRight: "clamp"} as const;
-const sectionMarkdown = (markdown: string, sectionName?: string) => {
-  const sections = markdown.split(/(?=^##\s)/m).filter((part) => part.trim());
-  return sections.find((part) => {
-    const heading = part.match(/^##\s+(.+)$/m)?.[1].trim() ?? "";
-    return heading === sectionName || heading.includes(sectionName ?? "__none__") || (sectionName ?? "").includes(heading);
-  }) ?? sections[0] ?? markdown;
-};
-
-// Math expressions are revealed atomically so incomplete LaTeX is never sent to KaTeX.
-const revealMarkdown = (markdown: string, progress: number) => {
-  const tokens = markdown.match(/\$\$[\s\S]*?\$\$|\$[^\n$]+\$|[\s\S]/g) ?? [];
-  const count = Math.min(tokens.length, Math.floor(tokens.length * Math.min(1, progress / 0.82)));
-  return tokens.slice(0, count).join("");
-};
 const LOTTIE_DATA: LottieAnimationData = {
   v: "5.7.4", fr: 30, ip: 0, op: 90, w: 300, h: 300, nm: "news-pulse", ddd: 0, assets: [],
   layers: [{ddd: 0, ind: 1, ty: 4, nm: "Pulse", sr: 1, ks: {
@@ -54,13 +36,6 @@ export const YukkuriEffectTest: React.FC<Props> = (props) => {
   const syncFrame = Math.max(0, Math.min(timingData.totalFrames - 1, frame + (props.timingOffsetFrames ?? 0)));
   const current: Segment | undefined = timingData.segments.find((cue) => syncFrame >= cue.startFrame && syncFrame < cue.endFrame);
   const cueProgress = current ? (syncFrame - current.startFrame) / Math.max(1, current.endFrame - current.startFrame) : 0;
-  const sectionSegments = timingData.segments.filter((cue) => cue.sectionName === current?.sectionName);
-  const sectionStart = sectionSegments[0]?.startFrame ?? current?.startFrame ?? 0;
-  const sectionEnd = sectionSegments.at(-1)?.endFrame ?? current?.endFrame ?? 1;
-  const sectionProgress = (syncFrame - sectionStart) / Math.max(1, sectionEnd - sectionStart);
-  const sourceMarkdown = sectionMarkdown(timingData.markdown, current?.sectionName);
-  const typedMarkdown = revealMarkdown(sourceMarkdown, sectionProgress);
-  const activeLine = typedMarkdown.split("\n").length;
   const chartProgress = interpolate(cueProgress, [0, .7], [0, 1], clamp);
   const tickerX = 1280 - ((frame * 3.1) % 2700);
 
@@ -72,23 +47,6 @@ export const YukkuriEffectTest: React.FC<Props> = (props) => {
       <i className="particle p2" style={{transform: `translate(${Math.cos(frame / 55) * 42}px, ${Math.sin(frame / 40) * 28}px)`}} />
       <i className="particle p3" style={{transform: `translate(${Math.sin(frame / 38) * 28}px, ${Math.cos(frame / 52) * 38}px)`}} />
       <span>TEST 04 / TRANSPARENT PARTICLES</span>
-    </div>}
-
-    {effectMode === 5 && <div className="test-markdown-typing">
-      <div className="test-window-bar"><i /><i /><i /><span>Markdown / {current?.sectionName ?? "概要"}</span></div>
-      <div className="test-markdown-body">
-        <ReactMarkdown
-          remarkPlugins={[remarkGfm, remarkMath]}
-          rehypePlugins={[[rehypeKatex, {strict: false, trust: true, throwOnError: false}]]}
-          components={{
-            p: ({node, children}) => <p className={node?.position?.start.line === activeLine ? "is-typing" : ""}>{children}</p>,
-            h2: ({node, children}) => <h2 className={node?.position?.start.line === activeLine ? "is-typing" : ""}>{children}</h2>,
-            h3: ({node, children}) => <h3 className={node?.position?.start.line === activeLine ? "is-typing" : ""}>{children}</h3>,
-            li: ({node, children}) => <li className={node?.position?.start.line === activeLine ? "is-typing" : ""}>{children}</li>,
-          }}
-        >{typedMarkdown}</ReactMarkdown>
-        <b className="test-cursor">▌</b>
-      </div>
     </div>}
 
     {effectMode === 6 && <div className="test-chart-card">

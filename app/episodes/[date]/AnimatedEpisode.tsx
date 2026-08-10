@@ -86,7 +86,7 @@ export function AnimatedEpisode(props: AnimationProps) {
   const fullscreenRef = useRef<HTMLDivElement>(null);
   const storageKey = `ai-qc-news:adjustment:${props.date}:${props.mode}`;
   const [adjustments, setAdjustments] = useState<Adjustments>(DEFAULT_ADJUSTMENTS);
-  const [viewMode, setViewMode] = useState<"normal" | "prezi" | "effect4" | "effect5" | "effect6" | "effect7" | "effect8">("normal");
+  const [viewMode, setViewMode] = useState<"normal" | "prezi" | "effect4" | "effect6" | "effect7" | "effect8">("normal");
   const sections = useMemo(
     () => [...new Set(timingData.segments.map((segment) => segment.sectionName))],
     [timingData.segments],
@@ -97,7 +97,7 @@ export function AnimatedEpisode(props: AnimationProps) {
     if (saved) setAdjustments({ ...DEFAULT_ADJUSTMENTS, ...(JSON.parse(saved) as Partial<Adjustments>) });
     const requested = new URLSearchParams(window.location.search).get("view");
     if (requested === "prezi") setViewMode("prezi");
-    if (/^[4-8]$/.test(requested ?? "")) setViewMode(`effect${requested}` as typeof viewMode);
+    if (/^[4678]$/.test(requested ?? "")) setViewMode(`effect${requested}` as typeof viewMode);
   }, [storageKey]);
 
   const currentSection = () => {
@@ -145,12 +145,12 @@ export function AnimatedEpisode(props: AnimationProps) {
         <button type="button" className={viewMode === "normal" ? "is-active" : ""} onClick={() => setViewMode("normal")}>通常</button>
         <button type="button" className={viewMode === "prezi" ? "is-active" : ""} onClick={() => setViewMode("prezi")}>1 Prezi</button>
         <button type="button" disabled title="音声解析の前処理後に有効化">2 音声連動</button>
-        {([4, 5, 6, 7, 8] as const).map((number) => <button key={number} type="button" disabled={number === 4} title={number === 4 ? "現行レイアウトでは背景領域がなく効果を評価しにくいため不採用" : undefined} className={viewMode === `effect${number}` ? "is-active" : ""} onClick={() => setViewMode(`effect${number}`)}>{number} {({4: "背景 ×", 5: "Markdown", 6: "グラフ", 7: "ティッカー", 8: "Lottie"} as const)[number]}</button>)}
+        {([4, 6, 7, 8] as const).map((number) => <button key={number} type="button" disabled={number === 4} title={number === 4 ? "現行レイアウトでは背景領域がなく効果を評価しにくいため不採用" : undefined} className={viewMode === `effect${number}` ? "is-active" : ""} onClick={() => setViewMode(`effect${number}`)}>{number} {({4: "背景 ×", 6: "グラフ", 7: "ティッカー", 8: "Lottie"} as const)[number]}</button>)}
       </div>
       <Player
         ref={playerRef}
         component={viewMode === "prezi" ? YukkuriPrezi : viewMode.startsWith("effect") ? YukkuriEffectTest : YukkuriWeb}
-        inputProps={{ timingData, audioUrl: props.audioUrl, effectMode: viewMode.startsWith("effect") ? Number(viewMode.slice(6)) as 4 | 5 | 6 | 7 | 8 : 5, ...adjustments }}
+        inputProps={{ timingData, audioUrl: props.audioUrl, effectMode: viewMode.startsWith("effect") ? Number(viewMode.slice(6)) as 4 | 6 | 7 | 8 : 6, ...adjustments }}
         durationInFrames={timingData.totalFrames}
         compositionWidth={1280}
         compositionHeight={720}
