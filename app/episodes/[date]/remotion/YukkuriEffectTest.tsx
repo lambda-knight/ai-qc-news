@@ -44,9 +44,8 @@ export const YukkuriEffectTest: React.FC<Props> = (props) => {
   return <AbsoluteFill>
     <YukkuriWeb {...props} showSubtitles={effectMode === 3 ? false : props.showSubtitles} />
 
-    {effectMode === 3 && current && <div className="test-karaoke-subtitle">
-      <b>{current.speaker === "A" ? "ずんだもん" : "四国めたん"}</b>
-      <span>{[...current.text].map((char, index) => <i key={index} className={index < visibleChars ? "read" : ""}>{char}</i>)}</span>
+    {effectMode === 3 && current && <div className={`test-karaoke-subtitle${current.text.length > 28 ? " multiline" : ""}`}>
+      {[...current.text].map((char, index) => <i key={index} className={index < visibleChars ? "read" : ""}>{char}</i>)}
     </div>}
 
     {effectMode === 4 && <div className="test-living-background" style={{backgroundPosition: `${frame * .35}px ${frame * .18}px`}}>

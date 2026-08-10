@@ -189,10 +189,10 @@ details[open] > summary { color: var(--accent2); }
 .prezi-board ul, .prezi-board ol { margin: 7px 0; padding-left: 26px; }
 .prezi-board table { width: 100%; border-collapse: collapse; font-size: 15px; }
 .prezi-board th, .prezi-board td { padding: 5px 7px; border: 1px solid #94a3b8; }
-.test-karaoke-subtitle { position: absolute; z-index: 20; left: 235px; right: 275px; bottom: 10px; display: flex; align-items: center; gap: 15px; min-height: 78px; padding: 8px 18px; border-radius: 14px; background: transparent; color: white; font-size: 30px; font-weight: 800; line-height: 1.45; }
-.test-karaoke-subtitle b { flex: 0 0 auto; padding: 5px 9px; border-radius: 7px; background: #4338ca; font-size: 14px; }
-.test-karaoke-subtitle i { color: #94a3b8; font-style: normal; text-shadow: 1px 1px 2px #000; }
-.test-karaoke-subtitle i.read { color: #fde047; text-shadow: 0 0 9px rgba(253,224,71,.55); }
+.test-karaoke-subtitle { position: absolute; z-index: 20; left: 240px; right: 280px; bottom: 12px; box-sizing: border-box; padding: 4px 20px; background: transparent; color: #fff; font-family: "Hiragino Sans", "Noto Sans JP", sans-serif; font-size: 34px; font-weight: 700; line-height: 1.5; text-align: center; text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 3px 8px rgba(0,0,0,.9); }
+.test-karaoke-subtitle.multiline { font-size: 28px; text-align: left; }
+.test-karaoke-subtitle i { color: #fff; font: inherit; font-style: normal; text-shadow: inherit; }
+.test-karaoke-subtitle i.read { color: #1d4ed8; text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 0 3px 8px rgba(0,0,0,.9); }
 .test-living-background { position: absolute; z-index: 3; inset: 54px 0 0; pointer-events: none; overflow: hidden; background-color: transparent; background-image: radial-gradient(rgba(79,70,229,.16) 1px, transparent 1.5px); background-size: 23px 23px; }
 .test-living-background > span { position: absolute; top: 14px; right: 20px; color: rgba(49,46,129,.48); font-size: 12px; font-weight: 900; letter-spacing: 2px; }
 .test-living-background .particle { position: absolute; display: block; border-radius: 50%; border: 2px solid rgba(79,70,229,.2); background: transparent; box-shadow: 0 0 18px rgba(34,211,238,.15); }
