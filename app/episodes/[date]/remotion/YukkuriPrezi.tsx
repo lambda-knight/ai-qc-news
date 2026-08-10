@@ -4,6 +4,7 @@ import remarkGfm from "remark-gfm";
 import {AbsoluteFill, Easing, interpolate, useCurrentFrame} from "remotion";
 import type {TimingData, Segment} from "./types";
 import {CharacterFace} from "./components/CharacterFace";
+import {KaraokeSubtitle} from "./components/KaraokeSubtitle";
 
 type Props = {
   timingData: TimingData;
@@ -11,6 +12,7 @@ type Props = {
   timingOffsetFrames?: number;
   showSubtitles?: boolean;
   characterScale?: number;
+  karaokeSubtitles?: boolean;
 };
 
 type Board = {name: string; markdown: string; x: number; y: number; rotation: number};
@@ -22,8 +24,8 @@ const boardsFromMarkdown = (markdown: string): Board[] => {
   return chunks.map((chunk, index) => ({
     name: chunk.match(/^##\s+(.+)$/m)?.[1].trim() ?? (index === 0 ? "概要" : `トピック ${index + 1}`),
     markdown: chunk,
-    x: (index % 3) * 1080,
-    y: Math.floor(index / 3) * 650,
+    x: (index % 3) * 1360,
+    y: Math.floor(index / 3) * 760,
     rotation: [-1.4, 0.8, -0.5, 1.1][index % 4],
   }));
 };
@@ -33,6 +35,7 @@ export const YukkuriPrezi: React.FC<Props> = ({
   timingOffsetFrames = 0,
   showSubtitles = true,
   characterScale = 1,
+  karaokeSubtitles = true,
 }) => {
   const frame = useCurrentFrame();
   const syncFrame = Math.max(0, Math.min(timingData.totalFrames - 1, frame + timingOffsetFrames));
@@ -48,14 +51,13 @@ export const YukkuriPrezi: React.FC<Props> = ({
   const move = interpolate(syncFrame - sectionStart, [0, 34], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
   const cameraX = interpolate(move, [0, 1], [prior.x, active.x]);
   const cameraY = interpolate(move, [0, 1], [prior.y, active.y]);
-  const zoom = interpolate(move, [0, 0.45, 1], [0.76, 0.88, 1]);
+  const zoom = interpolate(move, [0, 0.45, 1], [0.84, 0.94, 1]);
   const subtitle = current?.text ?? "";
-  const isLong = subtitle.length > 28;
 
   return (
     <AbsoluteFill style={{background: "#dfe5ef", overflow: "hidden", fontFamily: '"Hiragino Sans", "Noto Sans JP", sans-serif'}}>
       <div className="prezi-grid" />
-      <div className="prezi-camera" style={{transform: `translate(640px, 350px) scale(${zoom}) translate(${-cameraX - 450}px, ${-cameraY - 240}px)`}}>
+      <div className="prezi-camera" style={{transform: `translate(640px, 350px) scale(${zoom}) translate(${-cameraX - 580}px, ${-cameraY - 295}px)`}}>
         {boards.map((board, index) => <article
           key={`${board.name}-${index}`}
           className={`prezi-board${index === activeIndex ? " is-active" : ""}`}
@@ -72,7 +74,7 @@ export const YukkuriPrezi: React.FC<Props> = ({
       </div>
       <div style={{position: "absolute", zIndex: 6, bottom: 0, left: 0}}><CharacterFace character="A" isSpeaking={current?.speaker === "A"} side="left" size={315 * characterScale} /></div>
       <div style={{position: "absolute", zIndex: 6, bottom: 0, right: 0}}><CharacterFace character="B" isSpeaking={current?.speaker === "B"} side="right" size={315 * characterScale} /></div>
-      {showSubtitles && <div style={{position: "absolute", zIndex: 7, bottom: 12, left: 240, right: 280, textAlign: isLong ? "left" : "center", color: "#fff", fontSize: isLong ? 28 : 34, fontWeight: 700, lineHeight: 1.5, textShadow: "2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 3px 8px rgba(0,0,0,.9)"}}>{subtitle}</div>}
+      {showSubtitles && <KaraokeSubtitle text={subtitle} progress={current ? (syncFrame - current.startFrame) / Math.max(1, current.endFrame - current.startFrame) : 0} enabled={karaokeSubtitles} />}
     </AbsoluteFill>
   );
 };

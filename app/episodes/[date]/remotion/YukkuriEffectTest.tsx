@@ -7,7 +7,7 @@ import {YukkuriWeb} from "./YukkuriWeb";
 type Props = {
   timingData: TimingData;
   audioUrl: string;
-  effectMode: 3 | 4 | 5 | 6 | 7 | 8;
+  effectMode: 4 | 5 | 6 | 7 | 8;
   timingOffsetFrames?: number;
   scrollOffsetPx?: number;
   manualSectionName?: string;
@@ -36,17 +36,12 @@ export const YukkuriEffectTest: React.FC<Props> = (props) => {
   const syncFrame = Math.max(0, Math.min(timingData.totalFrames - 1, frame + (props.timingOffsetFrames ?? 0)));
   const current: Segment | undefined = timingData.segments.find((cue) => syncFrame >= cue.startFrame && syncFrame < cue.endFrame);
   const cueProgress = current ? (syncFrame - current.startFrame) / Math.max(1, current.endFrame - current.startFrame) : 0;
-  const visibleChars = current ? Math.round(interpolate(cueProgress, [0, .92], [0, current.text.length], clamp)) : 0;
   const typedLength = Math.floor((frame / 2) % (CODE.length + 35));
   const chartProgress = interpolate(cueProgress, [0, .7], [0, 1], clamp);
   const tickerX = 1280 - ((frame * 3.1) % 2700);
 
   return <AbsoluteFill>
-    <YukkuriWeb {...props} showSubtitles={effectMode === 3 ? false : props.showSubtitles} />
-
-    {effectMode === 3 && current && <div className={`test-karaoke-subtitle${current.text.length > 28 ? " multiline" : ""}`}>
-      {[...current.text].map((char, index) => <i key={index} className={index < visibleChars ? "read" : ""}>{char}</i>)}
-    </div>}
+    <YukkuriWeb {...props} />
 
     {effectMode === 4 && <div className="test-living-background" style={{backgroundPosition: `${frame * .35}px ${frame * .18}px`}}>
       <i className="particle p1" style={{transform: `translate(${Math.sin(frame / 45) * 35}px, ${Math.cos(frame / 60) * 25}px)`}} />
