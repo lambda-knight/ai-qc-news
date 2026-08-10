@@ -1,0 +1,74 @@
+import React from "react";
+import {Lottie, type LottieAnimationData} from "@remotion/lottie";
+import {AbsoluteFill, interpolate, useCurrentFrame} from "remotion";
+import type {TimingData, Segment} from "./types";
+import {YukkuriWeb} from "./YukkuriWeb";
+
+type Props = {
+  timingData: TimingData;
+  audioUrl: string;
+  effectMode: 3 | 4 | 5 | 6 | 7 | 8;
+  timingOffsetFrames?: number;
+  scrollOffsetPx?: number;
+  manualSectionName?: string;
+  showSubtitles?: boolean;
+  characterScale?: number;
+};
+
+const clamp = {extrapolateLeft: "clamp", extrapolateRight: "clamp"} as const;
+const CODE = `const story = await fetchNews();\nconst facts = verify(story.sources);\nrender(<News facts={facts} />);`;
+const LOTTIE_DATA: LottieAnimationData = {
+  v: "5.7.4", fr: 30, ip: 0, op: 90, w: 300, h: 300, nm: "news-pulse", ddd: 0, assets: [],
+  layers: [{ddd: 0, ind: 1, ty: 4, nm: "Pulse", sr: 1, ks: {
+    o: {a: 1, k: [{t: 0, s: [85]}, {t: 45, s: [35]}, {t: 90, s: [85]}]},
+    r: {a: 1, k: [{t: 0, s: [0]}, {t: 90, s: [180]}]},
+    p: {a: 0, k: [150, 150, 0]}, a: {a: 0, k: [0, 0, 0]},
+    s: {a: 1, k: [{t: 0, s: [55, 55, 100]}, {t: 45, s: [105, 105, 100]}, {t: 90, s: [55, 55, 100]}]},
+  }, ao: 0, shapes: [
+    {ty: "el", p: {a: 0, k: [0, 0]}, s: {a: 0, k: [170, 170]}, nm: "Ellipse"},
+    {ty: "st", c: {a: 0, k: [0.4, 0.25, 0.95, 1]}, o: {a: 0, k: 100}, w: {a: 0, k: 12}, lc: 2, lj: 2, nm: "Stroke"},
+  ], ip: 0, op: 90, st: 0, bm: 0}],
+};
+
+export const YukkuriEffectTest: React.FC<Props> = (props) => {
+  const frame = useCurrentFrame();
+  const {timingData, effectMode} = props;
+  const syncFrame = Math.max(0, Math.min(timingData.totalFrames - 1, frame + (props.timingOffsetFrames ?? 0)));
+  const current: Segment | undefined = timingData.segments.find((cue) => syncFrame >= cue.startFrame && syncFrame < cue.endFrame);
+  const cueProgress = current ? (syncFrame - current.startFrame) / Math.max(1, current.endFrame - current.startFrame) : 0;
+  const visibleChars = current ? Math.round(interpolate(cueProgress, [0, .92], [0, current.text.length], clamp)) : 0;
+  const typedLength = Math.floor((frame / 2) % (CODE.length + 35));
+  const chartProgress = interpolate(cueProgress, [0, .7], [0, 1], clamp);
+  const tickerX = 1280 - ((frame * 3.1) % 2700);
+
+  return <AbsoluteFill>
+    <YukkuriWeb {...props} showSubtitles={effectMode === 3 ? false : props.showSubtitles} />
+
+    {effectMode === 3 && current && <div className="test-karaoke-subtitle">
+      <b>{current.speaker === "A" ? "ずんだもん" : "四国めたん"}</b>
+      <span>{[...current.text].map((char, index) => <i key={index} className={index < visibleChars ? "read" : ""}>{char}</i>)}</span>
+    </div>}
+
+    {effectMode === 4 && <div className="test-living-background" style={{backgroundPosition: `${frame * .35}px ${frame * .18}px`}}>
+      <div className="test-blob one" style={{transform: `translate(${Math.sin(frame / 45) * 35}px, ${Math.cos(frame / 60) * 25}px)`}} />
+      <div className="test-blob two" style={{transform: `translate(${Math.cos(frame / 55) * 42}px, ${Math.sin(frame / 40) * 28}px)`}} />
+      <span>TEST 04 / LIVING BACKGROUND</span>
+    </div>}
+
+    {effectMode === 5 && <div className="test-code-editor">
+      <div className="test-window-bar"><i /><i /><i /><span>news.tsx</span></div>
+      <pre><code>{CODE.slice(0, Math.min(CODE.length, typedLength))}<b className="test-cursor">▌</b></code></pre>
+    </div>}
+
+    {effectMode === 6 && <div className="test-chart-card">
+      <strong>注目度の比較</strong>
+      {[72, 48, 88, 61].map((value, index) => <div className="test-chart-row" key={value}>
+        <span>{["技術", "制度", "市場", "社会"][index]}</span><i><b style={{width: `${value * chartProgress}%`}} /></i><em>{Math.round(value * chartProgress)}</em>
+      </div>)}
+    </div>}
+
+    {effectMode === 7 && <div className="test-ticker"><div style={{transform: `translateX(${tickerX}px)`}}>速報　{timingData.title}　◆　{current?.sectionName ?? "ニュースを解析中"}　◆　音声と独立して流れる補足情報</div></div>}
+
+    {effectMode === 8 && <div className="test-lottie-card"><Lottie animationData={LOTTIE_DATA} loop style={{width: 180, height: 180}} /><b>NEWS<br />UPDATE</b><span>Lottie / TEST 08</span></div>}
+  </AbsoluteFill>;
+};
