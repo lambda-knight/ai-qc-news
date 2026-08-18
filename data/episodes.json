@@ -1,5 +1,1166 @@
 [
   {
+    "date": "2026-08-18",
+    "segments": [
+      {
+        "mode": "ai",
+        "label": "生成AIニュース",
+        "iaId": "news-pickup-2026-08-18-ai",
+        "title": "Amazon稀少本破棄疑惑、Stripe70億ドルOpenRouter買収、Quantinuum量子提携 2026/08/18",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-08-18-ai/ai_yukkuri.m4a",
+        "markdown": "<h1>生成AIニュース（2026年8月18日）</h1>\n<p><strong>キーワード:</strong> Amazon稀少本破棄 / Stripe OpenRouter買収 / Nvidia SoftBankデータセンター投資 / Groqネオクラウド転換 / Quantinuum Oracle量子提携</p>\n<h2>オープニング：2026年8月18日 — 生成AIニュース</h2>\n<ul>\n<li>2026年8月18日、火曜日の生成AIニュース</li>\n<li>今日はAmazonによる稀少本の破棄疑惑、Stripeによる70億ドル規模のOpenRouter買収、NvidiaのSoftBank系データセンターへの15億ドル投資、AIチップ企業Groqのネオクラウドへのピボット、そしてQuantinuumとOracleの量子コンピュータ提携という5本を扱う</li>\n<li>共通の問い: AI開発を支える「土台」——学習データ、資金の流れ、計算インフラ——で何が起きているか</li>\n</ul>\n<h2>Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に</h2>\n<ul>\n<li>404 Mediaは2026年8月17日、稀少本にAirTagなどの追跡装置を仕込み、その本がラスベガスにあるAmazonの物流施設「VGT3」（恐竜が本を爪で掴むシンボルで識別される拠点）に到着したことを確認したと報じた</li>\n<li>書店業界では約1年前から、AI企業が稀少本を大量に買い集め、スキャン後に廃棄しているとの疑いが持たれていたが、これまで直接の証拠はなかった</li>\n<li>Amazonは声明で「顧客が使用する製品やサービスを改善するため、商業チャネルを通じて書籍を購入している」と説明し、破棄そのものは否定していない</li>\n<li>対象となりやすいのは絶版本やインターネット上で入手困難な稀少本で、2022年以前に出版されたためAI生成テキストが混入していない「クリーンなデータ」とされる</li>\n<li>大規模言語モデルはインターネット上の主要なテキストを既に学習済みで新規データが枯渇しつつあり、AI生成テキストで再学習すると品質が劣化する「モデル崩壊」のリスクがあるため、稀少本のような未学習データの価値が上がっている</li>\n<li>追跡装置による今回の証拠は、書店業界の疑惑を裏付ける具体例の一つであり、Amazon以外の企業がどこまで同様の手法を取っているかは今回の報道の範囲では確認できていない</li>\n</ul>\n<h2>Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収</h2>\n<ul>\n<li>Bloombergの報道によると、決済大手Stripeは2026年8月16日までにAIゲートウェイ企業OpenRouterを70億ドル以上で買収する取引を確定させた</li>\n<li>OpenRouterは、顧客がタスクごとに異なるAIモデルを選び分けられるプラットフォームで、単一のアクセスポイントから400以上のモデルを利用でき、特定ベンダーへのロックインを避けられる仕組みを提供している</li>\n<li>同社は2026年5月にシリーズBで1億1,300万ドルを調達したばかりで、当時の評価額は13億ドルだった。Sequoia、Andreessen Horowitz、Menlo Ventures、Alphabet傘下のCapitalGなどが投資家に名を連ねる</li>\n<li>グローバルユーザー数は約800万人に達しており、今回の買収額はわずか3か月前の評価額の5倍を超える水準になる</li>\n<li>OpenRouterのCEOはかねて自社を「AI向けのStripeに相当する」と表現しており、決済の仲介・統合で成長したStripeがAIモデルの仲介・統合という同型の事業に進出する狙いがうかがえる</li>\n<li>決済インフラ企業がAIモデル選択のインフラを取り込む動きは、AI関連の「配管」部分を巡る主要プレイヤーの布石争いが決済領域にも広がっていることを示している</li>\n</ul>\n<h2>Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占</h2>\n<ul>\n<li>Nvidiaは2026年8月17日、SoftBankとOpenAIが既存投資家であるSB Energyに15億ドルを投資し、加えて最大1,050億ドル規模のクレジットを提供すると発表した</li>\n<li>この投資により、Nvidiaはオハイオ州シンシナティ近郊、旧米エネルギー省用地に建設されるデータセンター向けの「唯一の計算インフラ供給業者」になるとされ、当該施設はOpenAIプロジェクト向けとされている</li>\n<li>データセンターの規模は初期段階で4.25ギガワット、将来的に最大8ギガワットまで拡張する計画で、電力供給のために92ギガワット規模の天然ガス発電所を建設費330億ドルで新設する</li>\n<li>Nvidiaにとっては、自社チップが大型AI基盤施設に確実に採用される状態を作ることが狙いであり、GPU供給網の川下にあたるデータセンター事業への出資を通じて競争力を強化する動きになる</li>\n<li>電力インフラの規模から見ると、AI向け計算資源の拡張が半導体だけでなく発電設備の新設まで巻き込む段階に入っていることが分かる</li>\n<li>天然ガス発電所の稼働時期や環境面への影響については、今回の発表の範囲では示されていない</li>\n</ul>\n<h2>Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達</h2>\n<ul>\n<li>AI推論チップを手がけてきたGroqは2026年8月17日、3億5,000万ドルの資金調達を発表した。評価額は35億ドルで、2025年9月時点の69億ドルから大きく下がっている</li>\n<li>同社は「下方ラウンド」ではなく、2025年12月にNvidiaが創業者兼CEOのジョナサン・ロス氏と主要人材を約200億ドルのライセンス契約で獲得して以降の「新たな評価基準」だと説明している</li>\n<li>独自チップ「LPU（言語処理ユニット）」でNvidiaに対抗する路線から、Nvidia製システムを運用するクラウド・データセンター事業者、いわゆる「ネオクラウド」への転換を進めている</li>\n<li>2026年6月にも6億5,000万ドルを調達しており、現在は北米・欧州・中東・アジア太平洋の13拠点でデータセンターを運営し、600万以上の開発者・企業にサービスを提供している</li>\n<li>2027年には現在の54メガワットから200メガワット以上へ拡張する計画で、独自チップの開発企業から計算資源の提供企業へと事業の重心を移している</li>\n<li>主要人材の引き抜きを受けた路線転換であるため、独自LPU路線の技術的な位置づけが今後どう扱われるかは、今回の発表だけでは明らかになっていない</li>\n</ul>\n<h2>Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供</h2>\n<ul>\n<li>量子コンピュータ企業Quantinuum（NASDAQ: QNT）は2026年8月11日、Oracleとの戦略的パートナーシップを発表し、同社の量子コンピュータ「Helios」をOracle Cloud Infrastructure（OCI）経由で提供すると発表した</li>\n<li>Heliosは2025年11月に商業化されたQuantinuumの第3世代システムで、物理キュービット数は98個、48個の論理キュービットを使ったデモンストレーション実績を持つ</li>\n<li>2量子ビットゲートの忠実度は平均99.921%で、業界の「3ナイン」基準を上回る水準とされ、電力消費は約60キロワットとスーパーコンピュータの1%未満にとどまる</li>\n<li>OCIの顧客はHeliosを、既存のクラウドインフラと同じガバナンス・アクセス制御の枠組みの中でHPCやGPU基盤と並べて利用できるようになる</li>\n<li>Quantinuumは今後のロードマップとして、2027年に次世代機「Sol」、2029年に「Apollo」の投入を予定している</li>\n<li>調査会社IDCの量子研究リードは、プライベートクラウド環境での展開が既存のAI・HPCワークフローへの統合を容易にすると評価しており、量子コンピュータが専用施設の外へ出て一般のクラウド基盤に組み込まれる動きの一例になっている</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>今日の5本は、学習データ（Amazon）、AIモデル仲介の資本移動（Stripe）、計算インフラへの投資（Nvidia）、チップ企業の事業転換（Groq）、量子コンピュータのクラウド統合（Quantinuum）という、いずれもAIを支える「土台」に関わる動きだった</li>\n<li>AmazonとStripeの案件は、AI企業がこれまで表に出にくかった資源——未学習データと資金の流れ——をどう取り込むかという点で共通する</li>\n<li>NvidiaとGroqの案件は対照的で、Nvidiaは自社チップの採用を確実にするためインフラへ資本を投じ、Groqは独自チップから他社製システムの運用へ軸足を移すことで生き残りを図っている</li>\n<li>Quantinuumの提携は、量子コンピュータが専用の研究施設からクラウドという一般的な計算基盤へ組み込まれつつあることを示しており、今日の他の4本とは異なる技術層の話だが、AIと同様に「インフラ化」という共通の方向性を持つ</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li>404 Media経由 TechCrunch「<a href=\"https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/\">Amazon, which started off selling books, is destroying rare texts to train AI</a>」（2026年8月17日）</li>\n<li>TechCrunch「<a href=\"https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/\">Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+</a>」（2026年8月16日）</li>\n<li>TechCrunch「<a href=\"https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/\">Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project</a>」（2026年8月17日）</li>\n<li>TechCrunch「<a href=\"https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/\">Groq raises $350M to fuel its pivot from AI chips to neocloud</a>」（2026年8月17日）</li>\n<li>Quantinuum「<a href=\"https://www.quantinuum.com/press-releases/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure\">Quantinuum and Oracle Partner to Accelerate Hybrid Quantum Compute Adoption on Oracle Cloud Infrastructure</a>」（2026年8月11日）</li>\n</ul>",
+        "markdownSource": "# 生成AIニュース（2026年8月18日）\n\n**キーワード:** Amazon稀少本破棄 / Stripe OpenRouter買収 / Nvidia SoftBankデータセンター投資 / Groqネオクラウド転換 / Quantinuum Oracle量子提携\n\n## オープニング：2026年8月18日 — 生成AIニュース\n\n- 2026年8月18日、火曜日の生成AIニュース\n- 今日はAmazonによる稀少本の破棄疑惑、Stripeによる70億ドル規模のOpenRouter買収、NvidiaのSoftBank系データセンターへの15億ドル投資、AIチップ企業Groqのネオクラウドへのピボット、そしてQuantinuumとOracleの量子コンピュータ提携という5本を扱う\n- 共通の問い: AI開発を支える「土台」——学習データ、資金の流れ、計算インフラ——で何が起きているか\n\n## Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に\n\n- 404 Mediaは2026年8月17日、稀少本にAirTagなどの追跡装置を仕込み、その本がラスベガスにあるAmazonの物流施設「VGT3」（恐竜が本を爪で掴むシンボルで識別される拠点）に到着したことを確認したと報じた\n- 書店業界では約1年前から、AI企業が稀少本を大量に買い集め、スキャン後に廃棄しているとの疑いが持たれていたが、これまで直接の証拠はなかった\n- Amazonは声明で「顧客が使用する製品やサービスを改善するため、商業チャネルを通じて書籍を購入している」と説明し、破棄そのものは否定していない\n- 対象となりやすいのは絶版本やインターネット上で入手困難な稀少本で、2022年以前に出版されたためAI生成テキストが混入していない「クリーンなデータ」とされる\n- 大規模言語モデルはインターネット上の主要なテキストを既に学習済みで新規データが枯渇しつつあり、AI生成テキストで再学習すると品質が劣化する「モデル崩壊」のリスクがあるため、稀少本のような未学習データの価値が上がっている\n- 追跡装置による今回の証拠は、書店業界の疑惑を裏付ける具体例の一つであり、Amazon以外の企業がどこまで同様の手法を取っているかは今回の報道の範囲では確認できていない\n\n## Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収\n\n- Bloombergの報道によると、決済大手Stripeは2026年8月16日までにAIゲートウェイ企業OpenRouterを70億ドル以上で買収する取引を確定させた\n- OpenRouterは、顧客がタスクごとに異なるAIモデルを選び分けられるプラットフォームで、単一のアクセスポイントから400以上のモデルを利用でき、特定ベンダーへのロックインを避けられる仕組みを提供している\n- 同社は2026年5月にシリーズBで1億1,300万ドルを調達したばかりで、当時の評価額は13億ドルだった。Sequoia、Andreessen Horowitz、Menlo Ventures、Alphabet傘下のCapitalGなどが投資家に名を連ねる\n- グローバルユーザー数は約800万人に達しており、今回の買収額はわずか3か月前の評価額の5倍を超える水準になる\n- OpenRouterのCEOはかねて自社を「AI向けのStripeに相当する」と表現しており、決済の仲介・統合で成長したStripeがAIモデルの仲介・統合という同型の事業に進出する狙いがうかがえる\n- 決済インフラ企業がAIモデル選択のインフラを取り込む動きは、AI関連の「配管」部分を巡る主要プレイヤーの布石争いが決済領域にも広がっていることを示している\n\n## Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占\n\n- Nvidiaは2026年8月17日、SoftBankとOpenAIが既存投資家であるSB Energyに15億ドルを投資し、加えて最大1,050億ドル規模のクレジットを提供すると発表した\n- この投資により、Nvidiaはオハイオ州シンシナティ近郊、旧米エネルギー省用地に建設されるデータセンター向けの「唯一の計算インフラ供給業者」になるとされ、当該施設はOpenAIプロジェクト向けとされている\n- データセンターの規模は初期段階で4.25ギガワット、将来的に最大8ギガワットまで拡張する計画で、電力供給のために92ギガワット規模の天然ガス発電所を建設費330億ドルで新設する\n- Nvidiaにとっては、自社チップが大型AI基盤施設に確実に採用される状態を作ることが狙いであり、GPU供給網の川下にあたるデータセンター事業への出資を通じて競争力を強化する動きになる\n- 電力インフラの規模から見ると、AI向け計算資源の拡張が半導体だけでなく発電設備の新設まで巻き込む段階に入っていることが分かる\n- 天然ガス発電所の稼働時期や環境面への影響については、今回の発表の範囲では示されていない\n\n## Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達\n\n- AI推論チップを手がけてきたGroqは2026年8月17日、3億5,000万ドルの資金調達を発表した。評価額は35億ドルで、2025年9月時点の69億ドルから大きく下がっている\n- 同社は「下方ラウンド」ではなく、2025年12月にNvidiaが創業者兼CEOのジョナサン・ロス氏と主要人材を約200億ドルのライセンス契約で獲得して以降の「新たな評価基準」だと説明している\n- 独自チップ「LPU（言語処理ユニット）」でNvidiaに対抗する路線から、Nvidia製システムを運用するクラウド・データセンター事業者、いわゆる「ネオクラウド」への転換を進めている\n- 2026年6月にも6億5,000万ドルを調達しており、現在は北米・欧州・中東・アジア太平洋の13拠点でデータセンターを運営し、600万以上の開発者・企業にサービスを提供している\n- 2027年には現在の54メガワットから200メガワット以上へ拡張する計画で、独自チップの開発企業から計算資源の提供企業へと事業の重心を移している\n- 主要人材の引き抜きを受けた路線転換であるため、独自LPU路線の技術的な位置づけが今後どう扱われるかは、今回の発表だけでは明らかになっていない\n\n## Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供\n\n- 量子コンピュータ企業Quantinuum（NASDAQ: QNT）は2026年8月11日、Oracleとの戦略的パートナーシップを発表し、同社の量子コンピュータ「Helios」をOracle Cloud Infrastructure（OCI）経由で提供すると発表した\n- Heliosは2025年11月に商業化されたQuantinuumの第3世代システムで、物理キュービット数は98個、48個の論理キュービットを使ったデモンストレーション実績を持つ\n- 2量子ビットゲートの忠実度は平均99.921%で、業界の「3ナイン」基準を上回る水準とされ、電力消費は約60キロワットとスーパーコンピュータの1%未満にとどまる\n- OCIの顧客はHeliosを、既存のクラウドインフラと同じガバナンス・アクセス制御の枠組みの中でHPCやGPU基盤と並べて利用できるようになる\n- Quantinuumは今後のロードマップとして、2027年に次世代機「Sol」、2029年に「Apollo」の投入を予定している\n- 調査会社IDCの量子研究リードは、プライベートクラウド環境での展開が既存のAI・HPCワークフローへの統合を容易にすると評価しており、量子コンピュータが専用施設の外へ出て一般のクラウド基盤に組み込まれる動きの一例になっている\n\n## まとめ\n\n- 今日の5本は、学習データ（Amazon）、AIモデル仲介の資本移動（Stripe）、計算インフラへの投資（Nvidia）、チップ企業の事業転換（Groq）、量子コンピュータのクラウド統合（Quantinuum）という、いずれもAIを支える「土台」に関わる動きだった\n- AmazonとStripeの案件は、AI企業がこれまで表に出にくかった資源——未学習データと資金の流れ——をどう取り込むかという点で共通する\n- NvidiaとGroqの案件は対照的で、Nvidiaは自社チップの採用を確実にするためインフラへ資本を投じ、Groqは独自チップから他社製システムの運用へ軸足を移すことで生き残りを図っている\n- Quantinuumの提携は、量子コンピュータが専用の研究施設からクラウドという一般的な計算基盤へ組み込まれつつあることを示しており、今日の他の4本とは異なる技術層の話だが、AIと同様に「インフラ化」という共通の方向性を持つ\n\n## 参考ソース\n\n- 404 Media経由 TechCrunch「[Amazon, which started off selling books, is destroying rare texts to train AI](https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/)」（2026年8月17日）\n- TechCrunch「[Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+](https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/)」（2026年8月16日）\n- TechCrunch「[Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project](https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/)」（2026年8月17日）\n- TechCrunch「[Groq raises $350M to fuel its pivot from AI chips to neocloud](https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/)」（2026年8月17日）\n- Quantinuum「[Quantinuum and Oracle Partner to Accelerate Hybrid Quantum Compute Adoption on Oracle Cloud Infrastructure](https://www.quantinuum.com/press-releases/quantinuum-and-oracle-partner-to-accelerate-hybrid-quantum-compute-adoption-on-oracle-cloud-infrastructure)」（2026年8月11日）\n",
+        "timeline": {
+          "version": 1,
+          "source": "tts_voicevox",
+          "fps": 30,
+          "totalFrames": 18428,
+          "audioDurationSec": 614.263333,
+          "cues": [
+            {
+              "speaker": "A",
+              "text": "2026年8月18日、火曜日の生成AIニュース番組を始めるのだ！",
+              "section": "オープニング：2026年8月18日 — 生成AIニュース",
+              "startFrame": 18,
+              "endFrame": 236
+            },
+            {
+              "speaker": "B",
+              "text": "今日は、Amazonの稀少本破棄疑惑、Stripeによる巨額買収、Nvidiaのデータセンター投資、Groqの事業転換、そして量子コンピュータの提携まで、5本を扱うわ。",
+              "section": "オープニング：2026年8月18日 — 生成AIニュース",
+              "startFrame": 244,
+              "endFrame": 662
+            },
+            {
+              "speaker": "A",
+              "text": "インフラ系が多いのだ？",
+              "section": "オープニング：2026年8月18日 — 生成AIニュース",
+              "startFrame": 670,
+              "endFrame": 733
+            },
+            {
+              "speaker": "B",
+              "text": "そう。学習データ、資金の流れ、計算インフラという、AIを支える「土台」で何が起きているかを見ていく回よ。",
+              "section": "オープニング：2026年8月18日 — 生成AIニュース",
+              "startFrame": 740,
+              "endFrame": 1027
+            },
+            {
+              "speaker": "A",
+              "text": "土台の話、なのだ。楽しみなのだ！",
+              "section": "オープニング：2026年8月18日 — 生成AIニュース",
+              "startFrame": 1034,
+              "endFrame": 1140
+            },
+            {
+              "speaker": "B",
+              "text": "まず1本目。404 Mediaが8月17日、稀少本にAirTagなどの追跡装置を仕込んで、その本の行き先を追跡したの。",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 1158,
+              "endFrame": 1524
+            },
+            {
+              "speaker": "A",
+              "text": "探偵みたいなのだ。どこに行ったのだ？",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 1532,
+              "endFrame": 1629
+            },
+            {
+              "speaker": "B",
+              "text": "ラスベガスにあるAmazonの物流施設「VGT3」よ。恐竜が本を爪で掴むシンボルで識別される拠点なの。",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 1637,
+              "endFrame": 1902
+            },
+            {
+              "speaker": "A",
+              "text": "恐竜が本を掴む……インパクトあるのだ。前から噂はあったのだ？",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 1910,
+              "endFrame": 2085
+            },
+            {
+              "speaker": "B",
+              "text": "ええ、書店業界では約1年前から、AI企業が稀少本を大量に買い集めてスキャン後に廃棄しているという疑いがあったの。でも直接の証拠はこれまでなかった。",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 2093,
+              "endFrame": 2459
+            },
+            {
+              "speaker": "A",
+              "text": "Amazonは何て言ってるのだ？",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 2466,
+              "endFrame": 2537
+            },
+            {
+              "speaker": "B",
+              "text": "「顧客が使用する製品やサービスを改善するため、商業チャネルを通じて書籍を購入している」と説明していて、破棄そのものは否定していないのよ。",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 2544,
+              "endFrame": 2858
+            },
+            {
+              "speaker": "A",
+              "text": "なんで稀少本が欲しいのだ？ネットに文章はたくさんあるのだ。",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 2865,
+              "endFrame": 3018
+            },
+            {
+              "speaker": "B",
+              "text": "それが理由なの。大規模言語モデルはインターネット上の主要なテキストをもう学習し尽くしていて、新しいデータが枯渇しつつあるわ。AI生成テキストで再学習すると品質が落ちる「モデル崩壊」のリスクもある。",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 3026,
+              "endFrame": 3483
+            },
+            {
+              "speaker": "A",
+              "text": "だから2022年より前の、AIが混ざってない「クリーンな」本が欲しいのだ？",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 3491,
+              "endFrame": 3713
+            },
+            {
+              "speaker": "B",
+              "text": "そのとおり。今回の証拠は書店業界の疑惑を裏付ける具体例の一つだけど、Amazon以外がどこまで同じ手法を取っているかは、今回の報道の範囲では分からないの。",
+              "section": "Amazon、稀少本をAI訓練のため破棄か——追跡装置が証拠に",
+              "startFrame": 3721,
+              "endFrame": 4071
+            },
+            {
+              "speaker": "A",
+              "text": "2本目は決済大手Stripeなのだ！",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 4089,
+              "endFrame": 4208
+            },
+            {
+              "speaker": "B",
+              "text": "Bloombergの報道によると、Stripeは8月16日までにAIゲートウェイ企業OpenRouterを70億ドル以上で買収する取引を確定させたの。",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 4215,
+              "endFrame": 4656
+            },
+            {
+              "speaker": "A",
+              "text": "OpenRouterって何をしてる会社なのだ？",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 4664,
+              "endFrame": 4815
+            },
+            {
+              "speaker": "B",
+              "text": "タスクごとに違うAIモデルを選び分けられるプラットフォームよ。単一のアクセスポイントから400以上のモデルを使えて、特定ベンダーへのロックインを避けられるの。",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 4822,
+              "endFrame": 5149
+            },
+            {
+              "speaker": "A",
+              "text": "便利なのだ。でも70億ドルって高くないのだ？",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 5156,
+              "endFrame": 5282
+            },
+            {
+              "speaker": "B",
+              "text": "OpenRouterは今年5月にシリーズBで1億1,300万ドルを調達したばかりで、当時の評価額は13億ドルだったの。",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 5290,
+              "endFrame": 5600
+            },
+            {
+              "speaker": "A",
+              "text": "たった3か月で5倍以上なのだ！？",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 5607,
+              "endFrame": 5694
+            },
+            {
+              "speaker": "B",
+              "text": "そうなのよ。投資家にはSequoia、Andreessen Horowitz、Menlo Ventures、AlphabetのCapitalGなどが名を連ねているわ。",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 5701,
+              "endFrame": 6294
+            },
+            {
+              "speaker": "B",
+              "text": "ユーザー数は世界で約800万人に達しているの。",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 6301,
+              "endFrame": 6408
+            },
+            {
+              "speaker": "A",
+              "text": "なんでStripeがAIの仲介会社を買うのだ？",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 6416,
+              "endFrame": 6564
+            },
+            {
+              "speaker": "B",
+              "text": "OpenRouterのCEOはかねて自社を「AI向けのStripeに相当する」と表現していたの。決済の仲介で成長したStripeが、AIモデル仲介という同じ形の事業に進出する狙いね。",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 6572,
+              "endFrame": 7108
+            },
+            {
+              "speaker": "A",
+              "text": "決済とAIモデル、確かに似た構造なのだ。",
+              "section": "Stripe、AIモデル仲介のOpenRouterを70億ドル超で買収",
+              "startFrame": 7115,
+              "endFrame": 7239
+            },
+            {
+              "speaker": "B",
+              "text": "3本目はNvidia。8月17日、SoftBankとOpenAIが既存投資家のSB Energyに15億ドルを投資すると発表したの。さらに最大1,050億ドル規模のクレジットも提供するわ。",
+              "section": "Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占",
+              "startFrame": 7257,
+              "endFrame": 7761
+            },
+            {
+              "speaker": "A",
+              "text": "1,050億ドル、桁が大きすぎるのだ。何のためなのだ？",
+              "section": "Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占",
+              "startFrame": 7768,
+              "endFrame": 7922
+            },
+            {
+              "speaker": "B",
+              "text": "オハイオ州シンシナティ近郊、旧米エネルギー省用地に建つデータセンター向けよ。この施設はOpenAIプロジェクト向けとされていて、Nvidiaはここの「唯一の計算インフラ供給業者」になるの。",
+              "section": "Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占",
+              "startFrame": 7930,
+              "endFrame": 8369
+            },
+            {
+              "speaker": "A",
+              "text": "独占供給なのだ。データセンターってどのくらい大きいのだ？",
+              "section": "Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占",
+              "startFrame": 8376,
+              "endFrame": 8528
+            },
+            {
+              "speaker": "B",
+              "text": "初期段階で4.25ギガワット、将来は最大8ギガワットまで拡張する計画よ。電力供給のために92ギガワット規模の天然ガス発電所を建設費330億ドルで新設するの。",
+              "section": "Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占",
+              "startFrame": 8536,
+              "endFrame": 8963
+            },
+            {
+              "speaker": "A",
+              "text": "発電所まで新設するのだ！？もうAIの話じゃなくてエネルギーの話なのだ。",
+              "section": "Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占",
+              "startFrame": 8971,
+              "endFrame": 9160
+            },
+            {
+              "speaker": "B",
+              "text": "そう、AI向け計算資源の拡張が、半導体だけでなく発電設備の新設まで巻き込む段階に入っているのよ。Nvidiaにとっては自社チップの採用を確実にする狙いね。",
+              "section": "Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占",
+              "startFrame": 9167,
+              "endFrame": 9549
+            },
+            {
+              "speaker": "A",
+              "text": "天然ガス発電所って、環境への影響とか大丈夫なのだ？",
+              "section": "Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占",
+              "startFrame": 9557,
+              "endFrame": 9717
+            },
+            {
+              "speaker": "B",
+              "text": "稼働時期や環境面への影響については、今回の発表の範囲では示されていないの。",
+              "section": "Nvidia、SoftBank系データセンターへ15億ドル投資——OpenAIプロジェクトの計算基盤を独占",
+              "startFrame": 9725,
+              "endFrame": 9908
+            },
+            {
+              "speaker": "A",
+              "text": "4本目はGroqなのだ！AIチップの会社なのだ？",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 9926,
+              "endFrame": 10063
+            },
+            {
+              "speaker": "B",
+              "text": "そうだったの。でも8月17日、3億5,000万ドルの資金調達を発表して、評価額は35億ドル。実は2025年9月時点の69億ドルから大きく下がっているのよ。",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 10070,
+              "endFrame": 10488
+            },
+            {
+              "speaker": "A",
+              "text": "評価額が半分になったのだ？大丈夫なのだ？",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 10495,
+              "endFrame": 10622
+            },
+            {
+              "speaker": "B",
+              "text": "Groq自身は「下方ラウンド」ではなく、2025年12月以降の「新たな評価基準」だと説明しているわ。",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 10630,
+              "endFrame": 10909
+            },
+            {
+              "speaker": "B",
+              "text": "実はその月、Nvidiaが創業者兼CEOのジョナサン・ロス氏と主要人材を約200億ドルのライセンス契約で獲得したの。",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 10917,
+              "endFrame": 11197
+            },
+            {
+              "speaker": "A",
+              "text": "え、CEOごとNvidiaに引き抜かれたのだ！？",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 11204,
+              "endFrame": 11337
+            },
+            {
+              "speaker": "B",
+              "text": "ライセンス契約という形だけど、実質的にそれに近いわね。",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 11344,
+              "endFrame": 11482
+            },
+            {
+              "speaker": "B",
+              "text": "以来Groqは、独自チップ「LPU」でNvidiaに対抗する路線から、Nvidia製システムを運用するクラウド事業者、いわゆる「ネオクラウド」への転換を進めているの。",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 11489,
+              "endFrame": 11896
+            },
+            {
+              "speaker": "A",
+              "text": "対抗してた相手のシステムを運用する側になったのだ。",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 11903,
+              "endFrame": 12032
+            },
+            {
+              "speaker": "B",
+              "text": "現在は北米・欧州・中東・アジア太平洋の13拠点でデータセンターを運営していて、600万以上の開発者・企業にサービスを提供している。",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 12039,
+              "endFrame": 12401
+            },
+            {
+              "speaker": "B",
+              "text": "2027年には現在の54メガワットから200メガワット以上へ拡張する計画よ。",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 12409,
+              "endFrame": 12600
+            },
+            {
+              "speaker": "A",
+              "text": "チップを作る会社から、計算資源を貸す会社になったのだ。",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 12608,
+              "endFrame": 12755
+            },
+            {
+              "speaker": "B",
+              "text": "独自LPU路線が今後どう扱われるかは、今回の発表だけでは分からないところね。",
+              "section": "Groq、AIチップ企業からネオクラウドへ——3億5,000万ドル調達",
+              "startFrame": 12763,
+              "endFrame": 12950
+            },
+            {
+              "speaker": "B",
+              "text": "最後は量子コンピュータ。Quantinuumが8月11日、Oracleとの戦略的パートナーシップを発表したの。",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 12968,
+              "endFrame": 13234
+            },
+            {
+              "speaker": "B",
+              "text": "量子コンピュータ「Helios」をOracle Cloud Infrastructure経由で提供することになったのよ。",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 13242,
+              "endFrame": 13626
+            },
+            {
+              "speaker": "A",
+              "text": "Heliosってどんな量子コンピュータなのだ？",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 13634,
+              "endFrame": 13760
+            },
+            {
+              "speaker": "B",
+              "text": "2025年11月に商業化された第3世代システムよ。物理キュービット数は98個で、48個の論理キュービットを使ったデモンストレーション実績を持っているの。",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 13768,
+              "endFrame": 14138
+            },
+            {
+              "speaker": "A",
+              "text": "性能はどうなのだ？",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 14146,
+              "endFrame": 14202
+            },
+            {
+              "speaker": "B",
+              "text": "2量子ビットゲートの忠実度は平均99.921%で、業界の「3ナイン」基準を上回る水準。電力消費は約60キロワットで、スーパーコンピュータの1%未満に収まっているわ。",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 14210,
+              "endFrame": 14685
+            },
+            {
+              "speaker": "A",
+              "text": "省エネなのだ！クラウド経由だと何が変わるのだ？",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 14692,
+              "endFrame": 14818
+            },
+            {
+              "speaker": "B",
+              "text": "OCIの顧客は、既存のクラウドインフラと同じガバナンス・アクセス制御の枠組みの中で、HPCやGPU基盤と並べてHeliosを使えるようになるの。",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 14825,
+              "endFrame": 15195
+            },
+            {
+              "speaker": "A",
+              "text": "専用の研究施設に行かなくても使えるのだ。今後の予定はあるのだ？",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 15203,
+              "endFrame": 15380
+            },
+            {
+              "speaker": "B",
+              "text": "Quantinuumは2027年に次世代機「Sol」、2029年に「Apollo」の投入を予定しているわ。",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 15388,
+              "endFrame": 15685
+            },
+            {
+              "speaker": "B",
+              "text": "IDCの量子研究リードは、プライベートクラウドでの展開が既存のAI・HPCワークフローへの統合を容易にすると評価しているの。",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 15692,
+              "endFrame": 15980
+            },
+            {
+              "speaker": "A",
+              "text": "量子コンピュータも、だんだん普通のクラウドの一部になっていくのだ。",
+              "section": "Quantinuum、Oracleと量子コンピュータ提携——クラウド経由でHeliosを提供",
+              "startFrame": 15987,
+              "endFrame": 16139
+            },
+            {
+              "speaker": "B",
+              "text": "今日の5本は、学習データ、資金の流れ、計算インフラ、チップ企業の事業転換、量子コンピュータのクラウド統合と、いずれもAIを支える「土台」に関わる話だったわ。",
+              "section": "まとめ",
+              "startFrame": 16157,
+              "endFrame": 16570
+            },
+            {
+              "speaker": "A",
+              "text": "AmazonとStripeは、データとお金の話なのだ。",
+              "section": "まとめ",
+              "startFrame": 16577,
+              "endFrame": 16732
+            },
+            {
+              "speaker": "B",
+              "text": "そう、これまで表に出にくかった資源——未学習データと資金の流れ——をAI企業がどう取り込むかという点で共通しているの。",
+              "section": "まとめ",
+              "startFrame": 16740,
+              "endFrame": 17015
+            },
+            {
+              "speaker": "A",
+              "text": "NvidiaとGroqは対照的だったのだ。",
+              "section": "まとめ",
+              "startFrame": 17022,
+              "endFrame": 17119
+            },
+            {
+              "speaker": "B",
+              "text": "ええ、Nvidiaは自社チップの採用を確実にするためインフラへ資本を投じて、Groqは独自チップから他社製システムの運用へ軸足を移すことで生き残りを図っている。",
+              "section": "まとめ",
+              "startFrame": 17127,
+              "endFrame": 17491
+            },
+            {
+              "speaker": "B",
+              "text": "同じ計算資源の話でも、立ち位置が真逆なのよ。",
+              "section": "まとめ",
+              "startFrame": 17499,
+              "endFrame": 17615
+            },
+            {
+              "speaker": "A",
+              "text": "Quantinuumだけ量子コンピュータで毛色が違ったのだ。",
+              "section": "まとめ",
+              "startFrame": 17623,
+              "endFrame": 17744
+            },
+            {
+              "speaker": "B",
+              "text": "でも方向性は同じ。専用の研究施設から、クラウドという一般的な計算基盤へ組み込まれていく「インフラ化」という流れは、AIとも共通しているの。",
+              "section": "まとめ",
+              "startFrame": 17752,
+              "endFrame": 18112
+            },
+            {
+              "speaker": "A",
+              "text": "今日はここまでなのだ！聞いてくれてありがとうなのだ、また明日なのだ！",
+              "section": "まとめ",
+              "startFrame": 18120,
+              "endFrame": 18282
+            },
+            {
+              "speaker": "B",
+              "text": "お相手はずんだもんと四国めたんでした。また次回、お楽しみに。",
+              "section": "まとめ",
+              "startFrame": 18290,
+              "endFrame": 18428
+            }
+          ]
+        }
+      },
+      {
+        "mode": "security",
+        "label": "セキュリティニュース",
+        "iaId": "news-pickup-2026-08-18-security",
+        "title": "ポケモンセンター漏洩とSnowflake恐喝犯有罪答弁【2026/08/18】",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-08-18-security/security_yukkuri.m4a",
+        "markdown": "<h1>セキュリティニュース（2026年8月18日）</h1>\n<p><strong>キーワード:</strong> ポケモンセンター漏洩 / Snowflake恐喝犯有罪答弁 / フランス税務当局漏洩 / GitLab致命的脆弱性 / ShieldBreakゼロデイ / Unisoc VoLTE / キッズ用スマートウォッチ</p>\n<h2>オープニング：2026年8月18日 — セキュリティニュース</h2>\n<p>本日は、任天堂系ブランド「ポケモンセンター」の委託先物流企業経由の情報漏洩、SnowflakeをめぐるAT&amp;T顧客1億件超の窃取事件でカナダ人の男が有罪を認めた件、フランス税務当局から67万8千人分のデータが盗まれた件、開発プラットフォームGitLabのCVSS9.4の致命的脆弱性、マイクロソフトが対応中のDefenderゼロデイ「ShieldBreak」、スマートフォン用チップメーカーUnisocのモデムを狙う修正未定の攻撃連鎖、そして子ども向けスマートウォッチの追跡・盗聴実験という7件を扱う。大企業・政府機関からの情報流出と、身近な製品の脆弱性が同時に並ぶ一日だった。</p>\n<h2>ポケモンセンター、委託先物流企業経由で英独顧客の情報が流出</h2>\n<ul>\n<li>任天堂系の公式グッズ販売サイト「ポケモンセンター」が、英国とドイツの顧客に対し第三者経由のデータ漏洩を通知した。委託先の物流企業CEVA Logisticsのシステムから、顧客の個人情報と注文情報が盗まれたという。</li>\n<li>漏洩を受けて一部の注文がキャンセルされたことも明らかになっている。ポケモンセンター自体のシステムが直接破られたのではなく、配送を担う外部の物流業者が侵入経路になった点が特徴。</li>\n<li>「つまりどういうこと？」と言えば、自社のセキュリティを固めても、荷物を運ぶ委託先の防御が甘ければ個人情報は漏れるということ。英国・ドイツで最近ポケモンセンターに注文した人は、届いた通知メールを確認し、心当たりのない請求がないかカード明細もチェックした方がよい。</li>\n</ul>\n<h2>Snowflake恐喝事件、カナダ人男性が有罪を認める AT&amp;T顧客1億人超のデータ窃取も認める</h2>\n<ul>\n<li>2024年に「最も影響の大きいサイバー犯罪者の一人」と評されたカナダ人男性コナー・ライリー・ムッカ容疑者（26、オンタリオ州キッチナー在住）が、クラウドデータ基盤Snowflakeを利用していた165以上の組織を不正アクセス・恐喝した罪などで有罪を認めた。</li>\n<li>同容疑者はあわせて、通信大手AT&amp;Tの顧客1億人以上の通話・メッセージ履歴を盗んだことも認めている。Snowflakeという一つのクラウド基盤を踏み台に、多数の企業から連鎖的にデータを盗み出す手口だった。</li>\n<li>「一つのクラウドサービスが破られると、それを使う何百もの企業に被害が波及する」という、2024年当時から指摘されてきたサプライチェーン型攻撃の構図が、今回の司法手続きで改めて公式に確定した形になる。今後の量刑と、企業側のクラウド認証情報管理の見直しが焦点になる。</li>\n</ul>\n<h2>フランス税務当局から67万8千人分のデータが流出</h2>\n<ul>\n<li>フランス経済・財務省が、税務を担当する国税総局（DGFiP）のシステムに攻撃者が侵入し、67万8千人分のデータが盗まれたと発表した。</li>\n<li>税務当局のデータには納税者の個人情報や所得に関する情報が含まれるとみられ、政府機関という機微な組織が狙われた事例になる。</li>\n<li>「なぜ税務当局が狙われるのか」といえば、氏名・住所・所得といった質の高い個人情報がまとまって保管されているため、なりすましや標的型詐欺に悪用しやすいから。対象になった納税者への詳しい通知や、今後の不審な連絡への注意喚起が課題になる。</li>\n</ul>\n<h2>GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能</h2>\n<ul>\n<li>開発プラットフォームGitLabが、コミュニティ版・エンタープライズ版の両方に影響する致命的な脆弱性（CVE-2026-19478、CVSS9.4）を修正する更新を公開した。特定の条件下では、ログインしていない攻撃者でも公開プロジェクトやユーザーデータを遠隔から改ざん・削除できる状態だった。</li>\n<li>GraphQLと呼ばれるデータ取得の仕組みに起因する不具合で、GitLabはこの脆弱性を最も深刻な「Critical」に分類している。</li>\n<li>「つまりどういうこと？」と言えば、ログインすらしていない第三者が、企業や開発者が公開しているソースコードのプロジェクトを勝手に消せてしまう可能性があったということ。GitLabのセルフホスト版を運用する企業は、更新の適用状況を優先度高く確認する必要がある。</li>\n</ul>\n<h2>マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中</h2>\n<ul>\n<li>セキュリティ研究者「Nightmare Eclipse」が先週公表したWindows Defenderのゼロデイ脆弱性「ShieldBreak」（CVE-2026-69414）について、マイクロソフトが修正パッチを準備中であることを明らかにした。</li>\n<li>現時点では正式な修正プログラムは公開されておらず、対応は継続中の段階にある。</li>\n<li>「パッチが出るまで何もできないのだ？」という状態そのものが、ゼロデイ対応の難しさを示している。Windows Defenderは多くの家庭用・企業用パソコンで標準的に使われているセキュリティソフトのため、修正が公開され次第、速やかな適用が必要になる。</li>\n</ul>\n<h2>スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず</h2>\n<ul>\n<li>セキュリティ研究組織SSD Secure Disclosureが、通信用チップメーカーUnisocのモデムを搭載する端末で、ビデオ通話規格「VoLTE」を使ったビデオ通話一本で、Androidの中核部分（カーネル）まで完全に乗っ取れる二段階の攻撃手法を公開した。チップメーカー側からの修正はまだ提供されていない。</li>\n<li>今回の手法は、2026年3月にSSDが公表したリモートコード実行の脆弱性の続き（第2段階）にあたり、複数月にわたって段階的に攻撃連鎖が明らかにされてきた経緯がある。</li>\n<li>「ビデオ通話を受けるだけで乗っ取られるのだ！？」という点が最大の懸念で、利用者側の操作ミスがなくても被害が成立しうる。Unisoc製モデムを搭載したスマートフォンの利用者は、メーカーからの修正提供状況を注視する必要がある。</li>\n</ul>\n<h2>子ども向けスマートウォッチをハッキング、位置追跡・盗聴が可能に</h2>\n<ul>\n<li>米WIREDの記者が、子ども向けのピンク色のプラスチック製スマートウォッチに存在する脆弱性を通じて、セキュリティ研究者に位置を追跡され、会話を盗聴される実験を受けた。</li>\n<li>WIREDは、この問題が特定の一製品だけでなく、GPS機能を搭載した子ども向けガジェット全般に共通する、脆弱なサプライチェーンの一部にすぎないと報じている。</li>\n<li>「子どもの安全のために買った製品が、逆に子どもを危険にさらす」という皮肉な構図。安価なGPS内蔵の子ども向け見守り製品を使っている家庭は、メーカーの実在性やセキュリティ対応の実績を確認することが対策になる。</li>\n</ul>\n<h2>まとめ</h2>\n<p>大企業・政府機関を巻き込む情報漏洩系のニュース（ポケモンセンター、Snowflake関連の有罪答弁、フランス税務当局）と、開発基盤・OS・通信チップ・子ども向けガジェットという幅広い製品層の脆弱性（GitLab、ShieldBreak、Unisoc、キッズ用スマートウォッチ）が同時に並んだ一日だった。委託先経由の漏洩や、通話・ビデオ通話を受けただけで被害が成立する攻撃連鎖は、利用者自身の注意だけでは防ぎきれない領域が広がっていることを示している。</p>\n<h2>参考ソース</h2>\n<ul>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/\">Bleeping Computer: Pokémon Center data breach exposes customer info, cancels some orders</a></li>\n<li><a href=\"https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/\">Krebs on Security: Canadian Man Pleads Guilty in Snowflake Extortions</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/\">Bleeping Computer: French tax authority data breach affects 678,000 individuals</a></li>\n<li><a href=\"https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html\">The Hacker News: Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/\">Bleeping Computer: Microsoft working on Defender patch for ShieldBreak zero-day</a></li>\n<li><a href=\"https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html\">The Hacker News: Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access</a></li>\n<li><a href=\"https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/\">WIRED: Hackers Stalked Me by Hijacking a Smartwatch for Kids</a></li>\n</ul>",
+        "markdownSource": "# セキュリティニュース（2026年8月18日）\n\n**キーワード:** ポケモンセンター漏洩 / Snowflake恐喝犯有罪答弁 / フランス税務当局漏洩 / GitLab致命的脆弱性 / ShieldBreakゼロデイ / Unisoc VoLTE / キッズ用スマートウォッチ\n\n## オープニング：2026年8月18日 — セキュリティニュース\n\n本日は、任天堂系ブランド「ポケモンセンター」の委託先物流企業経由の情報漏洩、SnowflakeをめぐるAT&T顧客1億件超の窃取事件でカナダ人の男が有罪を認めた件、フランス税務当局から67万8千人分のデータが盗まれた件、開発プラットフォームGitLabのCVSS9.4の致命的脆弱性、マイクロソフトが対応中のDefenderゼロデイ「ShieldBreak」、スマートフォン用チップメーカーUnisocのモデムを狙う修正未定の攻撃連鎖、そして子ども向けスマートウォッチの追跡・盗聴実験という7件を扱う。大企業・政府機関からの情報流出と、身近な製品の脆弱性が同時に並ぶ一日だった。\n\n## ポケモンセンター、委託先物流企業経由で英独顧客の情報が流出\n\n- 任天堂系の公式グッズ販売サイト「ポケモンセンター」が、英国とドイツの顧客に対し第三者経由のデータ漏洩を通知した。委託先の物流企業CEVA Logisticsのシステムから、顧客の個人情報と注文情報が盗まれたという。\n- 漏洩を受けて一部の注文がキャンセルされたことも明らかになっている。ポケモンセンター自体のシステムが直接破られたのではなく、配送を担う外部の物流業者が侵入経路になった点が特徴。\n- 「つまりどういうこと？」と言えば、自社のセキュリティを固めても、荷物を運ぶ委託先の防御が甘ければ個人情報は漏れるということ。英国・ドイツで最近ポケモンセンターに注文した人は、届いた通知メールを確認し、心当たりのない請求がないかカード明細もチェックした方がよい。\n\n## Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める\n\n- 2024年に「最も影響の大きいサイバー犯罪者の一人」と評されたカナダ人男性コナー・ライリー・ムッカ容疑者（26、オンタリオ州キッチナー在住）が、クラウドデータ基盤Snowflakeを利用していた165以上の組織を不正アクセス・恐喝した罪などで有罪を認めた。\n- 同容疑者はあわせて、通信大手AT&Tの顧客1億人以上の通話・メッセージ履歴を盗んだことも認めている。Snowflakeという一つのクラウド基盤を踏み台に、多数の企業から連鎖的にデータを盗み出す手口だった。\n- 「一つのクラウドサービスが破られると、それを使う何百もの企業に被害が波及する」という、2024年当時から指摘されてきたサプライチェーン型攻撃の構図が、今回の司法手続きで改めて公式に確定した形になる。今後の量刑と、企業側のクラウド認証情報管理の見直しが焦点になる。\n\n## フランス税務当局から67万8千人分のデータが流出\n\n- フランス経済・財務省が、税務を担当する国税総局（DGFiP）のシステムに攻撃者が侵入し、67万8千人分のデータが盗まれたと発表した。\n- 税務当局のデータには納税者の個人情報や所得に関する情報が含まれるとみられ、政府機関という機微な組織が狙われた事例になる。\n- 「なぜ税務当局が狙われるのか」といえば、氏名・住所・所得といった質の高い個人情報がまとまって保管されているため、なりすましや標的型詐欺に悪用しやすいから。対象になった納税者への詳しい通知や、今後の不審な連絡への注意喚起が課題になる。\n\n## GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能\n\n- 開発プラットフォームGitLabが、コミュニティ版・エンタープライズ版の両方に影響する致命的な脆弱性（CVE-2026-19478、CVSS9.4）を修正する更新を公開した。特定の条件下では、ログインしていない攻撃者でも公開プロジェクトやユーザーデータを遠隔から改ざん・削除できる状態だった。\n- GraphQLと呼ばれるデータ取得の仕組みに起因する不具合で、GitLabはこの脆弱性を最も深刻な「Critical」に分類している。\n- 「つまりどういうこと？」と言えば、ログインすらしていない第三者が、企業や開発者が公開しているソースコードのプロジェクトを勝手に消せてしまう可能性があったということ。GitLabのセルフホスト版を運用する企業は、更新の適用状況を優先度高く確認する必要がある。\n\n## マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中\n\n- セキュリティ研究者「Nightmare Eclipse」が先週公表したWindows Defenderのゼロデイ脆弱性「ShieldBreak」（CVE-2026-69414）について、マイクロソフトが修正パッチを準備中であることを明らかにした。\n- 現時点では正式な修正プログラムは公開されておらず、対応は継続中の段階にある。\n- 「パッチが出るまで何もできないのだ？」という状態そのものが、ゼロデイ対応の難しさを示している。Windows Defenderは多くの家庭用・企業用パソコンで標準的に使われているセキュリティソフトのため、修正が公開され次第、速やかな適用が必要になる。\n\n## スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず\n\n- セキュリティ研究組織SSD Secure Disclosureが、通信用チップメーカーUnisocのモデムを搭載する端末で、ビデオ通話規格「VoLTE」を使ったビデオ通話一本で、Androidの中核部分（カーネル）まで完全に乗っ取れる二段階の攻撃手法を公開した。チップメーカー側からの修正はまだ提供されていない。\n- 今回の手法は、2026年3月にSSDが公表したリモートコード実行の脆弱性の続き（第2段階）にあたり、複数月にわたって段階的に攻撃連鎖が明らかにされてきた経緯がある。\n- 「ビデオ通話を受けるだけで乗っ取られるのだ！？」という点が最大の懸念で、利用者側の操作ミスがなくても被害が成立しうる。Unisoc製モデムを搭載したスマートフォンの利用者は、メーカーからの修正提供状況を注視する必要がある。\n\n## 子ども向けスマートウォッチをハッキング、位置追跡・盗聴が可能に\n\n- 米WIREDの記者が、子ども向けのピンク色のプラスチック製スマートウォッチに存在する脆弱性を通じて、セキュリティ研究者に位置を追跡され、会話を盗聴される実験を受けた。\n- WIREDは、この問題が特定の一製品だけでなく、GPS機能を搭載した子ども向けガジェット全般に共通する、脆弱なサプライチェーンの一部にすぎないと報じている。\n- 「子どもの安全のために買った製品が、逆に子どもを危険にさらす」という皮肉な構図。安価なGPS内蔵の子ども向け見守り製品を使っている家庭は、メーカーの実在性やセキュリティ対応の実績を確認することが対策になる。\n\n## まとめ\n\n大企業・政府機関を巻き込む情報漏洩系のニュース（ポケモンセンター、Snowflake関連の有罪答弁、フランス税務当局）と、開発基盤・OS・通信チップ・子ども向けガジェットという幅広い製品層の脆弱性（GitLab、ShieldBreak、Unisoc、キッズ用スマートウォッチ）が同時に並んだ一日だった。委託先経由の漏洩や、通話・ビデオ通話を受けただけで被害が成立する攻撃連鎖は、利用者自身の注意だけでは防ぎきれない領域が広がっていることを示している。\n\n## 参考ソース\n\n- [Bleeping Computer: Pokémon Center data breach exposes customer info, cancels some orders](https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/)\n- [Krebs on Security: Canadian Man Pleads Guilty in Snowflake Extortions](https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/)\n- [Bleeping Computer: French tax authority data breach affects 678,000 individuals](https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/)\n- [The Hacker News: Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects](https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html)\n- [Bleeping Computer: Microsoft working on Defender patch for ShieldBreak zero-day](https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/)\n- [The Hacker News: Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access](https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html)\n- [WIRED: Hackers Stalked Me by Hijacking a Smartwatch for Kids](https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/)\n",
+        "timeline": {
+          "version": 1,
+          "source": "tts_voicevox",
+          "fps": 30,
+          "totalFrames": 20938,
+          "audioDurationSec": 697.918,
+          "cues": [
+            {
+              "speaker": "A",
+              "text": "2026年8月18日のセキュリティニュース、始めるのだ！",
+              "section": "オープニング：2026年8月18日 — セキュリティニュース",
+              "startFrame": 18,
+              "endFrame": 185
+            },
+            {
+              "speaker": "B",
+              "text": "今日は大企業・政府機関からの情報流出と、身近な製品の脆弱性が同時に目立つ日ね。",
+              "section": "オープニング：2026年8月18日 — セキュリティニュース",
+              "startFrame": 193,
+              "endFrame": 412
+            },
+            {
+              "speaker": "A",
+              "text": "たとえばどんなのだ？",
+              "section": "オープニング：2026年8月18日 — セキュリティニュース",
+              "startFrame": 420,
+              "endFrame": 472
+            },
+            {
+              "speaker": "B",
+              "text": "ポケモンセンターの委託先経由の漏洩、Snowflakeの恐喝事件でカナダ人の男が有罪を認めた件、フランス税務当局から67万8千人分のデータが盗まれた件の3本。",
+              "section": "オープニング：2026年8月18日 — セキュリティニュース",
+              "startFrame": 479,
+              "endFrame": 925
+            },
+            {
+              "speaker": "B",
+              "text": "加えて開発基盤GitLabの致命的脆弱性、マイクロソフトDefenderのゼロデイ、スマホ用チップUnisocの攻撃連鎖、子ども向けスマートウォッチの追跡実験で合計7本あるの。",
+              "section": "オープニング：2026年8月18日 — セキュリティニュース",
+              "startFrame": 933,
+              "endFrame": 1395
+            },
+            {
+              "speaker": "A",
+              "text": "今日も内容盛りだくさんで、ついていくのが大変そうなのだ！",
+              "section": "オープニング：2026年8月18日 — セキュリティニュース",
+              "startFrame": 1402,
+              "endFrame": 1544
+            },
+            {
+              "speaker": "B",
+              "text": "委託先や部品を経由した被害が多いのが今日の特徴ね。自社だけ守っても防げない話が並んでるわ。",
+              "section": "オープニング：2026年8月18日 — セキュリティニュース",
+              "startFrame": 1552,
+              "endFrame": 1770
+            },
+            {
+              "speaker": "A",
+              "text": "個人でできる対策もあるのだ？",
+              "section": "オープニング：2026年8月18日 — セキュリティニュース",
+              "startFrame": 1777,
+              "endFrame": 1856
+            },
+            {
+              "speaker": "B",
+              "text": "もちろん。通知メールの確認やパッチ適用みたいな基本的なことばかりだけど、それぞれのニュースで具体的に触れていくわね。",
+              "section": "オープニング：2026年8月18日 — セキュリティニュース",
+              "startFrame": 1864,
+              "endFrame": 2120
+            },
+            {
+              "speaker": "A",
+              "text": "それじゃあ、一つずつ順番に見ていくのだ！",
+              "section": "オープニング：2026年8月18日 — セキュリティニュース",
+              "startFrame": 2128,
+              "endFrame": 2232
+            },
+            {
+              "speaker": "A",
+              "text": "ポケモン好きの子どもも多いのに、そのポケモンセンターから情報が漏れたのだ！？",
+              "section": "ポケモンセンター、委託先物流企業経由で英独顧客の情報が流出",
+              "startFrame": 2250,
+              "endFrame": 2429
+            },
+            {
+              "speaker": "B",
+              "text": "そう、英国とドイツの顧客に対して第三者経由のデータ漏洩を通知したの。委託先の物流企業CEVA Logisticsのシステムから、個人情報と注文情報が盗まれたのよ。",
+              "section": "ポケモンセンター、委託先物流企業経由で英独顧客の情報が流出",
+              "startFrame": 2436,
+              "endFrame": 2894
+            },
+            {
+              "speaker": "A",
+              "text": "じゃあポケモンセンター自体のサイトやシステムが破られたわけじゃないのだ？",
+              "section": "ポケモンセンター、委託先物流企業経由で英独顧客の情報が流出",
+              "startFrame": 2902,
+              "endFrame": 3058
+            },
+            {
+              "speaker": "B",
+              "text": "違うわ。荷物を運ぶ配送業者のシステムが侵入経路になったの。実際、漏洩を受けて一部の注文がキャンセルされたことも分かってる。",
+              "section": "ポケモンセンター、委託先物流企業経由で英独顧客の情報が流出",
+              "startFrame": 3066,
+              "endFrame": 3367
+            },
+            {
+              "speaker": "A",
+              "text": "配送業者を経由するだけで、こんな被害が出るなんて、つまりどういうことなのだ？",
+              "section": "ポケモンセンター、委託先物流企業経由で英独顧客の情報が流出",
+              "startFrame": 3374,
+              "endFrame": 3575
+            },
+            {
+              "speaker": "B",
+              "text": "自社のセキュリティをどれだけ固めても、荷物を運ぶ委託先の防御が甘ければ個人情報は漏れるということよ。",
+              "section": "ポケモンセンター、委託先物流企業経由で英独顧客の情報が流出",
+              "startFrame": 3583,
+              "endFrame": 3802
+            },
+            {
+              "speaker": "A",
+              "text": "英国やドイツで最近ポケモングッズを買い物した人はどうすればいいのだ？",
+              "section": "ポケモンセンター、委託先物流企業経由で英独顧客の情報が流出",
+              "startFrame": 3810,
+              "endFrame": 3980
+            },
+            {
+              "speaker": "B",
+              "text": "英国やドイツで最近注文した人は、届いた通知メールを確認して、心当たりのない請求がないかカード明細もチェックした方がいいわね。",
+              "section": "ポケモンセンター、委託先物流企業経由で英独顧客の情報が流出",
+              "startFrame": 3988,
+              "endFrame": 4278
+            },
+            {
+              "speaker": "A",
+              "text": "Snowflakeの事件、以前も話題になった気がするけど犯人が捕まったのだ？",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 4296,
+              "endFrame": 4540
+            },
+            {
+              "speaker": "B",
+              "text": "正確には有罪を認めたの。2024年に「最も影響の大きいサイバー犯罪者の一人」と評されたカナダ人の男、コナー・ライリー・ムッカ容疑者よ。",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 4548,
+              "endFrame": 4893
+            },
+            {
+              "speaker": "B",
+              "text": "Snowflakeを利用していた165以上の組織を不正アクセス・恐喝した罪などを認めたの。",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 4901,
+              "endFrame": 5154
+            },
+            {
+              "speaker": "A",
+              "text": "165組織を一人で恐喝するなんて、規模が大きいのだ！",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 5162,
+              "endFrame": 5322
+            },
+            {
+              "speaker": "B",
+              "text": "しかもそれだけじゃないの。通信大手AT&Tの顧客1億人以上の通話・メッセージ履歴を盗んだことも、あわせて認めているわ。",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 5329,
+              "endFrame": 5624
+            },
+            {
+              "speaker": "A",
+              "text": "AT&Tだけでも1億人分って、一人でそんなに盗めるものなのだ？",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 5631,
+              "endFrame": 5818
+            },
+            {
+              "speaker": "B",
+              "text": "Snowflakeという一つのクラウド基盤を踏み台にして、それを使う多数の企業から連鎖的にデータを盗み出す手口だったの。",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 5825,
+              "endFrame": 6115
+            },
+            {
+              "speaker": "A",
+              "text": "一つのサービスが破られると、みんな被害に遭うってことなのだ…。",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 6123,
+              "endFrame": 6272
+            },
+            {
+              "speaker": "B",
+              "text": "そう、2024年当時から指摘されてきたサプライチェーン型攻撃の構図が、今回の司法手続きで公式に確定した形ね。",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 6279,
+              "endFrame": 6553
+            },
+            {
+              "speaker": "A",
+              "text": "有罪を認めたら、もう裁判は終わりなのだ？",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 6561,
+              "endFrame": 6678
+            },
+            {
+              "speaker": "B",
+              "text": "いいえ、これからは量刑の判断が焦点になるの。165組織を恐喝した罪の重さと、AT&Tの1億人分のデータを盗んだ影響の大きさが、どう反映されるか注目されるわ。",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 6685,
+              "endFrame": 7115
+            },
+            {
+              "speaker": "A",
+              "text": "Snowflakeを利用してた企業側は、これから何をすればいいのだ？",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 7122,
+              "endFrame": 7334
+            },
+            {
+              "speaker": "B",
+              "text": "クラウドサービスの認証情報の管理を見直すこと。同じ手口が別の犯人に繰り返されないよう、多要素認証の徹底が引き続き課題になるわね。",
+              "section": "Snowflake恐喝事件、カナダ人男性が有罪を認める AT&T顧客1億人超のデータ窃取も認める",
+              "startFrame": 7341,
+              "endFrame": 7655
+            },
+            {
+              "speaker": "A",
+              "text": "民間企業だけじゃなく、今度はフランスの税務当局なのだ？",
+              "section": "フランス税務当局から67万8千人分のデータが流出",
+              "startFrame": 7673,
+              "endFrame": 7829
+            },
+            {
+              "speaker": "B",
+              "text": "ええ、フランス経済・財務省が、国税総局のシステムに攻撃者が侵入し、67万8千人分のデータが盗まれたと発表したの。",
+              "section": "フランス税務当局から67万8千人分のデータが流出",
+              "startFrame": 7836,
+              "endFrame": 8171
+            },
+            {
+              "speaker": "A",
+              "text": "税務当局って、お金の情報を持ってるところなのだ？",
+              "section": "フランス税務当局から67万8千人分のデータが流出",
+              "startFrame": 8179,
+              "endFrame": 8319
+            },
+            {
+              "speaker": "B",
+              "text": "そう、納税者の個人情報や所得に関する情報が含まれるとみられていて、政府機関という機微な組織が狙われた事例よ。",
+              "section": "フランス税務当局から67万8千人分のデータが流出",
+              "startFrame": 8327,
+              "endFrame": 8598
+            },
+            {
+              "speaker": "A",
+              "text": "銀行でもないのに、なんで税務当局がそこまで狙われるのだ？",
+              "section": "フランス税務当局から67万8千人分のデータが流出",
+              "startFrame": 8605,
+              "endFrame": 8765
+            },
+            {
+              "speaker": "B",
+              "text": "氏名・住所・所得っていう質の高い個人情報がまとまって保管されているから、なりすましや標的型詐欺に悪用しやすいのよ。",
+              "section": "フランス税務当局から67万8千人分のデータが流出",
+              "startFrame": 8772,
+              "endFrame": 9059
+            },
+            {
+              "speaker": "A",
+              "text": "データが流出した対象になった人は、これからどうなるのだ？",
+              "section": "フランス税務当局から67万8千人分のデータが流出",
+              "startFrame": 9067,
+              "endFrame": 9213
+            },
+            {
+              "speaker": "B",
+              "text": "詳しい通知が届くはずだけど、今後は税務当局を装った不審な連絡にも注意が必要になるわね。",
+              "section": "フランス税務当局から67万8千人分のデータが流出",
+              "startFrame": 9220,
+              "endFrame": 9440
+            },
+            {
+              "speaker": "A",
+              "text": "エンジニアがよく使う開発基盤GitLabにも問題が見つかったのだ？",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 9458,
+              "endFrame": 9623
+            },
+            {
+              "speaker": "B",
+              "text": "そう、コミュニティ版・エンタープライズ版の両方に影響する致命的な脆弱性、CVE-2026-19478が見つかって、CVSS評価は9.4よ。",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 9630,
+              "endFrame": 10037
+            },
+            {
+              "speaker": "B",
+              "text": "GitLab側もこの脆弱性を最も深刻な「Critical」に分類してるわ。",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 10045,
+              "endFrame": 10219
+            },
+            {
+              "speaker": "A",
+              "text": "9.4って10点満点のほぼ満点、相当危ないのだ！",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 10226,
+              "endFrame": 10375
+            },
+            {
+              "speaker": "B",
+              "text": "特定の条件下では、ログインすらしていない攻撃者でも、公開プロジェクトやユーザーデータを遠隔から改ざん・削除できる状態だったの。",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 10382,
+              "endFrame": 10672
+            },
+            {
+              "speaker": "B",
+              "text": "データを取得する仕組み「GraphQL」に起因する不具合ね。",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 10680,
+              "endFrame": 10852
+            },
+            {
+              "speaker": "A",
+              "text": "ログインすらしてない人に勝手に消されるって、怖いのだ！",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 10859,
+              "endFrame": 10992
+            },
+            {
+              "speaker": "B",
+              "text": "つまり、企業や開発者が公開しているソースコードのプロジェクトを、第三者が勝手に消せてしまう可能性があったということ。",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 11000,
+              "endFrame": 11252
+            },
+            {
+              "speaker": "A",
+              "text": "GitLabを社内で使ってる会社は、具体的にどうすればいいのだ？",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 11260,
+              "endFrame": 11421
+            },
+            {
+              "speaker": "B",
+              "text": "セルフホスト版を運用する企業は、更新の適用状況を優先度高く確認する必要があるわね。",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 11429,
+              "endFrame": 11642
+            },
+            {
+              "speaker": "A",
+              "text": "クラウド版のGitLab.comを使ってる人も心配なのだ？",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 11649,
+              "endFrame": 11795
+            },
+            {
+              "speaker": "B",
+              "text": "そっちはGitLab社自身が管理してるから、自社サーバーで動かすセルフホスト版の企業がまず優先対象になるわ。",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 11802,
+              "endFrame": 12036
+            },
+            {
+              "speaker": "A",
+              "text": "公開してるプロジェクトが消されたら、元に戻せないのだ？",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 12043,
+              "endFrame": 12181
+            },
+            {
+              "speaker": "B",
+              "text": "バックアップがあれば復旧はできるけど、公開していたコードやユーザーデータが一時的にでも失われるリスクは無視できないわ。",
+              "section": "GitLabにCVSS9.4の致命的脆弱性、未認証でも公開プロジェクトを削除可能",
+              "startFrame": 12189,
+              "endFrame": 12430
+            },
+            {
+              "speaker": "A",
+              "text": "ウイルス対策ソフトのマイクロソフトDefenderにもゼロデイがあるのだ？",
+              "section": "マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中",
+              "startFrame": 12448,
+              "endFrame": 12648
+            },
+            {
+              "speaker": "B",
+              "text": "そう、セキュリティ研究者「Nightmare Eclipse」が先週公表した脆弱性「ShieldBreak」、CVE-2026-69414のことよ。",
+              "section": "マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中",
+              "startFrame": 12656,
+              "endFrame": 13185
+            },
+            {
+              "speaker": "B",
+              "text": "マイクロソフトが修正パッチを準備中だと明らかにしたの。",
+              "section": "マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中",
+              "startFrame": 13193,
+              "endFrame": 13310
+            },
+            {
+              "speaker": "A",
+              "text": "公表されてから一週間経つのに、まだ直ってないってことなのだ？",
+              "section": "マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中",
+              "startFrame": 13318,
+              "endFrame": 13476
+            },
+            {
+              "speaker": "B",
+              "text": "そのとおり。現時点では正式な修正プログラムは公開されておらず、対応は継続中の段階よ。",
+              "section": "マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中",
+              "startFrame": 13484,
+              "endFrame": 13712
+            },
+            {
+              "speaker": "A",
+              "text": "じゃあパッチが出るまで、利用者は何もできないのだ？",
+              "section": "マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中",
+              "startFrame": 13720,
+              "endFrame": 13846
+            },
+            {
+              "speaker": "B",
+              "text": "そうね、それがゼロデイ対応の難しいところよ。",
+              "section": "マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中",
+              "startFrame": 13854,
+              "endFrame": 13960
+            },
+            {
+              "speaker": "B",
+              "text": "Windows Defenderは家庭用・企業用パソコンで標準的に使われてるから、修正が公開され次第、速やかな適用が必要になるわ。",
+              "section": "マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中",
+              "startFrame": 13968,
+              "endFrame": 14328
+            },
+            {
+              "speaker": "A",
+              "text": "パッチが出るまで、みんなが不安なまま待つことになるのだ…。",
+              "section": "マイクロソフト、Defenderのゼロデイ「ShieldBreak」への対応を継続中",
+              "startFrame": 14336,
+              "endFrame": 14467
+            },
+            {
+              "speaker": "A",
+              "text": "パソコンだけじゃなくて、今度はスマホのチップの話なのだ？",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 14485,
+              "endFrame": 14625
+            },
+            {
+              "speaker": "B",
+              "text": "そう、セキュリティ研究組織SSD Secure Disclosureが、Unisocのモデムを搭載する端末を狙った攻撃手法を公開したの。",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 14633,
+              "endFrame": 15056
+            },
+            {
+              "speaker": "B",
+              "text": "ビデオ通話一本でAndroidの中核部分、カーネルまで完全に乗っ取れる二段階の手法よ。",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 15064,
+              "endFrame": 15292
+            },
+            {
+              "speaker": "A",
+              "text": "電話に出るだけで、スマホ全体を乗っ取られるのだ！？",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 15300,
+              "endFrame": 15429
+            },
+            {
+              "speaker": "B",
+              "text": "そう、それが今回の最大の懸念点よ。利用者側の操作ミスがなくても被害が成立しうるの。",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 15436,
+              "endFrame": 15654
+            },
+            {
+              "speaker": "A",
+              "text": "それだけ危険なら、チップメーカーはすぐ直してくれないのだ？",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 15662,
+              "endFrame": 15803
+            },
+            {
+              "speaker": "B",
+              "text": "現時点でUnisoc側からの修正はまだ提供されていないの。今回の手法は、2026年3月にSSDが公表したリモートコード実行の脆弱性の続き、第2段階にあたる話でもあるわ。",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 15810,
+              "endFrame": 16273
+            },
+            {
+              "speaker": "A",
+              "text": "何ヶ月もかけて少しずつ明らかにされてきたのだ…。",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 16281,
+              "endFrame": 16396
+            },
+            {
+              "speaker": "B",
+              "text": "ええ。研究者側があえて段階的に情報を公開して、メーカーに修正の時間を与えるやり方が取られてきたの。",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 16404,
+              "endFrame": 16663
+            },
+            {
+              "speaker": "A",
+              "text": "段階的に公開してるのに、それでも直ってないなら意味がないのだ？",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 16670,
+              "endFrame": 16832
+            },
+            {
+              "speaker": "B",
+              "text": "チップメーカーが対応を後回しにしている間、リスクは実際に残り続けてしまうということね。Unisoc製モデムを搭載したスマートフォンの利用者は、修正提供状況を注視する必要があるわ。",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 16840,
+              "endFrame": 17286
+            },
+            {
+              "speaker": "A",
+              "text": "知らない相手からのビデオ通話は、ちょっと警戒しておくのだ…。",
+              "section": "スマホ用チップメーカーUnisocのモデムに攻撃連鎖、修正の見通し立たず",
+              "startFrame": 17293,
+              "endFrame": 17437
+            },
+            {
+              "speaker": "A",
+              "text": "大人向け製品だけじゃなくて、子ども向けのスマートウォッチも危ないのだ？",
+              "section": "子ども向けスマートウォッチをハッキング、位置追跡・盗聴が可能に",
+              "startFrame": 17455,
+              "endFrame": 17622
+            },
+            {
+              "speaker": "B",
+              "text": "米WIREDの記者が実際に体験した話なの。子ども向けのピンク色のプラスチック製スマートウォッチに脆弱性があったの。",
+              "section": "子ども向けスマートウォッチをハッキング、位置追跡・盗聴が可能に",
+              "startFrame": 17629,
+              "endFrame": 17880
+            },
+            {
+              "speaker": "B",
+              "text": "それを通じてセキュリティ研究者に位置を追跡され、会話を盗聴される実験を受けたのよ。",
+              "section": "子ども向けスマートウォッチをハッキング、位置追跡・盗聴が可能に",
+              "startFrame": 17887,
+              "endFrame": 18077
+            },
+            {
+              "speaker": "A",
+              "text": "実験とはいえ、記者さん本人が実際に盗聴されたのだ！？",
+              "section": "子ども向けスマートウォッチをハッキング、位置追跡・盗聴が可能に",
+              "startFrame": 18084,
+              "endFrame": 18235
+            },
+            {
+              "speaker": "B",
+              "text": "そう。しかもWIREDは、これが特定の一製品だけの問題じゃなくて、GPS機能を搭載した子ども向けガジェット全般に共通する、脆弱なサプライチェーンの一部にすぎないと報じてるわ。",
+              "section": "子ども向けスマートウォッチをハッキング、位置追跡・盗聴が可能に",
+              "startFrame": 18242,
+              "endFrame": 18656
+            },
+            {
+              "speaker": "A",
+              "text": "子どもを守るために買った物が、逆に危険にさらすなんて皮肉なのだ…。",
+              "section": "子ども向けスマートウォッチをハッキング、位置追跡・盗聴が可能に",
+              "startFrame": 18664,
+              "endFrame": 18828
+            },
+            {
+              "speaker": "B",
+              "text": "ほんとうにね。安価なGPS内蔵の見守り製品を使っている家庭は、メーカーの実在性やセキュリティ対応の実績を確認することが対策になるわ。",
+              "section": "子ども向けスマートウォッチをハッキング、位置追跡・盗聴が可能に",
+              "startFrame": 18836,
+              "endFrame": 19158
+            },
+            {
+              "speaker": "B",
+              "text": "今日はポケモンセンター、Snowflake関連の有罪答弁、フランス税務当局と、大企業・政府機関を巻き込む情報漏洩系のニュースが並んだわね。",
+              "section": "まとめ",
+              "startFrame": 19176,
+              "endFrame": 19565
+            },
+            {
+              "speaker": "B",
+              "text": "一方でGitLab、ShieldBreak、Unisoc、キッズ用スマートウォッチのように、開発基盤からOS、通信チップ、子ども向けガジェットまで幅広い製品層の脆弱性も目立ったわ。",
+              "section": "まとめ",
+              "startFrame": 19572,
+              "endFrame": 20069
+            },
+            {
+              "speaker": "A",
+              "text": "委託先経由の漏洩や、ビデオ通話を受けただけで被害が成立する攻撃連鎖まであって、自分で気をつけるだけじゃ防げない話が多いのだ…。",
+              "section": "まとめ",
+              "startFrame": 20077,
+              "endFrame": 20418
+            },
+            {
+              "speaker": "B",
+              "text": "そうね、利用者自身の注意だけでは防ぎきれない領域が広がっていることを、今日の7本がよく示しているわ。",
+              "section": "まとめ",
+              "startFrame": 20426,
+              "endFrame": 20658
+            },
+            {
+              "speaker": "A",
+              "text": "今日のセキュリティニュースはここまでなのだ！",
+              "section": "まとめ",
+              "startFrame": 20665,
+              "endFrame": 20751
+            },
+            {
+              "speaker": "B",
+              "text": "聞いてくれてありがとう。また明日も新しいニュースをお届けするわね。",
+              "section": "まとめ",
+              "startFrame": 20758,
+              "endFrame": 20899
+            },
+            {
+              "speaker": "A",
+              "text": "またなのだ～！",
+              "section": "まとめ",
+              "startFrame": 20906,
+              "endFrame": 20938
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
     "date": "2026-08-17",
     "segments": [
       {
