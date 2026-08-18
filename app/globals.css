@@ -196,7 +196,7 @@ details[open] > summary { color: var(--accent2); }
 .prezi-board ul, .prezi-board ol { margin: 7px 0; padding-left: 26px; }
 .prezi-board table { width: 100%; border-collapse: collapse; font-size: 15px; }
 .prezi-board th, .prezi-board td { padding: 5px 7px; border: 1px solid #94a3b8; }
-.karaoke-subtitle { position: absolute; z-index: 20; left: 240px; right: 280px; bottom: 12px; box-sizing: border-box; padding: 4px 20px; background: transparent; color: #fff; font-family: "Hiragino Sans", "Noto Sans JP", sans-serif; font-size: 34px; font-weight: 700; line-height: 1.5; text-align: center; text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 3px 8px rgba(0,0,0,.9); }
+.karaoke-subtitle { position: absolute; z-index: 20; left: 240px; right: 280px; bottom: 12px; box-sizing: border-box; padding: 4px 20px; background: transparent; color: #fff; font-family: "Hiragino Sans", "Noto Sans JP", sans-serif; font-size: 34px; font-weight: 700; line-height: 1.5; text-align: center; text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 3px 8px rgba(0,0,0,.9); pointer-events: none; }
 .karaoke-subtitle.multiline { font-size: 28px; text-align: left; }
 .karaoke-subtitle i { color: #fff; font: inherit; font-style: normal; text-shadow: inherit; }
 .karaoke-subtitle i.read { color: #1d4ed8; text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 0 3px 8px rgba(0,0,0,.9); }

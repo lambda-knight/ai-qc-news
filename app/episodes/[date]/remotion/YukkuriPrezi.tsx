@@ -1,7 +1,7 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import {AbsoluteFill, Easing, interpolate, useCurrentFrame} from "remotion";
+import {AbsoluteFill, Audio, Easing, interpolate, useCurrentFrame} from "remotion";
 import type {TimingData, Segment} from "./types";
 import {CharacterFace} from "./components/CharacterFace";
 import {KaraokeSubtitle} from "./components/KaraokeSubtitle";
@@ -32,6 +32,7 @@ const boardsFromMarkdown = (markdown: string): Board[] => {
 
 export const YukkuriPrezi: React.FC<Props> = ({
   timingData,
+  audioUrl,
   timingOffsetFrames = 0,
   showSubtitles = true,
   characterScale = 1,
@@ -56,6 +57,7 @@ export const YukkuriPrezi: React.FC<Props> = ({
 
   return (
     <AbsoluteFill style={{background: "#dfe5ef", overflow: "hidden", fontFamily: '"Hiragino Sans", "Noto Sans JP", sans-serif'}}>
+      {audioUrl && <Audio src={audioUrl} />}
       <div className="prezi-grid" />
       <div className="prezi-camera" style={{transform: `translate(640px, 350px) scale(${zoom}) translate(${-cameraX - 580}px, ${-cameraY - 295}px)`}}>
         {boards.map((board, index) => <article
