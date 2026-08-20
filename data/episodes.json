@@ -623,6 +623,577 @@
         }
       },
       {
+        "mode": "security",
+        "label": "セキュリティニュース",
+        "iaId": "news-pickup-2026-08-20-security",
+        "title": "セキュリティニュース｜さくらインターネット不正アクセス・136万件流出か【2026/08/20】",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-08-20-security/security_yukkuri.m4a",
+        "markdown": "<h1>セキュリティニュース（2026年8月20日）</h1>\n<p><strong>キーワード:</strong> さくらインターネット漏洩 / CareCloud患者データ流出 / Dahuaカメラ乗っ取り / パスワードスプレー急増 / イラン人ハッカー起訴 / NetScaler脆弱性</p>\n<h2>オープニング：2026年8月20日 — セキュリティニュース</h2>\n<ul>\n<li>本日は国内クラウド大手さくらインターネットの顧客情報流出、米ヘルステック企業の患者370万人分データ漏洩、監視カメラ1万4500台の乗っ取り、パスワードスプレー攻撃の155倍急増、知的財産窃盗でのイラン人17人起訴まで7本を取り上げる</li>\n</ul>\n<h2>さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性</h2>\n<ul>\n<li>国内クラウド・データセンター大手のさくらインターネットは、顧客の契約情報や会員情報を保管する営業管理システムに外部から不正アクセスがあったと発表した</li>\n<li>影響を受けた可能性があるのは最大136万件のアカウント情報。氏名、連絡先、契約内容などが対象とみられる</li>\n<li>国内利用者が多いクラウドサービス事業者での大規模漏洩となり、同社を利用する法人・個人は今後の公式発表を確認し、不審な連絡やなりすましメールに注意する必要がある</li>\n</ul>\n<h2>米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明</h2>\n<ul>\n<li>米国の医療IT企業CareCloudは、今年前半に発生していたデータ漏洩事件について、影響を受けた患者数が370万人以上に達したと発表した</li>\n<li>CareCloudは電子カルテや請求管理などを扱う医療機関向けシステムを提供しており、漏洩したデータには患者の医療・個人情報が含まれるとみられる</li>\n<li>「つまりどういうこと？」といえば、自分がかかった病院がCareCloudのシステムを使っていた場合、直接契約していなくても情報が漏れる可能性があるということ。米国の医療機関を利用したことがある人は通知の有無を確認する必要がある</li>\n</ul>\n<h2>監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃</h2>\n<ul>\n<li>セキュリティ研究者が「CameraSwarm」と名付けた大規模攻撃で、中国メーカーDahua製のネットワークカメラ1万4500台以上が、35日間にわたる攻撃で乗っ取られたことが判明した</li>\n<li>被害はウクライナとロシアに集中しており、認証情報を使い回す攻撃、認証回避、機器間の直接通信（P2P）機能の悪用など複数の手口が組み合わされていた</li>\n<li>「監視カメラが乗っ取られるとどうなるのだ？」といえば、映像そのものを盗み見られるだけでなく、乗っ取った大量のカメラを別の攻撃の踏み台（ボット）として悪用される危険がある。家庭・企業でネットワークカメラを使う場合はパスワードの使い回しを避け、初期設定のまま使わないことが対策になる</li>\n</ul>\n<h2>パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く</h2>\n<ul>\n<li>セキュリティ企業Huntressの調査によると、2026年上半期にパスワードスプレー攻撃（少数のよくあるパスワードを多数のアカウントに順番に試す手口）が前年比155倍に急増した</li>\n<li>ある攻撃キャンペーンでは、わずか2週間で8100万回超のログイン試行が観測された</li>\n<li>攻撃者は古い認証方式や、多要素認証（MFA）が設定されていないログイン経路の抜け穴を突いていた。「パスワードを強くするだけでは足りないのだ？」という点が今回の核心で、組織側は古い認証プロトコルを無効化し、すべてのログイン経路にMFAを適用することが対策になる</li>\n</ul>\n<h2>米、知的財産窃盗34億ドル相当でイラン人ハッカー17人を起訴</h2>\n<ul>\n<li>米司法省は、ハッキング請負業者「Mabna Institute」の関係者とされるイラン人17人を、米国の企業・大学から長年にわたりデータを盗んだ罪などで起訴した</li>\n<li>被害総額は知的財産だけで34億ドル（約5000億円）相当にのぼるとされ、研究データや企業秘密が標的になっていた</li>\n<li>「なぜ大学まで狙われるのだ？」といえば、大学は先端研究データを保有しながら企業ほどセキュリティ対策が手厚くない場合が多く、国家の後ろ盾を持つ攻撃者にとって狙いやすい標的になっているため</li>\n</ul>\n<h2>Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起</h2>\n<ul>\n<li>JPCERT/CCは、Citrix NetScaler ADCおよびNetScaler Gatewayにおけるヒープベースのバッファオーバーフローの脆弱性（CVE-2026-8452）について注意喚起を出した</li>\n<li>セキュリティ企業watchTowr Labsが8月14日に詳細分析を公表。この脆弱性は2026年6月30日に公表されたサービス運用妨害（DoS）につながる脆弱性と関連するとみられ、機器がSAML SPまたはIdPとして構成されている場合、認証なしでリモートコード実行につながる可能性がある</li>\n<li>NetScaler ADC/Gatewayは企業のリモートアクセスや認証基盤として広く使われており、該当機能を有効にしている組織は修正の適用状況を優先的に確認する必要がある</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>本日は国内外の大規模データ漏洩（さくらインターネット、CareCloud）と、認証の弱点を突く攻撃（パスワードスプレー、NetScaler）が並んだ一日だった</li>\n<li>個人でできる備えは、利用サービスからの通知メールの確認、パスワードの使い回しをやめること、ネットワーク機器の初期パスワード変更の3点</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/\">Sakura Internet hack exposes data of up to 1.36 million accounts - Bleeping Computer</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/\">Healthtech firm CareCloud data breach impacts 3.7 million patients - Bleeping Computer</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/\">Hackers compromise 14,500 Dahua web cameras in 35-day campaign - Bleeping Computer</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/\">Password spraying attacks surge 155x as hackers exploit MFA gaps - Bleeping Computer</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/\">US charges Iranian hackers over $3.4 billion intellectual property theft - Bleeping Computer</a></li>\n<li><a href=\"https://www.jpcert.or.jp/at/2026/at260024.html\">注意喚起: NetScaler ADCおよびNetScaler Gatewayにおけるリモートコード実行につながる脆弱性（CVE-2026-8452）に関する注意喚起 - JPCERT/CC</a></li>\n</ul>",
+        "markdownSource": "# セキュリティニュース（2026年8月20日）\n\n**キーワード:** さくらインターネット漏洩 / CareCloud患者データ流出 / Dahuaカメラ乗っ取り / パスワードスプレー急増 / イラン人ハッカー起訴 / NetScaler脆弱性\n\n## オープニング：2026年8月20日 — セキュリティニュース\n\n- 本日は国内クラウド大手さくらインターネットの顧客情報流出、米ヘルステック企業の患者370万人分データ漏洩、監視カメラ1万4500台の乗っ取り、パスワードスプレー攻撃の155倍急増、知的財産窃盗でのイラン人17人起訴まで7本を取り上げる\n\n## さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性\n\n- 国内クラウド・データセンター大手のさくらインターネットは、顧客の契約情報や会員情報を保管する営業管理システムに外部から不正アクセスがあったと発表した\n- 影響を受けた可能性があるのは最大136万件のアカウント情報。氏名、連絡先、契約内容などが対象とみられる\n- 国内利用者が多いクラウドサービス事業者での大規模漏洩となり、同社を利用する法人・個人は今後の公式発表を確認し、不審な連絡やなりすましメールに注意する必要がある\n\n## 米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明\n\n- 米国の医療IT企業CareCloudは、今年前半に発生していたデータ漏洩事件について、影響を受けた患者数が370万人以上に達したと発表した\n- CareCloudは電子カルテや請求管理などを扱う医療機関向けシステムを提供しており、漏洩したデータには患者の医療・個人情報が含まれるとみられる\n- 「つまりどういうこと？」といえば、自分がかかった病院がCareCloudのシステムを使っていた場合、直接契約していなくても情報が漏れる可能性があるということ。米国の医療機関を利用したことがある人は通知の有無を確認する必要がある\n\n## 監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃\n\n- セキュリティ研究者が「CameraSwarm」と名付けた大規模攻撃で、中国メーカーDahua製のネットワークカメラ1万4500台以上が、35日間にわたる攻撃で乗っ取られたことが判明した\n- 被害はウクライナとロシアに集中しており、認証情報を使い回す攻撃、認証回避、機器間の直接通信（P2P）機能の悪用など複数の手口が組み合わされていた\n- 「監視カメラが乗っ取られるとどうなるのだ？」といえば、映像そのものを盗み見られるだけでなく、乗っ取った大量のカメラを別の攻撃の踏み台（ボット）として悪用される危険がある。家庭・企業でネットワークカメラを使う場合はパスワードの使い回しを避け、初期設定のまま使わないことが対策になる\n\n## パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く\n\n- セキュリティ企業Huntressの調査によると、2026年上半期にパスワードスプレー攻撃（少数のよくあるパスワードを多数のアカウントに順番に試す手口）が前年比155倍に急増した\n- ある攻撃キャンペーンでは、わずか2週間で8100万回超のログイン試行が観測された\n- 攻撃者は古い認証方式や、多要素認証（MFA）が設定されていないログイン経路の抜け穴を突いていた。「パスワードを強くするだけでは足りないのだ？」という点が今回の核心で、組織側は古い認証プロトコルを無効化し、すべてのログイン経路にMFAを適用することが対策になる\n\n## 米、知的財産窃盗34億ドル相当でイラン人ハッカー17人を起訴\n\n- 米司法省は、ハッキング請負業者「Mabna Institute」の関係者とされるイラン人17人を、米国の企業・大学から長年にわたりデータを盗んだ罪などで起訴した\n- 被害総額は知的財産だけで34億ドル（約5000億円）相当にのぼるとされ、研究データや企業秘密が標的になっていた\n- 「なぜ大学まで狙われるのだ？」といえば、大学は先端研究データを保有しながら企業ほどセキュリティ対策が手厚くない場合が多く、国家の後ろ盾を持つ攻撃者にとって狙いやすい標的になっているため\n\n## Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起\n\n- JPCERT/CCは、Citrix NetScaler ADCおよびNetScaler Gatewayにおけるヒープベースのバッファオーバーフローの脆弱性（CVE-2026-8452）について注意喚起を出した\n- セキュリティ企業watchTowr Labsが8月14日に詳細分析を公表。この脆弱性は2026年6月30日に公表されたサービス運用妨害（DoS）につながる脆弱性と関連するとみられ、機器がSAML SPまたはIdPとして構成されている場合、認証なしでリモートコード実行につながる可能性がある\n- NetScaler ADC/Gatewayは企業のリモートアクセスや認証基盤として広く使われており、該当機能を有効にしている組織は修正の適用状況を優先的に確認する必要がある\n\n## まとめ\n\n- 本日は国内外の大規模データ漏洩（さくらインターネット、CareCloud）と、認証の弱点を突く攻撃（パスワードスプレー、NetScaler）が並んだ一日だった\n- 個人でできる備えは、利用サービスからの通知メールの確認、パスワードの使い回しをやめること、ネットワーク機器の初期パスワード変更の3点\n\n## 参考ソース\n\n- [Sakura Internet hack exposes data of up to 1.36 million accounts - Bleeping Computer](https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/)\n- [Healthtech firm CareCloud data breach impacts 3.7 million patients - Bleeping Computer](https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/)\n- [Hackers compromise 14,500 Dahua web cameras in 35-day campaign - Bleeping Computer](https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/)\n- [Password spraying attacks surge 155x as hackers exploit MFA gaps - Bleeping Computer](https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/)\n- [US charges Iranian hackers over $3.4 billion intellectual property theft - Bleeping Computer](https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/)\n- [注意喚起: NetScaler ADCおよびNetScaler Gatewayにおけるリモートコード実行につながる脆弱性（CVE-2026-8452）に関する注意喚起 - JPCERT/CC](https://www.jpcert.or.jp/at/2026/at260024.html)\n",
+        "timeline": {
+          "version": 1,
+          "source": "tts_voicevox",
+          "fps": 30,
+          "totalFrames": 19828,
+          "audioDurationSec": 660.918,
+          "cues": [
+            {
+              "speaker": "A",
+              "text": "2026年8月20日のセキュリティニュース、始めるのだ！",
+              "section": "オープニング：2026年8月20日 — セキュリティニュース",
+              "startFrame": 18,
+              "endFrame": 173
+            },
+            {
+              "speaker": "B",
+              "text": "今日は国内クラウド大手の顧客情報流出から、米国の医療データ漏洩、監視カメラ1万4500台の乗っ取り、パスワードスプレー攻撃の急増、知的財産窃盗でのイラン人大量起訴まで、規模の大きい話が続くわよ。",
+              "section": "オープニング：2026年8月20日 — セキュリティニュース",
+              "startFrame": 180,
+              "endFrame": 694
+            },
+            {
+              "speaker": "A",
+              "text": "国内の会社まで出てくるのだ！？他人事じゃないのだ！",
+              "section": "オープニング：2026年8月20日 — セキュリティニュース",
+              "startFrame": 702,
+              "endFrame": 834
+            },
+            {
+              "speaker": "B",
+              "text": "そうなの。今日は特に「自分が使っているサービスかもしれない」と思いながら聞いてほしい回ね。",
+              "section": "オープニング：2026年8月20日 — セキュリティニュース",
+              "startFrame": 841,
+              "endFrame": 1045
+            },
+            {
+              "speaker": "A",
+              "text": "最後には国内の企業ネットワークに関わる脆弱性の話もあるのだ。",
+              "section": "オープニング：2026年8月20日 — セキュリティニュース",
+              "startFrame": 1053,
+              "endFrame": 1223
+            },
+            {
+              "speaker": "B",
+              "text": "ええ、被害を受ける側だけじゃなく、防ぐ側の話まで一通りそろっているわ。順番に見ていきましょう。",
+              "section": "オープニング：2026年8月20日 — セキュリティニュース",
+              "startFrame": 1231,
+              "endFrame": 1462
+            },
+            {
+              "speaker": "A",
+              "text": "まずは国内のクラウド・データセンター大手、さくらインターネットなのだ！営業管理システムに外部から不正アクセスがあったのだ。",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 1480,
+              "endFrame": 1787
+            },
+            {
+              "speaker": "B",
+              "text": "狙われたのは顧客の契約情報や会員情報を保管しているシステム。最大136万件のアカウント情報が影響を受けた可能性があるわ。",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 1794,
+              "endFrame": 2108
+            },
+            {
+              "speaker": "A",
+              "text": "具体的にどんな情報が対象になっているのだ？",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 2115,
+              "endFrame": 2232
+            },
+            {
+              "speaker": "B",
+              "text": "氏名、連絡先、契約内容などが対象とみられているの。まだ全容は公表の途中よ。",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 2239,
+              "endFrame": 2462
+            },
+            {
+              "speaker": "A",
+              "text": "さくらインターネットってレンタルサーバーとかで有名なところなのだ。使っている人多そうなのだ…。",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 2469,
+              "endFrame": 2681
+            },
+            {
+              "speaker": "B",
+              "text": "ええ、国内利用者が多いサービスだからこそ影響範囲が広い。個人サイトを運営している人から企業まで幅広く関わってくるわね。",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 2689,
+              "endFrame": 2975
+            },
+            {
+              "speaker": "A",
+              "text": "さくらのサーバー自体が乗っ取られたわけじゃないのだ？",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 2982,
+              "endFrame": 3098
+            },
+            {
+              "speaker": "B",
+              "text": "今のところ発表されているのは営業管理システムへの侵入。ホスティングしているサイトのデータそのものが漏れたという話ではないの。",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 3105,
+              "endFrame": 3363
+            },
+            {
+              "speaker": "A",
+              "text": "システム本体じゃなくて、営業管理システムが狙われたのが気になるのだ。",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 3371,
+              "endFrame": 3543
+            },
+            {
+              "speaker": "B",
+              "text": "会員情報や契約情報は、直接お金を扱うシステムより守りが手薄になりがちな場所。攻撃者はそこを見つけたということね。",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 3551,
+              "endFrame": 3831
+            },
+            {
+              "speaker": "A",
+              "text": "利用者は何を確認すればいいのだ？",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 3839,
+              "endFrame": 3930
+            },
+            {
+              "speaker": "B",
+              "text": "利用している法人・個人は公式発表を確認して、契約情報を悪用した偽の請求メールやなりすましメールに注意する必要があるわ。",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 3938,
+              "endFrame": 4242
+            },
+            {
+              "speaker": "A",
+              "text": "契約情報が漏れると、それを使った偽の請求メールとかも来そうなのだ…気をつけるのだ！",
+              "section": "さくらインターネット、営業管理システムに不正アクセス 最大136万件の顧客情報流出の可能性",
+              "startFrame": 4250,
+              "endFrame": 4473
+            },
+            {
+              "speaker": "A",
+              "text": "次はアメリカの医療アイティー企業、ケアクラウドなのだ。今年前半に起きていた漏洩事件の被害者数が、ついに370万人以上と判明したのだ！",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 4491,
+              "endFrame": 4862
+            },
+            {
+              "speaker": "B",
+              "text": "ケアクラウドは電子カルテや請求管理など、医療機関向けのシステムを提供している会社。漏洩したデータには患者の医療・個人情報が含まれるとみられているわ。",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 4870,
+              "endFrame": 5218
+            },
+            {
+              "speaker": "A",
+              "text": "え、病院と直接契約してなくても関係あるのだ？",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 5226,
+              "endFrame": 5378
+            },
+            {
+              "speaker": "B",
+              "text": "そう、自分がかかった病院がケアクラウドのシステムを裏側で使っていた場合、患者本人が知らないうちに情報が漏れる可能性があるの。",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 5385,
+              "endFrame": 5673
+            },
+            {
+              "speaker": "A",
+              "text": "それは怖いのだ…自分では防ぎようがないのだ。",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 5681,
+              "endFrame": 5800
+            },
+            {
+              "speaker": "B",
+              "text": "しかも医療データは氏名や住所だけじゃなく、病歴や治療内容まで含まれることがある。悪用されたときの深刻さが金融データとは違う種類なの。",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 5807,
+              "endFrame": 6115
+            },
+            {
+              "speaker": "A",
+              "text": "370万人ってものすごい人数なのだ…。",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 6122,
+              "endFrame": 6234
+            },
+            {
+              "speaker": "B",
+              "text": "ええ、今年前半に発生していた事件が、調査を経てここまで規模が広がったということ自体、被害の全容把握にどれだけ時間がかかるかを示しているわね。",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 6241,
+              "endFrame": 6569
+            },
+            {
+              "speaker": "A",
+              "text": "最初の発表の時点ではもっと少なく見えていたのだ？",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 6577,
+              "endFrame": 6705
+            },
+            {
+              "speaker": "B",
+              "text": "そういうことが多いの。侵入経路と持ち出されたデータの範囲を精査するのに時間がかかるから、初動の発表と最終的な人数が大きく変わることは珍しくないわ。",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 6713,
+              "endFrame": 7052
+            },
+            {
+              "speaker": "A",
+              "text": "今からできることはあるのだ？",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 7059,
+              "endFrame": 7129
+            },
+            {
+              "speaker": "B",
+              "text": "米国の医療機関を利用したことがある人は、通知が届いていないか確認することが唯一できる対策になるわね。",
+              "section": "米ヘルステック企業CareCloud、患者370万人分のデータ漏洩が判明",
+              "startFrame": 7136,
+              "endFrame": 7369
+            },
+            {
+              "speaker": "A",
+              "text": "今度は監視カメラの話なのだ！研究者が「カメラスウォーム」と名付けた攻撃で、ダーファ製のネットワークカメラが1万4500台以上も乗っ取られたのだ！",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 7387,
+              "endFrame": 7773
+            },
+            {
+              "speaker": "B",
+              "text": "期間はなんと35日間。被害はウクライナとロシアに集中しているわ。",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 7780,
+              "endFrame": 7936
+            },
+            {
+              "speaker": "A",
+              "text": "1万4500台って桁がおかしいのだ…どうやって乗っ取ったのだ？",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 7944,
+              "endFrame": 8109
+            },
+            {
+              "speaker": "B",
+              "text": "使い回された認証情報を突く攻撃、認証を回避する手口、機器同士が直接つながるピーツーピー機能の悪用。複数の手口が組み合わされていたの。",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 8116,
+              "endFrame": 8455
+            },
+            {
+              "speaker": "A",
+              "text": "一つの弱点じゃなくて、いろんな手口を組み合わせてるのだ？",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 8462,
+              "endFrame": 8605
+            },
+            {
+              "speaker": "B",
+              "text": "そうなの。それだけ攻撃者側が本気で数を稼ごうとしていた証拠ね。",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 8612,
+              "endFrame": 8760
+            },
+            {
+              "speaker": "A",
+              "text": "カメラが乗っ取られると、映像を覗き見されるだけなのだ？",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 8768,
+              "endFrame": 8913
+            },
+            {
+              "speaker": "B",
+              "text": "それだけじゃないの。乗っ取った大量のカメラを、別の攻撃の踏み台として悪用される危険もある。カメラ自体がボットになってしまうということね。",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 8920,
+              "endFrame": 9214
+            },
+            {
+              "speaker": "A",
+              "text": "ボットって、パソコンがなるものだと思ってたのだ…カメラもなるのだ！？",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 9222,
+              "endFrame": 9387
+            },
+            {
+              "speaker": "B",
+              "text": "ネットにつながる機器なら何でも標的になりうるの。ウクライナとロシアに集中しているのも、紛争地域の監視インフラを狙った可能性が指摘されているわ。",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 9394,
+              "endFrame": 9707
+            },
+            {
+              "speaker": "A",
+              "text": "家のネットワークカメラ、初期パスワードのままにしちゃダメなのだ…！",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 9714,
+              "endFrame": 9859
+            },
+            {
+              "speaker": "B",
+              "text": "その通り。パスワードの使い回しをやめて、初期設定のまま使わないことが最低限の対策よ。",
+              "section": "監視カメラメーカーDahua製、1万4500台超が35日間で乗っ取られる「CameraSwarm」攻撃",
+              "startFrame": 9867,
+              "endFrame": 10077
+            },
+            {
+              "speaker": "A",
+              "text": "次はパスワードスプレー攻撃なのだ！セキュリティ企業ハントレスの調査によると、2026年上半期に前年比155倍も急増したのだ！",
+              "section": "パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く",
+              "startFrame": 10095,
+              "endFrame": 10450
+            },
+            {
+              "speaker": "B",
+              "text": "パスワードスプレーは、少数のよくあるパスワードを多数のアカウントに順番に試していく手口。ある攻撃キャンペーンでは、わずか2週間で8100万回を超えるログイン試行が観測されたわ。",
+              "section": "パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く",
+              "startFrame": 10458,
+              "endFrame": 10853
+            },
+            {
+              "speaker": "A",
+              "text": "パスワードを強くすれば防げるのだ？",
+              "section": "パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く",
+              "startFrame": 10861,
+              "endFrame": 10952
+            },
+            {
+              "speaker": "B",
+              "text": "それだけでは足りないの。攻撃者は古い認証方式や、多要素認証が設定されていないログイン経路の抜け穴を突いているから。",
+              "section": "パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く",
+              "startFrame": 10959,
+              "endFrame": 11228
+            },
+            {
+              "speaker": "A",
+              "text": "対策はちゃんとしてるつもりでも、抜け穴があったら意味ないのだ…。",
+              "section": "パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く",
+              "startFrame": 11236,
+              "endFrame": 11382
+            },
+            {
+              "speaker": "B",
+              "text": "そう、たとえばメイン画面は多要素認証で守っていても、メール受信用の古いプロトコルなど別の入り口が無防備なままだと、そこから突破されるの。",
+              "section": "パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く",
+              "startFrame": 11390,
+              "endFrame": 11704
+            },
+            {
+              "speaker": "A",
+              "text": "155倍って、本当に急に増えたのだ…なんでこんなに増えたのだ？",
+              "section": "パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く",
+              "startFrame": 11711,
+              "endFrame": 11893
+            },
+            {
+              "speaker": "B",
+              "text": "攻撃の自動化が進んで、少ない手間で大量のアカウントを一斉に試せるようになったことが背景にあるわ。",
+              "section": "パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く",
+              "startFrame": 11901,
+              "endFrame": 12124
+            },
+            {
+              "speaker": "A",
+              "text": "組織側は何をすればいいのだ？",
+              "section": "パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く",
+              "startFrame": 12131,
+              "endFrame": 12213
+            },
+            {
+              "speaker": "B",
+              "text": "古い認証プロトコルを無効化して、すべてのログイン経路に多要素認証を適用することが対策になるわね。個人でも使っているサービスで多要素認証を有効にしておくべきよ。",
+              "section": "パスワードスプレー攻撃が155倍に急増、多要素認証の抜け穴を突く",
+              "startFrame": 12220,
+              "endFrame": 12583
+            },
+            {
+              "speaker": "A",
+              "text": "続いてはアメリカ司法省の発表なのだ！ハッキング請負業者「マブナ・インスティテュート」の関係者とされるイラン人17人が起訴されたのだ！",
+              "section": "米、知的財産窃盗34億ドル相当でイラン人ハッカー17人を起訴",
+              "startFrame": 12601,
+              "endFrame": 12959
+            },
+            {
+              "speaker": "B",
+              "text": "米国の企業や大学から長年にわたりデータを盗んだ罪などが理由。被害総額は知的財産だけで34億ドル、日本円で約5000億円相当にのぼるとされているわ。",
+              "section": "米、知的財産窃盗34億ドル相当でイラン人ハッカー17人を起訴",
+              "startFrame": 12966,
+              "endFrame": 13335
+            },
+            {
+              "speaker": "A",
+              "text": "待つのだ、なんで大学まで狙われるのだ？企業の方が金目のものがありそうなのだ。",
+              "section": "米、知的財産窃盗34億ドル相当でイラン人ハッカー17人を起訴",
+              "startFrame": 13343,
+              "endFrame": 13546
+            },
+            {
+              "speaker": "B",
+              "text": "金目のものというより、まだ世に出ていない研究データが狙いなの。大学は先端研究を持っているのに企業ほど対策が手厚くない場合が多く、国家の後ろ盾を持つ攻撃者には狙いやすい標的になっているのよ。",
+              "section": "米、知的財産窃盗34億ドル相当でイラン人ハッカー17人を起訴",
+              "startFrame": 13554,
+              "endFrame": 13993
+            },
+            {
+              "speaker": "A",
+              "text": "研究データが盗まれたら、何年もかけた研究が他の国に横取りされちゃうのだ…。",
+              "section": "米、知的財産窃盗34億ドル相当でイラン人ハッカー17人を起訴",
+              "startFrame": 14000,
+              "endFrame": 14191
+            },
+            {
+              "speaker": "B",
+              "text": "ええ。しかも「ハッキング請負業者」という組織形態が示すように、国のために攻撃を代行するビジネスとして成立してしまっている点が根深いところ。",
+              "section": "米、知的財産窃盗34億ドル相当でイラン人ハッカー17人を起訴",
+              "startFrame": 14199,
+              "endFrame": 14541
+            },
+            {
+              "speaker": "A",
+              "text": "17人も起訴されたのだ、これで解決なのだ？",
+              "section": "米、知的財産窃盗34億ドル相当でイラン人ハッカー17人を起訴",
+              "startFrame": 14548,
+              "endFrame": 14670
+            },
+            {
+              "speaker": "B",
+              "text": "起訴された人物の多くはイラン国内にいるとみられていて、実際に身柄を拘束できるかは別問題。長年にわたる作戦だったという点が、この種の攻撃の根深さを表しているわね。",
+              "section": "米、知的財産窃盗34億ドル相当でイラン人ハッカー17人を起訴",
+              "startFrame": 14678,
+              "endFrame": 15065
+            },
+            {
+              "speaker": "A",
+              "text": "最後は国内の企業ネットワークにも関わる話なのだ！ジェイピーサートが、シトリックスのネットスケーラーエーディーシーとネットスケーラーゲートウェイの脆弱性について注意喚起を出したのだ。",
+              "section": "Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起",
+              "startFrame": 15083,
+              "endFrame": 15501
+            },
+            {
+              "speaker": "B",
+              "text": "セキュリティ企業ウォッチタワーラボが8月14日に詳細分析を公表した脆弱性ね。ヒープと呼ばれるメモリ領域を溢れさせる不具合が原因よ。",
+              "section": "Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起",
+              "startFrame": 15509,
+              "endFrame": 15814
+            },
+            {
+              "speaker": "A",
+              "text": "何が起きるとまずいのだ？",
+              "section": "Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起",
+              "startFrame": 15822,
+              "endFrame": 15887
+            },
+            {
+              "speaker": "B",
+              "text": "この機器がサムルエスピーまたはアイディーピー、つまり社内の認証の入り口として構成されている場合、認証なしで遠隔から不正な命令を実行される可能性があるの。",
+              "section": "Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起",
+              "startFrame": 15894,
+              "endFrame": 16240
+            },
+            {
+              "speaker": "A",
+              "text": "認証の入り口自体が突破されたら、社内の色々なシステムに入られちゃうのだ…！",
+              "section": "Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起",
+              "startFrame": 16248,
+              "endFrame": 16434
+            },
+            {
+              "speaker": "B",
+              "text": "そう、ネットスケーラーは企業のリモートアクセスや認証基盤として広く使われている機器。しかも今回の脆弱性は、6月30日に公表済みだったサービス運用妨害の脆弱性と関連していると分析されているの。",
+              "section": "Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起",
+              "startFrame": 16441,
+              "endFrame": 16910
+            },
+            {
+              "speaker": "A",
+              "text": "前から知られてた不具合が、実はもっと深刻だったってことなのだ？",
+              "section": "Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起",
+              "startFrame": 16917,
+              "endFrame": 17081
+            },
+            {
+              "speaker": "B",
+              "text": "そういうことね。最初はDoS、つまりシステムを止められる程度の被害と思われていたものが、詳しく分析したら遠隔操作までできる可能性が見つかったという流れ。",
+              "section": "Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起",
+              "startFrame": 17088,
+              "endFrame": 17444
+            },
+            {
+              "speaker": "A",
+              "text": "該当する会社はどうすればいいのだ？",
+              "section": "Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起",
+              "startFrame": 17452,
+              "endFrame": 17544
+            },
+            {
+              "speaker": "B",
+              "text": "該当機能を有効にしている組織は、修正の適用状況を優先的に確認する必要があるわ。",
+              "section": "Citrix NetScaler ADC/Gatewayに未認証リモートコード実行の脆弱性、JPCERT/CCが注意喚起",
+              "startFrame": 17552,
+              "endFrame": 17764
+            },
+            {
+              "speaker": "A",
+              "text": "今日は国内外の大規模データ漏洩と、認証の弱点を突く攻撃が並んだ一日だったのだ。",
+              "section": "まとめ",
+              "startFrame": 17782,
+              "endFrame": 18013
+            },
+            {
+              "speaker": "B",
+              "text": "さくらインターネット、ケアクラウドという大規模漏洩と、パスワードスプレー、ネットスケーラーという認証まわりの弱点。狙われ方は違っても、根っこは同じよね。",
+              "section": "まとめ",
+              "startFrame": 18021,
+              "endFrame": 18379
+            },
+            {
+              "speaker": "A",
+              "text": "どういうことなのだ？",
+              "section": "まとめ",
+              "startFrame": 18387,
+              "endFrame": 18437
+            },
+            {
+              "speaker": "B",
+              "text": "どのニュースも、「入り口の管理」が甘い部分を突かれているの。営業管理システム、多要素認証の抜け穴、認証基盤の脆弱性、全部が「本来守るべき入り口」の話ね。",
+              "section": "まとめ",
+              "startFrame": 18445,
+              "endFrame": 18871
+            },
+            {
+              "speaker": "A",
+              "text": "個人でできることって何があるのだ？",
+              "section": "まとめ",
+              "startFrame": 18879,
+              "endFrame": 18965
+            },
+            {
+              "speaker": "B",
+              "text": "利用しているサービスからの通知メールを確認すること、パスワードの使い回しをやめること、ネットワーク機器の初期パスワードを変更すること。この3つね。",
+              "section": "まとめ",
+              "startFrame": 18973,
+              "endFrame": 19294
+            },
+            {
+              "speaker": "A",
+              "text": "小さなことの積み重ねが大事なのだ！今日も聞いてくれてありがとうなのだ、また明日なのだ！",
+              "section": "まとめ",
+              "startFrame": 19302,
+              "endFrame": 19512
+            },
+            {
+              "speaker": "B",
+              "text": "お疲れさま。難しく考えなくても、通知メールをちゃんと読むだけで防げることも多いから、まずはそこからね。また次回、気をつけて過ごしてね。",
+              "section": "まとめ",
+              "startFrame": 19519,
+              "endFrame": 19828
+            }
+          ]
+        }
+      },
+      {
         "mode": "arxiv_ai",
         "label": "arxiv AI論文解説",
         "iaId": "news-pickup-2026-08-20-arxiv-ai",
