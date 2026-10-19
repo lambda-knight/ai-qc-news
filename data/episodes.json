@@ -3,6 +3,1347 @@
     "date": "2026-10-19",
     "segments": [
       {
+        "mode": "ai",
+        "label": "生成AIニュース",
+        "iaId": "news-pickup-2026-10-19-ai",
+        "title": "Character.AI破産でDisneyが社員の大半を採用、AIの鍵を盗むAoki【2026/10/19】",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-10-19-ai/ai_yukkuri.m4a",
+        "markdown": "<h1>生成AI・量子・セキュリティニュース（2026年10月19日）</h1>\n<p><strong>キーワード:</strong> Character.AIの破産とDisney / Anthropicの雇用報告 / OpenAIとAppleの営業秘密訴訟 / オックスフォード大の2種イオン量子ネットワーク / IBMのAIによる復号器設計 / AIの鍵を狙うAoki</p>\n<h2>オープニング：2026年10月19日 — 生成AI・量子・セキュリティニュース</h2>\n<ul>\n<li>今日の軸は「人と鍵の行き先」です。AIの会社が倒れたとき、社員、設計図、認証情報がどこへ移るのかが、相次いで表に出ました。</li>\n<li>生成AIでは、破産したCharacter.AIの社員の大半をDisneyが採用する件、Anthropicが自社の雇用の変化を数字で公表した件、OpenAIが元社員による未発表端末の設計の持ち出しをAppleに向けて主張した件、Metaが批判を受けて規約の条文を削った件を扱います。</li>\n<li>量子では、オックスフォード大学が2種類のイオンで通信と記憶を分けた量子ネットワークと、IBMがAIエージェントで誤り訂正の復号回路を設計した研究を扱います。</li>\n<li>セキュリティでは、OpenBSDの37年前からの数え間違いを使ったroot奪取、AIコーディング支援の認証情報を盗む「Aoki」、直近1週間のインシデント一覧を扱います。</li>\n</ul>\n<h2>生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ</h2>\n<ul>\n<li>AIキャラクターとの会話サービスCharacter.AIを運営するCharacter Technologiesは、10月12日に米デラウェア州の連邦裁判所へ連邦破産法11条の適用を申請しました。資産と負債はそれぞれ5000万〜1億ドルと見積もっています（The Next Web、PYMNTS）。</li>\n<li>Disneyは、同社の知的財産の一部と一部の法的請求権について、期限のない非独占の利用許諾を2000万ドルで得る最初の入札者です。より高い条件を出す買い手が現れれば入れ替わる「ストーキングホース」入札で、売却は11月下旬から12月上旬に完了する見込みです。</li>\n<li>Bloombergが見つけた裁判所への書類によると、DisneyはCharacter.AIの社員少なくとも60人に採用を申し出ました。社員の大半にあたり、年間の報酬は約6000万ドルと見積もられています。申し出を受けた社員の「大多数」が受諾しました（TechCrunch、10月18日）。</li>\n<li>Disneyは採用した元社員を一定期間Character.AIへ貸し戻し、サービスを安全に動かし続けるのを手伝わせます。アプリとウェブサイトは売却の間も動き続けますが、続ける買い手がいなければ終了するとしています。</li>\n<li>書類は、利用者は「多く熱心」だったものの、高い費用と「訴訟に関わる潜在的な負債と規制当局への対応」が経営を圧迫したと説明しています。</li>\n<li>同社は2024年10月、チャットボットにのめり込んだ14歳の少年の自殺をめぐり母親から提訴されました。2026年1月には10代の心の危機や自殺をめぐる5件の訴訟で和解しましたが、その後も家族や州からの請求が続いています。</li>\n<li>9月には当時のCEOカランディープ・アナンド氏が、Disney初の全社の技術責任者に就いています。Disneyはその1年前、自社のキャラクターをまねたチャットボットを置かないよう同社に求めていました。</li>\n</ul>\n<h2>生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増</h2>\n<ul>\n<li>Anthropicは10月16日、自社の雇用の変化をまとめた報告「Anthropicでの雇用」を公表しました（TechCrunch、10月17日）。</li>\n<li>技術部門に占める若手の割合は、2025年初めの21％から14％に下がりました。技術職の採用に占める若手は27％から9％です。</li>\n<li>全社員に占める技術チームの割合は61％から56％に下がりました。事業部門の拡大に加え、コーディング支援ツールで技術職以外の社員も自分でソフトを作れるようになったためと説明しています。</li>\n<li>2026年4月の社内調査では、27％が「Claudeで生産性が上がった」と答え、20％が「仕事が、自分で作業することから、複数のClaudeを管理することへ移った」と答えました。ある技術者は、子どもの世話にたとえ「どの子も同じだけ注意を求めてくる」と語っています。</li>\n<li>1人あたりのコード量、営業1人あたりの成約、処理した契約の数は増えました。ただし同社は「コードが増えても、良いコードや事業への効果を意味するとは限らない」と認めています。コードの質が落ちた兆しはないとしていますが、指標は示されていません。</li>\n<li>カレンダーのデータでは、社員1人あたりの会議時間が前年比20％、技術職では16％増えました。Claudeが大量の文章を生み、人がそれを読んで整理する注意と判断が新たなボトルネックになったとしています。</li>\n<li>同社は、業務を徹底的にAI中心に作り替えたため、ほかの組織に同じ結果が出るとは限らないと断っています。社員からは、速く動き何でもClaudeに任せよという「終わりのない圧力」を訴える声も出ています。</li>\n</ul>\n<h2>生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張</h2>\n<ul>\n<li>OpenAIは、Appleから営業秘密の盗用で訴えられた裁判への反論の書類で、名前を伏せた元社員が退職直前にOpenAIのハードウェアの設計を持ち出し、Appleの幹部に見せたと主張しました（DataBreachToday、10月15日）。</li>\n<li>OpenAIによると、少なくとも1つの未発表端末に関する100超のファイルが、元社員の個人アカウントへ送られました。一部は最終出社日だった6月2日の、シンガポール時間の深夜0時過ぎに送られています。</li>\n<li>ファイルには未発表端末の詳細な画像、設計と製造の機密データ、部品の調達先、仕上げの外観基準などが含まれていたとしています。</li>\n<li>先に訴えたのはAppleで、8月にOpenAIと複数の社員を提訴しました。OpenAIへ移った元幹部2人がAppleのデータをダウンロードし、ほかの社員にも営業秘密を渡すよう求めたという主張で、OpenAIは否定しています。</li>\n<li>審理するカリフォルニア州北部地区連邦地裁のエドワード・ダビラ判事は10月14日、Appleの仮差し止めの申し立てを認める可能性が「非常に高い」と述べ、OpenAIに盗まれたとされるデータに関する書類の提出を命じました。Appleがすべての端末と保管庫の調査を求めた点は、行き過ぎだとしています。</li>\n<li>OpenAIは、Appleが主張する秘密を使わないと述べたうえで、逆に自社の秘密がApple社内に出回っているとして、調査の時間と反訴の機会を求めました。Appleは「本題から注意をそらそうとしている」と反発しています。</li>\n<li>OpenAIは2025年、iPhoneのデザイナーだったジョニー・アイブ氏の会社io Productsを買収し、AI端末を開発しています。Appleは10月、Siriを中心にした家庭用端末「HomeView」を発売しました。</li>\n</ul>\n<h2>生成AIと学習データ：Meta、AI学習に使える条文を削除</h2>\n<ul>\n<li>Metaは10月17日までに、改定した商用利用規約から、企業アカウントのドメインやウェブページ、URLの「あらゆる内容」を自社製品の開発・研究・「学習」などに使えるとした条文を削りました。The Vergeが報じ、TechCrunchが伝えています。</li>\n<li>法律の専門家は、Metaの企業アカウントを持つ報道機関のサイトを巡回し、記事をAIの学習に使える「異例の条文」だと指摘していました。</li>\n<li>Metaは削除の後も「まとめ直した巡回の条項は、広告と企業向け製品にだけ適用されていた」「ウェブクローラーの使い方は変わらない」と説明しています。</li>\n<li>Metaは2025年6月、AIの学習をめぐる著作権訴訟で勝訴しています。AI企業を相手にした別の裁判は続いています。</li>\n</ul>\n<h2>量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担</h2>\n<ul>\n<li>英オックスフォード大学の物理学者は10月16日、離れた2つの装置にまたがる量子もつれを作り、10秒を超えて保存した成果を、物理学誌Physical Review Lettersに発表しました（Quantum Computing Report）。</li>\n<li>2つの装置にはそれぞれ、ストロンチウムイオン（88Sr+）とカルシウムイオン（43Ca+）が1個ずつ入っています。ストロンチウムが光で相手とつながる通信役、カルシウムが量子状態を保つ記憶役です。</li>\n<li>ストロンチウムが出した422ナノメートルの光子を中央の検出所で干渉させ、離れたイオン同士をもつれさせます。この忠実度は96.94％で、1回の試行の成功確率は1.24％、正味の生成速度は毎秒39.3回でした。</li>\n<li>できたもつれを、誤りを検出しながらカルシウムへ移しました。カルシウム同士の遠隔のもつれは忠実度93.10％、2つの装置の4個のイオンすべてにまたがるGHZ状態は91.90％です。</li>\n<li>カルシウムは磁場の揺らぎに、ストロンチウムより約100分の1しか影響を受けません。保存したもつれは10秒を超えて残り、作るのにかかる約100ミリ秒の100倍以上です。ただし10秒後の忠実度は69％まで下がります。</li>\n<li>1種類のイオンで通信と記憶を兼ねると、通信用のレーザーや光子の放出で記憶が壊れます。役割を分けることで、複数の装置をつないで1台の量子コンピュータのように使う分散型量子計算や、量子センサーの網に近づくとしています。</li>\n</ul>\n<h2>量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1</h2>\n<ul>\n<li>IBM Researchのアビシェーク・バンドワルダル氏、ミヒル・チョードリー氏、ルチル・プリ氏らは、量子誤り訂正の復号器を動かす専用の古典回路を、AIエージェントの集団に設計させた研究を公開しました（Quantum Computing Report、10月15日）。</li>\n<li>対象は、IBMが採用する「グロス符号」（[[144,12,12]]の2変数バイシクル符号）を復号するアルゴリズムRelay-BPです。回路を高位合成（HLS）用のC++で書き、速さを競いました。</li>\n<li>調整役のモデル1つが、並列に動く4つの作業役エージェントへ指示し、メモリの並べ方や計算の木の組み方などの設計変更を試させました。</li>\n<li>すべてをAnthropicのClaude Opus 5で動かした場合、遅延は139マイクロ秒で、元の設計の204倍速くなり、推論費用は299.45ドルでした。</li>\n<li>調整役をOpus、作業役をオープンなモデルGLM-5.3にすると、遅延223マイクロ秒、費用105.25ドルです。すべてをGLM-5.3にして自社の推論基盤llm-dで動かすと、遅延545マイクロ秒、費用25.95ドルで、費用は11.5分の1になりました。</li>\n<li>安さの代わりに速さは52倍にとどまり、試行回数を倍にしても60倍まででした。結果は高位合成の段階の評価で、実際のチップを作ったとは報じられていません。</li>\n</ul>\n<h2>セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取</h2>\n<ul>\n<li>セキュリティ企業Califは、OpenBSD 7.9で、一般ユーザーからroot（管理者）権限を奪う攻撃の詳しい解説と、完全な実証コードを公開しました（The Hacker News）。</li>\n<li>出発点は、共有メモリをいくつのプロセスが使っているかを数える変数です。符号付き16ビットの整数で、1988年ごろのBSDのソースから約37年受け継がれてきました。</li>\n<li>Califは127個の共有メモリを用意し、259個のプロセスを作って、この数を負の値へあふれさせました。そこへ競合状態を重ね、解放済みのメモリを使わせる「解放後使用」の欠陥に変えています。</li>\n<li>さらに別の、範囲外への書き込みの欠陥で、カーネルのページ表を書き換えました。カーネルの配置を毎回変える独自の防御KARLと、CPUの保護機能SMAP・SMEPを、情報漏れの欠陥なしで越えています。</li>\n<li>KARLはカーネルの関数の位置を変えますが、メモリの割り当て方は決まっていて、同じ機械なら起動のたびに同じ場所に置かれる点を突きました。</li>\n<li>OpenBSDは9月14日に数え間違いを「信頼性の修正」（errata 018）、9月30日に解放後使用を「セキュリティの修正」（errata 026）として直しています。報道の時点で、どちらにもCVE番号は振られておらず、攻撃への悪用は確認されていません。</li>\n<li>Califは、リスト操作の安全な解除、ページ表の位置の起動時のランダム化、メモリ割り当ての非決定化、配列の範囲を調べるコンパイラー機能の利用を提案しました。同じ道具で見つかるFreeBSDの欠陥21件も、非公開で報告しています。</li>\n</ul>\n<h2>セキュリティ：AIコーディング支援の鍵を盗む「Aoki」</h2>\n<ul>\n<li>Symantecの脅威ハンターチームは10月15日、情報窃取型マルウェア「Aoki」の新しい版が、AIコーディング支援ツールの認証情報を狙うようになったと報告しました（Infosecurity Magazine、SC Media）。</li>\n<li>以前の版は、ブラウザー、暗号資産のウォレット、パスワード管理ソフトのデータを盗んでいました。AI関連の収集は最近加わった機能です。</li>\n<li>最新の版は、Claudeの設定ファイル「.claude.json」とデスクトップ版のクッキー、ChatGPTのクッキー、OpenAI Codexの「config.toml」と「.env」を探します。GitHub Copilot、Cursor、Gemini、JetBrains AI Assistant、Kiroのトークンと、AWSの認証情報も集めます。</li>\n<li>盗んだ鍵があれば、攻撃者は正規の開発者になりすまし、その人の利用枠でAIを使えます。権限によっては、つながったコードの保管庫、クラウド、自動ビルドの仕組みにも届きます。</li>\n<li>Symantecは、AIの認証情報が、クレジットカード情報や暗号資産のウォレットと同じほど攻撃者にとって価値を持つようになったと見ています。転売したり、他人の契約でAIを使い込む「LLMジャッキング」に使われたりします。</li>\n<li>作った集団は分かっておらず、既知のマルウェアとのつながりも見つかっていません。暗号資産を重く狙うことから、金銭目的とみられます。Symantecは「多機能で、今も開発が続いている」としています。</li>\n</ul>\n<h2>セキュリティ：最近のインシデント一覧</h2>\n<ul>\n<li>米iRhythm Technologies（10月15日ごろ判明／患者データの窃取と恐喝）：家庭で着ける心電図モニター「Zio」の製造元。オレゴン州司法長官への10月6日付の届け出で、影響が820万人に上ることが分かった。米国と欧州の患者800万人超のほぼ全員にあたる可能性がある。6月10日の米証券取引委員会への届け出では、攻撃者が公開しない見返りに支払いを要求したとしていたが、支払いの有無は公表していない</li>\n<li>ドイツのマルティン・ルター大学ハレ・ヴィッテンベルク（10月14日判明／不正アクセスによる情報流出）：2026年夏学期と2026/27年冬学期の約5万1000件の出願データが抜き取られたとみられる。氏名、住所、電話番号、生年月日と出生地、志望学科、合否の状況などで、提出書類も見られた可能性がある。危機対策本部を置き、刑事告訴した。侵入経路と犯人は未公表</li>\n<li>豪クイーンズランド州のPoole Group（10月16日報道／ランサムウェア集団の犯行声明）：会計・税務などを手がける1980年創業の事務所。LockBitがリークサイトに名前を載せ、10月25日を期限にデータの公開を予告していると主張。同社はIT環境の一部に影響する事案を認め、豪州の情報コミッショナー事務局、サイバーセキュリティセンター、国税庁に届け出た</li>\n<li>カナダのPattison Food Group（10月17日報道／会員データベースへの不正アクセス）：Save-On-Foodsなどの共通ポイント「More Rewards」のサーバーで今週火曜に異常を検知し、金曜に会員の氏名と、登録していれば住所、電話番号、メールアドレス、生年月日が見られたと確認。パスワード、カード情報、購入履歴は見られていないとしている。人数は未公表</li>\n<li>北マケドニアの闇市場「OLVX」（10月14日報道／運営者の逮捕）：盗んだ個人情報や認証情報、攻撃道具を売っていた市場で、2023〜2025年に1500超の販売者アカウントがあった。北マケドニア内務省とFBIの初の共同作戦で、テトヴォ近郊の容疑者を逮捕。FBIは数千人の米国民を危険にさらしたとしている</li>\n<li>対策：AIコーディング支援を使う人は、設定ファイルに置いたAPIキーの権限と利用状況を見直し、使っていない鍵を無効にすること。会員登録で求められる生年月日などは、必須でなければ入れないことが、今週の備えです。</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>Character.AIでは、利用者を集めたサービスが訴訟と費用で倒れ、社員はDisneyへ移り、サービスの行方は入札に委ねられました。</li>\n<li>Anthropicの報告は、AIで若手の採用が減り、人の仕事が「作業」から「AIの出力を読み、判断し、すり合わせること」へ移った姿を数字で示しました。</li>\n<li>OpenAIとAppleは、互いに相手の社員が設計を持ち出したと訴え合っています。Metaは批判を受け、AI学習に使える条文を削りました。</li>\n<li>量子では、オックスフォード大学が通信と記憶をイオンの種類で分け、IBMはAIエージェントに誤り訂正の復号回路を作らせ、費用と速さの交換条件を数字で示しました。</li>\n<li>OpenBSDの件は37年前の小さな型の選択が今も攻撃の足場になることを、Aokiは開発者の手元のAIの鍵が新しい標的になったことを示しています。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li><a href=\"https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/\">TechCrunch: Disney agrees to hire the majority of Character.AI's workforce</a></li>\n<li><a href=\"https://thenextweb.com/news/character-ai-files-for-bankruptcy-as-disney-bids-20m-for-some-assets\">The Next Web: Character.AI files for bankruptcy as Disney bids $20M for some assets</a></li>\n<li><a href=\"https://pymnts.com/business/2026/character-ai-files-for-bankruptcy-and-signs-20-million-disney-deal\">PYMNTS: Character AI Files for Bankruptcy and Signs $20 Million Disney Deal</a></li>\n<li><a href=\"https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/\">TechCrunch: Anthropic says its workforce has become less junior and is spending more time in meetings</a></li>\n<li><a href=\"https://www.databreachtoday.com/openai-accuses-apple-receiving-stolen-trade-secrets-a-33120\">DataBreachToday: OpenAI Accuses Apple of Receiving Stolen Trade Secrets</a></li>\n<li><a href=\"https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/\">TechCrunch: Meta removes language that raised scraping and AI training concerns</a></li>\n<li><a href=\"https://quantumcomputingreport.com/university-of-oxford-entangles-multi-species-atom-network-and-extends-memory-storage-beyond-10-seconds/\">Quantum Computing Report: University of Oxford Entangles Multi-Species Atom Network and Extends Memory Storage Beyond 10 Seconds</a></li>\n<li><a href=\"https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost/\">Quantum Computing Report: IBM Research Automates QEC Decoder Chip Design Using Open AI Agent Factories at 11.5x Lower Inference Cost</a></li>\n<li><a href=\"https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html\">The Hacker News: Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug</a></li>\n<li><a href=\"https://ecosistemastartup.com/openbsd-un-bug-de-kernel-de-37-anos-da-root/\">Ecosistema Startup: OpenBSD: un bug de kernel de 37 años da root</a></li>\n<li><a href=\"https://www.infosecurity-magazine.com/news/aoki-infostealer-ai-coding/\">Infosecurity Magazine: New Aoki Infostealer Targets AI Coding Assistant Credentials</a></li>\n<li><a href=\"https://www.scworld.com/brief/new-infostealer-targets-ai-coding-assistant-credentials\">SC Media: New infostealer targets AI coding assistant credentials</a></li>\n<li><a href=\"https://www.databreachtoday.com/cardiac-monitoring-firm-irhythms-hack-affects-82-million-a-33131\">DataBreachToday: Cardiac Monitoring Firm iRhythm's Hack Affects 8.2 Million</a></li>\n<li><a href=\"https://ostdeutscheallgemeine.com/article/uni-halle-cyberangriff-studienbewerber-daten-10503084\">Ostdeutsche Allgemeine: Uni Halle Cyberangriff Studienbewerber Daten</a></li>\n<li><a href=\"https://www.cyberdaily.au/security/14307-exclusive-poole-group-investigating-lockbit-ransomware-attack\">Cyber Daily: Exclusive: Poole Group investigating LockBit ransomware attack</a></li>\n<li><a href=\"https://globalnews.ca/news/12106695/more-rewards-customer-data-accessed-cybersecurity-breach-pattison/\">Global News: More Rewards customer data accessed in cybersecurity breach</a></li>\n<li><a href=\"https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia\">The Record: OLVX cybercrime marketplace arrest in North Macedonia</a></li>\n</ul>",
+        "markdownSource": "# 生成AI・量子・セキュリティニュース（2026年10月19日）\n\n**キーワード:** Character.AIの破産とDisney / Anthropicの雇用報告 / OpenAIとAppleの営業秘密訴訟 / オックスフォード大の2種イオン量子ネットワーク / IBMのAIによる復号器設計 / AIの鍵を狙うAoki\n\n## オープニング：2026年10月19日 — 生成AI・量子・セキュリティニュース\n\n- 今日の軸は「人と鍵の行き先」です。AIの会社が倒れたとき、社員、設計図、認証情報がどこへ移るのかが、相次いで表に出ました。\n- 生成AIでは、破産したCharacter.AIの社員の大半をDisneyが採用する件、Anthropicが自社の雇用の変化を数字で公表した件、OpenAIが元社員による未発表端末の設計の持ち出しをAppleに向けて主張した件、Metaが批判を受けて規約の条文を削った件を扱います。\n- 量子では、オックスフォード大学が2種類のイオンで通信と記憶を分けた量子ネットワークと、IBMがAIエージェントで誤り訂正の復号回路を設計した研究を扱います。\n- セキュリティでは、OpenBSDの37年前からの数え間違いを使ったroot奪取、AIコーディング支援の認証情報を盗む「Aoki」、直近1週間のインシデント一覧を扱います。\n\n## 生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ\n\n- AIキャラクターとの会話サービスCharacter.AIを運営するCharacter Technologiesは、10月12日に米デラウェア州の連邦裁判所へ連邦破産法11条の適用を申請しました。資産と負債はそれぞれ5000万〜1億ドルと見積もっています（The Next Web、PYMNTS）。\n- Disneyは、同社の知的財産の一部と一部の法的請求権について、期限のない非独占の利用許諾を2000万ドルで得る最初の入札者です。より高い条件を出す買い手が現れれば入れ替わる「ストーキングホース」入札で、売却は11月下旬から12月上旬に完了する見込みです。\n- Bloombergが見つけた裁判所への書類によると、DisneyはCharacter.AIの社員少なくとも60人に採用を申し出ました。社員の大半にあたり、年間の報酬は約6000万ドルと見積もられています。申し出を受けた社員の「大多数」が受諾しました（TechCrunch、10月18日）。\n- Disneyは採用した元社員を一定期間Character.AIへ貸し戻し、サービスを安全に動かし続けるのを手伝わせます。アプリとウェブサイトは売却の間も動き続けますが、続ける買い手がいなければ終了するとしています。\n- 書類は、利用者は「多く熱心」だったものの、高い費用と「訴訟に関わる潜在的な負債と規制当局への対応」が経営を圧迫したと説明しています。\n- 同社は2024年10月、チャットボットにのめり込んだ14歳の少年の自殺をめぐり母親から提訴されました。2026年1月には10代の心の危機や自殺をめぐる5件の訴訟で和解しましたが、その後も家族や州からの請求が続いています。\n- 9月には当時のCEOカランディープ・アナンド氏が、Disney初の全社の技術責任者に就いています。Disneyはその1年前、自社のキャラクターをまねたチャットボットを置かないよう同社に求めていました。\n\n## 生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増\n\n- Anthropicは10月16日、自社の雇用の変化をまとめた報告「Anthropicでの雇用」を公表しました（TechCrunch、10月17日）。\n- 技術部門に占める若手の割合は、2025年初めの21％から14％に下がりました。技術職の採用に占める若手は27％から9％です。\n- 全社員に占める技術チームの割合は61％から56％に下がりました。事業部門の拡大に加え、コーディング支援ツールで技術職以外の社員も自分でソフトを作れるようになったためと説明しています。\n- 2026年4月の社内調査では、27％が「Claudeで生産性が上がった」と答え、20％が「仕事が、自分で作業することから、複数のClaudeを管理することへ移った」と答えました。ある技術者は、子どもの世話にたとえ「どの子も同じだけ注意を求めてくる」と語っています。\n- 1人あたりのコード量、営業1人あたりの成約、処理した契約の数は増えました。ただし同社は「コードが増えても、良いコードや事業への効果を意味するとは限らない」と認めています。コードの質が落ちた兆しはないとしていますが、指標は示されていません。\n- カレンダーのデータでは、社員1人あたりの会議時間が前年比20％、技術職では16％増えました。Claudeが大量の文章を生み、人がそれを読んで整理する注意と判断が新たなボトルネックになったとしています。\n- 同社は、業務を徹底的にAI中心に作り替えたため、ほかの組織に同じ結果が出るとは限らないと断っています。社員からは、速く動き何でもClaudeに任せよという「終わりのない圧力」を訴える声も出ています。\n\n## 生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張\n\n- OpenAIは、Appleから営業秘密の盗用で訴えられた裁判への反論の書類で、名前を伏せた元社員が退職直前にOpenAIのハードウェアの設計を持ち出し、Appleの幹部に見せたと主張しました（DataBreachToday、10月15日）。\n- OpenAIによると、少なくとも1つの未発表端末に関する100超のファイルが、元社員の個人アカウントへ送られました。一部は最終出社日だった6月2日の、シンガポール時間の深夜0時過ぎに送られています。\n- ファイルには未発表端末の詳細な画像、設計と製造の機密データ、部品の調達先、仕上げの外観基準などが含まれていたとしています。\n- 先に訴えたのはAppleで、8月にOpenAIと複数の社員を提訴しました。OpenAIへ移った元幹部2人がAppleのデータをダウンロードし、ほかの社員にも営業秘密を渡すよう求めたという主張で、OpenAIは否定しています。\n- 審理するカリフォルニア州北部地区連邦地裁のエドワード・ダビラ判事は10月14日、Appleの仮差し止めの申し立てを認める可能性が「非常に高い」と述べ、OpenAIに盗まれたとされるデータに関する書類の提出を命じました。Appleがすべての端末と保管庫の調査を求めた点は、行き過ぎだとしています。\n- OpenAIは、Appleが主張する秘密を使わないと述べたうえで、逆に自社の秘密がApple社内に出回っているとして、調査の時間と反訴の機会を求めました。Appleは「本題から注意をそらそうとしている」と反発しています。\n- OpenAIは2025年、iPhoneのデザイナーだったジョニー・アイブ氏の会社io Productsを買収し、AI端末を開発しています。Appleは10月、Siriを中心にした家庭用端末「HomeView」を発売しました。\n\n## 生成AIと学習データ：Meta、AI学習に使える条文を削除\n\n- Metaは10月17日までに、改定した商用利用規約から、企業アカウントのドメインやウェブページ、URLの「あらゆる内容」を自社製品の開発・研究・「学習」などに使えるとした条文を削りました。The Vergeが報じ、TechCrunchが伝えています。\n- 法律の専門家は、Metaの企業アカウントを持つ報道機関のサイトを巡回し、記事をAIの学習に使える「異例の条文」だと指摘していました。\n- Metaは削除の後も「まとめ直した巡回の条項は、広告と企業向け製品にだけ適用されていた」「ウェブクローラーの使い方は変わらない」と説明しています。\n- Metaは2025年6月、AIの学習をめぐる著作権訴訟で勝訴しています。AI企業を相手にした別の裁判は続いています。\n\n## 量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担\n\n- 英オックスフォード大学の物理学者は10月16日、離れた2つの装置にまたがる量子もつれを作り、10秒を超えて保存した成果を、物理学誌Physical Review Lettersに発表しました（Quantum Computing Report）。\n- 2つの装置にはそれぞれ、ストロンチウムイオン（88Sr+）とカルシウムイオン（43Ca+）が1個ずつ入っています。ストロンチウムが光で相手とつながる通信役、カルシウムが量子状態を保つ記憶役です。\n- ストロンチウムが出した422ナノメートルの光子を中央の検出所で干渉させ、離れたイオン同士をもつれさせます。この忠実度は96.94％で、1回の試行の成功確率は1.24％、正味の生成速度は毎秒39.3回でした。\n- できたもつれを、誤りを検出しながらカルシウムへ移しました。カルシウム同士の遠隔のもつれは忠実度93.10％、2つの装置の4個のイオンすべてにまたがるGHZ状態は91.90％です。\n- カルシウムは磁場の揺らぎに、ストロンチウムより約100分の1しか影響を受けません。保存したもつれは10秒を超えて残り、作るのにかかる約100ミリ秒の100倍以上です。ただし10秒後の忠実度は69％まで下がります。\n- 1種類のイオンで通信と記憶を兼ねると、通信用のレーザーや光子の放出で記憶が壊れます。役割を分けることで、複数の装置をつないで1台の量子コンピュータのように使う分散型量子計算や、量子センサーの網に近づくとしています。\n\n## 量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1\n\n- IBM Researchのアビシェーク・バンドワルダル氏、ミヒル・チョードリー氏、ルチル・プリ氏らは、量子誤り訂正の復号器を動かす専用の古典回路を、AIエージェントの集団に設計させた研究を公開しました（Quantum Computing Report、10月15日）。\n- 対象は、IBMが採用する「グロス符号」（[[144,12,12]]の2変数バイシクル符号）を復号するアルゴリズムRelay-BPです。回路を高位合成（HLS）用のC++で書き、速さを競いました。\n- 調整役のモデル1つが、並列に動く4つの作業役エージェントへ指示し、メモリの並べ方や計算の木の組み方などの設計変更を試させました。\n- すべてをAnthropicのClaude Opus 5で動かした場合、遅延は139マイクロ秒で、元の設計の204倍速くなり、推論費用は299.45ドルでした。\n- 調整役をOpus、作業役をオープンなモデルGLM-5.3にすると、遅延223マイクロ秒、費用105.25ドルです。すべてをGLM-5.3にして自社の推論基盤llm-dで動かすと、遅延545マイクロ秒、費用25.95ドルで、費用は11.5分の1になりました。\n- 安さの代わりに速さは52倍にとどまり、試行回数を倍にしても60倍まででした。結果は高位合成の段階の評価で、実際のチップを作ったとは報じられていません。\n\n## セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取\n\n- セキュリティ企業Califは、OpenBSD 7.9で、一般ユーザーからroot（管理者）権限を奪う攻撃の詳しい解説と、完全な実証コードを公開しました（The Hacker News）。\n- 出発点は、共有メモリをいくつのプロセスが使っているかを数える変数です。符号付き16ビットの整数で、1988年ごろのBSDのソースから約37年受け継がれてきました。\n- Califは127個の共有メモリを用意し、259個のプロセスを作って、この数を負の値へあふれさせました。そこへ競合状態を重ね、解放済みのメモリを使わせる「解放後使用」の欠陥に変えています。\n- さらに別の、範囲外への書き込みの欠陥で、カーネルのページ表を書き換えました。カーネルの配置を毎回変える独自の防御KARLと、CPUの保護機能SMAP・SMEPを、情報漏れの欠陥なしで越えています。\n- KARLはカーネルの関数の位置を変えますが、メモリの割り当て方は決まっていて、同じ機械なら起動のたびに同じ場所に置かれる点を突きました。\n- OpenBSDは9月14日に数え間違いを「信頼性の修正」（errata 018）、9月30日に解放後使用を「セキュリティの修正」（errata 026）として直しています。報道の時点で、どちらにもCVE番号は振られておらず、攻撃への悪用は確認されていません。\n- Califは、リスト操作の安全な解除、ページ表の位置の起動時のランダム化、メモリ割り当ての非決定化、配列の範囲を調べるコンパイラー機能の利用を提案しました。同じ道具で見つかるFreeBSDの欠陥21件も、非公開で報告しています。\n\n## セキュリティ：AIコーディング支援の鍵を盗む「Aoki」\n\n- Symantecの脅威ハンターチームは10月15日、情報窃取型マルウェア「Aoki」の新しい版が、AIコーディング支援ツールの認証情報を狙うようになったと報告しました（Infosecurity Magazine、SC Media）。\n- 以前の版は、ブラウザー、暗号資産のウォレット、パスワード管理ソフトのデータを盗んでいました。AI関連の収集は最近加わった機能です。\n- 最新の版は、Claudeの設定ファイル「.claude.json」とデスクトップ版のクッキー、ChatGPTのクッキー、OpenAI Codexの「config.toml」と「.env」を探します。GitHub Copilot、Cursor、Gemini、JetBrains AI Assistant、Kiroのトークンと、AWSの認証情報も集めます。\n- 盗んだ鍵があれば、攻撃者は正規の開発者になりすまし、その人の利用枠でAIを使えます。権限によっては、つながったコードの保管庫、クラウド、自動ビルドの仕組みにも届きます。\n- Symantecは、AIの認証情報が、クレジットカード情報や暗号資産のウォレットと同じほど攻撃者にとって価値を持つようになったと見ています。転売したり、他人の契約でAIを使い込む「LLMジャッキング」に使われたりします。\n- 作った集団は分かっておらず、既知のマルウェアとのつながりも見つかっていません。暗号資産を重く狙うことから、金銭目的とみられます。Symantecは「多機能で、今も開発が続いている」としています。\n\n## セキュリティ：最近のインシデント一覧\n\n- 米iRhythm Technologies（10月15日ごろ判明／患者データの窃取と恐喝）：家庭で着ける心電図モニター「Zio」の製造元。オレゴン州司法長官への10月6日付の届け出で、影響が820万人に上ることが分かった。米国と欧州の患者800万人超のほぼ全員にあたる可能性がある。6月10日の米証券取引委員会への届け出では、攻撃者が公開しない見返りに支払いを要求したとしていたが、支払いの有無は公表していない\n- ドイツのマルティン・ルター大学ハレ・ヴィッテンベルク（10月14日判明／不正アクセスによる情報流出）：2026年夏学期と2026/27年冬学期の約5万1000件の出願データが抜き取られたとみられる。氏名、住所、電話番号、生年月日と出生地、志望学科、合否の状況などで、提出書類も見られた可能性がある。危機対策本部を置き、刑事告訴した。侵入経路と犯人は未公表\n- 豪クイーンズランド州のPoole Group（10月16日報道／ランサムウェア集団の犯行声明）：会計・税務などを手がける1980年創業の事務所。LockBitがリークサイトに名前を載せ、10月25日を期限にデータの公開を予告していると主張。同社はIT環境の一部に影響する事案を認め、豪州の情報コミッショナー事務局、サイバーセキュリティセンター、国税庁に届け出た\n- カナダのPattison Food Group（10月17日報道／会員データベースへの不正アクセス）：Save-On-Foodsなどの共通ポイント「More Rewards」のサーバーで今週火曜に異常を検知し、金曜に会員の氏名と、登録していれば住所、電話番号、メールアドレス、生年月日が見られたと確認。パスワード、カード情報、購入履歴は見られていないとしている。人数は未公表\n- 北マケドニアの闇市場「OLVX」（10月14日報道／運営者の逮捕）：盗んだ個人情報や認証情報、攻撃道具を売っていた市場で、2023〜2025年に1500超の販売者アカウントがあった。北マケドニア内務省とFBIの初の共同作戦で、テトヴォ近郊の容疑者を逮捕。FBIは数千人の米国民を危険にさらしたとしている\n- 対策：AIコーディング支援を使う人は、設定ファイルに置いたAPIキーの権限と利用状況を見直し、使っていない鍵を無効にすること。会員登録で求められる生年月日などは、必須でなければ入れないことが、今週の備えです。\n\n## まとめ\n\n- Character.AIでは、利用者を集めたサービスが訴訟と費用で倒れ、社員はDisneyへ移り、サービスの行方は入札に委ねられました。\n- Anthropicの報告は、AIで若手の採用が減り、人の仕事が「作業」から「AIの出力を読み、判断し、すり合わせること」へ移った姿を数字で示しました。\n- OpenAIとAppleは、互いに相手の社員が設計を持ち出したと訴え合っています。Metaは批判を受け、AI学習に使える条文を削りました。\n- 量子では、オックスフォード大学が通信と記憶をイオンの種類で分け、IBMはAIエージェントに誤り訂正の復号回路を作らせ、費用と速さの交換条件を数字で示しました。\n- OpenBSDの件は37年前の小さな型の選択が今も攻撃の足場になることを、Aokiは開発者の手元のAIの鍵が新しい標的になったことを示しています。\n\n## 参考ソース\n\n- [TechCrunch: Disney agrees to hire the majority of Character.AI's workforce](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/)\n- [The Next Web: Character.AI files for bankruptcy as Disney bids $20M for some assets](https://thenextweb.com/news/character-ai-files-for-bankruptcy-as-disney-bids-20m-for-some-assets)\n- [PYMNTS: Character AI Files for Bankruptcy and Signs $20 Million Disney Deal](https://pymnts.com/business/2026/character-ai-files-for-bankruptcy-and-signs-20-million-disney-deal)\n- [TechCrunch: Anthropic says its workforce has become less junior and is spending more time in meetings](https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/)\n- [DataBreachToday: OpenAI Accuses Apple of Receiving Stolen Trade Secrets](https://www.databreachtoday.com/openai-accuses-apple-receiving-stolen-trade-secrets-a-33120)\n- [TechCrunch: Meta removes language that raised scraping and AI training concerns](https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/)\n- [Quantum Computing Report: University of Oxford Entangles Multi-Species Atom Network and Extends Memory Storage Beyond 10 Seconds](https://quantumcomputingreport.com/university-of-oxford-entangles-multi-species-atom-network-and-extends-memory-storage-beyond-10-seconds/)\n- [Quantum Computing Report: IBM Research Automates QEC Decoder Chip Design Using Open AI Agent Factories at 11.5x Lower Inference Cost](https://quantumcomputingreport.com/ibm-research-automates-qec-decoder-chip-design-using-open-ai-agent-factories-at-11-5x-lower-inference-cost/)\n- [The Hacker News: Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug](https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html)\n- [Ecosistema Startup: OpenBSD: un bug de kernel de 37 años da root](https://ecosistemastartup.com/openbsd-un-bug-de-kernel-de-37-anos-da-root/)\n- [Infosecurity Magazine: New Aoki Infostealer Targets AI Coding Assistant Credentials](https://www.infosecurity-magazine.com/news/aoki-infostealer-ai-coding/)\n- [SC Media: New infostealer targets AI coding assistant credentials](https://www.scworld.com/brief/new-infostealer-targets-ai-coding-assistant-credentials)\n- [DataBreachToday: Cardiac Monitoring Firm iRhythm's Hack Affects 8.2 Million](https://www.databreachtoday.com/cardiac-monitoring-firm-irhythms-hack-affects-82-million-a-33131)\n- [Ostdeutsche Allgemeine: Uni Halle Cyberangriff Studienbewerber Daten](https://ostdeutscheallgemeine.com/article/uni-halle-cyberangriff-studienbewerber-daten-10503084)\n- [Cyber Daily: Exclusive: Poole Group investigating LockBit ransomware attack](https://www.cyberdaily.au/security/14307-exclusive-poole-group-investigating-lockbit-ransomware-attack)\n- [Global News: More Rewards customer data accessed in cybersecurity breach](https://globalnews.ca/news/12106695/more-rewards-customer-data-accessed-cybersecurity-breach-pattison/)\n- [The Record: OLVX cybercrime marketplace arrest in North Macedonia](https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia)\n",
+        "timeline": {
+          "version": 1,
+          "source": "tts_voicevox",
+          "fps": 30,
+          "totalFrames": 36897,
+          "audioDurationSec": 1229.884,
+          "cues": [
+            {
+              "speaker": "A",
+              "text": "2026年10月19日、生成エーアイ・量子・セキュリティニュースを始めるのだ。",
+              "section": "オープニング：2026年10月19日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 18,
+              "endFrame": 261
+            },
+            {
+              "speaker": "B",
+              "text": "今日の軸は、人と鍵の行き先です。エーアイの会社が傾いたとき、社員や設計図や認証情報が、どこへ移るのかを見ます。",
+              "section": "オープニング：2026年10月19日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 268,
+              "endFrame": 555
+            },
+            {
+              "speaker": "A",
+              "text": "鍵って、家の鍵みたいなものなのだ？",
+              "section": "オープニング：2026年10月19日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 563,
+              "endFrame": 668
+            },
+            {
+              "speaker": "B",
+              "text": "ここでは、サービスに入るためのパスワードやトークンのことです。手元のエーアイの鍵を盗むマルウェアが、今日の最後に出てきます。",
+              "section": "オープニング：2026年10月19日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 675,
+              "endFrame": 937
+            },
+            {
+              "speaker": "A",
+              "text": "社員が移る話は、どこなのだ？",
+              "section": "オープニング：2026年10月19日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 944,
+              "endFrame": 1038
+            },
+            {
+              "speaker": "B",
+              "text": "破産したキャラクター・エーアイです。社員の大半を、ディズニーが採用します。",
+              "section": "オープニング：2026年10月19日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1046,
+              "endFrame": 1222
+            },
+            {
+              "speaker": "A",
+              "text": "設計図のほうは？",
+              "section": "オープニング：2026年10月19日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1229,
+              "endFrame": 1282
+            },
+            {
+              "speaker": "B",
+              "text": "オープンエーアイが、元社員が未発表の端末の設計をアップルへ渡した、と主張しました。量子では、イオンの種類で役割を分けた実験を見ます。",
+              "section": "オープニング：2026年10月19日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1289,
+              "endFrame": 1601
+            },
+            {
+              "speaker": "B",
+              "text": "10月12日、キャラクター・エーアイの運営会社が、デラウェア州の連邦裁判所に破産法11条の適用を申請しました。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 1619,
+              "endFrame": 1911
+            },
+            {
+              "speaker": "A",
+              "text": "キャラクター・エーアイは、どんなサービスなのだ？",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 1918,
+              "endFrame": 2041
+            },
+            {
+              "speaker": "B",
+              "text": "エーアイが演じるキャラクターと、自由に会話できるサービスです。資産と負債は、どちらも5000万から1億ドルと見積もっています。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 2049,
+              "endFrame": 2320
+            },
+            {
+              "speaker": "A",
+              "text": "つぶれたら、サービスも終わりなのだ？",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 2328,
+              "endFrame": 2421
+            },
+            {
+              "speaker": "B",
+              "text": "裁判所の手続きで、事業を売りに出します。最初に手を挙げたのがディズニーで、2000万ドルです。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 2429,
+              "endFrame": 2641
+            },
+            {
+              "speaker": "A",
+              "text": "会社ごと買うには、ずいぶん安いのだ。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 2649,
+              "endFrame": 2747
+            },
+            {
+              "speaker": "B",
+              "text": "買うのは会社ではなく、知的財産の一部を期限なしで使える権利と、一部の法的な請求権です。しかも独占ではありません。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 2755,
+              "endFrame": 3041
+            },
+            {
+              "speaker": "A",
+              "text": "もっと高い値を付ける会社が出たら、どうなるのだ？",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 3049,
+              "endFrame": 3176
+            },
+            {
+              "speaker": "B",
+              "text": "そちらに替わります。ディズニーの入札は、値段の下限を決める当て馬の役です。売却は11月下旬から12月上旬に終わる見込みです。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 3184,
+              "endFrame": 3489
+            },
+            {
+              "speaker": "A",
+              "text": "で、社員を採用する話は？",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 3497,
+              "endFrame": 3589
+            },
+            {
+              "speaker": "B",
+              "text": "ブルームバーグが見つけた書類では、ディズニーは少なくとも60人に採用を申し出ました。社員の大半で、年間の報酬は約6000万ドルです。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 3596,
+              "endFrame": 3912
+            },
+            {
+              "speaker": "A",
+              "text": "権利が2000万ドルで、人の給料が6000万ドルなのだ！",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 3919,
+              "endFrame": 4067
+            },
+            {
+              "speaker": "B",
+              "text": "欲しいのは、作ってきた人のほうだと読めます。申し出を受けた社員の、大多数が受け入れました。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 4074,
+              "endFrame": 4277
+            },
+            {
+              "speaker": "A",
+              "text": "残された利用者は、どうなるのだ？",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 4285,
+              "endFrame": 4376
+            },
+            {
+              "speaker": "B",
+              "text": "ディズニーは採用した元社員を、しばらくのあいだ貸し戻し、サービスを安全に動かす手伝いをさせます。続ける買い手がいなければ、終了です。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 4384,
+              "endFrame": 4691
+            },
+            {
+              "speaker": "A",
+              "text": "そもそも、なんで傾いたのだ？",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 4699,
+              "endFrame": 4782
+            },
+            {
+              "speaker": "B",
+              "text": "書類は、利用者は多く熱心だったが、高い費用と、訴訟に関わる負債や規制当局への対応が重かったと説明しています。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 4790,
+              "endFrame": 5069
+            },
+            {
+              "speaker": "A",
+              "text": "どんな訴訟なのだ？",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 5077,
+              "endFrame": 5128
+            },
+            {
+              "speaker": "B",
+              "text": "2024年10月、チャットボットにのめり込んだ14歳の少年が自殺したとして、母親が提訴しました。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 5136,
+              "endFrame": 5369
+            },
+            {
+              "speaker": "A",
+              "text": "それは、重い話なのだ。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 5376,
+              "endFrame": 5451
+            },
+            {
+              "speaker": "B",
+              "text": "2026年1月には、10代の心の危機や自殺をめぐる5件で和解しました。そのあとも、家族や州からの請求が続いています。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 5459,
+              "endFrame": 5755
+            },
+            {
+              "speaker": "A",
+              "text": "ディズニーとは、前から縁があったのだ？",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 5762,
+              "endFrame": 5860
+            },
+            {
+              "speaker": "B",
+              "text": "9月に、当時のCEOカランディープ・アナンド氏が、ディズニー初の全社の技術責任者になりました。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 5867,
+              "endFrame": 6079
+            },
+            {
+              "speaker": "A",
+              "text": "社長が先に移って、社員が後から続いたのだ。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 6087,
+              "endFrame": 6215
+            },
+            {
+              "speaker": "B",
+              "text": "しかもディズニーは、その1年前、自社のキャラクターをまねたボットを置くなと、この会社に求めていた側です。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 6222,
+              "endFrame": 6450
+            },
+            {
+              "speaker": "A",
+              "text": "文句を言っていた相手の、作り手ごと引き取るのだ。",
+              "section": "生成AIと企業：Character.AIが破産、Disneyが社員の大半を採用へ",
+              "startFrame": 6457,
+              "endFrame": 6577
+            },
+            {
+              "speaker": "B",
+              "text": "アンスロピックは10月16日、自社の雇用の変化を数字でまとめた報告を出しました。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 6595,
+              "endFrame": 6784
+            },
+            {
+              "speaker": "A",
+              "text": "エーアイを作る会社が、自分の会社を調べたのだ？",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 6792,
+              "endFrame": 6925
+            },
+            {
+              "speaker": "B",
+              "text": "そうです。技術部門に占める若手の割合は、2025年初めの21％から14％に下がりました。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 6932,
+              "endFrame": 7191
+            },
+            {
+              "speaker": "A",
+              "text": "採用でも、若手は減っているのだ？",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 7199,
+              "endFrame": 7296
+            },
+            {
+              "speaker": "B",
+              "text": "技術職の採用に占める若手は、27％から9％です。4人に1人余りから、10人に1人を切りました。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 7304,
+              "endFrame": 7576
+            },
+            {
+              "speaker": "A",
+              "text": "技術職そのものも、減っているのだ？",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 7584,
+              "endFrame": 7683
+            },
+            {
+              "speaker": "B",
+              "text": "全社員に占める技術チームは、61％から56％です。事業部門が増えたのと、技術職でない人もコーディング支援で自分でソフトを作れるようになったためです。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 7690,
+              "endFrame": 8070
+            },
+            {
+              "speaker": "A",
+              "text": "働く人は、どう感じているのだ？",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 8077,
+              "endFrame": 8171
+            },
+            {
+              "speaker": "B",
+              "text": "4月の社内調査で、27％がクロードで生産性が上がったと答えました。20％は、仕事が自分で作業することから、複数のクロードを管理することへ移ったと答えています。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 8178,
+              "endFrame": 8580
+            },
+            {
+              "speaker": "A",
+              "text": "エーアイの管理って、どんな感じなのだ？",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 8588,
+              "endFrame": 8692
+            },
+            {
+              "speaker": "B",
+              "text": "ある技術者は、子どもの世話にたとえました。どの子も、同じだけ注意を求めてくる、と。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 8699,
+              "endFrame": 8896
+            },
+            {
+              "speaker": "A",
+              "text": "何人もいっぺんに話しかけてくるのは、大変なのだ。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 8904,
+              "endFrame": 9029
+            },
+            {
+              "speaker": "B",
+              "text": "1人あたりのコードの量、営業の成約、処理した契約は増えました。ただ会社自身が、コードが増えても良いコードとは限らない、と認めています。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 9036,
+              "endFrame": 9364
+            },
+            {
+              "speaker": "A",
+              "text": "質は落ちていないのだ？",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 9372,
+              "endFrame": 9431
+            },
+            {
+              "speaker": "B",
+              "text": "落ちた兆しはない、としていますが、指標は示していません。目を引くのは会議です。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 9438,
+              "endFrame": 9617
+            },
+            {
+              "speaker": "A",
+              "text": "エーアイが仕事をするなら、会議は減りそうなのだ。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 9624,
+              "endFrame": 9744
+            },
+            {
+              "speaker": "B",
+              "text": "逆です。カレンダーのデータでは、1人あたりの会議時間が前年より20％、技術職でも16％増えました。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 9752,
+              "endFrame": 10023
+            },
+            {
+              "speaker": "A",
+              "text": "どうして増えたのだ？",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 10030,
+              "endFrame": 10081
+            },
+            {
+              "speaker": "B",
+              "text": "クロードが大量の文章を生み、人がそれを読んで整理しなければなりません。人の注意と判断が、新しい詰まりどころになったと書いています。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 10088,
+              "endFrame": 10378
+            },
+            {
+              "speaker": "A",
+              "text": "信頼や責任は、顔を合わせて決めるしかないのだ。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 10385,
+              "endFrame": 10512
+            },
+            {
+              "speaker": "B",
+              "text": "社員も、対面のすり合わせは欠かせないと繰り返し答えています。一方で、何でもクロードに任せて速く動けという、終わりのない圧力を訴える声もありました。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 10520,
+              "endFrame": 10864
+            },
+            {
+              "speaker": "A",
+              "text": "ほかの会社でも、同じことが起きるのだ？",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 10871,
+              "endFrame": 10978
+            },
+            {
+              "speaker": "B",
+              "text": "会社自身は、業務を徹底的にエーアイ中心に作り替えたので、そのまま当てはまるとは限らないと断っています。若手の入口が細るのは、その中でもはっきりした数字です。",
+              "section": "生成AIと仕事：Anthropic、若手の技術職が21％から14％に、会議は2割増",
+              "startFrame": 10986,
+              "endFrame": 11360
+            },
+            {
+              "speaker": "B",
+              "text": "次は、オープンエーアイとアップルの営業秘密の裁判です。先に訴えたのはアップルで、8月でした。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 11378,
+              "endFrame": 11606
+            },
+            {
+              "speaker": "A",
+              "text": "アップルは、何を訴えたのだ？",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 11614,
+              "endFrame": 11703
+            },
+            {
+              "speaker": "B",
+              "text": "アップルからオープンエーアイへ移った元幹部2人が、データをダウンロードし、ほかの社員にも秘密を渡すよう求めた、という主張です。オープンエーアイは否定しています。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 11710,
+              "endFrame": 12051
+            },
+            {
+              "speaker": "A",
+              "text": "そこへ、オープンエーアイが言い返したのだ？",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 12059,
+              "endFrame": 12164
+            },
+            {
+              "speaker": "B",
+              "text": "反論の書類で、名前を伏せた自社の元社員が、退職の直前にハードウェアの設計を持ち出し、アップルの幹部に見せたと主張しました。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 12172,
+              "endFrame": 12464
+            },
+            {
+              "speaker": "A",
+              "text": "どれくらい持ち出したのだ？",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 12472,
+              "endFrame": 12534
+            },
+            {
+              "speaker": "B",
+              "text": "少なくとも1つの未発表の端末について、100を超えるファイルが、元社員の個人アカウントへ送られたそうです。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 12542,
+              "endFrame": 12774
+            },
+            {
+              "speaker": "A",
+              "text": "いつ送ったのだ？",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 12782,
+              "endFrame": 12828
+            },
+            {
+              "speaker": "B",
+              "text": "一部は、最終出社日の6月2日、シンガポール時間の深夜0時過ぎです。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 12835,
+              "endFrame": 13011
+            },
+            {
+              "speaker": "A",
+              "text": "最後の夜に、こっそり送ったのだ。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 13019,
+              "endFrame": 13113
+            },
+            {
+              "speaker": "B",
+              "text": "中身は、未発表の端末の詳しい画像、設計と製造の機密データ、部品の調達先、仕上げの外観基準などだとしています。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 13121,
+              "endFrame": 13424
+            },
+            {
+              "speaker": "A",
+              "text": "裁判官は、どっちの味方なのだ？",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 13431,
+              "endFrame": 13528
+            },
+            {
+              "speaker": "B",
+              "text": "エドワード・ダビラ判事は10月14日、アップルの仮差し止めを認める可能性が非常に高い、と述べました。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 13536,
+              "endFrame": 13784
+            },
+            {
+              "speaker": "A",
+              "text": "オープンエーアイの分が悪いのだ。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 13792,
+              "endFrame": 13866
+            },
+            {
+              "speaker": "B",
+              "text": "判事は、盗まれたとされるデータの書類を出すよう命じました。ただ、アップルがすべての端末と保管庫を調べたいと求めた点は、行き過ぎだとしています。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 13874,
+              "endFrame": 14191
+            },
+            {
+              "speaker": "A",
+              "text": "オープンエーアイは、何を求めたのだ？",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 14198,
+              "endFrame": 14296
+            },
+            {
+              "speaker": "B",
+              "text": "アップルが言う秘密は使わない、と述べたうえで、自社の秘密がアップル社内に出回っているとして、調べる時間と反訴の機会を求めました。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 14304,
+              "endFrame": 14595
+            },
+            {
+              "speaker": "A",
+              "text": "アップルの返事は？",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 14603,
+              "endFrame": 14656
+            },
+            {
+              "speaker": "B",
+              "text": "本題から注意をそらそうとしている、と反発しています。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 14664,
+              "endFrame": 14783
+            },
+            {
+              "speaker": "A",
+              "text": "なんで両社とも、端末にこだわるのだ？",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 14790,
+              "endFrame": 14895
+            },
+            {
+              "speaker": "B",
+              "text": "オープンエーアイは2025年、アイフォーンのデザイナーだったジョニー・アイブ氏の会社を買い、エーアイ端末を作っています。アップルも10月、シリを中心にした家庭用端末を出しました。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 14902,
+              "endFrame": 15303
+            },
+            {
+              "speaker": "A",
+              "text": "同じ売り場を取り合う相手に、人と設計図が行き来しているのだ。",
+              "section": "生成AIと訴訟：OpenAI、元社員が未発表端末の設計をAppleへ渡したと主張",
+              "startFrame": 15311,
+              "endFrame": 15465
+            },
+            {
+              "speaker": "B",
+              "text": "メタが、改定した商用の規約から、企業のサイトのあらゆる内容を学習などに使える、という条文を削りました。ザ・バージが報じ、テッククランチが伝えています。",
+              "section": "生成AIと学習データ：Meta、AI学習に使える条文を削除",
+              "startFrame": 15483,
+              "endFrame": 15867
+            },
+            {
+              "speaker": "A",
+              "text": "批判が効いたのだ。",
+              "section": "生成AIと学習データ：Meta、AI学習に使える条文を削除",
+              "startFrame": 15874,
+              "endFrame": 15922
+            },
+            {
+              "speaker": "B",
+              "text": "法律の専門家は、メタの企業アカウントを持つ報道機関のサイトを巡回して、記事を学習に使える異例の条文だと指摘していました。",
+              "section": "生成AIと学習データ：Meta、AI学習に使える条文を削除",
+              "startFrame": 15930,
+              "endFrame": 16216
+            },
+            {
+              "speaker": "A",
+              "text": "メタは、ごめんなさいと言ったのだ？",
+              "section": "生成AIと学習データ：Meta、AI学習に使える条文を削除",
+              "startFrame": 16223,
+              "endFrame": 16310
+            },
+            {
+              "speaker": "B",
+              "text": "いいえ。まとめ直した巡回の条項は、広告と企業向け製品にだけ当てはまっていた、クローラーの使い方は変わらない、と説明しています。",
+              "section": "生成AIと学習データ：Meta、AI学習に使える条文を削除",
+              "startFrame": 16317,
+              "endFrame": 16625
+            },
+            {
+              "speaker": "A",
+              "text": "消しても、何も変わらないと言うのだ。",
+              "section": "生成AIと学習データ：Meta、AI学習に使える条文を削除",
+              "startFrame": 16632,
+              "endFrame": 16723
+            },
+            {
+              "speaker": "B",
+              "text": "消す前と同じ説明です。メタは2025年6月、エーアイの学習をめぐる著作権の裁判で勝っていますが、ほかのエーアイ企業への裁判は続いています。",
+              "section": "生成AIと学習データ：Meta、AI学習に使える条文を削除",
+              "startFrame": 16731,
+              "endFrame": 17070
+            },
+            {
+              "speaker": "B",
+              "text": "量子コンピュータです。オックスフォード大学の物理学者が10月16日、物理学誌フィジカル・レビュー・レターズに成果を発表しました。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 17088,
+              "endFrame": 17393
+            },
+            {
+              "speaker": "A",
+              "text": "何をつなげたのだ？",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 17400,
+              "endFrame": 17453
+            },
+            {
+              "speaker": "B",
+              "text": "離れた2つの装置です。それぞれに、ストロンチウムのイオンとカルシウムのイオンを1個ずつ入れました。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 17460,
+              "endFrame": 17666
+            },
+            {
+              "speaker": "A",
+              "text": "なんで、2種類も入れるのだ？",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 17673,
+              "endFrame": 17755
+            },
+            {
+              "speaker": "B",
+              "text": "役割分担です。ストロンチウムが光で相手とつながる通信役、カルシウムが量子の状態を保つ記憶役です。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 17762,
+              "endFrame": 18009
+            },
+            {
+              "speaker": "A",
+              "text": "1種類で、両方やればいいのだ。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 18016,
+              "endFrame": 18105
+            },
+            {
+              "speaker": "B",
+              "text": "そうすると、通信用のレーザーや光の放出で、記憶が壊れてしまいます。分けることで、それを避けました。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 18112,
+              "endFrame": 18356
+            },
+            {
+              "speaker": "A",
+              "text": "つなぐのは、どうやるのだ？",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 18363,
+              "endFrame": 18435
+            },
+            {
+              "speaker": "B",
+              "text": "2つのストロンチウムが出した光の粒を、真ん中の検出所でぶつけて干渉させます。そうすると、離れたイオン同士がもつれた状態になります。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 18443,
+              "endFrame": 18741
+            },
+            {
+              "speaker": "A",
+              "text": "うまくいく確率は？",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 18748,
+              "endFrame": 18803
+            },
+            {
+              "speaker": "B",
+              "text": "1回の試行では1.24％です。それでも、正味で毎秒39.3回、忠実度96.94％のもつれができました。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 18810,
+              "endFrame": 19135
+            },
+            {
+              "speaker": "A",
+              "text": "作ったもつれは、カルシウムへ移すのだ？",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 19143,
+              "endFrame": 19249
+            },
+            {
+              "speaker": "B",
+              "text": "はい、誤りを検出しながら移します。カルシウム同士の遠隔のもつれは、忠実度93.10％でした。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 19256,
+              "endFrame": 19524
+            },
+            {
+              "speaker": "A",
+              "text": "4個のイオン全部をつなげたのだ？",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 19531,
+              "endFrame": 19616
+            },
+            {
+              "speaker": "B",
+              "text": "2つの装置の4個にまたがるジーエイチゼット状態を、91.90％で作りました。報告の中で一番大きな状態です。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 19623,
+              "endFrame": 19911
+            },
+            {
+              "speaker": "A",
+              "text": "記憶役は、どれくらい覚えていられるのだ？",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 19919,
+              "endFrame": 20029
+            },
+            {
+              "speaker": "B",
+              "text": "カルシウムは磁場の揺らぎに、ストロンチウムの約100分の1しか影響を受けません。もつれは10秒を超えて残りました。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 20036,
+              "endFrame": 20283
+            },
+            {
+              "speaker": "A",
+              "text": "10秒は、長いのだ？",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 20290,
+              "endFrame": 20358
+            },
+            {
+              "speaker": "B",
+              "text": "作るのにかかる約100ミリ秒の、100倍以上です。ただし10秒後には、忠実度が69％まで落ちます。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 20365,
+              "endFrame": 20619
+            },
+            {
+              "speaker": "A",
+              "text": "覚えてはいるけど、だいぶぼやけるのだ。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 20627,
+              "endFrame": 20723
+            },
+            {
+              "speaker": "B",
+              "text": "それでも、複数の装置をつないで1台のように使う分散型の量子計算や、量子センサーの網に向けた一歩だとしています。",
+              "section": "量子コンピュータ：オックスフォード大、2種類のイオンで「通信役」と「記憶役」を分担",
+              "startFrame": 20730,
+              "endFrame": 20994
+            },
+            {
+              "speaker": "B",
+              "text": "次は、量子とエーアイの組み合わせです。アイビーエム・リサーチのルチル・プリ氏らの研究が、10月15日に紹介されました。",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 21012,
+              "endFrame": 21305
+            },
+            {
+              "speaker": "A",
+              "text": "何を、エーアイに作らせたのだ？",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 21312,
+              "endFrame": 21405
+            },
+            {
+              "speaker": "B",
+              "text": "量子の誤り訂正で、どこに誤りが起きたかを読み解く復号器です。それを動かす専用の、普通の電子回路を設計させました。",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 21412,
+              "endFrame": 21696
+            },
+            {
+              "speaker": "A",
+              "text": "量子コンピュータなのに、普通の回路が要るのだ？",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 21703,
+              "endFrame": 21825
+            },
+            {
+              "speaker": "B",
+              "text": "誤りは次々に起きるので、復号が遅いと間に合いません。速い専用回路が要ります。",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 21832,
+              "endFrame": 22032
+            },
+            {
+              "speaker": "A",
+              "text": "エーアイは、どう分担したのだ？",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 22039,
+              "endFrame": 22125
+            },
+            {
+              "speaker": "B",
+              "text": "調整役のモデル1つが、並列に動く4つの作業役へ指示し、メモリーの並べ方などの設計変更を試させました。",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 22132,
+              "endFrame": 22393
+            },
+            {
+              "speaker": "A",
+              "text": "全部クロードで動かすと、どうなったのだ？",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 22400,
+              "endFrame": 22505
+            },
+            {
+              "speaker": "B",
+              "text": "クロード・オーパス5だけで動かすと、遅延は139マイクロ秒で、元の設計の204倍速くなりました。推論の費用は299.45ドルです。",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 22512,
+              "endFrame": 22870
+            },
+            {
+              "speaker": "A",
+              "text": "オープンなモデルだと？",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 22878,
+              "endFrame": 22932
+            },
+            {
+              "speaker": "B",
+              "text": "すべてをジーエルエム5.3にして、自社の推論の仕組みで動かすと、費用は25.95ドル。11.5分の1です。",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 22940,
+              "endFrame": 23216
+            },
+            {
+              "speaker": "A",
+              "text": "安いのだ！",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 23224,
+              "endFrame": 23255
+            },
+            {
+              "speaker": "B",
+              "text": "その代わり、速さは52倍にとどまりました。試行の回数を倍にしても、60倍までです。",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 23262,
+              "endFrame": 23474
+            },
+            {
+              "speaker": "A",
+              "text": "混ぜたら、どうなのだ？",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 23482,
+              "endFrame": 23544
+            },
+            {
+              "speaker": "B",
+              "text": "調整役をオーパス、作業役をジーエルエムにすると、遅延223マイクロ秒、費用は105.25ドルでした。",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 23551,
+              "endFrame": 23824
+            },
+            {
+              "speaker": "A",
+              "text": "お金をかけるほど、速い回路が手に入るのだ。",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 23832,
+              "endFrame": 23945
+            },
+            {
+              "speaker": "B",
+              "text": "費用と速さの交換条件を、そのまま数字で並べた形です。ただし設計の段階の評価で、実際のチップを作ったとは報じられていません。",
+              "section": "量子コンピュータとAI：IBM、AIエージェントで誤り訂正の復号回路を設計、費用は11.5分の1",
+              "startFrame": 23953,
+              "endFrame": 24261
+            },
+            {
+              "speaker": "B",
+              "text": "セキュリティです。セキュリティ企業のカリフが、オープンビーエスディー7.9で、一般ユーザーから管理者の権限を奪う手順と、実証コードを公開しました。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 24279,
+              "endFrame": 24617
+            },
+            {
+              "speaker": "A",
+              "text": "入口は、どこなのだ？",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 24625,
+              "endFrame": 24692
+            },
+            {
+              "speaker": "B",
+              "text": "共有メモリーを、いくつのプロセスが使っているかを数える変数です。符号付きの16ビットの整数で、1988年ごろのソースから約37年受け継がれてきました。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 24700,
+              "endFrame": 25087
+            },
+            {
+              "speaker": "A",
+              "text": "16ビットだと、どうまずいのだ？",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 25094,
+              "endFrame": 25184
+            },
+            {
+              "speaker": "B",
+              "text": "3万2767までしか数えられません。カリフは127個の共有メモリーと259個のプロセスで、この数をマイナスの値へあふれさせました。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 25192,
+              "endFrame": 25539
+            },
+            {
+              "speaker": "A",
+              "text": "数がおかしくなると、何が起きるのだ？",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 25546,
+              "endFrame": 25653
+            },
+            {
+              "speaker": "B",
+              "text": "別の処理と競り合わせて、もう解放したメモリーを使わせる欠陥に変えました。解放後使用と呼ばれる種類です。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 25660,
+              "endFrame": 25894
+            },
+            {
+              "speaker": "A",
+              "text": "それで、管理者になれるのだ？",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 25902,
+              "endFrame": 25985
+            },
+            {
+              "speaker": "B",
+              "text": "もう1つ、範囲の外へ書き込める別の欠陥を重ね、カーネルのページ表を書き換えました。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 25993,
+              "endFrame": 26187
+            },
+            {
+              "speaker": "A",
+              "text": "守りの仕組みは、なかったのだ？",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 26194,
+              "endFrame": 26278
+            },
+            {
+              "speaker": "B",
+              "text": "カーネルの配置を毎回変えるカールという独自の防御と、シーピーユーの保護機能がありました。情報漏れの欠陥を使わずに、それを越えています。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 26286,
+              "endFrame": 26590
+            },
+            {
+              "speaker": "A",
+              "text": "配置を変えるなら、場所は分からないはずなのだ。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 26598,
+              "endFrame": 26713
+            },
+            {
+              "speaker": "B",
+              "text": "関数の位置は変わりますが、メモリーの割り当て方は決まっています。同じ機械なら、起動のたびに同じ場所に置かれる点を突きました。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 26720,
+              "endFrame": 26989
+            },
+            {
+              "speaker": "A",
+              "text": "もう直っているのだ？",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 26997,
+              "endFrame": 27049
+            },
+            {
+              "speaker": "B",
+              "text": "9月14日に数え間違いを信頼性の修正として、9月30日に解放後使用をセキュリティの修正として直しました。悪用はまだ確認されていません。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 27056,
+              "endFrame": 27390
+            },
+            {
+              "speaker": "A",
+              "text": "最初の修正は、セキュリティ扱いではなかったのだ。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 27397,
+              "endFrame": 27525
+            },
+            {
+              "speaker": "B",
+              "text": "単独では、ただの数え間違いに見えたからです。どちらにも、報道の時点でCVE番号は振られていません。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 27532,
+              "endFrame": 27767
+            },
+            {
+              "speaker": "A",
+              "text": "カリフは、ほかに何か提案したのだ？",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 27774,
+              "endFrame": 27874
+            },
+            {
+              "speaker": "B",
+              "text": "ページ表の位置を起動時にばらばらにすること、メモリーの割り当てを予測しにくくすることなどです。同じ道具で見つかるフリービーエスディーの欠陥21件も、非公開で報告しています。",
+              "section": "セキュリティ：OpenBSD、37年前からの数え間違いでroot奪取",
+              "startFrame": 27882,
+              "endFrame": 28260
+            },
+            {
+              "speaker": "B",
+              "text": "次は、冒頭でお話しした鍵の話です。シマンテックが10月15日、情報を盗むマルウェア、アオキの新しい版を報告しました。",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 28278,
+              "endFrame": 28575
+            },
+            {
+              "speaker": "A",
+              "text": "何を盗むのだ？",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 28583,
+              "endFrame": 28632
+            },
+            {
+              "speaker": "B",
+              "text": "以前は、ブラウザー、暗号資産のウォレット、パスワード管理ソフトのデータでした。新しい版は、エーアイのコーディング支援の認証情報も狙います。",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 28639,
+              "endFrame": 28972
+            },
+            {
+              "speaker": "A",
+              "text": "具体的には、どのファイルなのだ？",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 28979,
+              "endFrame": 29067
+            },
+            {
+              "speaker": "B",
+              "text": "クロードの設定ファイルとデスクトップ版のクッキー、チャットジーピーティーのクッキー、オープンエーアイ・コーデックスの設定ファイルなどです。",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 29075,
+              "endFrame": 29343
+            },
+            {
+              "speaker": "A",
+              "text": "ほかのツールは、大丈夫なのだ？",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 29351,
+              "endFrame": 29440
+            },
+            {
+              "speaker": "B",
+              "text": "ギットハブ・コパイロット、カーソル、ジェミニ、ジェットブレインズ、キロのトークンと、エーダブリューエスの認証情報も集めます。",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 29447,
+              "endFrame": 29739
+            },
+            {
+              "speaker": "A",
+              "text": "盗んだ鍵で、何ができるのだ？",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 29747,
+              "endFrame": 29836
+            },
+            {
+              "speaker": "B",
+              "text": "正規の開発者になりすまし、その人の利用枠でエーアイを使えます。権限によっては、つながったコードの保管庫やクラウドにも届きます。",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 29843,
+              "endFrame": 30132
+            },
+            {
+              "speaker": "A",
+              "text": "他人の契約で、エーアイを使い放題なのだ。",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 30140,
+              "endFrame": 30263
+            },
+            {
+              "speaker": "B",
+              "text": "エルエルエム・ジャッキングと呼ばれる手口です。シマンテックは、エーアイの鍵がカード情報やウォレットと同じほどの価値を持つようになったと見ています。",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 30271,
+              "endFrame": 30567
+            },
+            {
+              "speaker": "A",
+              "text": "誰が作ったのだ？",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 30574,
+              "endFrame": 30625
+            },
+            {
+              "speaker": "B",
+              "text": "分かっていません。既知のマルウェアとのつながりもなく、暗号資産を重く狙うことから、お金目当てとみられます。",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 30633,
+              "endFrame": 30861
+            },
+            {
+              "speaker": "A",
+              "text": "まだ完成していないのだ？",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 30868,
+              "endFrame": 30934
+            },
+            {
+              "speaker": "B",
+              "text": "多機能で、今も開発が続いている、とシマンテックは書いています。",
+              "section": "セキュリティ：AIコーディング支援の鍵を盗む「Aoki」",
+              "startFrame": 30942,
+              "endFrame": 31088
+            },
+            {
+              "speaker": "B",
+              "text": "直近1週間のインシデントを5件まとめます。まず、家庭で着ける心電図モニターのアイリズム・テクノロジーズです。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 31106,
+              "endFrame": 31354
+            },
+            {
+              "speaker": "A",
+              "text": "何人分なのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 31362,
+              "endFrame": 31411
+            },
+            {
+              "speaker": "B",
+              "text": "オレゴン州への届け出で、820万人と分かりました。米国と欧州の患者800万人超の、ほぼ全員にあたる可能性があります。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 31419,
+              "endFrame": 31721
+            },
+            {
+              "speaker": "A",
+              "text": "身代金は、払ったのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 31729,
+              "endFrame": 31811
+            },
+            {
+              "speaker": "B",
+              "text": "6月の届け出で、公開しない見返りに支払いを求められたとしていましたが、払ったかどうかは明かしていません。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 31818,
+              "endFrame": 32046
+            },
+            {
+              "speaker": "A",
+              "text": "大学からも漏れたのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 32054,
+              "endFrame": 32116
+            },
+            {
+              "speaker": "B",
+              "text": "ドイツのマルティン・ルター大学ハレ・ヴィッテンベルクです。10月14日、約5万1000件の出願データが抜き取られたとみられると分かりました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 32124,
+              "endFrame": 32437
+            },
+            {
+              "speaker": "A",
+              "text": "出願って、受験生の情報なのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 32444,
+              "endFrame": 32548
+            },
+            {
+              "speaker": "B",
+              "text": "氏名、住所、生年月日、志望学科、合否の状況などです。大学は刑事告訴しましたが、侵入経路と犯人は明かしていません。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 32555,
+              "endFrame": 32885
+            },
+            {
+              "speaker": "A",
+              "text": "会計事務所も狙われたのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 32892,
+              "endFrame": 32969
+            },
+            {
+              "speaker": "B",
+              "text": "オーストラリアの会計事務所プール・グループです。ロックビットがリークサイトに名前を載せ、10月25日にデータを公開すると予告しているとされます。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 32977,
+              "endFrame": 33297
+            },
+            {
+              "speaker": "A",
+              "text": "事務所は、認めているのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 33305,
+              "endFrame": 33382
+            },
+            {
+              "speaker": "B",
+              "text": "一部のシステムに影響する事案があったと認め、情報コミッショナーや国税庁に届け出ました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 33389,
+              "endFrame": 33585
+            },
+            {
+              "speaker": "A",
+              "text": "身近なポイントカードも危ないのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 33592,
+              "endFrame": 33681
+            },
+            {
+              "speaker": "B",
+              "text": "カナダのスーパーの共通ポイント、モア・リワーズです。今週、会員の氏名や住所、生年月日などが見られたと確認しました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 33688,
+              "endFrame": 33999
+            },
+            {
+              "speaker": "A",
+              "text": "カードの情報は？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34007,
+              "endFrame": 34057
+            },
+            {
+              "speaker": "B",
+              "text": "パスワード、カード、購入履歴は見られていないとしています。人数は公表していません。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34065,
+              "endFrame": 34261
+            },
+            {
+              "speaker": "A",
+              "text": "捕まった側の話もあるのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34269,
+              "endFrame": 34348
+            },
+            {
+              "speaker": "B",
+              "text": "北マケドニアで、盗んだ個人情報や攻撃道具を売る闇サイト、オルブイエックスの運営者が逮捕されました。販売者のアカウントは1500を超えていました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34355,
+              "endFrame": 34690
+            },
+            {
+              "speaker": "A",
+              "text": "どこが捕まえたのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34698,
+              "endFrame": 34754
+            },
+            {
+              "speaker": "B",
+              "text": "北マケドニアの内務省と、エフビーアイの初めての共同作戦です。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34761,
+              "endFrame": 34909
+            },
+            {
+              "speaker": "A",
+              "text": "今週の対策は？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34917,
+              "endFrame": 34972
+            },
+            {
+              "speaker": "B",
+              "text": "エーアイのコーディング支援を使う人は、設定ファイルのキーの権限を見直し、使っていない鍵を無効にすること。会員登録の生年月日は、必須でなければ入れないことです。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34979,
+              "endFrame": 35350
+            },
+            {
+              "speaker": "B",
+              "text": "今日は、人と鍵の行き先を追いました。",
+              "section": "まとめ",
+              "startFrame": 35368,
+              "endFrame": 35453
+            },
+            {
+              "speaker": "A",
+              "text": "キャラクター・エーアイは訴訟と費用で倒れて、作り手はディズニーへ、サービスは入札に委ねられたのだ。",
+              "section": "まとめ",
+              "startFrame": 35460,
+              "endFrame": 35720
+            },
+            {
+              "speaker": "B",
+              "text": "アンスロピックの報告では、若手の採用が減り、人の仕事がエーアイの出力を読んで判断することへ移っていました。",
+              "section": "まとめ",
+              "startFrame": 35728,
+              "endFrame": 35973
+            },
+            {
+              "speaker": "A",
+              "text": "オープンエーアイとアップルは、お互いに設計を持ち出されたと訴え合っているのだ。",
+              "section": "まとめ",
+              "startFrame": 35981,
+              "endFrame": 36165
+            },
+            {
+              "speaker": "B",
+              "text": "量子では、オックスフォード大学がイオンの種類で通信と記憶を分け、アイビーエムはエーアイに復号回路を設計させました。",
+              "section": "まとめ",
+              "startFrame": 36173,
+              "endFrame": 36431
+            },
+            {
+              "speaker": "A",
+              "text": "37年前の数え間違いと、手元のエーアイの鍵。古い穴と新しい標的が、同じ週に並んだのだ。",
+              "section": "まとめ",
+              "startFrame": 36438,
+              "endFrame": 36724
+            },
+            {
+              "speaker": "B",
+              "text": "最後まで聞いていただき、ありがとうございました。",
+              "section": "まとめ",
+              "startFrame": 36731,
+              "endFrame": 36831
+            },
+            {
+              "speaker": "A",
+              "text": "また次回で会おうなのだ。",
+              "section": "まとめ",
+              "startFrame": 36839,
+              "endFrame": 36897
+            }
+          ]
+        }
+      },
+      {
         "mode": "arxiv_ai",
         "label": "arxiv Frontier AI・最先端AI論文解説",
         "iaId": "news-pickup-2026-10-19-arxiv-ai",
