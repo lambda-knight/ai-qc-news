@@ -1,5 +1,1022 @@
 [
   {
+    "date": "2026-10-31",
+    "segments": [
+      {
+        "mode": "ai",
+        "label": "生成AIニュース",
+        "iaId": "news-pickup-2026-10-31-ai",
+        "title": "【速報】Googleの宇宙データセンター衛星が稼働、AI「幽霊学生」83万口座とBinance63億ドル流出 2026/10/31",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-10-31-ai/ai_yukkuri.m4a",
+        "markdown": "<h1>生成AI・量子・セキュリティニュース（2026年10月31日）</h1>\n<p><strong>キーワード:</strong> Googleの宇宙データセンター衛星Suncatcher / AIを使った「幽霊学生」83万口座の奨学金詐欺 / ケンタッキー大学職員が勝ち取ったAIの「宗教的免除」 / Pasqalの256原子機が捉えた量子磁石の減速 / 延世大学のMamba復号器による実時間誤り訂正 / Cursor上の偽Claude Code拡張機能とSSH裏口 / バイナンス63億ドル流出と北朝鮮TraderTraitor</p>\n<h2>オープニング：2026年10月31日 — 生成AI・量子・セキュリティニュース</h2>\n<ul>\n<li>今日の軸は「AIと量子が、研究や画面の中から現実のインフラへ出てきたときに何が起きるか」です。Googleは宇宙に上げたTPUで推論を始め、地上ではAIが大学の授業に出て奨学金をだまし取り、職場ではAIを使わない権利が宗教上の配慮として認められました。</li>\n<li>生成AIでは、Googleの宇宙データセンター試験機「Suncatcher」、米司法省が摘発したAIによる「幽霊学生」奨学金詐欺、ケンタッキー大学で世俗的ヒューマニストの職員が認められたAI利用の「宗教的免除」、利用枠の半減案を撤回して2倍に増やしたOpenAIのChatGPT Proを扱います。</li>\n<li>量子では、仏Pasqalの256原子プロセッサーが古典のテンソルネットワーク計算では追えない2次元量子磁石の減速を捉えた実験と、韓国・延世大学が状態空間モデル「Mamba」で表面符号の復号の計算量を減らした成果を扱います。</li>\n<li>セキュリティでは、開発環境Cursorのマーケットプレイスで11時間配られた偽のClaude Code拡張機能、昨日の速報から被害総額が63億ドルへ跳ね上がったBinance流出の続報、直近1週間のインシデント一覧を扱います。</li>\n</ul>\n<h2>生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む</h2>\n<ul>\n<li>Googleの宇宙データセンター構想「Suncatcher」の試験衛星が軌上で稼働し、地上との通信を始めました（TechCrunch、10月30日）。今月初めにSpaceXのFalcon 9ロケットで、100機超の衛星とともに打ち上げられたものです。</li>\n<li>衛星はGoogleのAI半導体TPUを4基積み、最大1キロワットを発電します。ただ電力の制約から、1度に動かせるTPUは1基だけで、連続稼働も約20分に限られます。</li>\n<li>約3週間の初期点検を終え、地上の技術者が今週、あらかじめ載せてあったGoogle DeepMindのモデル「Gemma 4」に最初の指示を送り、宇宙にいることについての俳句を詠ませました。「青い大理石が眼下にあり、データの流れが静かな優雅さで進み、星の光が私の核を養う」という英語の句が返り、衛星周辺の軌道環境の報告もさせました。</li>\n<li>試験の主眼は、熱の負荷と宇宙放射線がTPUに与える影響を実地で測ることです。放射線はメモリーの値を書き換える「ビット反転」を起こし、通常の監視ツールに気づかれないままデータを壊す恐れがあります。地上での加速器試験では、学習より推論のほうが影響が小さいとみられていました。</li>\n<li>今回のTPUが耐えられれば、2027年に発電量を増やし、衛星間の光通信を備えた衛星をさらに2機打ち上げます。SpaceXやStarcloudが個々の衛星で推論を完結させる構想なのに対し、Suncatcherは近接して飛ぶ衛星同士を高速でつなぎ、分散して1つの大きな推論を回す設計です。</li>\n<li>ただし、2030年代に採算を合わせるには、Alphabetも出資するSpaceXの大型ロケットStarshipの完全再使用が前提になります。Suncatcherの研究者は今月の査読論文で、過去のロケットと同じコスト低減にはStarshipが1800回飛ぶ必要があると試算しています。</li>\n</ul>\n<h2>生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴</h2>\n<ul>\n<li>米司法省は10月29日、他人の個人情報を盗んで架空の大学生になりすまし、連邦の学生援助金をだまし取る「幽霊学生」の全国一斉摘発で5人を起訴したと発表しました（Ars Technica、10月30日）。</li>\n<li>手口は、高校卒業後に大学へ進学せず就職した米国人の個人情報を買い取り、連邦学生援助の無料申請（FAFSA）を出して大学やコミュニティカレッジに入学するものです。授業料を引いた残りの給付金が、詐欺グループの管理する銀行口座へ振り込まれます。数十人の米国人が資金を受け取る口座役として加担していました。</li>\n<li>お金を長く引き出すため、グループはAIを使って願書を書き、課題をこなし、オンライン授業に出席しているように見せかけていました。司法省のコリン・マクドナルド司法次官補は、何学期も在籍を続けさせるのが狙いだと説明しました。</li>\n<li>教育省はこれまでに、市民の個人情報で作られた疑わしい口座を83万件超見つけました。すべてが幽霊学生なら被害は1億3000万ドル近くにのぼります。今回の起訴に結びついた実損だけでも3200万ドル超が確認され、ある被告は700件超の還付金で計約143万9548ドルを受け取っていました。</li>\n<li>司法省はケニア国籍の人物らに関わる網から75万ドル超の暗号資産を押収し、全国26のFBI支局に約50件の捜査を送りました。被害に遭った本人は、何年もたって政府から返済を求められ、信用情報が傷つくまで気づきにくい仕組みです。</li>\n<li>トランプ政権の教育省は、申請時にカメラへ身分証をかざす自動の本人確認を導入しました。一方、支援団体の全米大学進学ネットワークは、運転免許証を持たない低所得層の学生が手続きでつまずいたり、誤判定で給付が遅れたりする副作用を懸念しています。</li>\n</ul>\n<h2>生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認</h2>\n<ul>\n<li>米ケンタッキー大学の事務職員デイビッド・ダーマン氏が、職場でAIを使わない「宗教上の免除」を認められました。ダーマン氏は神を前提としない「世俗的ヒューマニスト」で、ヒューマニストとしてこの免除を得た初めての事例とされます（TechCrunch、10月29日）。</li>\n<li>ダーマン氏の仕事は、研究者の助成金申請を支える事務です。今のところAIの利用は義務ではありませんが、上司や同僚から試すよう勧められており、将来の義務化に備えて米国ヒューマニスト協会（AHA）に相談して申請しました。</li>\n<li>同氏は、自分で頭を働かせることが道徳的な主体になる道であり、AIへの依存はその力を弱めると主張しています。さらに、AIが生計を立てる力を脅かし、環境への負荷が大きく、芸術や文学といった人間の創造性を奪うことも理由に挙げました。</li>\n<li>米国の雇用主は公民権法に基づき、従業員の誠実な信念に対して過度の負担がない限り配慮する義務があります。AHAの弁護士アレクサンドリア・ハイスケンズ氏は、カトリックの教えでもユニテリアン・ユニバーサリズムでもヒューマニズムでも、人間の尊厳への懸念は同じように法で守られると説明しています。</li>\n<li>ダーマン氏は、ユニテリアン・ユニバーサリストのソフトウェア技術者エリン・マウス氏が同様の免除を得た記事を読んで動きました。大学側は、職務の本質的な部分を続けられると判断して認めましたが、技術や職務が変われば見直すこともあるとしています。</li>\n<li>一方、AIを積極的に使う開発者の側では、OpenAIが10月29日に予定していた「ChatGPT Pro 200」の利用枠の50％削減を、強い反発を受けて撤回しました（BleepingComputer、10月29日）。逆に月額100ドル、200ドル、500ドルのPro各プランとBusiness Premiumの利用枠を2倍に増やし、常時稼働アシスタント「Dots」の枠も別計算のまま残すと発表しています。</li>\n</ul>\n<h2>量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測</h2>\n<ul>\n<li>フランスのPasqalは、米フラットアイアン研究所、独ユーリヒ総合研究機構、仏光学研究所などと、256個の中性原子を使ったアナログ量子プロセッサーで、2次元の量子磁石が落ち着いていく過程を調べた論文を公開しました（Quantum Computing Report、10月28日）。</li>\n<li>実験では、ルビジウム87の原子256個を16×16の正方形に並べ、レーザーで励起して「2次元横磁場イジング模型」という磁石のモデルを作りました。向きをそろえた状態から急に磁場の強さを変え、その後の変化を追っています。</li>\n<li>その結果、磁場が中くらいの強さ（相互作用との比が3.5）のところで、状態の緩和が予想外に遅くなる現象が見つかりました。相転移の近く（2.5）での速い熱化や、強い磁場（6.0）での長い準安定状態とも違う、3つ目の振る舞いです。</li>\n<li>研究チームは、2次元テンソルネットワーク、行列積状態（MPS）、木テンソルネットワークという3つの最先端の古典計算と比べました。ごく短い時間は3つとも実験と一致しましたが、時間が進むと古典の手法同士が食い違い、実験とも離れました。</li>\n<li>5×5の小さな格子での厳密な計算やノイズの補正から、この減速は装置の雑音ではなく、多数の粒子が絡み合う本来の物理現象だと確かめられました。計算時間の速さを競う「量子優位」の主張ではありませんが、古典の近似計算が収束しなくなる領域の物性を、実機で探れることを示しています。</li>\n</ul>\n<h2>量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減</h2>\n<ul>\n<li>韓国の延世大学の研究チームは、深層学習の「Mamba（構造化状態空間モデル）」を使った量子誤り訂正の復号器を開発し、学術誌npj Quantum Informationに発表しました（Quantum Computing Report、10月28日）。</li>\n<li>表面符号では、符号の距離dに対して誤りの手がかり（シンドローム）の数がおよそdの2乗で増えます。GoogleのAlphaQubitのようなTransformer型の復号器は、すべての組み合わせを比べる自己注意の仕組みを使うため、計算量がdの4乗で増え、超伝導量子ビットが耐えられる1マイクロ秒前後のサイクルに追いつきません。</li>\n<li>延世大学のチームは、自己注意の代わりに選択的な状態空間の層を使い、計算量をdの4乗からdの2乗へ落としました。GoogleのSycamoreの実験データで試したところ、静的な記憶の精度はTransformerと同等でした。</li>\n<li>さらに、復号器が遅れるあいだに量子ビットにたまる雑音まで含めた実時間の模擬実験では、符号の距離が3から9へ大きくなるほど、Mambaのほうが誤りを低く抑えました。</li>\n<li>ただし、実際に量子計算機の制御装置へ組み込むには、再帰的な核や畳み込みの計算をFPGAや専用半導体（ASIC）に載せ、1マイクロ秒未満で推論を終える実装が次の壁になります。</li>\n</ul>\n<h2>セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口</h2>\n<ul>\n<li>SpaceX傘下のAI開発環境「Cursor」の拡張機能マーケットプレイスで10月29日、Anthropicの公式拡張機能「Claude Code」を装った悪意ある更新版（バージョン2.1.313）が約11時間にわたって配信されました（WIRED、BleepingComputer、The Hacker News、10月30日）。</li>\n<li>Cursorによると、ダウンロードされたのは最大5000人です。発覚後、Cursorはマーケットプレイスを一時閉鎖し、2.1.314へ差し替えました。macOSのセキュリティ企業Phorionが顧客の端末で見つけて最初に報告しました。</li>\n<li>手口は、拡張機能の本体（extension.js）の先頭に即時実行関数を埋め込むもので、利用者がボタンを押さなくても、エディターを開いてNode.jsがファイルを読み込んだ瞬間に動きます。</li>\n<li>動くと、端末の情報をHTTPで外部へ送り、攻撃者のSSH公開鍵を「authorized_keys」に追加し、攻撃者のサーバー（134.209.82.225）へ逆向きのSSHトンネルを張ります。再起動しても消えないよう、macOSでは起動ファイル、Linuxではcron、Windowsではタスクスケジューラに登録します。</li>\n<li>不幸中の幸いとして、マルウェアのコードにバグがあり、WindowsとmacOSの大半ではSSHを有効にする工程が途中で失敗していました。それでも情報の送信と常駐の登録は動いています。</li>\n<li>なぜ公式の提供者名義で偽の版が上がったのかは、まだ明らかになっていません。Anthropicの技術スタッフとセキュリティ担当者はXで「自社のシステムや社員の端末は侵害されておらず、何者かがCursorのマーケットプレイスの権限を使って改ざん版を公開した」と説明しました。2.1.313を入れた開発者は、authorized_keysと起動設定を点検する必要があります。</li>\n</ul>\n<h2>セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる</h2>\n<ul>\n<li>昨日お伝えした暗号資産取引所Binanceの不正流出は、その後の調べで被害総額の推計が約63億ドル（約9600億円）に膨らみました。すべての入出金が一時止められ、あらゆる種類の窃盗としても史上最大級とみられています（Ars Technica、WIRED、BleepingComputer、10月30日）。</li>\n<li>TRM Labsの分析では、10月29日の午後4時ごろ（米東部時間）から約20分間で、イーサリアム、ビットコイン、トロン、ソラナなど少なくとも10のブロックチェーンのホットウォレットから資金が抜かれました。</li>\n<li>準備は少なくとも36時間前から始まっていました。攻撃者は29日未明に最初のコードを2つのウォレットで試し、その後3つ目のウォレットで最終版の予行演習をしてから、4時間後にBinanceのホットウォレットへ同じコードを仕掛けました。</li>\n<li>Binanceは初期調査として、DevOpsエンジニアのノートパソコンが侵害されたことを挙げつつ、金曜朝には「ほかにも侵入箇所が見つかった」と声明を出しました。</li>\n<li>TRM Labs、Chainalysis、Ellipticの3社は、北朝鮮の精鋭ハッカー集団「TraderTraitor」の関与を疑っています。Chainalysisは、盗まれた資金が、北朝鮮の犯行とされる先月のBitgetの流出資金（約3億9000万ドル）とリアルタイムで混ざり合うのを確認したと報告しました。</li>\n<li>63億ドルのうち、Tetherの約15億ドルやCircleの8億ドルなど、ステーブルコインを中心に約28億〜30億ドル（約44％）は凍結されました。しかしEllipticによると、残る約33億ドルはビットコインやイーサなど凍結できない資産に替えられ、自動化された何千もの取引で資金洗浄が進んでいます。</li>\n<li>Binanceは自社の資金から63億4000万ドル超を充てて全額補償するとし、48時間以内の出金再開を見込んでいます。創業者チャンポン・ジャオ氏は、10億ドル規模の保護基金などを引いても約20億ドルの穴が残るものの、同社はSpaceXの株を10億ドル超持っており「痛手だが管理できる」とXに投稿しました。</li>\n</ul>\n<h2>セキュリティ：最近のインシデント一覧</h2>\n<ul>\n<li>米国土安全保障省DHS（10月28日公開／職員・契約者4万1000人超の名簿流出）：「Department of Peace」を名乗る集団からDDoSecretsが入手し「Icepick」として公開。2026年8月19日時点のOktaの記録とされ、税関・国境警備局（CBP）が半数超、移民・関税執行局（ICE）約1万人、CISA約1000人を含む。電話番号や勤務先のほか、潜入捜査（CUC）や盗聴、顔認識アプリ「Mobile Fortify」、GrokやChatGPTなどのAI利用許可グループを含む5万5000超の権限グループ名まで露出した。Oktaは自社の侵害を否定し、DHSは調査中（WIRED）</li>\n<li>ハードウェアウォレットのTrezor（10月29日警告／正規販売店経由の端末に不正基板の疑い）：東南アジアの元正規販売店CryptoBilisから8月にインドネシアのTokopediaで買われた「Trezor Safe 5」の内部に、画面と基板のあいだへ携帯電話通信モジュールとアンテナ付きの不正な基板が挟まれていたと購入者が10月28日に報告。画面に出る復元フレーズを読み取って携帯網で外部へ送る仕組みとみられる。Trezorは10月9日にLedger端末の改ざん問題を受けて同店との契約を切っており、今年3月以降に同店で買った人は新しいウォレットへ資産を移すよう呼びかけた（BleepingComputer、The Hacker News）</li>\n<li>DrupalのECモジュール「Commerce Core」（10月29日／認可欠落の脆弱性CVE-2026-118539の悪用）：バージョン0.0.0〜2.41および3.0.0〜3.3.13で特定の経路や項目の保護が抜けており、ログインしていない攻撃者が注文内容や価格を書き換え、1セントなどの不当な安値で決済を通せる。実際のネット通販サイトで悪用が確認され、3.3.13または8.x-2.41への即時更新と注文履歴の点検が求められている（BleepingComputer、The Hacker News）</li>\n<li>GitLab（10月29日／最高深刻度の脆弱性CVE-2026-97229を米CISAが悪用済みに追加）：CVSS 10.0。CI/CDの正規表現コンパイラー（Onigmo）にある整数オーバーフローで、細工した設定ファイルを送ると認証なしで任意のコードを実行できる。19.2.8、19.3.5、19.4.2で修正済みだが、実際の攻撃が始まったとしてCISAが警告した（BleepingComputer）</li>\n<li>WordPress Core（10月29日報道／更新時の競合状態によるRCEに24時間で約6万3000回の攻撃）：バージョン4.7〜7.1.3で、本体を更新する際に一時展開される「wp-content/upgrade」内のインストーラーへ外から同時にアクセスされると、コードを実行される恐れがある（CVSS 8.1）。10月28日の7.1.4公開直後から攻撃が始まり、Wordfenceが24時間で約6万3000件の試行を遮断した（The Hacker News）</li>\n<li>サーバー用UEFIファームウェア「TianoCore EDK II」（10月28日／起動時の脆弱性CVE-2026-97631が予定前に露出）：CVSS 9.5。ネットワーク起動（PXE）のドライバーに16年前からあった504バイト上限のバッファオーバーフローで、同じネットワーク内から細工したICMPエラーを送ると、Secure BootやTPMが動く前の最も強い権限（リング0）でコードを動かせる。来年1月まで非公開の予定だったが、ハードウェア大手AMIが9月に修正コードを誤って公開したため、先週アドバイザリが出された（WIRED／Ars Technica）</li>\n<li>オンラインポーカーの高額卓（10月29日報道／多面打ちソフトの更新を通じた画面盗み見）：プロ愛用の補助ソフト「Jurojin」と「IntuitiveTables」の更新機構が侵害され、1000人超に遠隔操作ツール「MeshAgent」が配られた。高額卓の常連リストに載る選手だけ画面を盗み見し、Americas CardroomやGGPokerなどで150万〜400万ドルを不正に稼いだとみられる。被害選手の1人が9月25日、自分のClaudeエージェントにデータベースの不調を調べさせてバックグラウンドの不審な動きを見つけ、発覚した（WIRED）</li>\n<li>対策：開発用の拡張機能、ポーカーの補助ソフト、暗号資産の物理ウォレットまで、「公式の流通経路や販売店を通ったもの」が改ざんされる事件が重なりました。CursorでClaude Codeを使っていた人は2.1.313の有無とSSH鍵を確かめ、WordPressやGitLab、Drupalの管理者は直ちに最新版へ更新してください。</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>Googleは宇宙のTPUで推論の試験を始め、地上ではAIが83万件もの疑わしい学生口座で奨学金詐欺に使われ、ケンタッキー大学では神を信じないヒューマニストにAIを使わない「宗教的免除」が認められました。</li>\n<li>量子では、仏Pasqalの256原子プロセッサーが古典計算の限界を超える2次元量子磁石の減速を捉え、韓国の延世大学は状態空間モデルMambaで表面符号の復号計算量を4乗から2乗へ詰めました。</li>\n<li>セキュリティでは、Cursorの公式マーケットプレイスから最大5000人にSSH裏口入りのClaude Code拡張機能が配られ、Binanceの流出はエンジニアの端末侵害から20分で63億ドルという史上最大の規模に広がりました。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li><a href=\"https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/\">TechCrunch: Google's first data center satellite is online and writing poetry</a></li>\n<li><a href=\"https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/\">Ars Technica: Thousands of \"ghost students\" use AI to steal millions in student loans, DOJ says</a></li>\n<li><a href=\"https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/\">TechCrunch: You don't need to believe in a god to get a religious exemption from using AI at work</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/\">BleepingComputer: OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut</a></li>\n<li><a href=\"https://quantumcomputingreport.com/pasqal-256-qubit-neutral-atom-processor-observes-unpredicted-slowdown-in-2d-quantum-magnet-dynamics/\">Quantum Computing Report: Pasqal 256-Qubit Neutral-Atom Processor Observes Unpredicted Slowdown in 2D Quantum Magnet Dynamics</a></li>\n<li><a href=\"https://quantumcomputingreport.com/yonsei-university-researchers-develop-mamba-state-space-neural-decoder-to-enable-real-time-quantum-error-correction/\">Quantum Computing Report: Yonsei University Researchers Develop Mamba State-Space Neural Decoder to Enable Real-Time Quantum Error Correction</a></li>\n<li><a href=\"https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/\">WIRED: A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/\">BleepingComputer: Malicious Claude Code extension on Cursor planted SSH backdoors</a></li>\n<li><a href=\"https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html\">The Hacker News: Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor</a></li>\n<li><a href=\"https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/\">Ars Technica: Hackers steal $6.3 billion from Binance in record crypto heist</a></li>\n<li><a href=\"https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/\">WIRED: The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/\">BleepingComputer: Binance links $6.3 billion crypto theft to compromised DevOps laptop</a></li>\n<li><a href=\"https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/\">WIRED: Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/\">BleepingComputer: Trezor warns of suspected crypto-theft implant in hardware wallet</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/\">BleepingComputer: Drupal warns of critical Commerce Core flaw exploited in attacks</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/\">BleepingComputer: CISA says max severity GitLab flaw now exploited in the wild</a></li>\n<li><a href=\"https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html\">The Hacker News: WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours</a></li>\n<li><a href=\"https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/\">WIRED: Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw</a></li>\n<li><a href=\"https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/\">WIRED: A Hacker Targeted High-Stakes Poker Players With Malware That Exposed Their Cards</a></li>\n</ul>",
+        "markdownSource": "# 生成AI・量子・セキュリティニュース（2026年10月31日）\n\n**キーワード:** Googleの宇宙データセンター衛星Suncatcher / AIを使った「幽霊学生」83万口座の奨学金詐欺 / ケンタッキー大学職員が勝ち取ったAIの「宗教的免除」 / Pasqalの256原子機が捉えた量子磁石の減速 / 延世大学のMamba復号器による実時間誤り訂正 / Cursor上の偽Claude Code拡張機能とSSH裏口 / バイナンス63億ドル流出と北朝鮮TraderTraitor\n\n## オープニング：2026年10月31日 — 生成AI・量子・セキュリティニュース\n\n- 今日の軸は「AIと量子が、研究や画面の中から現実のインフラへ出てきたときに何が起きるか」です。Googleは宇宙に上げたTPUで推論を始め、地上ではAIが大学の授業に出て奨学金をだまし取り、職場ではAIを使わない権利が宗教上の配慮として認められました。\n- 生成AIでは、Googleの宇宙データセンター試験機「Suncatcher」、米司法省が摘発したAIによる「幽霊学生」奨学金詐欺、ケンタッキー大学で世俗的ヒューマニストの職員が認められたAI利用の「宗教的免除」、利用枠の半減案を撤回して2倍に増やしたOpenAIのChatGPT Proを扱います。\n- 量子では、仏Pasqalの256原子プロセッサーが古典のテンソルネットワーク計算では追えない2次元量子磁石の減速を捉えた実験と、韓国・延世大学が状態空間モデル「Mamba」で表面符号の復号の計算量を減らした成果を扱います。\n- セキュリティでは、開発環境Cursorのマーケットプレイスで11時間配られた偽のClaude Code拡張機能、昨日の速報から被害総額が63億ドルへ跳ね上がったBinance流出の続報、直近1週間のインシデント一覧を扱います。\n\n## 生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む\n\n- Googleの宇宙データセンター構想「Suncatcher」の試験衛星が軌上で稼働し、地上との通信を始めました（TechCrunch、10月30日）。今月初めにSpaceXのFalcon 9ロケットで、100機超の衛星とともに打ち上げられたものです。\n- 衛星はGoogleのAI半導体TPUを4基積み、最大1キロワットを発電します。ただ電力の制約から、1度に動かせるTPUは1基だけで、連続稼働も約20分に限られます。\n- 約3週間の初期点検を終え、地上の技術者が今週、あらかじめ載せてあったGoogle DeepMindのモデル「Gemma 4」に最初の指示を送り、宇宙にいることについての俳句を詠ませました。「青い大理石が眼下にあり、データの流れが静かな優雅さで進み、星の光が私の核を養う」という英語の句が返り、衛星周辺の軌道環境の報告もさせました。\n- 試験の主眼は、熱の負荷と宇宙放射線がTPUに与える影響を実地で測ることです。放射線はメモリーの値を書き換える「ビット反転」を起こし、通常の監視ツールに気づかれないままデータを壊す恐れがあります。地上での加速器試験では、学習より推論のほうが影響が小さいとみられていました。\n- 今回のTPUが耐えられれば、2027年に発電量を増やし、衛星間の光通信を備えた衛星をさらに2機打ち上げます。SpaceXやStarcloudが個々の衛星で推論を完結させる構想なのに対し、Suncatcherは近接して飛ぶ衛星同士を高速でつなぎ、分散して1つの大きな推論を回す設計です。\n- ただし、2030年代に採算を合わせるには、Alphabetも出資するSpaceXの大型ロケットStarshipの完全再使用が前提になります。Suncatcherの研究者は今月の査読論文で、過去のロケットと同じコスト低減にはStarshipが1800回飛ぶ必要があると試算しています。\n\n## 生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴\n\n- 米司法省は10月29日、他人の個人情報を盗んで架空の大学生になりすまし、連邦の学生援助金をだまし取る「幽霊学生」の全国一斉摘発で5人を起訴したと発表しました（Ars Technica、10月30日）。\n- 手口は、高校卒業後に大学へ進学せず就職した米国人の個人情報を買い取り、連邦学生援助の無料申請（FAFSA）を出して大学やコミュニティカレッジに入学するものです。授業料を引いた残りの給付金が、詐欺グループの管理する銀行口座へ振り込まれます。数十人の米国人が資金を受け取る口座役として加担していました。\n- お金を長く引き出すため、グループはAIを使って願書を書き、課題をこなし、オンライン授業に出席しているように見せかけていました。司法省のコリン・マクドナルド司法次官補は、何学期も在籍を続けさせるのが狙いだと説明しました。\n- 教育省はこれまでに、市民の個人情報で作られた疑わしい口座を83万件超見つけました。すべてが幽霊学生なら被害は1億3000万ドル近くにのぼります。今回の起訴に結びついた実損だけでも3200万ドル超が確認され、ある被告は700件超の還付金で計約143万9548ドルを受け取っていました。\n- 司法省はケニア国籍の人物らに関わる網から75万ドル超の暗号資産を押収し、全国26のFBI支局に約50件の捜査を送りました。被害に遭った本人は、何年もたって政府から返済を求められ、信用情報が傷つくまで気づきにくい仕組みです。\n- トランプ政権の教育省は、申請時にカメラへ身分証をかざす自動の本人確認を導入しました。一方、支援団体の全米大学進学ネットワークは、運転免許証を持たない低所得層の学生が手続きでつまずいたり、誤判定で給付が遅れたりする副作用を懸念しています。\n\n## 生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認\n\n- 米ケンタッキー大学の事務職員デイビッド・ダーマン氏が、職場でAIを使わない「宗教上の免除」を認められました。ダーマン氏は神を前提としない「世俗的ヒューマニスト」で、ヒューマニストとしてこの免除を得た初めての事例とされます（TechCrunch、10月29日）。\n- ダーマン氏の仕事は、研究者の助成金申請を支える事務です。今のところAIの利用は義務ではありませんが、上司や同僚から試すよう勧められており、将来の義務化に備えて米国ヒューマニスト協会（AHA）に相談して申請しました。\n- 同氏は、自分で頭を働かせることが道徳的な主体になる道であり、AIへの依存はその力を弱めると主張しています。さらに、AIが生計を立てる力を脅かし、環境への負荷が大きく、芸術や文学といった人間の創造性を奪うことも理由に挙げました。\n- 米国の雇用主は公民権法に基づき、従業員の誠実な信念に対して過度の負担がない限り配慮する義務があります。AHAの弁護士アレクサンドリア・ハイスケンズ氏は、カトリックの教えでもユニテリアン・ユニバーサリズムでもヒューマニズムでも、人間の尊厳への懸念は同じように法で守られると説明しています。\n- ダーマン氏は、ユニテリアン・ユニバーサリストのソフトウェア技術者エリン・マウス氏が同様の免除を得た記事を読んで動きました。大学側は、職務の本質的な部分を続けられると判断して認めましたが、技術や職務が変われば見直すこともあるとしています。\n- 一方、AIを積極的に使う開発者の側では、OpenAIが10月29日に予定していた「ChatGPT Pro 200」の利用枠の50％削減を、強い反発を受けて撤回しました（BleepingComputer、10月29日）。逆に月額100ドル、200ドル、500ドルのPro各プランとBusiness Premiumの利用枠を2倍に増やし、常時稼働アシスタント「Dots」の枠も別計算のまま残すと発表しています。\n\n## 量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測\n\n- フランスのPasqalは、米フラットアイアン研究所、独ユーリヒ総合研究機構、仏光学研究所などと、256個の中性原子を使ったアナログ量子プロセッサーで、2次元の量子磁石が落ち着いていく過程を調べた論文を公開しました（Quantum Computing Report、10月28日）。\n- 実験では、ルビジウム87の原子256個を16×16の正方形に並べ、レーザーで励起して「2次元横磁場イジング模型」という磁石のモデルを作りました。向きをそろえた状態から急に磁場の強さを変え、その後の変化を追っています。\n- その結果、磁場が中くらいの強さ（相互作用との比が3.5）のところで、状態の緩和が予想外に遅くなる現象が見つかりました。相転移の近く（2.5）での速い熱化や、強い磁場（6.0）での長い準安定状態とも違う、3つ目の振る舞いです。\n- 研究チームは、2次元テンソルネットワーク、行列積状態（MPS）、木テンソルネットワークという3つの最先端の古典計算と比べました。ごく短い時間は3つとも実験と一致しましたが、時間が進むと古典の手法同士が食い違い、実験とも離れました。\n- 5×5の小さな格子での厳密な計算やノイズの補正から、この減速は装置の雑音ではなく、多数の粒子が絡み合う本来の物理現象だと確かめられました。計算時間の速さを競う「量子優位」の主張ではありませんが、古典の近似計算が収束しなくなる領域の物性を、実機で探れることを示しています。\n\n## 量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減\n\n- 韓国の延世大学の研究チームは、深層学習の「Mamba（構造化状態空間モデル）」を使った量子誤り訂正の復号器を開発し、学術誌npj Quantum Informationに発表しました（Quantum Computing Report、10月28日）。\n- 表面符号では、符号の距離dに対して誤りの手がかり（シンドローム）の数がおよそdの2乗で増えます。GoogleのAlphaQubitのようなTransformer型の復号器は、すべての組み合わせを比べる自己注意の仕組みを使うため、計算量がdの4乗で増え、超伝導量子ビットが耐えられる1マイクロ秒前後のサイクルに追いつきません。\n- 延世大学のチームは、自己注意の代わりに選択的な状態空間の層を使い、計算量をdの4乗からdの2乗へ落としました。GoogleのSycamoreの実験データで試したところ、静的な記憶の精度はTransformerと同等でした。\n- さらに、復号器が遅れるあいだに量子ビットにたまる雑音まで含めた実時間の模擬実験では、符号の距離が3から9へ大きくなるほど、Mambaのほうが誤りを低く抑えました。\n- ただし、実際に量子計算機の制御装置へ組み込むには、再帰的な核や畳み込みの計算をFPGAや専用半導体（ASIC）に載せ、1マイクロ秒未満で推論を終える実装が次の壁になります。\n\n## セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口\n\n- SpaceX傘下のAI開発環境「Cursor」の拡張機能マーケットプレイスで10月29日、Anthropicの公式拡張機能「Claude Code」を装った悪意ある更新版（バージョン2.1.313）が約11時間にわたって配信されました（WIRED、BleepingComputer、The Hacker News、10月30日）。\n- Cursorによると、ダウンロードされたのは最大5000人です。発覚後、Cursorはマーケットプレイスを一時閉鎖し、2.1.314へ差し替えました。macOSのセキュリティ企業Phorionが顧客の端末で見つけて最初に報告しました。\n- 手口は、拡張機能の本体（extension.js）の先頭に即時実行関数を埋め込むもので、利用者がボタンを押さなくても、エディターを開いてNode.jsがファイルを読み込んだ瞬間に動きます。\n- 動くと、端末の情報をHTTPで外部へ送り、攻撃者のSSH公開鍵を「authorized_keys」に追加し、攻撃者のサーバー（134.209.82.225）へ逆向きのSSHトンネルを張ります。再起動しても消えないよう、macOSでは起動ファイル、Linuxではcron、Windowsではタスクスケジューラに登録します。\n- 不幸中の幸いとして、マルウェアのコードにバグがあり、WindowsとmacOSの大半ではSSHを有効にする工程が途中で失敗していました。それでも情報の送信と常駐の登録は動いています。\n- なぜ公式の提供者名義で偽の版が上がったのかは、まだ明らかになっていません。Anthropicの技術スタッフとセキュリティ担当者はXで「自社のシステムや社員の端末は侵害されておらず、何者かがCursorのマーケットプレイスの権限を使って改ざん版を公開した」と説明しました。2.1.313を入れた開発者は、authorized_keysと起動設定を点検する必要があります。\n\n## セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる\n\n- 昨日お伝えした暗号資産取引所Binanceの不正流出は、その後の調べで被害総額の推計が約63億ドル（約9600億円）に膨らみました。すべての入出金が一時止められ、あらゆる種類の窃盗としても史上最大級とみられています（Ars Technica、WIRED、BleepingComputer、10月30日）。\n- TRM Labsの分析では、10月29日の午後4時ごろ（米東部時間）から約20分間で、イーサリアム、ビットコイン、トロン、ソラナなど少なくとも10のブロックチェーンのホットウォレットから資金が抜かれました。\n- 準備は少なくとも36時間前から始まっていました。攻撃者は29日未明に最初のコードを2つのウォレットで試し、その後3つ目のウォレットで最終版の予行演習をしてから、4時間後にBinanceのホットウォレットへ同じコードを仕掛けました。\n- Binanceは初期調査として、DevOpsエンジニアのノートパソコンが侵害されたことを挙げつつ、金曜朝には「ほかにも侵入箇所が見つかった」と声明を出しました。\n- TRM Labs、Chainalysis、Ellipticの3社は、北朝鮮の精鋭ハッカー集団「TraderTraitor」の関与を疑っています。Chainalysisは、盗まれた資金が、北朝鮮の犯行とされる先月のBitgetの流出資金（約3億9000万ドル）とリアルタイムで混ざり合うのを確認したと報告しました。\n- 63億ドルのうち、Tetherの約15億ドルやCircleの8億ドルなど、ステーブルコインを中心に約28億〜30億ドル（約44％）は凍結されました。しかしEllipticによると、残る約33億ドルはビットコインやイーサなど凍結できない資産に替えられ、自動化された何千もの取引で資金洗浄が進んでいます。\n- Binanceは自社の資金から63億4000万ドル超を充てて全額補償するとし、48時間以内の出金再開を見込んでいます。創業者チャンポン・ジャオ氏は、10億ドル規模の保護基金などを引いても約20億ドルの穴が残るものの、同社はSpaceXの株を10億ドル超持っており「痛手だが管理できる」とXに投稿しました。\n\n## セキュリティ：最近のインシデント一覧\n\n- 米国土安全保障省DHS（10月28日公開／職員・契約者4万1000人超の名簿流出）：「Department of Peace」を名乗る集団からDDoSecretsが入手し「Icepick」として公開。2026年8月19日時点のOktaの記録とされ、税関・国境警備局（CBP）が半数超、移民・関税執行局（ICE）約1万人、CISA約1000人を含む。電話番号や勤務先のほか、潜入捜査（CUC）や盗聴、顔認識アプリ「Mobile Fortify」、GrokやChatGPTなどのAI利用許可グループを含む5万5000超の権限グループ名まで露出した。Oktaは自社の侵害を否定し、DHSは調査中（WIRED）\n- ハードウェアウォレットのTrezor（10月29日警告／正規販売店経由の端末に不正基板の疑い）：東南アジアの元正規販売店CryptoBilisから8月にインドネシアのTokopediaで買われた「Trezor Safe 5」の内部に、画面と基板のあいだへ携帯電話通信モジュールとアンテナ付きの不正な基板が挟まれていたと購入者が10月28日に報告。画面に出る復元フレーズを読み取って携帯網で外部へ送る仕組みとみられる。Trezorは10月9日にLedger端末の改ざん問題を受けて同店との契約を切っており、今年3月以降に同店で買った人は新しいウォレットへ資産を移すよう呼びかけた（BleepingComputer、The Hacker News）\n- DrupalのECモジュール「Commerce Core」（10月29日／認可欠落の脆弱性CVE-2026-118539の悪用）：バージョン0.0.0〜2.41および3.0.0〜3.3.13で特定の経路や項目の保護が抜けており、ログインしていない攻撃者が注文内容や価格を書き換え、1セントなどの不当な安値で決済を通せる。実際のネット通販サイトで悪用が確認され、3.3.13または8.x-2.41への即時更新と注文履歴の点検が求められている（BleepingComputer、The Hacker News）\n- GitLab（10月29日／最高深刻度の脆弱性CVE-2026-97229を米CISAが悪用済みに追加）：CVSS 10.0。CI/CDの正規表現コンパイラー（Onigmo）にある整数オーバーフローで、細工した設定ファイルを送ると認証なしで任意のコードを実行できる。19.2.8、19.3.5、19.4.2で修正済みだが、実際の攻撃が始まったとしてCISAが警告した（BleepingComputer）\n- WordPress Core（10月29日報道／更新時の競合状態によるRCEに24時間で約6万3000回の攻撃）：バージョン4.7〜7.1.3で、本体を更新する際に一時展開される「wp-content/upgrade」内のインストーラーへ外から同時にアクセスされると、コードを実行される恐れがある（CVSS 8.1）。10月28日の7.1.4公開直後から攻撃が始まり、Wordfenceが24時間で約6万3000件の試行を遮断した（The Hacker News）\n- サーバー用UEFIファームウェア「TianoCore EDK II」（10月28日／起動時の脆弱性CVE-2026-97631が予定前に露出）：CVSS 9.5。ネットワーク起動（PXE）のドライバーに16年前からあった504バイト上限のバッファオーバーフローで、同じネットワーク内から細工したICMPエラーを送ると、Secure BootやTPMが動く前の最も強い権限（リング0）でコードを動かせる。来年1月まで非公開の予定だったが、ハードウェア大手AMIが9月に修正コードを誤って公開したため、先週アドバイザリが出された（WIRED／Ars Technica）\n- オンラインポーカーの高額卓（10月29日報道／多面打ちソフトの更新を通じた画面盗み見）：プロ愛用の補助ソフト「Jurojin」と「IntuitiveTables」の更新機構が侵害され、1000人超に遠隔操作ツール「MeshAgent」が配られた。高額卓の常連リストに載る選手だけ画面を盗み見し、Americas CardroomやGGPokerなどで150万〜400万ドルを不正に稼いだとみられる。被害選手の1人が9月25日、自分のClaudeエージェントにデータベースの不調を調べさせてバックグラウンドの不審な動きを見つけ、発覚した（WIRED）\n- 対策：開発用の拡張機能、ポーカーの補助ソフト、暗号資産の物理ウォレットまで、「公式の流通経路や販売店を通ったもの」が改ざんされる事件が重なりました。CursorでClaude Codeを使っていた人は2.1.313の有無とSSH鍵を確かめ、WordPressやGitLab、Drupalの管理者は直ちに最新版へ更新してください。\n\n## まとめ\n\n- Googleは宇宙のTPUで推論の試験を始め、地上ではAIが83万件もの疑わしい学生口座で奨学金詐欺に使われ、ケンタッキー大学では神を信じないヒューマニストにAIを使わない「宗教的免除」が認められました。\n- 量子では、仏Pasqalの256原子プロセッサーが古典計算の限界を超える2次元量子磁石の減速を捉え、韓国の延世大学は状態空間モデルMambaで表面符号の復号計算量を4乗から2乗へ詰めました。\n- セキュリティでは、Cursorの公式マーケットプレイスから最大5000人にSSH裏口入りのClaude Code拡張機能が配られ、Binanceの流出はエンジニアの端末侵害から20分で63億ドルという史上最大の規模に広がりました。\n\n## 参考ソース\n\n- [TechCrunch: Google's first data center satellite is online and writing poetry](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/)\n- [Ars Technica: Thousands of \"ghost students\" use AI to steal millions in student loans, DOJ says](https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/)\n- [TechCrunch: You don't need to believe in a god to get a religious exemption from using AI at work](https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/)\n- [BleepingComputer: OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/)\n- [Quantum Computing Report: Pasqal 256-Qubit Neutral-Atom Processor Observes Unpredicted Slowdown in 2D Quantum Magnet Dynamics](https://quantumcomputingreport.com/pasqal-256-qubit-neutral-atom-processor-observes-unpredicted-slowdown-in-2d-quantum-magnet-dynamics/)\n- [Quantum Computing Report: Yonsei University Researchers Develop Mamba State-Space Neural Decoder to Enable Real-Time Quantum Error Correction](https://quantumcomputingreport.com/yonsei-university-researchers-develop-mamba-state-space-neural-decoder-to-enable-real-time-quantum-error-correction/)\n- [WIRED: A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices](https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/)\n- [BleepingComputer: Malicious Claude Code extension on Cursor planted SSH backdoors](https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/)\n- [The Hacker News: Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor](https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html)\n- [Ars Technica: Hackers steal $6.3 billion from Binance in record crypto heist](https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/)\n- [WIRED: The $6.3 Billion Binance Hack Was Pulled Off in Just 20 Minutes](https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/)\n- [BleepingComputer: Binance links $6.3 billion crypto theft to compromised DevOps laptop](https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/)\n- [WIRED: Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents](https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/)\n- [BleepingComputer: Trezor warns of suspected crypto-theft implant in hardware wallet](https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/)\n- [BleepingComputer: Drupal warns of critical Commerce Core flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/)\n- [BleepingComputer: CISA says max severity GitLab flaw now exploited in the wild](https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/)\n- [The Hacker News: WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours](https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html)\n- [WIRED: Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw](https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware/)\n- [WIRED: A Hacker Targeted High-Stakes Poker Players With Malware That Exposed Their Cards](https://www.wired.com/story/a-hacker-targeted-high-stakes-poker-players-with-malware-that-exposed-their-cards/)\n",
+        "timeline": {
+          "version": 1,
+          "source": "tts_voicevox",
+          "fps": 30,
+          "totalFrames": 37149,
+          "audioDurationSec": 1238.296,
+          "cues": [
+            {
+              "speaker": "A",
+              "text": "2026年10月31日、生成エーアイ・量子・セキュリティニュースを始めるのだ。",
+              "section": "オープニング：2026年10月31日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 18,
+              "endFrame": 273
+            },
+            {
+              "speaker": "B",
+              "text": "今日の軸は、エーアイと量子が、研究や画面の中から現実のインフラへ出てきたときに何が起きるか、です。",
+              "section": "オープニング：2026年10月31日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 281,
+              "endFrame": 519
+            },
+            {
+              "speaker": "A",
+              "text": "現実のインフラって、どこまで出てきたのだ？",
+              "section": "オープニング：2026年10月31日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 526,
+              "endFrame": 637
+            },
+            {
+              "speaker": "B",
+              "text": "グーグルは宇宙に上げた半導体で推論を始め、地上ではエーアイが大学の授業に出て奨学金をだまし取り、職場ではエーアイを使わない権利が宗教上の配慮として認められました。",
+              "section": "オープニング：2026年10月31日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 645,
+              "endFrame": 1029
+            },
+            {
+              "speaker": "A",
+              "text": "宇宙と大学と職場で、いっぺんに起きているのだ。量子とセキュリティは？",
+              "section": "オープニング：2026年10月31日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1036,
+              "endFrame": 1216
+            },
+            {
+              "speaker": "B",
+              "text": "量子では、フランスのパスカルの256原子プロセッサーが量子磁石の予想外の減速を捉え、韓国の延世大学が状態空間モデルで誤り訂正の計算量を減らしました。",
+              "section": "オープニング：2026年10月31日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1223,
+              "endFrame": 1611
+            },
+            {
+              "speaker": "A",
+              "text": "セキュリティも大きな話があるのだ？",
+              "section": "オープニング：2026年10月31日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1619,
+              "endFrame": 1704
+            },
+            {
+              "speaker": "B",
+              "text": "開発環境カーソルの公式マーケットプレイスで、偽のクロード・コード拡張機能が11時間配られました。取引所バイナンスの流出は、被害総額が63億ドルへ膨らんでいます。",
+              "section": "オープニング：2026年10月31日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1711,
+              "endFrame": 2115
+            },
+            {
+              "speaker": "B",
+              "text": "グーグルの宇宙データセンター構想、サンキャッチャーの試験衛星が軌道上で稼働し、地上との通信を始めました。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 2133,
+              "endFrame": 2378
+            },
+            {
+              "speaker": "A",
+              "text": "いつ打ち上げた衛星なのだ？",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 2386,
+              "endFrame": 2456
+            },
+            {
+              "speaker": "B",
+              "text": "今月初めに、スペースエックスのファルコンナインで、100機以上の衛星と一緒に打ち上げられました。グーグルのエーアイ半導体、ティーピーユーを4基積んでいます。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 2464,
+              "endFrame": 2809
+            },
+            {
+              "speaker": "A",
+              "text": "4基とも宇宙でバリバリ動いているのだ？",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 2817,
+              "endFrame": 2914
+            },
+            {
+              "speaker": "B",
+              "text": "いいえ。発電量が最大1キロワットなので、1度に動かせるティーピーユーは1基だけです。しかも1回につき約20分しか回せません。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 2921,
+              "endFrame": 3220
+            },
+            {
+              "speaker": "A",
+              "text": "20分だけなのだ。最初の仕事は何をしたのだ？",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 3228,
+              "endFrame": 3355
+            },
+            {
+              "speaker": "B",
+              "text": "約3週間の点検を終えて、地上の技術者が今週、積んであったジェマフォーに、宇宙にいることについての俳句を詠ませました。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 3363,
+              "endFrame": 3631
+            },
+            {
+              "speaker": "A",
+              "text": "宇宙の衛星が俳句を返してきたのだ！？なんて詠んだのだ？",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 3639,
+              "endFrame": 3787
+            },
+            {
+              "speaker": "B",
+              "text": "青い大理石が眼下にあり、データの流れが静かに進み、星の光が私の核を養う、という英語の句です。あわせて衛星の周りの軌道環境も報告させました。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 3795,
+              "endFrame": 4159
+            },
+            {
+              "speaker": "A",
+              "text": "わざわざ宇宙に半導体を上げて、何を確かめたいのだ？",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 4167,
+              "endFrame": 4312
+            },
+            {
+              "speaker": "B",
+              "text": "熱の負荷と、宇宙放射線の影響です。放射線はメモリーの値を書き換えるビット反転を起こし、監視ツールに気づかれないままデータを壊す恐れがあります。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 4320,
+              "endFrame": 4652
+            },
+            {
+              "speaker": "A",
+              "text": "地上でも実験はしていたのだ？",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 4659,
+              "endFrame": 4738
+            },
+            {
+              "speaker": "B",
+              "text": "加速器で試験をして、学習より推論のほうが影響が小さいとみていました。それを本物の宇宙で確かめます。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 4746,
+              "endFrame": 4979
+            },
+            {
+              "speaker": "A",
+              "text": "うまくいったら、次はどうするのだ？",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 4987,
+              "endFrame": 5077
+            },
+            {
+              "speaker": "B",
+              "text": "2027年に、発電量を増やして衛星同士の光通信を備えた衛星を、さらに2機打ち上げます。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 5085,
+              "endFrame": 5324
+            },
+            {
+              "speaker": "A",
+              "text": "スペースエックスも宇宙データセンターをやりたいのだ？",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 5332,
+              "endFrame": 5449
+            },
+            {
+              "speaker": "B",
+              "text": "はい。ただ、スペースエックスやスタークラウドが1機ごとに推論を完結させる構想なのに対し、グーグルは近くを飛ぶ衛星同士を高速でつないで、1つの大きな推論を分担させる設計です。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 5457,
+              "endFrame": 5880
+            },
+            {
+              "speaker": "A",
+              "text": "打ち上げ代だけでも大変そうなのだ。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 5888,
+              "endFrame": 5972
+            },
+            {
+              "speaker": "B",
+              "text": "2030年代に採算を合わせるには、スペースエックスの大型ロケット、スターシップの完全再使用が前提です。今月の論文では、コスト低減にはスターシップが1800回飛ぶ必要があると試算しています。",
+              "section": "生成AIと宇宙：Googleの宇宙データセンター試験衛星「Suncatcher」が稼働、TPUでGemma 4が俳句を詠む",
+              "startFrame": 5980,
+              "endFrame": 6436
+            },
+            {
+              "speaker": "B",
+              "text": "アメリカの司法省は10月29日、架空の大学生になりすまして連邦の学生援助金をだまし取る、幽霊学生の全国摘発で5人を起訴したと発表しました。",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 6454,
+              "endFrame": 6814
+            },
+            {
+              "speaker": "A",
+              "text": "幽霊学生って、どうやって大学に入るのだ？",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 6821,
+              "endFrame": 6945
+            },
+            {
+              "speaker": "B",
+              "text": "高校を出て大学へ進学せず、そのまま就職したアメリカ人の個人情報を買い取ります。それを使って連邦学生援助の無料申請を出して、大学やコミュニティカレッジに入学するのです。",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 6952,
+              "endFrame": 7355
+            },
+            {
+              "speaker": "A",
+              "text": "なぜ進学しなかった人を狙うのだ？",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 7362,
+              "endFrame": 7451
+            },
+            {
+              "speaker": "B",
+              "text": "教育省が過去の進学記録と照合しても、重複が見つかりにくいからです。授業料を引いた残りの給付金が、詐欺グループの管理する銀行口座へ振り込まれます。",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 7459,
+              "endFrame": 7812
+            },
+            {
+              "speaker": "A",
+              "text": "すぐ退学になったら、お金が止まるのだ。",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 7820,
+              "endFrame": 7923
+            },
+            {
+              "speaker": "B",
+              "text": "そこでエーアイを使います。願書を書き、課題をこなし、オンライン授業に学生が出席しているように見せかけて、何学期も在籍を続けさせていました。",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 7930,
+              "endFrame": 8255
+            },
+            {
+              "speaker": "A",
+              "text": "オンラインの教室に、偽の学生が座っているように見せるのだ！？被害はどれくらいなのだ？",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 8263,
+              "endFrame": 8485
+            },
+            {
+              "speaker": "B",
+              "text": "教育省が見つけた疑わしい口座は83万件を超えます。すべてが幽霊学生なら、被害は1億3000万ドル近くです。",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 8492,
+              "endFrame": 8771
+            },
+            {
+              "speaker": "A",
+              "text": "83万件も！今回捕まった人たちの分だけでも、すごい金額なのだ？",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 8778,
+              "endFrame": 8981
+            },
+            {
+              "speaker": "B",
+              "text": "今回の起訴に結びついた実際の被害額だけで3200万ドル超です。ある被告は、700件を超える還付金で、約144万ドルを受け取っていました。",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 8988,
+              "endFrame": 9338
+            },
+            {
+              "speaker": "A",
+              "text": "犯人はどこの人たちなのだ？",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 9346,
+              "endFrame": 9422
+            },
+            {
+              "speaker": "B",
+              "text": "ケニア国籍の人物らに関わる網から、75万ドル超の暗号資産が押収されました。口座役になったアメリカ人も数十人おり、全国26のエフビーアイ支局に約50件の捜査が送られています。",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 9429,
+              "endFrame": 9879
+            },
+            {
+              "speaker": "A",
+              "text": "名前を使われた本人は、すぐ気づけるのだ？",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 9887,
+              "endFrame": 10005
+            },
+            {
+              "speaker": "B",
+              "text": "いいえ。何年もたって政府からローンの返済を求められ、信用情報が傷つくまで気づきにくい仕組みです。",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 10013,
+              "endFrame": 10246
+            },
+            {
+              "speaker": "A",
+              "text": "対策はどうするのだ？",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 10253,
+              "endFrame": 10315
+            },
+            {
+              "speaker": "B",
+              "text": "教育省は、申請するときにカメラへ身分証をかざす自動の本人確認を入れました。ただ、支援団体は、運転免許証を持たない低所得の学生がつまずいたり、誤判定で給付が遅れたりする副作用を心配しています。",
+              "section": "生成AIと犯罪：AIで授業をこなす「幽霊学生」83万口座、米司法省が奨学金詐欺で5人を起訴",
+              "startFrame": 10322,
+              "endFrame": 10805
+            },
+            {
+              "speaker": "B",
+              "text": "ケンタッキー大学の事務職員、デイビッド・ダーマン氏が、職場でエーアイを使わない、宗教上の免除を認められました。",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 10823,
+              "endFrame": 11096
+            },
+            {
+              "speaker": "A",
+              "text": "どんな宗教を信じている人なのだ？",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 11103,
+              "endFrame": 11192
+            },
+            {
+              "speaker": "B",
+              "text": "神を前提としない、世俗的ヒューマニストです。ヒューマニストとして職場のエーアイ免除を得たのは、初めてとされます。",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 11200,
+              "endFrame": 11449
+            },
+            {
+              "speaker": "A",
+              "text": "神様を信じていなくても、宗教上の免除が通るのだ！？どんな理由を出したのだ？",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 11456,
+              "endFrame": 11666
+            },
+            {
+              "speaker": "B",
+              "text": "自分で頭を働かせることが道徳的な人間になる道であり、エーアイに頼るとその力が弱まる、という信念です。生計を立てる力を脅かし、環境への負荷が大きく、芸術や文学の創造性を奪うとも書きました。",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 11674,
+              "endFrame": 12173
+            },
+            {
+              "speaker": "A",
+              "text": "法律では、どう決まっているのだ？",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 12181,
+              "endFrame": 12271
+            },
+            {
+              "speaker": "B",
+              "text": "アメリカの公民権法では、雇う側は従業員の誠実な信念に対して、過度の負担がない限り配慮する義務があります。協会の弁護士は、カトリックでもヒューマニズムでも同じように守られると説明しています。",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 12278,
+              "endFrame": 12722
+            },
+            {
+              "speaker": "A",
+              "text": "ダーマンさんは、普段どんな仕事をしているのだ？",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 12730,
+              "endFrame": 12849
+            },
+            {
+              "speaker": "B",
+              "text": "研究者の助成金の申請を支える事務です。今はまだエーアイが義務ではありませんが、上司や同僚から試すよう勧められていて、将来の義務化に備えて申請しました。",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 12857,
+              "endFrame": 13215
+            },
+            {
+              "speaker": "A",
+              "text": "大学は、ずっと使わなくていいと認めたのだ？",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 13222,
+              "endFrame": 13342
+            },
+            {
+              "speaker": "B",
+              "text": "今の職務の本質的な部分は続けられると判断して認めましたが、技術や仕事の中身が変われば見直すこともあるとしています。",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 13350,
+              "endFrame": 13606
+            },
+            {
+              "speaker": "A",
+              "text": "一方で、エーアイを毎日ヘビーに使っている人たちのあいだでも、騒ぎがあったのだ？",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 13614,
+              "endFrame": 13825
+            },
+            {
+              "speaker": "B",
+              "text": "はい。オープンエーアイが10月29日から、月額200ドルのチャットジーピーティー・プロの利用枠を半分に減らす予定でしたが、強い反発を受けて撤回しました。",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 13833,
+              "endFrame": 14188
+            },
+            {
+              "speaker": "A",
+              "text": "半分にするのをやめて、どうしたのだ？",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 14195,
+              "endFrame": 14290
+            },
+            {
+              "speaker": "B",
+              "text": "逆に、月額100ドル、200ドル、500ドルのプロ各プランとビジネス・プレミアムの利用枠を2倍に増やしました。常時動くアシスタント、ドッツの枠も別計算のまま残します。",
+              "section": "生成AIと労働：神を信じなくても「宗教上の配慮」で職場のAIを拒否、ケンタッキー大学が職員に免除を承認",
+              "startFrame": 14298,
+              "endFrame": 14697
+            },
+            {
+              "speaker": "A",
+              "text": "ここからは量子コンピュータなのだ。フランスのパスカルが、256個の原子で新しい現象を見つけたのだ？",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 14715,
+              "endFrame": 14980
+            },
+            {
+              "speaker": "B",
+              "text": "はい。ルビジウム87の原子256個を、16かける16の正方形に並べたアナログ量子プロセッサーで、2次元の量子磁石が落ち着いていく過程を調べました。",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 14988,
+              "endFrame": 15369
+            },
+            {
+              "speaker": "A",
+              "text": "どんな実験をしたのだ？",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 15377,
+              "endFrame": 15438
+            },
+            {
+              "speaker": "B",
+              "text": "原子の向きを全部そろえた状態から、レーザーでかける横向きの磁場の強さを急に変えて、そのあとの変化を追いました。",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 15446,
+              "endFrame": 15691
+            },
+            {
+              "speaker": "A",
+              "text": "そうすると、どうなったのだ？",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 15698,
+              "endFrame": 15774
+            },
+            {
+              "speaker": "B",
+              "text": "その結果、磁場が中くらいの強さ、相互作用との比が3.5のところで、状態が落ち着くスピードが予想外に遅くなる現象が見つかりました。",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 15781,
+              "endFrame": 16090
+            },
+            {
+              "speaker": "A",
+              "text": "ほかの強さのときとは違うのだ？",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 16098,
+              "endFrame": 16180
+            },
+            {
+              "speaker": "B",
+              "text": "相転移に近い2.5では速く熱化し、強い磁場の6.0では長い準安定状態になります。その中間に、3つ目の振る舞いがありました。",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 16188,
+              "endFrame": 16502
+            },
+            {
+              "speaker": "A",
+              "text": "スパコンの計算でも、その遅くなる現象は出るのだ？",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 16510,
+              "endFrame": 16644
+            },
+            {
+              "speaker": "B",
+              "text": "2次元テンソルネットワーク、行列積状態、木テンソルネットワークという3つの最先端の手法と比べました。ごく短い時間は3つとも実験と一致します。",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 16652,
+              "endFrame": 16983
+            },
+            {
+              "speaker": "A",
+              "text": "ごく短い時間だけってことは、途中からズレるのだ？",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 16991,
+              "endFrame": 17121
+            },
+            {
+              "speaker": "B",
+              "text": "古典の3つの手法同士がバラバラに食い違い、実験のデータとも離れてしまいました。近似の打ち切りや格子の切り方で、計算が保てなくなる領域です。",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 17129,
+              "endFrame": 17453
+            },
+            {
+              "speaker": "A",
+              "text": "量子プロセッサーの側のノイズではないのだ？",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 17461,
+              "endFrame": 17563
+            },
+            {
+              "speaker": "B",
+              "text": "5かける5の小さな格子での厳密な計算やノイズ補正で、装置の雑音ではなく、たくさんの粒子が絡み合う本来の物理現象だと確かめています。",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 17571,
+              "endFrame": 17886
+            },
+            {
+              "speaker": "A",
+              "text": "古典の近似が追いつけない領域の物性を、実機で観察できたのだ。",
+              "section": "量子コンピュータ：仏Pasqalの256原子プロセッサー、古典計算が追えない2次元量子磁石の「減速」を観測",
+              "startFrame": 17893,
+              "endFrame": 18068
+            },
+            {
+              "speaker": "B",
+              "text": "もう1本は、韓国の延世大学です。深層学習のマンバ、構造化状態空間モデルを使った、量子誤り訂正の復号器を学術誌に発表しました。",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 18086,
+              "endFrame": 18437
+            },
+            {
+              "speaker": "A",
+              "text": "昨日のシドニー大学の話でも、復号器を1マイクロ秒より速くするのが課題って出てきたのだ。",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 18444,
+              "endFrame": 18673
+            },
+            {
+              "speaker": "B",
+              "text": "まさにそこです。表面符号では、符号の距離ディーに対して、誤りの手がかりの数がディーの2乗で増えます。",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 18680,
+              "endFrame": 18910
+            },
+            {
+              "speaker": "A",
+              "text": "グーグルのアルファキュービットみたいな、トランスフォーマーの復号器だと遅いのだ？",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 18917,
+              "endFrame": 19095
+            },
+            {
+              "speaker": "B",
+              "text": "トランスフォーマーは、すべての組み合わせを比べる自己注意の仕組みを使うので、計算量がディーの4乗で増えます。これだと、超伝導量子ビットが耐えられる1マイクロ秒前後のサイクルに追いつきません。",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 19103,
+              "endFrame": 19513
+            },
+            {
+              "speaker": "A",
+              "text": "マンバに変えると、どうなるのだ？",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 19521,
+              "endFrame": 19605
+            },
+            {
+              "speaker": "B",
+              "text": "自己注意の代わりに選択的な状態空間の層を使うことで、計算量をディーの4乗から2乗へ落としました。グーグルのシカモアの実験データで試すと、静的な記憶の精度はトランスフォーマーと同等でした。",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 19613,
+              "endFrame": 20043
+            },
+            {
+              "speaker": "A",
+              "text": "復号器が計算しているあいだにたまるノイズも入れると、差が出るのだ？",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 20050,
+              "endFrame": 20218
+            },
+            {
+              "speaker": "B",
+              "text": "はい。実時間の模擬実験では、符号の距離が3から9へ大きくなるほど、遅れの少ないマンバのほうが誤りを低く抑えました。",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 20226,
+              "endFrame": 20506
+            },
+            {
+              "speaker": "A",
+              "text": "すぐに実機へつなげるのだ？",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 20514,
+              "endFrame": 20583
+            },
+            {
+              "speaker": "B",
+              "text": "制御装置へ組み込むには、再帰的な核や畳み込みの計算をエフピージーエーや専用半導体に載せて、1マイクロ秒未満で推論を終える実装が次の壁になります。",
+              "section": "量子コンピュータ：韓国・延世大学、状態空間モデル「Mamba」で表面符号の復号計算量を4乗から2乗へ削減",
+              "startFrame": 20590,
+              "endFrame": 20940
+            },
+            {
+              "speaker": "B",
+              "text": "セキュリティです。スペースエックス傘下のエーアイ開発環境、カーソルの公式マーケットプレイスで10月29日、クロード・コードの偽の更新版が約11時間配られました。",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 20958,
+              "endFrame": 21342
+            },
+            {
+              "speaker": "A",
+              "text": "公式のマーケットプレイスから、偽物が降ってきたのだ！？どれくらいの人が入れたのだ？",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 21350,
+              "endFrame": 21554
+            },
+            {
+              "speaker": "B",
+              "text": "バージョン2.1.313で、入れたのは最大5000人です。マック向けセキュリティ企業のフォリオンが顧客の端末で見つけ、カーソルはマーケットプレイスを一時閉鎖して2.1.314へ差し替えました。",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 21561,
+              "endFrame": 22010
+            },
+            {
+              "speaker": "A",
+              "text": "入れると、いつ動き出すのだ？",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 22018,
+              "endFrame": 22100
+            },
+            {
+              "speaker": "B",
+              "text": "拡張機能の本体の先頭に即時実行関数が埋め込まれていて、エディターを開いてノードジェイエスがファイルを読み込んだ瞬間に、自動で動きます。",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 22108,
+              "endFrame": 22413
+            },
+            {
+              "speaker": "A",
+              "text": "ボタンを押さなくても、エディターを開いただけで動くのだ！何をするのだ？",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 22421,
+              "endFrame": 22595
+            },
+            {
+              "speaker": "B",
+              "text": "端末の情報を外部へ送り、攻撃者のエスエスエイチ公開鍵を追加して、攻撃者のサーバーへ逆向きのトンネルを張ります。マックでもリナックスでもウィンドウズでも、再起動で消えないよう常駐登録します。",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 22603,
+              "endFrame": 23032
+            },
+            {
+              "speaker": "A",
+              "text": "5000人全員が、パソコンを乗っ取られたのだ！？",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 23039,
+              "endFrame": 23158
+            },
+            {
+              "speaker": "B",
+              "text": "不幸中の幸いで、マルウェアのコードにバグがあり、ウィンドウズとマックの大半ではエスエスエイチを有効にする工程が途中で失敗していました。ただ、情報の送信と常駐の登録は動いています。",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 23166,
+              "endFrame": 23586
+            },
+            {
+              "speaker": "A",
+              "text": "アンソロピックがハッキングされたのだ？",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 23594,
+              "endFrame": 23681
+            },
+            {
+              "speaker": "B",
+              "text": "アンソロピックの担当者はエックスで、自社のシステムや社員の端末は侵害されておらず、何者かがカーソルのマーケットプレイスの権限を使って改ざん版を出したと説明しました。",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 23689,
+              "endFrame": 24056
+            },
+            {
+              "speaker": "A",
+              "text": "カーソルでクロード・コードを使っていた人は、2.1.313が入っていないか、エスエスエイチの鍵と起動設定を今すぐ見るのだ。",
+              "section": "セキュリティとAI：Cursorの公式マーケットプレイスに偽の「Claude Code」拡張機能、11時間で最大5000人にSSH裏口",
+              "startFrame": 24063,
+              "endFrame": 24406
+            },
+            {
+              "speaker": "B",
+              "text": "昨日お伝えした暗号資産取引所バイナンスの流出は、続く調べで、被害総額の推計が約63億ドル、日本円で約9600億円に膨らみました。",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 24424,
+              "endFrame": 24785
+            },
+            {
+              "speaker": "A",
+              "text": "昨日は最大58億ドルかもって話だったのに、63億ドルで確定したのだ！？",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 24792,
+              "endFrame": 25008
+            },
+            {
+              "speaker": "B",
+              "text": "バイナンス自身が、被害の推計を約63億ドルとし、すべての入出金を一時止めました。暗号資産だけでなく、あらゆる窃盗として史上最大級とみられています。",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 25015,
+              "endFrame": 25383
+            },
+            {
+              "speaker": "A",
+              "text": "どんなふうに抜かれたか、分かってきたのだ？",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 25391,
+              "endFrame": 25498
+            },
+            {
+              "speaker": "B",
+              "text": "ティーアールエム・ラブズの分析では、29日の午後4時ごろから約20分間で、イーサリアムやビットコイン、ソラナなど、少なくとも10のブロックチェーンのホットウォレットから抜かれました。",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 25505,
+              "endFrame": 25898
+            },
+            {
+              "speaker": "A",
+              "text": "たった20分で63億ドルなのだ……。いきなり本番をやったのだ？",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 25905,
+              "endFrame": 26072
+            },
+            {
+              "speaker": "B",
+              "text": "いいえ。準備は36時間以上前から始まっていました。29日未明に2つのウォレットでコードを試し、3つ目で最終版の予行演習をして、4時間後に本番のホットウォレットへ仕掛けています。",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 26080,
+              "endFrame": 26511
+            },
+            {
+              "speaker": "A",
+              "text": "どこから入られたのだ？",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 26518,
+              "endFrame": 26577
+            },
+            {
+              "speaker": "B",
+              "text": "バイナンスは初期調査として、デブオプス・エンジニアのノートパソコンが侵害されたことを挙げました。さらに金曜の朝には、ほかにも侵入箇所が見つかったと声明を出しています。",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 26584,
+              "endFrame": 26950
+            },
+            {
+              "speaker": "A",
+              "text": "犯人は、やっぱり北朝鮮なのだ？",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 26958,
+              "endFrame": 27060
+            },
+            {
+              "speaker": "B",
+              "text": "ティーアールエム・ラブズ、チェイナリシス、エリプティックの3社が、北朝鮮のトレーダートレイターの関与を疑っています。先月のビットゲットの流出資金と混ざり合うのも確認されました。",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 27067,
+              "endFrame": 27459
+            },
+            {
+              "speaker": "A",
+              "text": "昨日、ステーブルコインは凍結できたって言っていたのだ。残りはどうなったのだ？",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 27467,
+              "endFrame": 27657
+            },
+            {
+              "speaker": "B",
+              "text": "約28億から30億ドル、全体の44％ほどは凍結されました。ただエリプティックによると、残る約33億ドルはビットコインやイーサなど凍結できない資産に替えられ、自動で資金洗浄が進んでいます。",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 27665,
+              "endFrame": 28147
+            },
+            {
+              "speaker": "A",
+              "text": "利用者のお金は、戻ってくるのだ？",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 28155,
+              "endFrame": 28249
+            },
+            {
+              "speaker": "B",
+              "text": "バイナンスは自社の資金から63億4000万ドル超を充てて全額補償し、48時間以内の出金再開を見込んでいます。",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 28256,
+              "endFrame": 28532
+            },
+            {
+              "speaker": "A",
+              "text": "それだけのお金を、会社だけで出せるのだ？",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 28540,
+              "endFrame": 28648
+            },
+            {
+              "speaker": "B",
+              "text": "創業者のジャオ氏は、保護基金などを引いても約20億ドルの穴が残るものの、10億ドル超のスペースエックス株などがあり、痛手だが管理できると投稿しました。",
+              "section": "セキュリティ：Binanceの流出額は史上最大の63億ドルへ、エンジニアのPC侵害から20分で抜かれる",
+              "startFrame": 28655,
+              "endFrame": 28996
+            },
+            {
+              "speaker": "A",
+              "text": "ここからは、直近のインシデント一覧なのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 29014,
+              "endFrame": 29128
+            },
+            {
+              "speaker": "B",
+              "text": "1件目は、アメリカの国土安全保障省です。職員や契約者4万1000人以上の名簿が流出し、10月28日に公開されました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 29136,
+              "endFrame": 29454
+            },
+            {
+              "speaker": "A",
+              "text": "国土安全保障省の誰のデータが漏れたのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 29461,
+              "endFrame": 29577
+            },
+            {
+              "speaker": "B",
+              "text": "税関・国境警備局が半数超、移民・関税執行局が約1万人、シーアイエスエーも約1000人含まれます。潜入捜査や盗聴、グロックやチャットジーピーティーの利用許可など5万5000超の権限グループ名も出ました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 29584,
+              "endFrame": 30103
+            },
+            {
+              "speaker": "A",
+              "text": "暗号資産の物理ウォレットにも、本物の部品に偽物が紛れ込む事件があったのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 30111,
+              "endFrame": 30318
+            },
+            {
+              "speaker": "B",
+              "text": "ハードウェアウォレットのトレザーです。東南アジアの元正規販売店、クリプトビリスから買われたトレザー・セーフファイブの中に、携帯電話の通信基板とアンテナが挟まれていたと29日に警告が出ました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 30325,
+              "endFrame": 30759
+            },
+            {
+              "speaker": "A",
+              "text": "画面に出る復元フレーズを、電波で外へ飛ばす基板なのだ！？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 30766,
+              "endFrame": 30921
+            },
+            {
+              "speaker": "B",
+              "text": "そうみられています。トレザーは今年3月以降にこの販売店で買った人に対し、新しいウォレットへ資産を移すよう呼びかけました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 30929,
+              "endFrame": 31195
+            },
+            {
+              "speaker": "A",
+              "text": "ネット通販や開発ツールの脆弱性も、相次いで突かれているのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 31202,
+              "endFrame": 31376
+            },
+            {
+              "speaker": "B",
+              "text": "ドゥルーパルの通販モジュール、コマース・コアで、認可の抜けを突くシーブイイー2026の118539が悪用されています。ログインなしの攻撃者が価格を書き換え、1セントなどの安値で決済を通せます。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 31383,
+              "endFrame": 31875
+            },
+            {
+              "speaker": "A",
+              "text": "ギットラブとワードプレスも狙われているのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 31882,
+              "endFrame": 31985
+            },
+            {
+              "speaker": "B",
+              "text": "ギットラブは深刻度10.0のシーブイイー2026の97229について、シーアイエスエーが悪用を警告しました。ワードプレスも更新時の一瞬の隙を突く脆弱性に、1日で約6万3000回の攻撃がありました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 31992,
+              "endFrame": 32505
+            },
+            {
+              "speaker": "A",
+              "text": "サーバーの根本のソフトでも、予定より早く弱点が明るみに出た件があるのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 32513,
+              "endFrame": 32713
+            },
+            {
+              "speaker": "B",
+              "text": "世界のほとんどのサーバーが使う起動用ファームウェア、ティアノコアのシーブイイー2026の97631です。ネットワーク起動の仕組みに16年前からあった欠陥で、来年1月まで非公開の予定でした。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 32720,
+              "endFrame": 33194
+            },
+            {
+              "speaker": "A",
+              "text": "来年1月まで伏せるはずだったのに、どうして漏れたのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 33202,
+              "endFrame": 33342
+            },
+            {
+              "speaker": "B",
+              "text": "ハードウェア大手のエーエムアイが9月に修正コードを誤って公開してしまい、先週アドバイザリが出ました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 33349,
+              "endFrame": 33568
+            },
+            {
+              "speaker": "A",
+              "text": "最後は、オンラインポーカーの事件なのだ？発見のきっかけが変わっているのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 33576,
+              "endFrame": 33768
+            },
+            {
+              "speaker": "B",
+              "text": "プロが使う多面打ちソフト2本の更新システムが侵害され、1000人以上に遠隔操作ツールが配られました。高額卓の常連だけ画面を盗み見して、150万から400万ドルを不正に稼いだとみられます。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 33776,
+              "endFrame": 34213
+            },
+            {
+              "speaker": "A",
+              "text": "どうやって見破ったのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34220,
+              "endFrame": 34282
+            },
+            {
+              "speaker": "B",
+              "text": "被害にあったプロの1人が9月25日、データベースの不調を自分のクロードのエージェントに調べさせたところ、裏で画面を撮っていた不審なソフトをエージェントが見つけ出しました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34289,
+              "endFrame": 34643
+            },
+            {
+              "speaker": "A",
+              "text": "公式の拡張機能や補助ソフト、正規販売店のウォレットまで、通り道そのものが細工されているのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34651,
+              "endFrame": 34903
+            },
+            {
+              "speaker": "B",
+              "text": "カーソルでクロード・コードを使っていた人は2.1.313の有無とエスエスエイチ鍵を確かめ、ワードプレスやギットラブ、ドゥルーパルの管理者は直ちに最新版へ更新してください。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 34910,
+              "endFrame": 35302
+            },
+            {
+              "speaker": "A",
+              "text": "今日は、エーアイと量子が現実のインフラへ出てきたときに何が起きるか、という話だったのだ。",
+              "section": "まとめ",
+              "startFrame": 35320,
+              "endFrame": 35545
+            },
+            {
+              "speaker": "B",
+              "text": "グーグルは宇宙の半導体で推論の試験を始め、地上では83万件もの疑わしい学生口座でエーアイが奨学金詐欺に使われ、ケンタッキー大学ではヒューマニストにエーアイの免除が認められました。",
+              "section": "まとめ",
+              "startFrame": 35553,
+              "endFrame": 35978
+            },
+            {
+              "speaker": "A",
+              "text": "量子では、パスカルの256原子プロセッサーが量子磁石の減速を捉えて、延世大学はマンバで誤り訂正の計算量を4乗から2乗へ減らしたのだ。",
+              "section": "まとめ",
+              "startFrame": 35985,
+              "endFrame": 36375
+            },
+            {
+              "speaker": "B",
+              "text": "セキュリティでは、カーソルの公式マーケットプレイスから最大5000人に裏口入りの拡張機能が配られ、バイナンスの流出はエンジニアの端末から20分で63億ドルという史上最大の規模になりました。",
+              "section": "まとめ",
+              "startFrame": 36383,
+              "endFrame": 36802
+            },
+            {
+              "speaker": "A",
+              "text": "道具が本物の社会に入るほど、守る場所も宇宙から手元のエディターまで広がるのだ。聞いてくれてありがとうなのだ。",
+              "section": "まとめ",
+              "startFrame": 36810,
+              "endFrame": 37079
+            },
+            {
+              "speaker": "B",
+              "text": "また次回、お会いしましょう。",
+              "section": "まとめ",
+              "startFrame": 37087,
+              "endFrame": 37149
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "segments": [
       {
