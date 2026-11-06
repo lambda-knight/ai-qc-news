@@ -1,5 +1,672 @@
 [
   {
+    "date": "2026-11-07",
+    "segments": [
+      {
+        "mode": "ai",
+        "label": "生成AIニュース",
+        "iaId": "news-pickup-2026-11-07-ai",
+        "title": "【速報】中間選挙でAI株から数兆ドル消失、マスク氏サイバートラック終了・AI支出1.5％増に急減速 2026/11/07",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-11-07-ai/ai_yukkuri.m4a",
+        "markdown": "<h1>生成AI・量子・セキュリティニュース（2026年11月7日）</h1>\n<p><strong>キーワード:</strong> 中間選挙後のAI株急落と上院エネルギー許認可改革法案 / マスク氏のサイバートラック生産終了と反オリガルヒ運動 / アムステルダムのマイクロソフト現場乱入と16カ国抗議 / Ramp調査が示すAI支出の急減速 / 米下院3委員会によるエヌビディアCEO召喚 / 延世大学のIBM Quantum Nighthawk r2稼働 / Cursorの偽Claude拡張機能と130万台TVボックスのボットネット解体</p>\n<h2>オープニング：2026年11月7日 — 生成AI・量子・セキュリティニュース</h2>\n<ul>\n<li>2026年11月7日の生成AI・量子・セキュリティニュースです。今日の軸は「米中間選挙の結果が、市場・法制度・企業戦略・街頭の直接行動をどう動かし始めたか」です。</li>\n<li>民主党の勝利を受けてデータセンター規制やAI開発減速への警戒が広がり、世界の株式市場でハイテク株から一時数兆ドルが吹き飛びました。一方、米上院は11月9日に超党派のエネルギー許認可改革法案を採決します。</li>\n<li>巨額の政治資金が空振りに終わったイーロン・マスク氏は、政治介入への反発の象徴となった「サイバートラック」の生産終了を発表し、自動運転ロボタクシーへかじを切りました。</li>\n<li>データセンター反対運動は投票箱を越え、オランダ・アムステルダムのマイクロソフト建設現場に100人超の活動家が乱入し、16カ国での一斉抗議に発展しています。</li>\n<li>ほかに、企業のAI支出が8〜9月に1.5％増へ急減速したRampの調査、米下院によるエヌビディアCEOの召喚、32MBの音声・音楽生成モデル、韓国・延世大学でのIBM新型量子計算機の稼働、Cursorの偽Claude拡張機能と直近のインシデント一覧を扱います。</li>\n</ul>\n<h2>米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案</h2>\n<ul>\n<li>民主党が連邦上下両院を制し、データセンター規制を掲げる知事候補が相次いで当選したことを受け、5日の米株式市場でハイテク株が急落し、世界の市場で時価総額から数兆ドルが失われました（BBC、ガーディアン、11月6日）。</li>\n<li>5日の米市場ではナスダック総合指数が5.5％下落し、エヌビディアは9％超、半導体大手のAMDとマイクロンはいずれも17％超急落しました。6日にはアジアと欧州へ波及し、韓国の総合株価指数（KOSPI）が6％安、SKハイニックスが10％超下落、英FTSE100も1.9％下げました（BBC、ガーディアン）。</li>\n<li>6日の米市場では、9月の雇用統計が16万5000人増と強かったことも支えとなり、ナスダックが昼までに1.7％反発し、エヌビディアは約4％、AMDは約12％、マイクロンは8％超戻しました（BBC）。</li>\n<li>ゴールドマン・サックスは2026年のAI投資が1兆ドルに達すると試算していますが、他産業の借入コストまで押し上げる資金集中に対し、選挙によるデータセンター規制と収益回収への疑問が重なっています（BBC）。</li>\n<li>連邦議会では、民主党とトランプ大統領の「ねじれ政府」が始まります。いずれの院も大統領の拒否権を覆す3分の2の議席には届かないため、2025年の「One Big Beautiful Bill Act」で削られたインフレ抑制法（IRA）のクリーンエネルギー補助金を連邦法で一気に復活させるのは難しい情勢です（MIT Technology Review、11月4日）。</li>\n<li>その中で最初の焦点となるのが、上院が11月9日に採決する417ページの超党派法案「米国手頃な価格・雇用法案（BAAJA）」です（MIT Technology Review、11月5日）。</li>\n<li>同法案は共和・民主から2人ずつの上院議員が共同提出し、ホワイトハウスも経済成長を押し上げるとして支持しています。国家環境政策法（NEPA）や水質浄化法に基づく発電所・送電線・天然ガスパイプラインの審査対象を絞り、数年かかる連邦許認可に期限を設ける内容です。</li>\n<li>化石燃料と再生可能エネルギーの双方を速める「技術中立」の設計で、データセンターが求める送電網の増強を後押しする一方、温室効果ガスの排出を増やすか減らすかで環境団体と産業界の議論が割れています（MIT Technology Review）。</li>\n</ul>\n<h2>米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ</h2>\n<ul>\n<li>テスラのイーロン・マスクCEOは11月6日、Xへの投稿で「サイバーキャブの増産枠を確保するため、来年半ばごろにギガファクトリー・テキサスでのサイバートラック生産を段階的に終了する」と発表しました（アルジャジーラ、BBC、11月6日）。</li>\n<li>サイバートラックは2019年末に4万ドル未満・年間25万台販売の構想として発表されましたが、発表会で防弾ガラスの実験中に鉄球で窓2枚が割れる失態を演じました。量産でもマスク氏が求めた「レゴのような10ミクロン精度」のステンレス加工に苦しみ、2023年の発売後はリコールと販売停止が相次いで、マスク氏自身が「サイバートラックで自ら墓穴を掘った」と認めていました（アルジャジーラ、Ars Technica、11月6日）。</li>\n<li>マスク氏の別会社スペースXが数千台を買い取っても販売不振を補えず、角張ったステンレス車体は、トランプ政権の「政府効率化省（DOGE）」を率い、今回の中間選挙でもテキサス州の上院選（2億ドル超）などへ5億ドル近くを投じて敗れたマスク氏の政治介入に対する「反対運動の象徴」になっていました（アルジャジーラ）。</li>\n<li>Ars Technicaは「有権者がマスク氏の統治観を明確に拒絶した今、周囲にその政治姿勢を思い出させる車を運転したい人が新車を買えるのはあと数か月だけだ」と評しました。なお、5日に急落したテスラ株は6日朝に約5％、スペースX株は6％超反発しています（BBC）。</li>\n</ul>\n<h2>米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議</h2>\n<ul>\n<li>米国の中間選挙でデータセンター反対の住民投票が相次いで可決された直後の11月6日、反対運動は投票箱を越えてヨーロッパでの実力行使へ広がり、オランダのアムステルダムで100人以上の活動家がマイクロソフトのAIデータセンター建設現場に突入しました（アルジャジーラ、11月6日）。</li>\n<li>活動家らは建設用のクレーンに登り、AIインフラの急拡大に反対する横断幕を掲げました。これは16カ国で2日間にわたり計画された国際連帯抗議の最初の行動です（アルジャジーラ）。</li>\n<li>さらに、政治を資金で動かす富裕層（オリガルヒ）への反発は個人の標的化にも及んでいます。草の根活動家や調査報道記者、研究者らによる国際的な秘密集団「Capytistas」が、今月からマスク氏と弟のキンバル氏、テスラ取締役会、主要投資家や取引先の自宅住所を地図化して公開すると予告しました（WIRED、11月）。</li>\n<li>同集団は「富と政治権力の極端な集中は生存に関わる脅威だ」と考える裕福な協力者らから120万ドル超を集め、合計資産約1兆4000億ドルの富豪らに関する未公開の自宅住所150件超と3500件超の記録を段階的に出すとしています。名称はメキシコの先住民武装組織サパティスタをもじり、DOGEの柴犬に対抗してカピバラを象徴に据えています（WIRED）。</li>\n</ul>\n<h2>生成AIと市場：Ramp調査で企業のAI支出が頭打ち、8〜9月は1.5％増に急減速</h2>\n<ul>\n<li>法人向け支出管理基盤のRampが6日に公表した分析によると、企業のAIトークン利用量は増え続けているにもかかわらず、AIへの支出額は夏の終わりに頭打ちとなりました（TechCrunch、11月6日）。</li>\n<li>企業のAIトークン支出は、7月には前月比42％増えていましたが、8月と9月の2か月間では合計1.5％増にとどまりました。</li>\n<li>最も熱心にAIを導入している上位1％の企業でも、夏のピーク時に達していた従業員1人あたり約1万ドルの水準をわずかに下回り、支出の足踏みがみられます。</li>\n<li>Rampの主席エコノミスト、アラ・カラジアン氏は「AI支出のほぼすべてはベンチャー資金で動く高成長テック企業によるものだ。市場の要因で減速し始めれば一斉にブレーキがかかり、連鎖的な影響が出る」と指摘しました。価格競争と企業のコスト管理の徹底により、株式公開（IPO）を控えるAnthropicやOpenAIの超高成長を前提とした投資家の見方に冷や水を浴びせています。</li>\n</ul>\n<h2>生成AIと安全保障：米下院3委員会、エヌビディアのフアンCEOを中国スパイ懸念で召喚</h2>\n<ul>\n<li>米下院の中国特別委員会のジョン・ムーレナー委員長、外交委員会のブライアン・マスト委員長、情報委員会のリック・クロフォード委員長は今週、エヌビディアのジェンスン・フアンCEOに対し、11月18日の合同非公開聴取に出席するよう書簡で求めました（Ars Technica、11月6日）。</li>\n<li>ニューヨーク・タイムズが先週、エヌビディア製半導体を数十億ドル規模で購入してきたシンガポールのクラウド企業Megaspeedの幹部アリス・フアン氏をめぐり、米情報機関がジェンスン・フアン氏を中国のスパイ工作の標的とみていると報じたことが発端です。Megaspeedは2023年に中国のゲーム会社から分社化され、半導体密輸の疑いで米当局の調査対象になった経緯があります。</li>\n<li>3委員長は「中国の浸透と米国の先端技術へのアクセスは調査の中核だ」とし、外国の諜報活動から身を守るエヌビディアの警備手順について説明を求めています。</li>\n<li>エヌビディアは疑惑を否定し、「CEOが顧客幹部と会うのは業務の一部で、毎年数千人と話している。地域のクラウド顧客に渡すのは通常の業務情報であり、営業秘密や安全保障に関わる情報は一切ない」と反論しました。米情報機関が標的に警告する「ディフェンシブ・ブリーフィング」も受けていないとしており、18日に出席するかは5日時点で明言していません。</li>\n</ul>\n<h2>生成AIと小型モデル：Underdog、ブラウザーで声と音楽を作る32MBの「Woof」を公開</h2>\n<ul>\n<li>AI新興企業のUnderdogは6日、容量わずか31.7メガバイト（約32MB）の音声・音楽生成モデル「Woof」を、X上で遊べるレトロ風ゲームとして公開しました（TechCrunch、11月6日）。</li>\n<li>クラウドのサーバーを使わず手元のウェブブラウザーの中だけで動く設計で、ゲーム内のタイプライターに文字を打ち込むとその場で音声にして読み上げ、チューナーを回すと異なる種類の音楽を生成します。</li>\n<li>ゲームの冒頭では町に入り込む「押しつけがましいクラウド事業者」への警告が表示され、巨大データセンターを必要とするクラウド型AIへの風刺になっています。スマートフォンやパソコンの端末内で完結する超小型モデルの実演として注目されています。</li>\n</ul>\n<h2>量子コンピュータ：韓国・延世大学でIBMの新型機「Nighthawk r2」が米国外初の稼働</h2>\n<ul>\n<li>韓国の延世大学とIBMは、仁川・松島国際キャンパスの量子計算センターにある現地設置型「IBM Quantum System One」のプロセッサを、最新の「IBM Quantum Nighthawk r2」に更新しオンライン稼働させました（Quantum Computing Report、11月6日）。</li>\n<li>2024年に導入された127量子ビットの「IBM Eagle」を置き換えるもので、IBMのNighthawkアーキテクチャが米国外の顧客施設に現地設置されるのは世界初です。</li>\n<li>従来の六角形配置から高密度の正方格子配置へ移行し、218個の調整可能カプラーと高速リセット補助回路を組み込むことで、待機中の干渉（クロストーク）を抑え、毎秒10万回路の実行速度を達成しました。</li>\n<li>クラウドの順番待ちを介さずに大量のサンプリングができるため、「延世バイオ量子イニシアチブ」を中心に、細胞内の複雑な反応や神経変性疾患、産業用新材料の量子・古典ハイブリッド計算に活用されます。</li>\n</ul>\n<h2>セキュリティ：Cursorに偽のClaude拡張機能が11時間掲載、最大5000人にバックドア</h2>\n<ul>\n<li>スペースX傘下のAI開発環境「Cursor」の拡張機能マーケットプレイスで5日、Anthropicの「Claude Code」を装った悪質な拡張機能が約11時間にわたり公開され、最大5000人の利用者にダウンロードされました（WIRED、11月6日）。</li>\n<li>最初にMac上で検知したPhorionのカラム・ホールCEOによると、Windows、macOS、Linux向けに被害端末へ侵入するバックドアが仕込まれていましたが、マルウェア自体のコードに欠陥があり、大半の端末では完全な定着に失敗しました。Cursorはマーケットプレイスを一時閉鎖し、対象者へ対処手順を公開しました。</li>\n<li>Anthropicの技術スタッフ、フェリックス・リーゼバーグ氏は6日、「自社のシステムや社員端末の侵害ではなく、攻撃者がCursorのマーケットプレイスへのアクセスを使って改ざん版を公開した」と説明しました。</li>\n<li>一方、セキュリティ企業Forever Securityの研究者ガル・ワイズマン氏は、スマホからPCのClaude Desktopへ作業を送る「Dispatch」機能をブラウザー拡張機能から悪用し、1秒ごとに画面の「許可」ボタンを自動クリックさせて不審なパッケージをインストールさせる攻撃手法も実証しています（The Hacker News、11月6日）。</li>\n</ul>\n<h2>セキュリティ：最近のインシデント一覧</h2>\n<ul>\n<li>Android TVボックスのボットネット「XCPE」の追加詳細（11月6日報道／3日扱いの続報）：中国Videostrong製のテレビ機器130万台超を解体した作戦で、新たにAndroidベースの医療機器やカラオケ機など他のIoT機器1000万台超への接続も遮断されたことが判明。回線は広告詐欺のほかAI開発向けの大量コンテンツ収集（スクレイピング）にも又貸しされ、メーカー自身が裏口へのアクセス権を犯罪者グループに販売してマルウェア配信基盤にしていた（KrebsOnSecurity）</li>\n<li>暗号資産取引所Binanceの63億4000万ドル流出の調査報告（11月3日更新公表／2日扱いの続報）：10月29日に10超のブロックチェーンにわたり20分間で63億4000万ドルが流出した事件で、北朝鮮の「TraderTraitor」とみられる攻撃者が偽の採用面接でエンジニアに悪性ソフトを入れさせ、社内AIツールを悪用してウォレット署名サービスに到達していたと新たに公表した。流出額の約半分は業界連携で凍結された（WIRED）</li>\n<li>Windows「ペイント」のリモートコード実行脆弱性CVE-2026-83844（11月6日報道／更新経路の盲点）：範囲外読み取りによりネットワーク経由でコードを実行され得る重要度8.1の欠陥。Windows Updateでは配信されず、Microsoft Storeの更新（修正ビルド11.2609.401.0）でのみ届くうえ、PC内の別アカウントに古い版が残る問題が指摘された（The Hacker News）</li>\n<li>QNAP製NASでの「Plex2Shell」悪用による侵害（11月6日勧告／メディアサーバーの脆弱性連鎖）：Plex Media Serverの4つの脆弱性連鎖（CVE-2026-96652〜96656）を突いてNASが侵害されたとの報告が複数寄せられ、QNAPがApp Centerからバージョン1.43.3.10861以降への即時更新と、外部公開していた場合の端末初期化を呼びかけた（BleepingComputer）</li>\n<li>D-Linkのスイッチ「DGS-3130」シリーズの複数ゼロデイ脆弱性（11月6日勧告／未修正の欠陥）：中小企業や都市網向けの管理型スイッチで、探索プロトコル（DDP）やファームウェア暗号鍵の扱いに複数の未修正欠陥が見つかった。修正版が出るまでDDPの無効化と管理画面の隔離を求めている（BleepingComputer）</li>\n<li>OpenSSHの欠陥「SSHole（CVE-2026-123158）」の悪用開始（11月6日報道／5日扱いの続報）：パスワード無効のアカウントに257〜1024バイトの長い文字列を送るとログインできる重要度8.1の欠陥について、公表から数時間以内にハニーポットで悪用とroot権限奪取が確認された。OpenSSH 10.6p2への更新が必須（The Hacker News）</li>\n<li>AIで被害者を自動査定する情報窃取マルウェア「Volta-Autodoxer」（11月6日報道／商用LLMの悪用）：Cisco Talosが発見。盗んだパスワード、クレジットカード、Discordの履歴、UberEatsの領収書などを商用LLMに送り、情報分析官のように価値の高い標的かを根拠付きで自動評価させる（WIRED）</li>\n<li>対策：今週は、安価なテレビ接続機器の出荷時ソフト、開発環境の拡張機能、Microsoft Store経由でしか届かない標準アプリが盲点になりました。CursorでClaude拡張機能を入れた人は公式版か確かめ、WindowsのStoreアプリの更新も確認してください。</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>米中間選挙での民主党勝利とデータセンター規制への警戒から世界のハイテク株が急落した一方、米上院は11月9日に417ページの超党派エネルギー許認可改革法案（BAAJA）を採決します。</li>\n<li>マスク氏は政治介入への反発の象徴となったサイバートラックの生産を2027年半ばに終え、自動運転ロボタクシーへ移ると発表しました。オランダのアムステルダムではマイクロソフトの建設現場に100人超が乱入し、16カ国で抗議が始まりました。</li>\n<li>Rampの調査で企業のAI支出は8〜9月に1.5％増へ急減速し、米下院3委員会はエヌビディアのフアンCEOを中国スパイ懸念で召喚しました。一方、32MBの超小型音声・音楽モデル「Woof」や、韓国・延世大学でのIBM新型量子計算機「Nighthawk r2」が稼働しています。</li>\n<li>セキュリティでは、Cursorのマーケットプレイスに偽のClaude拡張機能が11時間掲載され、Googleは130万台超のAndroid TVボックスを悪用したボットネットを解体しました。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li><a href=\"https://www.bbc.co.uk/news/articles/crlykkzwwpydo\">BBC: Could the US midterms burst the AI bubble?</a></li>\n<li><a href=\"https://www.bbc.co.uk/news/articles/c35ynnpzdq51o\">BBC: AI stocks climb after trillions wiped from market values</a></li>\n<li><a href=\"https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph\">The Guardian: Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph</a></li>\n<li><a href=\"https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/\">MIT Technology Review: A new bill could change how the US builds energy infrastructure</a></li>\n<li><a href=\"https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/\">MIT Technology Review: What’s next for US energy policy after the midterm elections?</a></li>\n<li><a href=\"https://www.aljazeera.com/news/2026/11/6/musk-says-tesla-to-wind-down-polarising-cybertruck-production-as-sales-lag\">Al Jazeera: Musk says Tesla to wind down polarising Cybertruck production as sales lag</a></li>\n<li><a href=\"https://arstechnica.com/cars/2026/11/the-cybertruck-is-dead-makes-way-for-cybercab-says-elon-musk/\">Ars Technica: No more Cybertrucks; Musk moves on from the angular metallic flop</a></li>\n<li><a href=\"https://www.wired.com/story/anti-oligarchy-activists-plan-to-dox-elon-musk-and-hundreds-of-billionaire-linked-homes/\">WIRED: Anti-Oligarchy Activists Plan to Dox Elon Musk and Hundreds of Billionaire-Linked Homes</a></li>\n<li><a href=\"https://www.aljazeera.com/video/newsfeed/2026/11/6/protesters-break-into-microsoft-ai-data-centre-site-in-amsterdam\">Al Jazeera: Protesters break into Microsoft AI data centre site in Amsterdam</a></li>\n<li><a href=\"https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/\">TechCrunch: Ramp data shows AI spending stalling just as Anthropic nears its IPO</a></li>\n<li><a href=\"https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/\">Ars Technica: Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns</a></li>\n<li><a href=\"https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/\">TechCrunch: Underdog shows off a 32MB speech model in new demo</a></li>\n<li><a href=\"https://quantumcomputingreport.com/yonsei-university-brings-ibm-quantum-nighthawk-r2-online/\">Quantum Computing Report: Yonsei University Brings IBM Quantum Nighthawk r2 Online</a></li>\n<li><a href=\"https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/\">WIRED: A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices</a></li>\n<li><a href=\"https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html\">The Hacker News: Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers</a></li>\n<li><a href=\"https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/\">KrebsOnSecurity: Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies</a></li>\n<li><a href=\"https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/\">WIRED: Binance Says Hackers Used Well-Known Tricks to Carry Out a $6.34 Billion Heist</a></li>\n<li><a href=\"https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html\">The Hacker News: Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/\">BleepingComputer: QNAP says hackers breaching NAS devices in Plex2Shell attacks</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/\">BleepingComputer: D-Link warns of multiple zero-days in DGS-3130 Series switches</a></li>\n<li><a href=\"https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html\">The Hacker News: Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot</a></li>\n<li><a href=\"https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/\">WIRED: Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims</a></li>\n</ul>",
+        "markdownSource": "# 生成AI・量子・セキュリティニュース（2026年11月7日）\n\n**キーワード:** 中間選挙後のAI株急落と上院エネルギー許認可改革法案 / マスク氏のサイバートラック生産終了と反オリガルヒ運動 / アムステルダムのマイクロソフト現場乱入と16カ国抗議 / Ramp調査が示すAI支出の急減速 / 米下院3委員会によるエヌビディアCEO召喚 / 延世大学のIBM Quantum Nighthawk r2稼働 / Cursorの偽Claude拡張機能と130万台TVボックスのボットネット解体\n\n## オープニング：2026年11月7日 — 生成AI・量子・セキュリティニュース\n\n- 2026年11月7日の生成AI・量子・セキュリティニュースです。今日の軸は「米中間選挙の結果が、市場・法制度・企業戦略・街頭の直接行動をどう動かし始めたか」です。\n- 民主党の勝利を受けてデータセンター規制やAI開発減速への警戒が広がり、世界の株式市場でハイテク株から一時数兆ドルが吹き飛びました。一方、米上院は11月9日に超党派のエネルギー許認可改革法案を採決します。\n- 巨額の政治資金が空振りに終わったイーロン・マスク氏は、政治介入への反発の象徴となった「サイバートラック」の生産終了を発表し、自動運転ロボタクシーへかじを切りました。\n- データセンター反対運動は投票箱を越え、オランダ・アムステルダムのマイクロソフト建設現場に100人超の活動家が乱入し、16カ国での一斉抗議に発展しています。\n- ほかに、企業のAI支出が8〜9月に1.5％増へ急減速したRampの調査、米下院によるエヌビディアCEOの召喚、32MBの音声・音楽生成モデル、韓国・延世大学でのIBM新型量子計算機の稼働、Cursorの偽Claude拡張機能と直近のインシデント一覧を扱います。\n\n## 米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案\n\n- 民主党が連邦上下両院を制し、データセンター規制を掲げる知事候補が相次いで当選したことを受け、5日の米株式市場でハイテク株が急落し、世界の市場で時価総額から数兆ドルが失われました（BBC、ガーディアン、11月6日）。\n- 5日の米市場ではナスダック総合指数が5.5％下落し、エヌビディアは9％超、半導体大手のAMDとマイクロンはいずれも17％超急落しました。6日にはアジアと欧州へ波及し、韓国の総合株価指数（KOSPI）が6％安、SKハイニックスが10％超下落、英FTSE100も1.9％下げました（BBC、ガーディアン）。\n- 6日の米市場では、9月の雇用統計が16万5000人増と強かったことも支えとなり、ナスダックが昼までに1.7％反発し、エヌビディアは約4％、AMDは約12％、マイクロンは8％超戻しました（BBC）。\n- ゴールドマン・サックスは2026年のAI投資が1兆ドルに達すると試算していますが、他産業の借入コストまで押し上げる資金集中に対し、選挙によるデータセンター規制と収益回収への疑問が重なっています（BBC）。\n- 連邦議会では、民主党とトランプ大統領の「ねじれ政府」が始まります。いずれの院も大統領の拒否権を覆す3分の2の議席には届かないため、2025年の「One Big Beautiful Bill Act」で削られたインフレ抑制法（IRA）のクリーンエネルギー補助金を連邦法で一気に復活させるのは難しい情勢です（MIT Technology Review、11月4日）。\n- その中で最初の焦点となるのが、上院が11月9日に採決する417ページの超党派法案「米国手頃な価格・雇用法案（BAAJA）」です（MIT Technology Review、11月5日）。\n- 同法案は共和・民主から2人ずつの上院議員が共同提出し、ホワイトハウスも経済成長を押し上げるとして支持しています。国家環境政策法（NEPA）や水質浄化法に基づく発電所・送電線・天然ガスパイプラインの審査対象を絞り、数年かかる連邦許認可に期限を設ける内容です。\n- 化石燃料と再生可能エネルギーの双方を速める「技術中立」の設計で、データセンターが求める送電網の増強を後押しする一方、温室効果ガスの排出を増やすか減らすかで環境団体と産業界の議論が割れています（MIT Technology Review）。\n\n## 米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ\n\n- テスラのイーロン・マスクCEOは11月6日、Xへの投稿で「サイバーキャブの増産枠を確保するため、来年半ばごろにギガファクトリー・テキサスでのサイバートラック生産を段階的に終了する」と発表しました（アルジャジーラ、BBC、11月6日）。\n- サイバートラックは2019年末に4万ドル未満・年間25万台販売の構想として発表されましたが、発表会で防弾ガラスの実験中に鉄球で窓2枚が割れる失態を演じました。量産でもマスク氏が求めた「レゴのような10ミクロン精度」のステンレス加工に苦しみ、2023年の発売後はリコールと販売停止が相次いで、マスク氏自身が「サイバートラックで自ら墓穴を掘った」と認めていました（アルジャジーラ、Ars Technica、11月6日）。\n- マスク氏の別会社スペースXが数千台を買い取っても販売不振を補えず、角張ったステンレス車体は、トランプ政権の「政府効率化省（DOGE）」を率い、今回の中間選挙でもテキサス州の上院選（2億ドル超）などへ5億ドル近くを投じて敗れたマスク氏の政治介入に対する「反対運動の象徴」になっていました（アルジャジーラ）。\n- Ars Technicaは「有権者がマスク氏の統治観を明確に拒絶した今、周囲にその政治姿勢を思い出させる車を運転したい人が新車を買えるのはあと数か月だけだ」と評しました。なお、5日に急落したテスラ株は6日朝に約5％、スペースX株は6％超反発しています（BBC）。\n\n## 米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議\n\n- 米国の中間選挙でデータセンター反対の住民投票が相次いで可決された直後の11月6日、反対運動は投票箱を越えてヨーロッパでの実力行使へ広がり、オランダのアムステルダムで100人以上の活動家がマイクロソフトのAIデータセンター建設現場に突入しました（アルジャジーラ、11月6日）。\n- 活動家らは建設用のクレーンに登り、AIインフラの急拡大に反対する横断幕を掲げました。これは16カ国で2日間にわたり計画された国際連帯抗議の最初の行動です（アルジャジーラ）。\n- さらに、政治を資金で動かす富裕層（オリガルヒ）への反発は個人の標的化にも及んでいます。草の根活動家や調査報道記者、研究者らによる国際的な秘密集団「Capytistas」が、今月からマスク氏と弟のキンバル氏、テスラ取締役会、主要投資家や取引先の自宅住所を地図化して公開すると予告しました（WIRED、11月）。\n- 同集団は「富と政治権力の極端な集中は生存に関わる脅威だ」と考える裕福な協力者らから120万ドル超を集め、合計資産約1兆4000億ドルの富豪らに関する未公開の自宅住所150件超と3500件超の記録を段階的に出すとしています。名称はメキシコの先住民武装組織サパティスタをもじり、DOGEの柴犬に対抗してカピバラを象徴に据えています（WIRED）。\n\n## 生成AIと市場：Ramp調査で企業のAI支出が頭打ち、8〜9月は1.5％増に急減速\n\n- 法人向け支出管理基盤のRampが6日に公表した分析によると、企業のAIトークン利用量は増え続けているにもかかわらず、AIへの支出額は夏の終わりに頭打ちとなりました（TechCrunch、11月6日）。\n- 企業のAIトークン支出は、7月には前月比42％増えていましたが、8月と9月の2か月間では合計1.5％増にとどまりました。\n- 最も熱心にAIを導入している上位1％の企業でも、夏のピーク時に達していた従業員1人あたり約1万ドルの水準をわずかに下回り、支出の足踏みがみられます。\n- Rampの主席エコノミスト、アラ・カラジアン氏は「AI支出のほぼすべてはベンチャー資金で動く高成長テック企業によるものだ。市場の要因で減速し始めれば一斉にブレーキがかかり、連鎖的な影響が出る」と指摘しました。価格競争と企業のコスト管理の徹底により、株式公開（IPO）を控えるAnthropicやOpenAIの超高成長を前提とした投資家の見方に冷や水を浴びせています。\n\n## 生成AIと安全保障：米下院3委員会、エヌビディアのフアンCEOを中国スパイ懸念で召喚\n\n- 米下院の中国特別委員会のジョン・ムーレナー委員長、外交委員会のブライアン・マスト委員長、情報委員会のリック・クロフォード委員長は今週、エヌビディアのジェンスン・フアンCEOに対し、11月18日の合同非公開聴取に出席するよう書簡で求めました（Ars Technica、11月6日）。\n- ニューヨーク・タイムズが先週、エヌビディア製半導体を数十億ドル規模で購入してきたシンガポールのクラウド企業Megaspeedの幹部アリス・フアン氏をめぐり、米情報機関がジェンスン・フアン氏を中国のスパイ工作の標的とみていると報じたことが発端です。Megaspeedは2023年に中国のゲーム会社から分社化され、半導体密輸の疑いで米当局の調査対象になった経緯があります。\n- 3委員長は「中国の浸透と米国の先端技術へのアクセスは調査の中核だ」とし、外国の諜報活動から身を守るエヌビディアの警備手順について説明を求めています。\n- エヌビディアは疑惑を否定し、「CEOが顧客幹部と会うのは業務の一部で、毎年数千人と話している。地域のクラウド顧客に渡すのは通常の業務情報であり、営業秘密や安全保障に関わる情報は一切ない」と反論しました。米情報機関が標的に警告する「ディフェンシブ・ブリーフィング」も受けていないとしており、18日に出席するかは5日時点で明言していません。\n\n## 生成AIと小型モデル：Underdog、ブラウザーで声と音楽を作る32MBの「Woof」を公開\n\n- AI新興企業のUnderdogは6日、容量わずか31.7メガバイト（約32MB）の音声・音楽生成モデル「Woof」を、X上で遊べるレトロ風ゲームとして公開しました（TechCrunch、11月6日）。\n- クラウドのサーバーを使わず手元のウェブブラウザーの中だけで動く設計で、ゲーム内のタイプライターに文字を打ち込むとその場で音声にして読み上げ、チューナーを回すと異なる種類の音楽を生成します。\n- ゲームの冒頭では町に入り込む「押しつけがましいクラウド事業者」への警告が表示され、巨大データセンターを必要とするクラウド型AIへの風刺になっています。スマートフォンやパソコンの端末内で完結する超小型モデルの実演として注目されています。\n\n## 量子コンピュータ：韓国・延世大学でIBMの新型機「Nighthawk r2」が米国外初の稼働\n\n- 韓国の延世大学とIBMは、仁川・松島国際キャンパスの量子計算センターにある現地設置型「IBM Quantum System One」のプロセッサを、最新の「IBM Quantum Nighthawk r2」に更新しオンライン稼働させました（Quantum Computing Report、11月6日）。\n- 2024年に導入された127量子ビットの「IBM Eagle」を置き換えるもので、IBMのNighthawkアーキテクチャが米国外の顧客施設に現地設置されるのは世界初です。\n- 従来の六角形配置から高密度の正方格子配置へ移行し、218個の調整可能カプラーと高速リセット補助回路を組み込むことで、待機中の干渉（クロストーク）を抑え、毎秒10万回路の実行速度を達成しました。\n- クラウドの順番待ちを介さずに大量のサンプリングができるため、「延世バイオ量子イニシアチブ」を中心に、細胞内の複雑な反応や神経変性疾患、産業用新材料の量子・古典ハイブリッド計算に活用されます。\n\n## セキュリティ：Cursorに偽のClaude拡張機能が11時間掲載、最大5000人にバックドア\n\n- スペースX傘下のAI開発環境「Cursor」の拡張機能マーケットプレイスで5日、Anthropicの「Claude Code」を装った悪質な拡張機能が約11時間にわたり公開され、最大5000人の利用者にダウンロードされました（WIRED、11月6日）。\n- 最初にMac上で検知したPhorionのカラム・ホールCEOによると、Windows、macOS、Linux向けに被害端末へ侵入するバックドアが仕込まれていましたが、マルウェア自体のコードに欠陥があり、大半の端末では完全な定着に失敗しました。Cursorはマーケットプレイスを一時閉鎖し、対象者へ対処手順を公開しました。\n- Anthropicの技術スタッフ、フェリックス・リーゼバーグ氏は6日、「自社のシステムや社員端末の侵害ではなく、攻撃者がCursorのマーケットプレイスへのアクセスを使って改ざん版を公開した」と説明しました。\n- 一方、セキュリティ企業Forever Securityの研究者ガル・ワイズマン氏は、スマホからPCのClaude Desktopへ作業を送る「Dispatch」機能をブラウザー拡張機能から悪用し、1秒ごとに画面の「許可」ボタンを自動クリックさせて不審なパッケージをインストールさせる攻撃手法も実証しています（The Hacker News、11月6日）。\n\n## セキュリティ：最近のインシデント一覧\n\n- Android TVボックスのボットネット「XCPE」の追加詳細（11月6日報道／3日扱いの続報）：中国Videostrong製のテレビ機器130万台超を解体した作戦で、新たにAndroidベースの医療機器やカラオケ機など他のIoT機器1000万台超への接続も遮断されたことが判明。回線は広告詐欺のほかAI開発向けの大量コンテンツ収集（スクレイピング）にも又貸しされ、メーカー自身が裏口へのアクセス権を犯罪者グループに販売してマルウェア配信基盤にしていた（KrebsOnSecurity）\n- 暗号資産取引所Binanceの63億4000万ドル流出の調査報告（11月3日更新公表／2日扱いの続報）：10月29日に10超のブロックチェーンにわたり20分間で63億4000万ドルが流出した事件で、北朝鮮の「TraderTraitor」とみられる攻撃者が偽の採用面接でエンジニアに悪性ソフトを入れさせ、社内AIツールを悪用してウォレット署名サービスに到達していたと新たに公表した。流出額の約半分は業界連携で凍結された（WIRED）\n- Windows「ペイント」のリモートコード実行脆弱性CVE-2026-83844（11月6日報道／更新経路の盲点）：範囲外読み取りによりネットワーク経由でコードを実行され得る重要度8.1の欠陥。Windows Updateでは配信されず、Microsoft Storeの更新（修正ビルド11.2609.401.0）でのみ届くうえ、PC内の別アカウントに古い版が残る問題が指摘された（The Hacker News）\n- QNAP製NASでの「Plex2Shell」悪用による侵害（11月6日勧告／メディアサーバーの脆弱性連鎖）：Plex Media Serverの4つの脆弱性連鎖（CVE-2026-96652〜96656）を突いてNASが侵害されたとの報告が複数寄せられ、QNAPがApp Centerからバージョン1.43.3.10861以降への即時更新と、外部公開していた場合の端末初期化を呼びかけた（BleepingComputer）\n- D-Linkのスイッチ「DGS-3130」シリーズの複数ゼロデイ脆弱性（11月6日勧告／未修正の欠陥）：中小企業や都市網向けの管理型スイッチで、探索プロトコル（DDP）やファームウェア暗号鍵の扱いに複数の未修正欠陥が見つかった。修正版が出るまでDDPの無効化と管理画面の隔離を求めている（BleepingComputer）\n- OpenSSHの欠陥「SSHole（CVE-2026-123158）」の悪用開始（11月6日報道／5日扱いの続報）：パスワード無効のアカウントに257〜1024バイトの長い文字列を送るとログインできる重要度8.1の欠陥について、公表から数時間以内にハニーポットで悪用とroot権限奪取が確認された。OpenSSH 10.6p2への更新が必須（The Hacker News）\n- AIで被害者を自動査定する情報窃取マルウェア「Volta-Autodoxer」（11月6日報道／商用LLMの悪用）：Cisco Talosが発見。盗んだパスワード、クレジットカード、Discordの履歴、UberEatsの領収書などを商用LLMに送り、情報分析官のように価値の高い標的かを根拠付きで自動評価させる（WIRED）\n- 対策：今週は、安価なテレビ接続機器の出荷時ソフト、開発環境の拡張機能、Microsoft Store経由でしか届かない標準アプリが盲点になりました。CursorでClaude拡張機能を入れた人は公式版か確かめ、WindowsのStoreアプリの更新も確認してください。\n\n## まとめ\n\n- 米中間選挙での民主党勝利とデータセンター規制への警戒から世界のハイテク株が急落した一方、米上院は11月9日に417ページの超党派エネルギー許認可改革法案（BAAJA）を採決します。\n- マスク氏は政治介入への反発の象徴となったサイバートラックの生産を2027年半ばに終え、自動運転ロボタクシーへ移ると発表しました。オランダのアムステルダムではマイクロソフトの建設現場に100人超が乱入し、16カ国で抗議が始まりました。\n- Rampの調査で企業のAI支出は8〜9月に1.5％増へ急減速し、米下院3委員会はエヌビディアのフアンCEOを中国スパイ懸念で召喚しました。一方、32MBの超小型音声・音楽モデル「Woof」や、韓国・延世大学でのIBM新型量子計算機「Nighthawk r2」が稼働しています。\n- セキュリティでは、Cursorのマーケットプレイスに偽のClaude拡張機能が11時間掲載され、Googleは130万台超のAndroid TVボックスを悪用したボットネットを解体しました。\n\n## 参考ソース\n\n- [BBC: Could the US midterms burst the AI bubble?](https://www.bbc.co.uk/news/articles/crlykkzwwpydo)\n- [BBC: AI stocks climb after trillions wiped from market values](https://www.bbc.co.uk/news/articles/c35ynnpzdq51o)\n- [The Guardian: Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph](https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph)\n- [MIT Technology Review: A new bill could change how the US builds energy infrastructure](https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/)\n- [MIT Technology Review: What’s next for US energy policy after the midterm elections?](https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/)\n- [Al Jazeera: Musk says Tesla to wind down polarising Cybertruck production as sales lag](https://www.aljazeera.com/news/2026/11/6/musk-says-tesla-to-wind-down-polarising-cybertruck-production-as-sales-lag)\n- [Ars Technica: No more Cybertrucks; Musk moves on from the angular metallic flop](https://arstechnica.com/cars/2026/11/the-cybertruck-is-dead-makes-way-for-cybercab-says-elon-musk/)\n- [WIRED: Anti-Oligarchy Activists Plan to Dox Elon Musk and Hundreds of Billionaire-Linked Homes](https://www.wired.com/story/anti-oligarchy-activists-plan-to-dox-elon-musk-and-hundreds-of-billionaire-linked-homes/)\n- [Al Jazeera: Protesters break into Microsoft AI data centre site in Amsterdam](https://www.aljazeera.com/video/newsfeed/2026/11/6/protesters-break-into-microsoft-ai-data-centre-site-in-amsterdam)\n- [TechCrunch: Ramp data shows AI spending stalling just as Anthropic nears its IPO](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)\n- [Ars Technica: Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns](https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/)\n- [TechCrunch: Underdog shows off a 32MB speech model in new demo](https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/)\n- [Quantum Computing Report: Yonsei University Brings IBM Quantum Nighthawk r2 Online](https://quantumcomputingreport.com/yonsei-university-brings-ibm-quantum-nighthawk-r2-online/)\n- [WIRED: A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices](https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/)\n- [The Hacker News: Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers](https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html)\n- [KrebsOnSecurity: Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies](https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/)\n- [WIRED: Binance Says Hackers Used Well-Known Tricks to Carry Out a $6.34 Billion Heist](https://www.wired.com/story/binance-says-hackers-used-well-known-tricks-to-carry-out-a-dollar634-billion-heist/)\n- [The Hacker News: Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It](https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html)\n- [BleepingComputer: QNAP says hackers breaching NAS devices in Plex2Shell attacks](https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/)\n- [BleepingComputer: D-Link warns of multiple zero-days in DGS-3130 Series switches](https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/)\n- [The Hacker News: Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot](https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html)\n- [WIRED: Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims](https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/)\n",
+        "timeline": {
+          "version": 1,
+          "source": "tts_voicevox",
+          "fps": 30,
+          "totalFrames": 29184,
+          "audioDurationSec": 972.812667,
+          "cues": [
+            {
+              "speaker": "A",
+              "text": "2026年11月7日、生成エーアイ・量子・セキュリティニュースを始めるのだ。",
+              "section": "オープニング：2026年11月7日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 18,
+              "endFrame": 259
+            },
+            {
+              "speaker": "B",
+              "text": "今日の軸は、アメリカ中間選挙の結果が、株式市場やエネルギー法案、企業の戦略、さらには街頭の直接行動をどう動かし始めたかです。",
+              "section": "オープニング：2026年11月7日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 266,
+              "endFrame": 597
+            },
+            {
+              "speaker": "A",
+              "text": "選挙が終わった直後から、世界の株が大きく荒れていたのだ？",
+              "section": "オープニング：2026年11月7日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 604,
+              "endFrame": 757
+            },
+            {
+              "speaker": "B",
+              "text": "データセンター規制への警戒からハイテク株が売られ、世界の市場で一時数兆ドルが吹き飛びました。一方、アメリカ上院は11月9日に超党派のエネルギー許認可改革法案を採決します。",
+              "section": "オープニング：2026年11月7日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 765,
+              "endFrame": 1190
+            },
+            {
+              "speaker": "A",
+              "text": "選挙で大金を使ったマスクさんや、データセンター反対運動にも新しい動きが出たのだ？",
+              "section": "オープニング：2026年11月7日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1197,
+              "endFrame": 1425
+            },
+            {
+              "speaker": "B",
+              "text": "マスク氏はサイバートラックの生産終了を発表し、オランダではマイクロソフトの建設現場に100人超が乱入しました。企業のエーアイ支出減速や新型量子計算機、偽の拡張機能も扱います。",
+              "section": "オープニング：2026年11月7日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1433,
+              "endFrame": 1865
+            },
+            {
+              "speaker": "B",
+              "text": "民主党が連邦の上下両院を制し、データセンター規制を掲げる知事が相次いで当選したことを受けて、5日のアメリカ株式市場でハイテク株が急落しました。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 1883,
+              "endFrame": 2223
+            },
+            {
+              "speaker": "A",
+              "text": "どのくらい下がったのだ？",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 2230,
+              "endFrame": 2288
+            },
+            {
+              "speaker": "B",
+              "text": "5日のナスダック総合指数は5.5％下がり、エヌビディアは9％超、半導体大手のエーエムディーとマイクロンは17％を超えて急落しています。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 2296,
+              "endFrame": 2644
+            },
+            {
+              "speaker": "A",
+              "text": "アメリカだけでなく、アジアやヨーロッパにも広がったのだ？",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 2652,
+              "endFrame": 2790
+            },
+            {
+              "speaker": "B",
+              "text": "6日には韓国の総合株価指数が6％安となり、エスケーハイニックスが10％超下落、イギリスの株価指数も1.9％下げて、世界で数兆ドルの時価総額が消えました。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 2797,
+              "endFrame": 3209
+            },
+            {
+              "speaker": "A",
+              "text": "6日のアメリカ市場は、そこから少し戻したのだ？",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 3217,
+              "endFrame": 3344
+            },
+            {
+              "speaker": "B",
+              "text": "9月の雇用統計が16万5000人増と強かったことも支えになり、6日昼までにナスダックは1.7％反発し、エヌビディアは約4％、エーエムディーは約12％戻しています。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 3351,
+              "endFrame": 3787
+            },
+            {
+              "speaker": "A",
+              "text": "投資家は、どうしてそんなに神経質になっているのだ？",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 3795,
+              "endFrame": 3926
+            },
+            {
+              "speaker": "B",
+              "text": "ゴールドマン・サックスは今年のエーアイ投資が1兆ドルに達すると試算しますが、他産業の金利まで押し上げる資金集中に、規制と採算への疑問が重なったとビービーシーは伝えています。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 3934,
+              "endFrame": 4322
+            },
+            {
+              "speaker": "A",
+              "text": "民主党が議会を握ったことで、エネルギーや補助金の法律はどうなるのだ？",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 4330,
+              "endFrame": 4514
+            },
+            {
+              "speaker": "B",
+              "text": "大統領の拒否権を覆すには上下両院で3分の2の議席が必要ですが、民主党はそこには届きません。昨年の法律で削られたクリーンエネルギー補助金を、連邦法で一気に復活させるのは難しい情勢です。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 4522,
+              "endFrame": 4986
+            },
+            {
+              "speaker": "A",
+              "text": "では、議会は何も動けないままになるのだ？",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 4993,
+              "endFrame": 5108
+            },
+            {
+              "speaker": "B",
+              "text": "そこで最初のヤマ場になるのが、選挙直後の11月9日に上院が採決する、417ページの超党派エネルギー許認可改革法案です。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 5116,
+              "endFrame": 5440
+            },
+            {
+              "speaker": "A",
+              "text": "どんな中身なのか気になるのだ。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 5448,
+              "endFrame": 5519
+            },
+            {
+              "speaker": "B",
+              "text": "共和・民主から2人ずつの上院議員が共同提出し、ホワイトハウスも支持しています。発電所や送電線、天然ガスパイプラインの環境審査対象を絞り、数年かかる連邦の許認可に期限を設ける内容です。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 5526,
+              "endFrame": 6001
+            },
+            {
+              "speaker": "A",
+              "text": "それが通れば、データセンターが欲しがっている送電線も引きやすくなるのだ？",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 6008,
+              "endFrame": 6189
+            },
+            {
+              "speaker": "B",
+              "text": "化石燃料と再生可能エネルギーの両方を速める技術中立の設計なので、送電網の拡充には追い風になります。ただ、温室効果ガスの排出を増やすか減らすかで環境団体と産業界の意見が割れています。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 6196,
+              "endFrame": 6657
+            },
+            {
+              "speaker": "A",
+              "text": "連邦では超党派で送電網の手続きを急ぎながら、州や自治体ではデータセンター規制が強まるというねじれが起きているのだ。",
+              "section": "米中間選挙とAI：数兆ドルが消えたAI株急落と、11月9日の上院エネルギー許認可法案",
+              "startFrame": 6665,
+              "endFrame": 6961
+            },
+            {
+              "speaker": "B",
+              "text": "テスラのイーロン・マスク最高経営責任者は11月6日、テキサス州の工場でのピックアップトラック、サイバートラックの生産を来年半ばごろに終了するとエックスで発表しました。",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 6979,
+              "endFrame": 7363
+            },
+            {
+              "speaker": "A",
+              "text": "あの角張ったステンレスのトラックを、もう作るのをやめてしまうのだ！？どうしてなのだ？",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 7371,
+              "endFrame": 7569
+            },
+            {
+              "speaker": "B",
+              "text": "マスク氏は、運転席のない自動運転ロボタクシー、サイバーキャブの増産に工場の生産枠を振り向けるためだと説明しています。",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 7576,
+              "endFrame": 7850
+            },
+            {
+              "speaker": "A",
+              "text": "もともとサイバートラックは、どれくらい売れるはずだったのだ？",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 7858,
+              "endFrame": 7993
+            },
+            {
+              "speaker": "B",
+              "text": "2019年末に4万ドル未満の構想として発表され年間25万台を目指しましたが、発表会の防弾ガラス実験では鉄球で窓2枚が割れる失態を演じました。",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 8000,
+              "endFrame": 8359
+            },
+            {
+              "speaker": "A",
+              "text": "量産に入ってからも、かなり苦労していたのだ？",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 8366,
+              "endFrame": 8485
+            },
+            {
+              "speaker": "B",
+              "text": "レゴのような10ミクロン精度の加工に苦しみ、2023年の発売後はリコールが相次ぎました。マスク氏自身がこの車で墓穴を掘ったと認め、スペースエックスが数千台を買っても不振を埋められませんでした。",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 8492,
+              "endFrame": 8924
+            },
+            {
+              "speaker": "A",
+              "text": "デザインのせいだけでなく、政治との関わりも響いたのだ？",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 8931,
+              "endFrame": 9077
+            },
+            {
+              "speaker": "B",
+              "text": "アルジャジーラやアース・テクニカは、トランプ政権の政府効率化省を率い、今回の中間選挙でも5億ドル近くを投じて敗れたマスク氏の政治介入に対する、反対運動の象徴になっていたと指摘しています。",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 9085,
+              "endFrame": 9534
+            },
+            {
+              "speaker": "A",
+              "text": "街を走っているだけで、マスクさんの政治姿勢の看板みたいに見られていたのだ。",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 9542,
+              "endFrame": 9729
+            },
+            {
+              "speaker": "B",
+              "text": "アース・テクニカは、有権者がマスク氏の統治観を拒絶した今、その象徴を新車で買えるのはあと数か月だけだと評しました。なお6日朝にはテスラ株が約5％、スペースエックス株が6％超反発しています。",
+              "section": "米中間選挙とAI：マスク氏、政治反発の象徴となったサイバートラック生産終了へ",
+              "startFrame": 9737,
+              "endFrame": 10226
+            },
+            {
+              "speaker": "B",
+              "text": "アメリカの住民投票でデータセンター反対が相次いで勝った直後の11月6日、オランダのアムステルダムで100人以上の活動家がマイクロソフトのエーアイデータセンター建設現場に突入しました。",
+              "section": "米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議",
+              "startFrame": 10244,
+              "endFrame": 10643
+            },
+            {
+              "speaker": "A",
+              "text": "建設現場に100人以上も入ったのだ！？現場で何をしたのだ？",
+              "section": "米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議",
+              "startFrame": 10650,
+              "endFrame": 10814
+            },
+            {
+              "speaker": "B",
+              "text": "活動家たちは建設用のクレーンに登り、エーアイインフラの急拡大に反対する横断幕を掲げました。アルジャジーラによると、16カ国で2日間にわたり計画された国際連帯抗議の最初の行動です。",
+              "section": "米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議",
+              "startFrame": 10822,
+              "endFrame": 11260
+            },
+            {
+              "speaker": "A",
+              "text": "アメリカの投票箱だけでなく、ヨーロッパでも直接行動が始まったのだ。お金で政治を動かす富裕層への抗議も出ているのだ？",
+              "section": "米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議",
+              "startFrame": 11268,
+              "endFrame": 11580
+            },
+            {
+              "speaker": "B",
+              "text": "ワイヤードによると、オリガルヒ、つまり政治を資金で動かす富裕層に抗議する国際的な秘密活動家集団、カピティスタスが、今月からマスク氏らの自宅住所を地図化して公開すると予告しました。",
+              "section": "米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議",
+              "startFrame": 11587,
+              "endFrame": 12010
+            },
+            {
+              "speaker": "A",
+              "text": "自宅の住所を地図にして公開するなんて、ずいぶん過激なのだ。どんな人たちがやっているのだ？",
+              "section": "米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議",
+              "startFrame": 12018,
+              "endFrame": 12246
+            },
+            {
+              "speaker": "B",
+              "text": "草の根の活動家や調査報道記者、研究者らが名を伏せて参加し、富と政治権力の極端な集中を脅威と考える裕福な協力者から、120万ドルを超える資金を集めたとされています。",
+              "section": "米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議",
+              "startFrame": 12254,
+              "endFrame": 12675
+            },
+            {
+              "speaker": "A",
+              "text": "誰が標的になっているのだ？",
+              "section": "米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議",
+              "startFrame": 12683,
+              "endFrame": 12757
+            },
+            {
+              "speaker": "B",
+              "text": "第1弾はマスク氏と弟のキンバル氏、テスラ取締役会や投資家、取引先です。資産合計約1兆4000億ドルの富豪らについて、未公開の自宅住所150件超と3500件超の記録を段階的に出すとしています。",
+              "section": "米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議",
+              "startFrame": 12765,
+              "endFrame": 13271
+            },
+            {
+              "speaker": "A",
+              "text": "データセンターの建設現場からテック富豪の自宅まで、選挙のあとも街頭やネットでの直接行動が激しくなっているのだ。",
+              "section": "米中間選挙とAI：アムステルダムでマイクロソフト建設現場に100人超が乱入、16カ国で抗議",
+              "startFrame": 13278,
+              "endFrame": 13566
+            },
+            {
+              "speaker": "B",
+              "text": "法人向け支出管理基盤のランプが6日に公表したデータで、企業のエーアイ利用量は増え続けているのに、支出額の伸びが夏の終わりに急減速したことが分かりました。",
+              "section": "生成AIと市場：Ramp調査で企業のAI支出が頭打ち、8〜9月は1.5％増に急減速",
+              "startFrame": 13584,
+              "endFrame": 13934
+            },
+            {
+              "speaker": "A",
+              "text": "どのくらい伸びが鈍ったのだ？",
+              "section": "生成AIと市場：Ramp調査で企業のAI支出が頭打ち、8〜9月は1.5％増に急減速",
+              "startFrame": 13941,
+              "endFrame": 14011
+            },
+            {
+              "speaker": "B",
+              "text": "企業のトークン支出は、7月には前の月から42％増えていましたが、8月と9月の2か月間では合計1.5％の増加にとどまりました。",
+              "section": "生成AIと市場：Ramp調査で企業のAI支出が頭打ち、8〜9月は1.5％増に急減速",
+              "startFrame": 14018,
+              "endFrame": 14350
+            },
+            {
+              "speaker": "A",
+              "text": "42％増から1.5％増は、急ブレーキなのだ！どうしてそんなことになったのだ？",
+              "section": "生成AIと市場：Ramp調査で企業のAI支出が頭打ち、8〜9月は1.5％増に急減速",
+              "startFrame": 14358,
+              "endFrame": 14596
+            },
+            {
+              "speaker": "B",
+              "text": "モデル間の価格競争で単価が下がったうえ、大口企業がコスト管理を厳しくしたためです。最も熱心に使う上位1％の企業でも、従業員1人あたり約1万ドルの夏のピークからわずかに下がりました。",
+              "section": "生成AIと市場：Ramp調査で企業のAI支出が頭打ち、8〜9月は1.5％増に急減速",
+              "startFrame": 14604,
+              "endFrame": 15048
+            },
+            {
+              "speaker": "A",
+              "text": "これから上場しようとしているエーアイ企業には、痛い数字なのだ？",
+              "section": "生成AIと市場：Ramp調査で企業のAI支出が頭打ち、8〜9月は1.5％増に急減速",
+              "startFrame": 15055,
+              "endFrame": 15215
+            },
+            {
+              "speaker": "B",
+              "text": "ランプの主任エコノミスト、カラジアン氏は、エーアイ支出のほぼすべてが高成長テック企業によるもので、減速し始めれば一斉にブレーキがかかり、アンスロピックなどの株式公開にも響くと指摘しました。",
+              "section": "生成AIと市場：Ramp調査で企業のAI支出が頭打ち、8〜9月は1.5％増に急減速",
+              "startFrame": 15223,
+              "endFrame": 15650
+            },
+            {
+              "speaker": "B",
+              "text": "アメリカ下院の中国特別委員会、外交委員会、情報委員会の3人の委員長は今週、エヌビディアのジェンスン・フアン最高経営責任者に対し、11月18日の合同非公開聴取に出席するよう書簡で求めました。",
+              "section": "生成AIと安全保障：米下院3委員会、エヌビディアのフアンCEOを中国スパイ懸念で召喚",
+              "startFrame": 15668,
+              "endFrame": 16198
+            },
+            {
+              "speaker": "A",
+              "text": "エヌビディアのトップが議会に呼ばれたのだ！？何がきっかけなのだ？",
+              "section": "生成AIと安全保障：米下院3委員会、エヌビディアのフアンCEOを中国スパイ懸念で召喚",
+              "startFrame": 16205,
+              "endFrame": 16358
+            },
+            {
+              "speaker": "B",
+              "text": "ニューヨーク・タイムズが先週、エヌビディアの半導体を数十億ドル規模で買ったシンガポールのクラウド企業、メガスピードの幹部アリス・フアン氏をめぐり、中国スパイ工作の懸念を報じたことです。",
+              "section": "生成AIと安全保障：米下院3委員会、エヌビディアのフアンCEOを中国スパイ懸念で召喚",
+              "startFrame": 16365,
+              "endFrame": 16780
+            },
+            {
+              "speaker": "A",
+              "text": "そのメガスピードという会社は、どんな企業なのだ？",
+              "section": "生成AIと安全保障：米下院3委員会、エヌビディアのフアンCEOを中国スパイ懸念で召喚",
+              "startFrame": 16787,
+              "endFrame": 16912
+            },
+            {
+              "speaker": "B",
+              "text": "2023年に中国のゲーム会社から分社化された企業で、過去にも半導体の密輸疑惑でアメリカ当局の調査対象になった経緯があります。議員らは、外国の諜報活動から身を守る警備体制の説明を求めています。",
+              "section": "生成AIと安全保障：米下院3委員会、エヌビディアのフアンCEOを中国スパイ懸念で召喚",
+              "startFrame": 16920,
+              "endFrame": 17404
+            },
+            {
+              "speaker": "A",
+              "text": "エヌビディア側は、どう反論しているのだ？",
+              "section": "生成AIと安全保障：米下院3委員会、エヌビディアのフアンCEOを中国スパイ懸念で召喚",
+              "startFrame": 17411,
+              "endFrame": 17517
+            },
+            {
+              "speaker": "B",
+              "text": "毎年数千人の顧客幹部と会うのは通常の業務で、営業秘密や安全保障に関わる情報は一切渡していないと反論しました。政府から事前の防諜警告も受けておらず、18日に出席するかは明言していません。",
+              "section": "生成AIと安全保障：米下院3委員会、エヌビディアのフアンCEOを中国スパイ懸念で召喚",
+              "startFrame": 17524,
+              "endFrame": 18011
+            },
+            {
+              "speaker": "B",
+              "text": "エーアイ新興企業のアンダードッグは6日、容量がわずか31.7メガバイト、約32メガバイトの音声・音楽生成モデル、ウーフを、エックス上で遊べるレトロ風ゲームとして公開しました。",
+              "section": "生成AIと小型モデル：Underdog、ブラウザーで声と音楽を作る32MBの「Woof」を公開",
+              "startFrame": 18029,
+              "endFrame": 18485
+            },
+            {
+              "speaker": "A",
+              "text": "32メガバイトって、スマホのアプリ1個より小さいのだ！それで何ができるのだ？",
+              "section": "生成AIと小型モデル：Underdog、ブラウザーで声と音楽を作る32MBの「Woof」を公開",
+              "startFrame": 18492,
+              "endFrame": 18698
+            },
+            {
+              "speaker": "B",
+              "text": "クラウドのサーバーを使わず、手元のウェブブラウザーの中だけで動きます。ゲーム内のタイプライターに文字を打つとその場で声にして読み上げ、チューナーを回すと音楽を生成します。",
+              "section": "生成AIと小型モデル：Underdog、ブラウザーで声と音楽を作る32MBの「Woof」を公開",
+              "startFrame": 18706,
+              "endFrame": 19066
+            },
+            {
+              "speaker": "A",
+              "text": "ゲームの舞台にも、何かメッセージが込められているのだ？",
+              "section": "生成AIと小型モデル：Underdog、ブラウザーで声と音楽を作る32MBの「Woof」を公開",
+              "startFrame": 19074,
+              "endFrame": 19209
+            },
+            {
+              "speaker": "B",
+              "text": "冒頭で、町に入り込む押しつけがましいクラウド事業者への警告が出てきます。巨大データセンターを要するクラウド型エーアイを風刺しつつ、端末内で完結する超小型モデルの実力を示しました。",
+              "section": "生成AIと小型モデル：Underdog、ブラウザーで声と音楽を作る32MBの「Woof」を公開",
+              "startFrame": 19217,
+              "endFrame": 19628
+            },
+            {
+              "speaker": "B",
+              "text": "韓国の延世大学とアイビーエムは、仁川の松島国際キャンパスにある現地設置型の量子計算機を、最新のアイビーエム・クオンタム・ナイトホーク・アールツーへ更新し稼働させました。",
+              "section": "量子コンピュータ：韓国・延世大学でIBMの新型機「Nighthawk r2」が米国外初の稼働",
+              "startFrame": 19646,
+              "endFrame": 20026
+            },
+            {
+              "speaker": "A",
+              "text": "これまでの機械と、どこが変わったのだ？",
+              "section": "量子コンピュータ：韓国・延世大学でIBMの新型機「Nighthawk r2」が米国外初の稼働",
+              "startFrame": 20033,
+              "endFrame": 20133
+            },
+            {
+              "speaker": "B",
+              "text": "2024年に導入された127量子ビットのイーグルを置き換えるもので、ナイトホークの設計がアメリカ国外の顧客施設に設置されるのは世界初です。",
+              "section": "量子コンピュータ：韓国・延世大学でIBMの新型機「Nighthawk r2」が米国外初の稼働",
+              "startFrame": 20140,
+              "endFrame": 20465
+            },
+            {
+              "speaker": "A",
+              "text": "性能はどれくらい上がったのだ？",
+              "section": "量子コンピュータ：韓国・延世大学でIBMの新型機「Nighthawk r2」が米国外初の稼働",
+              "startFrame": 20472,
+              "endFrame": 20551
+            },
+            {
+              "speaker": "B",
+              "text": "六角形の配置から高密度の正方格子配置に変え、218個の調整可能カプラーと高速リセット回路を組み込むことで、待機中の干渉を抑えて毎秒10万回路の実行速度を達成しました。",
+              "section": "量子コンピュータ：韓国・延世大学でIBMの新型機「Nighthawk r2」が米国外初の稼働",
+              "startFrame": 20559,
+              "endFrame": 20986
+            },
+            {
+              "speaker": "A",
+              "text": "大学では、何の研究に使うのだ？",
+              "section": "量子コンピュータ：韓国・延世大学でIBMの新型機「Nighthawk r2」が米国外初の稼働",
+              "startFrame": 20993,
+              "endFrame": 21098
+            },
+            {
+              "speaker": "B",
+              "text": "クラウドの順番待ちなしで大量の計算ができるため、バイオ量子イニシアチブを中心に、細胞内の反応や神経変性疾患、新材料のハイブリッド計算に使われます。",
+              "section": "量子コンピュータ：韓国・延世大学でIBMの新型機「Nighthawk r2」が米国外初の稼働",
+              "startFrame": 21105,
+              "endFrame": 21484
+            },
+            {
+              "speaker": "B",
+              "text": "スペースエックス傘下の開発環境、カーソルの拡張機能マーケットプレイスで5日、アンスロピックのクロード・コードを装った悪質な拡張機能が約11時間掲載され、最大5000人に落とされました。",
+              "section": "セキュリティ：Cursorに偽のClaude拡張機能が11時間掲載、最大5000人にバックドア",
+              "startFrame": 21502,
+              "endFrame": 21939
+            },
+            {
+              "speaker": "A",
+              "text": "開発者がよく使うカーソルで、本物そっくりの偽物が出たのだ！？被害はどうだったのだ？",
+              "section": "セキュリティ：Cursorに偽のClaude拡張機能が11時間掲載、最大5000人にバックドア",
+              "startFrame": 21946,
+              "endFrame": 22171
+            },
+            {
+              "speaker": "B",
+              "text": "最初にマック上で検知したフォリオンのホール最高経営責任者によると、侵入用のバックドアが仕込まれていましたが、マルウェア側のプログラムに欠陥があり、大半の端末で完全な定着に失敗しました。",
+              "section": "セキュリティ：Cursorに偽のClaude拡張機能が11時間掲載、最大5000人にバックドア",
+              "startFrame": 22178,
+              "endFrame": 22610
+            },
+            {
+              "speaker": "A",
+              "text": "不幸中の幸いだったのだ。アンスロピックから漏れたわけではなかったのだ？",
+              "section": "セキュリティ：Cursorに偽のClaude拡張機能が11時間掲載、最大5000人にバックドア",
+              "startFrame": 22618,
+              "endFrame": 22790
+            },
+            {
+              "speaker": "B",
+              "text": "アンスロピックの技術スタッフは、自社の侵害ではなく、攻撃者がカーソルのマーケットプレイスへのアクセスを悪用して改ざん版を公開したと説明しています。",
+              "section": "セキュリティ：Cursorに偽のClaude拡張機能が11時間掲載、最大5000人にバックドア",
+              "startFrame": 22797,
+              "endFrame": 23115
+            },
+            {
+              "speaker": "A",
+              "text": "クロードをめぐっては、ほかにも拡張機能の危険が報告されたのだ？",
+              "section": "セキュリティ：Cursorに偽のClaude拡張機能が11時間掲載、最大5000人にバックドア",
+              "startFrame": 23122,
+              "endFrame": 23289
+            },
+            {
+              "speaker": "B",
+              "text": "フォーエバー・セキュリティは、スマホからパソコンのクロードへ作業を送るディスパッチ機能をブラウザー拡張機能から悪用し、1秒ごとに許可ボタンを自動クリックさせてソフトを入れる手法を実証しました。",
+              "section": "セキュリティ：Cursorに偽のClaude拡張機能が11時間掲載、最大5000人にバックドア",
+              "startFrame": 23297,
+              "endFrame": 23695
+            },
+            {
+              "speaker": "B",
+              "text": "直近のインシデント一覧です。3日に伝えた中国メーカー製テレビ機器130万台超のボットネット解体では、医療機器やカラオケ機など1000万台超も遮断され、回線がエーアイ用の大量収集にも使われていました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 23713,
+              "endFrame": 24176
+            },
+            {
+              "speaker": "B",
+              "text": "暗号資産取引所のバイナンスは、2日に伝えた63億4000万ドル流出の続報として、北朝鮮系攻撃者が偽の採用面接と社内エーアイツールの悪用で署名基盤に侵入し、約半分は凍結されたと公表しました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 24183,
+              "endFrame": 24693
+            },
+            {
+              "speaker": "B",
+              "text": "ウィンドウズのペイントにある重要度8.1の欠陥、シーブイイー2026の83844は、ストア更新でのみ修正版が配られ、別アカウントに古い版が残る問題が指摘されました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 24700,
+              "endFrame": 25137
+            },
+            {
+              "speaker": "A",
+              "text": "標準アプリのペイントでも、ウィンドウズアップデートだけでは直らないことがあるのだ！？ネットワーク機器の被害も続いているのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 25145,
+              "endFrame": 25436
+            },
+            {
+              "speaker": "B",
+              "text": "キューナップ製のネットワーク接続ストレージでは、プレックスの4つの脆弱性連鎖を突く侵入が相次ぎ、同社が即時更新と外部公開時の初期化を呼びかけています。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 25444,
+              "endFrame": 25789
+            },
+            {
+              "speaker": "B",
+              "text": "ディーリンクのスイッチ、ディージーエス3130シリーズでは、探索プロトコルや暗号鍵に複数の未修正ゼロデイ脆弱性が見つかり、機能の無効化と管理画面の隔離が求められています。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 25796,
+              "endFrame": 26203
+            },
+            {
+              "speaker": "B",
+              "text": "5日に扱ったオープンエスエスエイチの欠陥、シーブイイー2026の123158は、公表から数時間以内にハニーポットで悪用と管理者権限の奪取が確認されました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 26210,
+              "endFrame": 26609
+            },
+            {
+              "speaker": "B",
+              "text": "シスコ・タロスは、盗んだパスワードやウーバーイーツの領収書などを商用言語モデルに送り、標的の価値を自動査定させるマルウェア、ヴォルタ・オートドキサーを報告しました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 26616,
+              "endFrame": 26992
+            },
+            {
+              "speaker": "A",
+              "text": "出荷時のテレビ機器から開発ツールの拡張機能、ストア経由のペイントまで、思わぬところが入り口になっているのだ。カーソルの拡張機能とウィンドウズストアの更新をすぐ確かめるのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 26999,
+              "endFrame": 27432
+            },
+            {
+              "speaker": "A",
+              "text": "今日は、アメリカ中間選挙のあとに起きた株の急落とエネルギー法案、マスクさんのサイバートラック生産終了、そしてアムステルダムの建設現場乱入まで追ってきたのだ。",
+              "section": "まとめ",
+              "startFrame": 27450,
+              "endFrame": 27858
+            },
+            {
+              "speaker": "B",
+              "text": "企業のエーアイ支出は8月から9月に1.5％増へ減速し、アメリカ下院はエヌビディアのトップを召喚しました。32メガバイトの小型モデルや延世大学の新型量子計算機も動いています。",
+              "section": "まとめ",
+              "startFrame": 27866,
+              "endFrame": 28289
+            },
+            {
+              "speaker": "A",
+              "text": "セキュリティでは、カーソルの偽クロード拡張機能や130万台のテレビ機器ボットネットなど、身近なソフトや機器の点検が欠かせないのだ。",
+              "section": "まとめ",
+              "startFrame": 28297,
+              "endFrame": 28626
+            },
+            {
+              "speaker": "B",
+              "text": "エーアイの拡大は、計算能力だけでなく、電力網の法制度や地域社会の合意、そして足元の採算と安全にどう向き合うかが問われる段階に入っています。",
+              "section": "まとめ",
+              "startFrame": 28634,
+              "endFrame": 28980
+            },
+            {
+              "speaker": "A",
+              "text": "最後まで聞いてくれてありがとうございましたなのだ！また次回も楽しみにしてほしいのだ。",
+              "section": "まとめ",
+              "startFrame": 28988,
+              "endFrame": 29184
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
     "date": "2026-11-06",
     "segments": [
       {
