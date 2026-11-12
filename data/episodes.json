@@ -1,5 +1,637 @@
 [
   {
+    "date": "2026-11-13",
+    "segments": [
+      {
+        "mode": "ai",
+        "label": "生成AIニュース",
+        "iaId": "news-pickup-2026-11-13-ai",
+        "title": "【速報】フアン氏がNvidia CEO辞任／Gemini 4で検索刷新 ほかAI業界まとめ 2026/11/13",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-11-13-ai/ai_yukkuri.m4a",
+        "markdown": "<h1>フアン氏がNvidia CEOを辞任、Gemini 4 Hydrogenで検索刷新、AIが量子回路を証明つきで設計（2026年11月13日）</h1>\n<p><strong>キーワード:</strong> ジェンスン・フアン辞任 / Chip Security Act / Gemini 4 Hydrogen / ソフトバンクのタービン損失 / Lean 4量子アルゴリズム / SignDrop</p>\n<h2>オープニング：2026年11月13日 — 生成AI・量子・セキュリティニュース</h2>\n<ul>\n<li><strong>放送日</strong>: 2026年11月13日</li>\n<li><strong>本日の主要トピック</strong>:</li>\n<li>Nvidiaのジェンスン・フアン氏がCEOを辞任、オープンソースAI支援の行方</li>\n<li>チップの所在追跡は「技術的に可能」とNvidiaが非公式に認めていた</li>\n<li>Gemini 4 HydrogenでGoogle検索のAIモードが刷新</li>\n<li>ソフトバンクがガスタービンの手付金で30億ドル超の損失</li>\n<li>ユナイテッド航空がAIエージェントによる予約を禁止</li>\n<li>Geminiエージェント群がLean 4で証明つきの量子アルゴリズムを発見</li>\n<li>N-centralのゼロデイ悪用、Windows「SignDrop」ゼロデイ</li>\n<li><strong>本日の問い</strong>: AIの勢いを支えてきた人・電力・信頼の土台は、どこまで揺らいでいるのか。</li>\n</ul>\n<h2>AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ</h2>\n<ul>\n<li><strong>辞任（TechCrunch, 2026-11-12）</strong>: ジェンスン・フアン氏が11月12日、CEOを辞任</li>\n<li>背景: 中国のスパイとされる人物（Megaspeed幹部）との関係を認めたこと</li>\n<li>暫定CEOはCFOのコレット・クレス氏。恒久的な後任は未定</li>\n<li>今後数週間のうちに議会で証言する予定</li>\n<li><strong>これまでの流れ</strong>: 11月9日 社内調査 → 11月10日 株主訴訟 → 11月11日 下院の説明要求 → 11月12日 辞任</li>\n<li><strong>オープンソースへの影響</strong>:</li>\n<li>NvidiaはHugging Faceを約129億ドルで買収予定（9月発表、完了は2027年上半期の予定。米司法省が競争への影響を照会と報道）</li>\n<li>Poolsideの技術への非独占ライセンスに60億ドル、10月の公開書簡には25社が署名</li>\n<li>研究者ネイサン・ランバート氏「米国のオープンモデルにとって非常に悪い」</li>\n<li>Hugging FaceのクレムCEO「これまで以上にオープンソースAIのために戦い続ける」</li>\n</ul>\n<h2>AIと安全保障：チップの所在追跡は「技術的に可能」とNvidiaが非公式に認める</h2>\n<ul>\n<li><strong>報道（MIT Technology Review, 2026-11-12）</strong>: ビル・フォスター下院議員（民主・イリノイ）によると、Nvidiaの担当者は密輸対策の所在追跡要件を「技術的に可能」と非公式に伝えた</li>\n<li>フォスター氏「書面には何も残さなかった」</li>\n<li><strong>法案</strong>: Chip Security Act（2025年5月提出）</li>\n<li>半導体業界団体SIAは2026年3月、「新しく未検証で、実現できない恐れがある」と反対</li>\n<li>追跡は所在の把握だけで、密輸チップを止める機能は含まない</li>\n<li>フォスター氏は来年、ライセンス検証つきの新法案を出す意向</li>\n<li><strong>Nvidiaの主張</strong>: 密輸の量は「中国がすでに持つ国内計算資源の海に比べれば一滴」</li>\n<li><strong>論点</strong>: トップ交代で、輸出管理をめぐる会社の姿勢が変わるかどうか</li>\n</ul>\n<h2>生成AI：Gemini 4 HydrogenでGoogle検索のAIモードが刷新</h2>\n<ul>\n<li><strong>発表（TechCrunch / Ars Technica, 2026-11-12）</strong>: Google検索のAIモードがGemini 4 Hydrogenで強化。全ユーザーへ世界展開</li>\n<li>Googleは「検索で過去最大のモデル改善」と表現</li>\n<li><strong>Hydrogenの位置づけ</strong>: 高速・エージェント用途向け。難しい質問はGemini 4 Carbon / Argonへ</li>\n<li>Gemini 3.8 Flash比で2.5倍高速</li>\n<li>思考の深さは4段階（新たに最上位のxhighを追加）</li>\n<li>外部指標Artificial Analysis Intelligence Indexで、既定の設定でもArgonを上回る</li>\n<li><strong>検索の変化</strong>: 質問を複数の小さな検索に分ける「ファンアウト」を強化。比較表や画像の回答が増える</li>\n<li><strong>論点</strong>: 速いモデルを全員に配ることで、検索の答え方そのものが変わる</li>\n</ul>\n<h2>AIと電力：ソフトバンク、ガスタービンの手付金で30億ドル超の損失</h2>\n<ul>\n<li><strong>決算（TechCrunch, 2026-11-12）</strong>: ソフトバンクグループは11月10日の四半期決算で71億ドルの赤字。半分以上が発電設備関連</li>\n<li><strong>経緯</strong>: 約2年前から13GW超のガスタービンに手付金。必要量より約50%多かった（WSJ報道）</li>\n<li>SB Energyは2026年2月に330億ドル・9.2GWの計画を発表</li>\n<li>タービンの納品待ちは2030年代初めまで続く</li>\n<li><strong>専門家</strong>: Noreva CEOのピーター・ガーデット氏「すぐ欲しければ、先々まで多めに予約するしかなかった」「今回の損失は、ようやく値段が見えた結果」</li>\n<li><strong>今後</strong>: 大型バッテリーと小規模な系統接続の組み合わせが有力との見方。ガス計画の大規模撤回は起きにくい</li>\n</ul>\n<h2>AIと社会：ユナイテッド航空がAIエージェントによる予約を禁止</h2>\n<ul>\n<li><strong>方針（TechCrunch, 2026-11-12）</strong>: ユナイテッド航空が、AIエージェントによる航空券の予約・発券を禁止</li>\n<li>自社サイトだけでなく、旅行代理店や比較サイト経由も対象</li>\n<li><strong>理由</strong>:</li>\n<li>サイバーリスク: 「個人の第三者AIアシスタントとアカウント情報を共有すると、機密情報がさらされる恐れ」</li>\n<li>意図しない購入、アカウント変更、マイルの使用が起きうる</li>\n<li>連邦航空規則: 搭乗時に乗客本人が、手荷物に禁止物が無いと確認する必要</li>\n<li><strong>先行例</strong>: Bank of AmericaもAIアシスタントにパスワードを渡さないよう呼びかけ</li>\n<li><strong>論点</strong>: 「代わりに買い物をするAI」に、企業側が線を引き始めた</li>\n</ul>\n<h2>量子コンピュータ：AIが証明つきの量子アルゴリズムを発見</h2>\n<ul>\n<li><strong>研究（Google DeepMind・Google Quantum AI, Quantum Computing Report 2026-11-10, arXiv:2611.09822）</strong>:</li>\n<li>複数のGeminiエージェントが共有ウィキと定期会議で知見を交換</li>\n<li>証明支援系Lean 4の上で、正しさを機械的に証明しながら量子プログラムを合成</li>\n<li>評価指標は、誤り耐性のある機械での時間と空間のコスト（Q·T）</li>\n<li><strong>成果（コスト削減）</strong>:</li>\n<li>25ビット固定小数点のarcsin状態準備: 290倍超</li>\n<li>核融合プラズマ（アルファ粒子の阻止能）: 10.9倍</li>\n<li>光化学分子: 8.08倍、P450酵素の反応中間体: 2.49倍</li>\n<li><strong>関連（同週）</strong>: IBMは2027年提供のNighthawk r3を520量子ビットと発表。2チップ接続で1,040量子ビット</li>\n<li><strong>論点</strong>: AIが作った回路を、AIを信じずに数学で確かめる仕組み</li>\n</ul>\n<h2>セキュリティ：N-centralのゼロデイ、PoC公開当日に悪用</h2>\n<ul>\n<li><strong>概要（BleepingComputer, 2026-11-12）</strong>: 研究者ショーン・ベイルズ氏が11月12日に攻撃手順（PoC）を公開。同日9時16分（UTC）に攻撃が始まった</li>\n<li>N-central＝IT管理代行業者が顧客の端末を遠隔管理する製品</li>\n<li>Apache Axisの欠陥（CVE-2026-90436）で一般権限を取り、別の欠陥でroot（最上位権限）へ</li>\n<li>攻撃者は暗号資産の採掘プログラムを配布</li>\n<li><strong>被害</strong>: 侵害確認21台。うち19台は11月10日公開の修正版（HF2）を適用済み</li>\n<li><strong>対策</strong>: N-ableはIntegration APIとLegacy APIの無効化を要請</li>\n<li><strong>論点</strong>: 修正版を入れても防げず、機能そのものを止めるしかない段階</li>\n</ul>\n<h2>セキュリティ：Windows「SignDrop」ゼロデイ、パッチなし</h2>\n<ul>\n<li><strong>概要（BleepingComputer / The Hacker News, 2026-11-12）</strong>: 研究者アブデルハミド・ナセリ氏がGitHubでPoCを公開</li>\n<li>2025年10月に導入されたCLFS（共通ログファイルシステム）の認証緩和策を逆手に取り、SYSTEM権限を取得</li>\n<li>Windows 11 26H2とWindows Server 2025の試験版で確認。ナセリ氏の推定ではWindows環境の約80%が影響</li>\n<li><strong>危険性</strong>: ナセリ氏「ウイルス対策やEDRを止めるのに使える」</li>\n<li><strong>現状</strong>: CVE番号なし、パッチ未提供。Microsoftは法的措置を警告</li>\n<li><strong>対策</strong>: 権限昇格の前段となる侵入を防ぐため、不審な添付やダウンロードを開かない</li>\n</ul>\n<h2>セキュリティ：最近のインシデント一覧</h2>\n<ul>\n<li><strong>Apify</strong>（チェコ／11月12日公表／不正アクセス）：11月9〜10日に内部システムへ侵入。APIトークンを交換し全セッションをリセット、顧客に2要素認証の再設定を案内。約8万社が利用、顧客データへの影響の形跡なし／調査中</li>\n<li><strong>Microsoft 365</strong>（米国／11月12日／大規模障害）：13時26分（米東部）からOutlook・Teams・Copilotなどが世界的に停止。「多数のサーバーが予期せず利用不可」と説明／攻撃ではなく障害、復旧作業中</li>\n<li><strong>Gootloader・CastleRAT・StealC</strong>（9カ国、Europol／11月12日発表／犯罪基盤の押収）：ドメイン257件・サーバー235台を押収。600万件超の認証情報を確認／作戦完了</li>\n<li><strong>Apache HTTP Server</strong>（11月12日報道／遠隔コード実行の欠陥）：HTTP/2モジュールの重大な欠陥CVE-2026-119618（2.4.55〜2.4.70）。AnthropicとGoogle Cloudの調査チームが発見。Wizによればクラウド環境の64%に影響資源／修正版公開、悪用は未確認</li>\n<li><strong>ScreenConnect経由の攻撃</strong>（11月11日発見、Huntress・ConnectWise／IT管理代行業者への侵入）：遠隔操作ツールの正規機能で不正なクライアントを配布。管理代行業者6社、47組織、端末286台超に影響。脆弱性ではなく機能の悪用／ConnectWiseが外部拡張5種を約400環境で停止、調査中</li>\n<li><strong>Baker Tilly</strong>（米会計事務所／11月11日報道／委託先経由のデータ侵害）：委託先の基盤から顧客データが流出。テキサス州だけで1万456人、社会保障番号などを含む／信用監視24か月を提供</li>\n<li><strong>利用者の対策</strong>: Apifyや盗難情報の対象者はパスワードと2要素認証を再設定。サーバー管理者はApacheを更新し、すぐ更新できなければHTTP/2を止める</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>フアン氏の辞任、チップ追跡、Gemini 4 Hydrogen、ソフトバンクの損失、ユナイテッド航空のAI予約禁止</li>\n<li>AIが証明つきで設計する量子アルゴリズム</li>\n<li>N-centralとSignDropのゼロデイ、インシデント一覧</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li>https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/</li>\n<li>https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/</li>\n<li>https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/</li>\n<li>https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/</li>\n<li>https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/</li>\n<li>https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/</li>\n<li>https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/</li>\n<li>https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms/</li>\n<li>https://quantumcomputingreport.com/ibm-unveils-520-qubit-nighthawk-r3-processor-1040-qubit-linked-roadmap-and-managed-hybrid-workflows-at-qdc-2026/</li>\n<li>https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/</li>\n<li>https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/</li>\n<li>https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/</li>\n<li>https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/</li>\n<li>https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/</li>\n<li>https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/</li>\n<li>https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/</li>\n<li>https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/</li>\n</ul>",
+        "markdownSource": "# フアン氏がNvidia CEOを辞任、Gemini 4 Hydrogenで検索刷新、AIが量子回路を証明つきで設計（2026年11月13日）\n\n**キーワード:** ジェンスン・フアン辞任 / Chip Security Act / Gemini 4 Hydrogen / ソフトバンクのタービン損失 / Lean 4量子アルゴリズム / SignDrop\n\n## オープニング：2026年11月13日 — 生成AI・量子・セキュリティニュース\n- **放送日**: 2026年11月13日\n- **本日の主要トピック**:\n  - Nvidiaのジェンスン・フアン氏がCEOを辞任、オープンソースAI支援の行方\n  - チップの所在追跡は「技術的に可能」とNvidiaが非公式に認めていた\n  - Gemini 4 HydrogenでGoogle検索のAIモードが刷新\n  - ソフトバンクがガスタービンの手付金で30億ドル超の損失\n  - ユナイテッド航空がAIエージェントによる予約を禁止\n  - Geminiエージェント群がLean 4で証明つきの量子アルゴリズムを発見\n  - N-centralのゼロデイ悪用、Windows「SignDrop」ゼロデイ\n- **本日の問い**: AIの勢いを支えてきた人・電力・信頼の土台は、どこまで揺らいでいるのか。\n\n## AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ\n- **辞任（TechCrunch, 2026-11-12）**: ジェンスン・フアン氏が11月12日、CEOを辞任\n  - 背景: 中国のスパイとされる人物（Megaspeed幹部）との関係を認めたこと\n  - 暫定CEOはCFOのコレット・クレス氏。恒久的な後任は未定\n  - 今後数週間のうちに議会で証言する予定\n- **これまでの流れ**: 11月9日 社内調査 → 11月10日 株主訴訟 → 11月11日 下院の説明要求 → 11月12日 辞任\n- **オープンソースへの影響**:\n  - NvidiaはHugging Faceを約129億ドルで買収予定（9月発表、完了は2027年上半期の予定。米司法省が競争への影響を照会と報道）\n  - Poolsideの技術への非独占ライセンスに60億ドル、10月の公開書簡には25社が署名\n  - 研究者ネイサン・ランバート氏「米国のオープンモデルにとって非常に悪い」\n  - Hugging FaceのクレムCEO「これまで以上にオープンソースAIのために戦い続ける」\n\n## AIと安全保障：チップの所在追跡は「技術的に可能」とNvidiaが非公式に認める\n- **報道（MIT Technology Review, 2026-11-12）**: ビル・フォスター下院議員（民主・イリノイ）によると、Nvidiaの担当者は密輸対策の所在追跡要件を「技術的に可能」と非公式に伝えた\n  - フォスター氏「書面には何も残さなかった」\n- **法案**: Chip Security Act（2025年5月提出）\n  - 半導体業界団体SIAは2026年3月、「新しく未検証で、実現できない恐れがある」と反対\n  - 追跡は所在の把握だけで、密輸チップを止める機能は含まない\n  - フォスター氏は来年、ライセンス検証つきの新法案を出す意向\n- **Nvidiaの主張**: 密輸の量は「中国がすでに持つ国内計算資源の海に比べれば一滴」\n- **論点**: トップ交代で、輸出管理をめぐる会社の姿勢が変わるかどうか\n\n## 生成AI：Gemini 4 HydrogenでGoogle検索のAIモードが刷新\n- **発表（TechCrunch / Ars Technica, 2026-11-12）**: Google検索のAIモードがGemini 4 Hydrogenで強化。全ユーザーへ世界展開\n  - Googleは「検索で過去最大のモデル改善」と表現\n- **Hydrogenの位置づけ**: 高速・エージェント用途向け。難しい質問はGemini 4 Carbon / Argonへ\n  - Gemini 3.8 Flash比で2.5倍高速\n  - 思考の深さは4段階（新たに最上位のxhighを追加）\n  - 外部指標Artificial Analysis Intelligence Indexで、既定の設定でもArgonを上回る\n- **検索の変化**: 質問を複数の小さな検索に分ける「ファンアウト」を強化。比較表や画像の回答が増える\n- **論点**: 速いモデルを全員に配ることで、検索の答え方そのものが変わる\n\n## AIと電力：ソフトバンク、ガスタービンの手付金で30億ドル超の損失\n- **決算（TechCrunch, 2026-11-12）**: ソフトバンクグループは11月10日の四半期決算で71億ドルの赤字。半分以上が発電設備関連\n- **経緯**: 約2年前から13GW超のガスタービンに手付金。必要量より約50%多かった（WSJ報道）\n  - SB Energyは2026年2月に330億ドル・9.2GWの計画を発表\n  - タービンの納品待ちは2030年代初めまで続く\n- **専門家**: Noreva CEOのピーター・ガーデット氏「すぐ欲しければ、先々まで多めに予約するしかなかった」「今回の損失は、ようやく値段が見えた結果」\n- **今後**: 大型バッテリーと小規模な系統接続の組み合わせが有力との見方。ガス計画の大規模撤回は起きにくい\n\n## AIと社会：ユナイテッド航空がAIエージェントによる予約を禁止\n- **方針（TechCrunch, 2026-11-12）**: ユナイテッド航空が、AIエージェントによる航空券の予約・発券を禁止\n  - 自社サイトだけでなく、旅行代理店や比較サイト経由も対象\n- **理由**:\n  - サイバーリスク: 「個人の第三者AIアシスタントとアカウント情報を共有すると、機密情報がさらされる恐れ」\n  - 意図しない購入、アカウント変更、マイルの使用が起きうる\n  - 連邦航空規則: 搭乗時に乗客本人が、手荷物に禁止物が無いと確認する必要\n- **先行例**: Bank of AmericaもAIアシスタントにパスワードを渡さないよう呼びかけ\n- **論点**: 「代わりに買い物をするAI」に、企業側が線を引き始めた\n\n## 量子コンピュータ：AIが証明つきの量子アルゴリズムを発見\n- **研究（Google DeepMind・Google Quantum AI, Quantum Computing Report 2026-11-10, arXiv:2611.09822）**:\n  - 複数のGeminiエージェントが共有ウィキと定期会議で知見を交換\n  - 証明支援系Lean 4の上で、正しさを機械的に証明しながら量子プログラムを合成\n  - 評価指標は、誤り耐性のある機械での時間と空間のコスト（Q·T）\n- **成果（コスト削減）**:\n  - 25ビット固定小数点のarcsin状態準備: 290倍超\n  - 核融合プラズマ（アルファ粒子の阻止能）: 10.9倍\n  - 光化学分子: 8.08倍、P450酵素の反応中間体: 2.49倍\n- **関連（同週）**: IBMは2027年提供のNighthawk r3を520量子ビットと発表。2チップ接続で1,040量子ビット\n- **論点**: AIが作った回路を、AIを信じずに数学で確かめる仕組み\n\n## セキュリティ：N-centralのゼロデイ、PoC公開当日に悪用\n- **概要（BleepingComputer, 2026-11-12）**: 研究者ショーン・ベイルズ氏が11月12日に攻撃手順（PoC）を公開。同日9時16分（UTC）に攻撃が始まった\n  - N-central＝IT管理代行業者が顧客の端末を遠隔管理する製品\n  - Apache Axisの欠陥（CVE-2026-90436）で一般権限を取り、別の欠陥でroot（最上位権限）へ\n  - 攻撃者は暗号資産の採掘プログラムを配布\n- **被害**: 侵害確認21台。うち19台は11月10日公開の修正版（HF2）を適用済み\n- **対策**: N-ableはIntegration APIとLegacy APIの無効化を要請\n- **論点**: 修正版を入れても防げず、機能そのものを止めるしかない段階\n\n## セキュリティ：Windows「SignDrop」ゼロデイ、パッチなし\n- **概要（BleepingComputer / The Hacker News, 2026-11-12）**: 研究者アブデルハミド・ナセリ氏がGitHubでPoCを公開\n  - 2025年10月に導入されたCLFS（共通ログファイルシステム）の認証緩和策を逆手に取り、SYSTEM権限を取得\n  - Windows 11 26H2とWindows Server 2025の試験版で確認。ナセリ氏の推定ではWindows環境の約80%が影響\n- **危険性**: ナセリ氏「ウイルス対策やEDRを止めるのに使える」\n- **現状**: CVE番号なし、パッチ未提供。Microsoftは法的措置を警告\n- **対策**: 権限昇格の前段となる侵入を防ぐため、不審な添付やダウンロードを開かない\n\n## セキュリティ：最近のインシデント一覧\n- **Apify**（チェコ／11月12日公表／不正アクセス）：11月9〜10日に内部システムへ侵入。APIトークンを交換し全セッションをリセット、顧客に2要素認証の再設定を案内。約8万社が利用、顧客データへの影響の形跡なし／調査中\n- **Microsoft 365**（米国／11月12日／大規模障害）：13時26分（米東部）からOutlook・Teams・Copilotなどが世界的に停止。「多数のサーバーが予期せず利用不可」と説明／攻撃ではなく障害、復旧作業中\n- **Gootloader・CastleRAT・StealC**（9カ国、Europol／11月12日発表／犯罪基盤の押収）：ドメイン257件・サーバー235台を押収。600万件超の認証情報を確認／作戦完了\n- **Apache HTTP Server**（11月12日報道／遠隔コード実行の欠陥）：HTTP/2モジュールの重大な欠陥CVE-2026-119618（2.4.55〜2.4.70）。AnthropicとGoogle Cloudの調査チームが発見。Wizによればクラウド環境の64%に影響資源／修正版公開、悪用は未確認\n- **ScreenConnect経由の攻撃**（11月11日発見、Huntress・ConnectWise／IT管理代行業者への侵入）：遠隔操作ツールの正規機能で不正なクライアントを配布。管理代行業者6社、47組織、端末286台超に影響。脆弱性ではなく機能の悪用／ConnectWiseが外部拡張5種を約400環境で停止、調査中\n- **Baker Tilly**（米会計事務所／11月11日報道／委託先経由のデータ侵害）：委託先の基盤から顧客データが流出。テキサス州だけで1万456人、社会保障番号などを含む／信用監視24か月を提供\n- **利用者の対策**: Apifyや盗難情報の対象者はパスワードと2要素認証を再設定。サーバー管理者はApacheを更新し、すぐ更新できなければHTTP/2を止める\n\n## まとめ\n- フアン氏の辞任、チップ追跡、Gemini 4 Hydrogen、ソフトバンクの損失、ユナイテッド航空のAI予約禁止\n- AIが証明つきで設計する量子アルゴリズム\n- N-centralとSignDropのゼロデイ、インシデント一覧\n\n## 参考ソース\n- https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/\n- https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/\n- https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/\n- https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/\n- https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/\n- https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/\n- https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/\n- https://quantumcomputingreport.com/google-deepmind-and-google-quantum-ai-use-lean-4-to-discover-formally-verified-quantum-algorithms/\n- https://quantumcomputingreport.com/ibm-unveils-520-qubit-nighthawk-r3-processor-1040-qubit-linked-roadmap-and-managed-hybrid-workflows-at-qdc-2026/\n- https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/\n- https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/\n- https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/\n- https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/\n- https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/\n- https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/\n- https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/\n- https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/\n",
+        "timeline": {
+          "version": 1,
+          "source": "tts_voicevox",
+          "fps": 30,
+          "totalFrames": 19079,
+          "audioDurationSec": 635.957333,
+          "cues": [
+            {
+              "speaker": "A",
+              "text": "2026年11月13日の「生成AI・量子・セキュリティニュース」なのだ！今日はいきなり大ニュースなのだ。",
+              "section": "オープニング：2026年11月13日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 18,
+              "endFrame": 343
+            },
+            {
+              "speaker": "B",
+              "text": "エヌビディアのジェンスン・フアン氏が、CEOを辞任しました。AI半導体の顔だった人物の退場ですわ。",
+              "section": "オープニング：2026年11月13日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 351,
+              "endFrame": 599
+            },
+            {
+              "speaker": "A",
+              "text": "Googleは検索のAIを新しいモデルに入れ替え、ソフトバンクは発電設備で大きな損を出したのだ。",
+              "section": "オープニング：2026年11月13日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 606,
+              "endFrame": 849
+            },
+            {
+              "speaker": "B",
+              "text": "量子はAIが証明つきで回路を設計した研究、セキュリティは公開当日に悪用されたゼロデイなどを扱います。",
+              "section": "オープニング：2026年11月13日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 856,
+              "endFrame": 1105
+            },
+            {
+              "speaker": "A",
+              "text": "AIを支えてきた人、電力、信頼の土台はどこまで揺らいでいるのか。それが今日の問いなのだ！",
+              "section": "オープニング：2026年11月13日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1112,
+              "endFrame": 1357
+            },
+            {
+              "speaker": "A",
+              "text": "社内調査、株主訴訟、議会の説明要求と続いて、ついに辞任なのだ。",
+              "section": "AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ",
+              "startFrame": 1375,
+              "endFrame": 1585
+            },
+            {
+              "speaker": "B",
+              "text": "TechCrunchによると、11月12日のことです。中国のスパイとされる人物との関係を認めたことが背景にありますわ。",
+              "section": "AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ",
+              "startFrame": 1592,
+              "endFrame": 1868
+            },
+            {
+              "speaker": "A",
+              "text": "会社は誰が引っぱるのだ？",
+              "section": "AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ",
+              "startFrame": 1875,
+              "endFrame": 1945
+            },
+            {
+              "speaker": "B",
+              "text": "財務責任者のコレット・クレス氏が暫定CEOです。正式な後任は決まっておらず、フアン氏は数週間のうちに議会で証言する予定ですわ。",
+              "section": "AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ",
+              "startFrame": 1952,
+              "endFrame": 2279
+            },
+            {
+              "speaker": "A",
+              "text": "AIの世界では、オープンソースへの影響を心配する声が出ているのだ。",
+              "section": "AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ",
+              "startFrame": 2286,
+              "endFrame": 2468
+            },
+            {
+              "speaker": "B",
+              "text": "エヌビディアはHugging Faceを約129億ドルで買収する予定で、無料で使えるモデルの最大の後ろ盾でしたわ。",
+              "section": "AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ",
+              "startFrame": 2475,
+              "endFrame": 2722
+            },
+            {
+              "speaker": "A",
+              "text": "買収はまだ終わっていないのだ？",
+              "section": "AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ",
+              "startFrame": 2730,
+              "endFrame": 2808
+            },
+            {
+              "speaker": "B",
+              "text": "完了は2027年前半の予定で、米司法省が競争への影響を照会したとも報じられています。旗振り役を失った形ですわ。",
+              "section": "AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ",
+              "startFrame": 2815,
+              "endFrame": 3123
+            },
+            {
+              "speaker": "A",
+              "text": "研究者のネイサン・ランバート氏は、米国のオープンモデルにとって「非常に悪い」と言っていたのだ。",
+              "section": "AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ",
+              "startFrame": 3131,
+              "endFrame": 3389
+            },
+            {
+              "speaker": "B",
+              "text": "Hugging FaceのクレムCEOは「これまで以上に戦い続ける」と投稿しました。支援の継続は新しい経営陣しだいですわ。",
+              "section": "AIと政治：フアン氏がNvidia CEOを辞任、オープンソース支援に揺らぎ",
+              "startFrame": 3397,
+              "endFrame": 3678
+            },
+            {
+              "speaker": "A",
+              "text": "辞任と同じ日に、チップの追跡をめぐる話も出てきたのだ。",
+              "section": "AIと安全保障：チップの所在追跡は「技術的に可能」とNvidiaが非公式に認める",
+              "startFrame": 3696,
+              "endFrame": 3848
+            },
+            {
+              "speaker": "B",
+              "text": "MIT Technology Reviewによると、エヌビディアの担当者は、密輸対策の所在追跡を「技術的に可能」と議員に伝えていましたわ。",
+              "section": "AIと安全保障：チップの所在追跡は「技術的に可能」とNvidiaが非公式に認める",
+              "startFrame": 3856,
+              "endFrame": 4157
+            },
+            {
+              "speaker": "A",
+              "text": "業界は反対していたはずなのだ。",
+              "section": "AIと安全保障：チップの所在追跡は「技術的に可能」とNvidiaが非公式に認める",
+              "startFrame": 4165,
+              "endFrame": 4248
+            },
+            {
+              "speaker": "B",
+              "text": "半導体の業界団体は3月、法案を「未検証で実現できない恐れがある」と批判していました。ただ、聞いた議員は「書面には何も残さなかった」と話していますわ。",
+              "section": "AIと安全保障：チップの所在追跡は「技術的に可能」とNvidiaが非公式に認める",
+              "startFrame": 4256,
+              "endFrame": 4649
+            },
+            {
+              "speaker": "A",
+              "text": "追跡できたら、密輸されたチップを動かなくできるのだ？",
+              "section": "AIと安全保障：チップの所在追跡は「技術的に可能」とNvidiaが非公式に認める",
+              "startFrame": 4657,
+              "endFrame": 4797
+            },
+            {
+              "speaker": "B",
+              "text": "いいえ、法案は場所を知るだけです。フォスター議員は来年、ライセンス確認つきの新しい法案を出すつもりですわ。",
+              "section": "AIと安全保障：チップの所在追跡は「技術的に可能」とNvidiaが非公式に認める",
+              "startFrame": 4804,
+              "endFrame": 5060
+            },
+            {
+              "speaker": "A",
+              "text": "エヌビディアは、密輸は「中国の計算資源の海に比べれば一滴」と言っているのだ。",
+              "section": "AIと安全保障：チップの所在追跡は「技術的に可能」とNvidiaが非公式に認める",
+              "startFrame": 5068,
+              "endFrame": 5290
+            },
+            {
+              "speaker": "B",
+              "text": "トップが代わったいま、輸出管理への会社の姿勢が変わるのか。議会での証言が試金石になりますわ。",
+              "section": "AIと安全保障：チップの所在追跡は「技術的に可能」とNvidiaが非公式に認める",
+              "startFrame": 5298,
+              "endFrame": 5516
+            },
+            {
+              "speaker": "A",
+              "text": "Google検索のAIモードが、Gemini 4 Hydrogenになったのだ。",
+              "section": "生成AI：Gemini 4 HydrogenでGoogle検索のAIモードが刷新",
+              "startFrame": 5534,
+              "endFrame": 5730
+            },
+            {
+              "speaker": "B",
+              "text": "全ユーザーに世界で一斉に配られました。Googleは「検索で過去最大のモデル改善」と呼んでいますわ。",
+              "section": "生成AI：Gemini 4 HydrogenでGoogle検索のAIモードが刷新",
+              "startFrame": 5738,
+              "endFrame": 5970
+            },
+            {
+              "speaker": "A",
+              "text": "Hydrogenは、どんなモデルなのだ？",
+              "section": "生成AI：Gemini 4 HydrogenでGoogle検索のAIモードが刷新",
+              "startFrame": 5977,
+              "endFrame": 6070
+            },
+            {
+              "speaker": "B",
+              "text": "速さとエージェント向けの軽いモデルです。前のGemini 3.8 Flashより2.5倍速く、難問は上位のCarbonやArgonに回しますわ。",
+              "section": "生成AI：Gemini 4 HydrogenでGoogle検索のAIモードが刷新",
+              "startFrame": 6077,
+              "endFrame": 6396
+            },
+            {
+              "speaker": "A",
+              "text": "考える深さも選べるようになったのだ？",
+              "section": "生成AI：Gemini 4 HydrogenでGoogle検索のAIモードが刷新",
+              "startFrame": 6404,
+              "endFrame": 6502
+            },
+            {
+              "speaker": "B",
+              "text": "4段階で、最上位が新しく加わりました。外部の総合指標では、既定の設定でも上位のArgonを上回りましたわ。",
+              "section": "生成AI：Gemini 4 HydrogenでGoogle検索のAIモードが刷新",
+              "startFrame": 6509,
+              "endFrame": 6781
+            },
+            {
+              "speaker": "A",
+              "text": "検索の答え方は、どう変わるのだ？",
+              "section": "生成AI：Gemini 4 HydrogenでGoogle検索のAIモードが刷新",
+              "startFrame": 6789,
+              "endFrame": 6888
+            },
+            {
+              "speaker": "B",
+              "text": "質問を小さな検索に分けて並行して調べ、比較表や画像で答える場面が増えます。リンクを並べる検索から、さらに遠ざかりますわ。",
+              "section": "生成AI：Gemini 4 HydrogenでGoogle検索のAIモードが刷新",
+              "startFrame": 6896,
+              "endFrame": 7197
+            },
+            {
+              "speaker": "A",
+              "text": "ソフトバンクが、AI向けの発電でつまずいたのだ。",
+              "section": "AIと電力：ソフトバンク、ガスタービンの手付金で30億ドル超の損失",
+              "startFrame": 7215,
+              "endFrame": 7345
+            },
+            {
+              "speaker": "B",
+              "text": "11月10日の決算は71億ドルの赤字で、その半分以上が発電設備関連でしたわ。",
+              "section": "AIと電力：ソフトバンク、ガスタービンの手付金で30億ドル超の損失",
+              "startFrame": 7353,
+              "endFrame": 7567
+            },
+            {
+              "speaker": "A",
+              "text": "え！？何にそんなにお金を払ったのだ？",
+              "section": "AIと電力：ソフトバンク、ガスタービンの手付金で30億ドル超の損失",
+              "startFrame": 7575,
+              "endFrame": 7692
+            },
+            {
+              "speaker": "B",
+              "text": "約2年前から、13ギガワット超のガスタービンに手付金を払っていました。必要な量より約5割多かったと報じられていますわ。",
+              "section": "AIと電力：ソフトバンク、ガスタービンの手付金で30億ドル超の損失",
+              "startFrame": 7699,
+              "endFrame": 7979
+            },
+            {
+              "speaker": "A",
+              "text": "どうして多めに予約したのだ？",
+              "section": "AIと電力：ソフトバンク、ガスタービンの手付金で30億ドル超の損失",
+              "startFrame": 7987,
+              "endFrame": 8060
+            },
+            {
+              "speaker": "B",
+              "text": "タービンは2030年代初めまで納品待ちです。専門家は「すぐ欲しければ多めに予約するしかなかった」と説明していますわ。",
+              "section": "AIと電力：ソフトバンク、ガスタービンの手付金で30億ドル超の損失",
+              "startFrame": 8068,
+              "endFrame": 8349
+            },
+            {
+              "speaker": "A",
+              "text": "じゃあ、ガス発電の計画はしぼむのだ？",
+              "section": "AIと電力：ソフトバンク、ガスタービンの手付金で30億ドル超の損失",
+              "startFrame": 8356,
+              "endFrame": 8472
+            },
+            {
+              "speaker": "B",
+              "text": "大規模な撤回は起きにくい、という見方です。代わりに大型電池と小さな送電網の接続を組み合わせる方式が有力視されていますわ。",
+              "section": "AIと電力：ソフトバンク、ガスタービンの手付金で30億ドル超の損失",
+              "startFrame": 8479,
+              "endFrame": 8775
+            },
+            {
+              "speaker": "A",
+              "text": "AIに航空券を取ってもらうのは、ユナイテッド航空ではもうできないのだ。",
+              "section": "AIと社会：ユナイテッド航空がAIエージェントによる予約を禁止",
+              "startFrame": 8793,
+              "endFrame": 8972
+            },
+            {
+              "speaker": "B",
+              "text": "自社サイトだけでなく、旅行代理店や比較サイトを通した予約も対象です。理由はまずサイバー上の危険ですわ。",
+              "section": "AIと社会：ユナイテッド航空がAIエージェントによる予約を禁止",
+              "startFrame": 8980,
+              "endFrame": 9219
+            },
+            {
+              "speaker": "A",
+              "text": "AIにアカウントを渡すと、何が怖いのだ？",
+              "section": "AIと社会：ユナイテッド航空がAIエージェントによる予約を禁止",
+              "startFrame": 9226,
+              "endFrame": 9348
+            },
+            {
+              "speaker": "B",
+              "text": "会社は、情報がさらされるうえ、意図しない購入やマイルの使用が起きうると説明していますわ。",
+              "section": "AIと社会：ユナイテッド航空がAIエージェントによる予約を禁止",
+              "startFrame": 9356,
+              "endFrame": 9561
+            },
+            {
+              "speaker": "A",
+              "text": "規則の問題もあるそうなのだ。",
+              "section": "AIと社会：ユナイテッド航空がAIエージェントによる予約を禁止",
+              "startFrame": 9569,
+              "endFrame": 9642
+            },
+            {
+              "speaker": "B",
+              "text": "搭乗時には、手荷物に禁止物が無いことを本人が確かめる決まりがあります。AIが代わりに同意できない手続きですわ。",
+              "section": "AIと社会：ユナイテッド航空がAIエージェントによる予約を禁止",
+              "startFrame": 9650,
+              "endFrame": 9907
+            },
+            {
+              "speaker": "A",
+              "text": "銀行のバンク・オブ・アメリカも、AIにパスワードを渡さないよう呼びかけていたのだ。",
+              "section": "AIと社会：ユナイテッド航空がAIエージェントによる予約を禁止",
+              "startFrame": 9915,
+              "endFrame": 10144
+            },
+            {
+              "speaker": "B",
+              "text": "代わりに買い物をするAIに、企業が線を引き始めました。便利さと責任の分け方が、これからの争点ですわ。",
+              "section": "AIと社会：ユナイテッド航空がAIエージェントによる予約を禁止",
+              "startFrame": 10152,
+              "endFrame": 10396
+            },
+            {
+              "speaker": "A",
+              "text": "次は量子なのだ。AIが量子コンピュータのプログラムを作ったのだ？",
+              "section": "量子コンピュータ：AIが証明つきの量子アルゴリズムを発見",
+              "startFrame": 10414,
+              "endFrame": 10585
+            },
+            {
+              "speaker": "B",
+              "text": "Google DeepMindとGoogle Quantum AIの研究です。複数のGeminiエージェントが、共有ウィキと定期会議で知見を交換しましたわ。",
+              "section": "量子コンピュータ：AIが証明つきの量子アルゴリズムを発見",
+              "startFrame": 10593,
+              "endFrame": 10876
+            },
+            {
+              "speaker": "A",
+              "text": "AIどうしで会議をするのだ！？",
+              "section": "量子コンピュータ：AIが証明つきの量子アルゴリズムを発見",
+              "startFrame": 10883,
+              "endFrame": 10962
+            },
+            {
+              "speaker": "B",
+              "text": "はい。しかも作ったプログラムは、証明支援系のLean 4で正しさを機械的に証明しますわ。",
+              "section": "量子コンピュータ：AIが証明つきの量子アルゴリズムを発見",
+              "startFrame": 10970,
+              "endFrame": 11193
+            },
+            {
+              "speaker": "A",
+              "text": "AIの答えを、AIを信じずに数学で確かめるのだ。",
+              "section": "量子コンピュータ：AIが証明つきの量子アルゴリズムを発見",
+              "startFrame": 11200,
+              "endFrame": 11351
+            },
+            {
+              "speaker": "B",
+              "text": "物差しは、誤り訂正つきの機械で必要な時間と空間のコストです。ある状態準備では290倍以上減りましたわ。",
+              "section": "量子コンピュータ：AIが証明つきの量子アルゴリズムを発見",
+              "startFrame": 11359,
+              "endFrame": 11628
+            },
+            {
+              "speaker": "A",
+              "text": "実用的な計算でも効いたのだ？",
+              "section": "量子コンピュータ：AIが証明つきの量子アルゴリズムを発見",
+              "startFrame": 11635,
+              "endFrame": 11724
+            },
+            {
+              "speaker": "B",
+              "text": "核融合プラズマの計算で10.9倍、光化学の分子で8.08倍、酵素の反応中間体で2.49倍の削減でしたわ。",
+              "section": "量子コンピュータ：AIが証明つきの量子アルゴリズムを発見",
+              "startFrame": 11731,
+              "endFrame": 12029
+            },
+            {
+              "speaker": "A",
+              "text": "機械のほうも、IBMが新しい数字を出したのだ。",
+              "section": "量子コンピュータ：AIが証明つきの量子アルゴリズムを発見",
+              "startFrame": 12036,
+              "endFrame": 12169
+            },
+            {
+              "speaker": "B",
+              "text": "2027年提供の新型Nighthawkは520量子ビットで、2枚つなぐと1,040量子ビットです。回路を安く書く技術の価値が増しますわ。",
+              "section": "量子コンピュータ：AIが証明つきの量子アルゴリズムを発見",
+              "startFrame": 12176,
+              "endFrame": 12494
+            },
+            {
+              "speaker": "A",
+              "text": "ここからはセキュリティなのだ。N-centralの欠陥が、もう悪用されたのだ？",
+              "section": "セキュリティ：N-centralのゼロデイ、PoC公開当日に悪用",
+              "startFrame": 12512,
+              "endFrame": 12697
+            },
+            {
+              "speaker": "B",
+              "text": "IT管理の代行業者が、顧客の端末を遠隔で管理する製品です。研究者が11月12日に攻撃手順を公開し、同じ日のうちに攻撃が始まりましたわ。",
+              "section": "セキュリティ：N-centralのゼロデイ、PoC公開当日に悪用",
+              "startFrame": 12705,
+              "endFrame": 13075
+            },
+            {
+              "speaker": "A",
+              "text": "攻撃者は何をしたのだ？",
+              "section": "セキュリティ：N-centralのゼロデイ、PoC公開当日に悪用",
+              "startFrame": 13083,
+              "endFrame": 13151
+            },
+            {
+              "speaker": "B",
+              "text": "部品のApache Axisの欠陥で入り込み、別の欠陥で最上位の権限を取りました。そして暗号資産の採掘プログラムを配りましたわ。",
+              "section": "セキュリティ：N-centralのゼロデイ、PoC公開当日に悪用",
+              "startFrame": 13158,
+              "endFrame": 13447
+            },
+            {
+              "speaker": "A",
+              "text": "修正版を入れていれば安心なのだ？",
+              "section": "セキュリティ：N-centralのゼロデイ、PoC公開当日に悪用",
+              "startFrame": 13454,
+              "endFrame": 13547
+            },
+            {
+              "speaker": "B",
+              "text": "それが違います。侵害が確認された21台のうち19台は、11月10日の修正版を適用済みでしたわ。",
+              "section": "セキュリティ：N-centralのゼロデイ、PoC公開当日に悪用",
+              "startFrame": 13554,
+              "endFrame": 13811
+            },
+            {
+              "speaker": "A",
+              "text": "直しても防げないなんて怖いのだ！",
+              "section": "セキュリティ：N-centralのゼロデイ、PoC公開当日に悪用",
+              "startFrame": 13818,
+              "endFrame": 13901
+            },
+            {
+              "speaker": "B",
+              "text": "開発元は、外部連携用の2つのAPIを無効にするよう求めています。機能そのものを停止するしかない段階ですわ。",
+              "section": "セキュリティ：N-centralのゼロデイ、PoC公開当日に悪用",
+              "startFrame": 13909,
+              "endFrame": 14171
+            },
+            {
+              "speaker": "A",
+              "text": "Windowsにも、修正のない欠陥が見つかったのだ。",
+              "section": "セキュリティ：Windows「SignDrop」ゼロデイ、パッチなし",
+              "startFrame": 14189,
+              "endFrame": 14314
+            },
+            {
+              "speaker": "B",
+              "text": "研究者のナセリ氏が攻撃手順を公開しました。ログを扱う仕組みの安全策を逆手に取り、最上位の権限を奪いますわ。",
+              "section": "セキュリティ：Windows「SignDrop」ゼロデイ、パッチなし",
+              "startFrame": 14321,
+              "endFrame": 14592
+            },
+            {
+              "speaker": "A",
+              "text": "どれくらいのパソコンが関係するのだ？",
+              "section": "セキュリティ：Windows「SignDrop」ゼロデイ、パッチなし",
+              "startFrame": 14599,
+              "endFrame": 14692
+            },
+            {
+              "speaker": "B",
+              "text": "本人の推定では、Windows環境の約8割です。しかもウイルス対策ソフトを無効にできると言っていますわ。",
+              "section": "セキュリティ：Windows「SignDrop」ゼロデイ、パッチなし",
+              "startFrame": 14699,
+              "endFrame": 14936
+            },
+            {
+              "speaker": "A",
+              "text": "Microsoftは、どう対応しているのだ？",
+              "section": "セキュリティ：Windows「SignDrop」ゼロデイ、パッチなし",
+              "startFrame": 14944,
+              "endFrame": 15048
+            },
+            {
+              "speaker": "B",
+              "text": "識別番号もパッチもまだ無く、会社は法的措置を警告しました。いまは侵入の入り口を防ぐため、不審な添付やダウンロードを開かないことですわ。",
+              "section": "セキュリティ：Windows「SignDrop」ゼロデイ、パッチなし",
+              "startFrame": 15055,
+              "endFrame": 15376
+            },
+            {
+              "speaker": "A",
+              "text": "最後に、この1週間のインシデントをまとめて見るのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 15394,
+              "endFrame": 15526
+            },
+            {
+              "speaker": "B",
+              "text": "チェコのApifyが侵入を受け、APIの鍵を交換しました。約8万社が使う基盤で、利用者に2段階認証の再設定を求めていますわ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 15533,
+              "endFrame": 15863
+            },
+            {
+              "speaker": "A",
+              "text": "11月12日にはMicrosoft 365が世界で大規模に停止したのだ。メールもTeamsもAIも使えなくなったのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 15870,
+              "endFrame": 16192
+            },
+            {
+              "speaker": "B",
+              "text": "原因は多数のサーバーが予期せず使えなくなったことで、攻撃ではなく障害と説明されていますわ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 16199,
+              "endFrame": 16406
+            },
+            {
+              "speaker": "A",
+              "text": "欧州刑事警察機構などの9カ国は、情報を盗むマルウェアの基盤を押収したのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 16414,
+              "endFrame": 16627
+            },
+            {
+              "speaker": "B",
+              "text": "ドメイン257件とサーバー235台です。600万件を超える盗まれた認証情報が見つかりましたわ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 16634,
+              "endFrame": 16885
+            },
+            {
+              "speaker": "A",
+              "text": "Apacheのウェブサーバーには、遠隔で乗っ取れる重大な欠陥が見つかったのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 16893,
+              "endFrame": 17077
+            },
+            {
+              "speaker": "B",
+              "text": "AnthropicとGoogleの調査チームが発見し、修正版が出ています。悪用はまだ確認されていませんわ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 17085,
+              "endFrame": 17312
+            },
+            {
+              "speaker": "A",
+              "text": "遠隔操作ツールのScreenConnectも悪用され、47の組織に被害が広がったのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 17320,
+              "endFrame": 17535
+            },
+            {
+              "speaker": "B",
+              "text": "米国の会計事務所ベーカー・ティリーは、委託先から顧客データが流出し、テキサス州だけで約1万人が対象ですわ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 17543,
+              "endFrame": 17814
+            },
+            {
+              "speaker": "A",
+              "text": "聞いている人ができる対策はあるのだ？",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 17821,
+              "endFrame": 17915
+            },
+            {
+              "speaker": "B",
+              "text": "心当たりのある人はパスワードと2段階認証を再設定し、サーバー管理者はApacheをすぐ更新してください。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 17923,
+              "endFrame": 18160
+            },
+            {
+              "speaker": "A",
+              "text": "今日はフアン氏の辞任、チップの追跡、Gemini 4 Hydrogen、ソフトバンクの損失、ユナイテッド航空のAI予約禁止だったのだ。",
+              "section": "まとめ",
+              "startFrame": 18178,
+              "endFrame": 18561
+            },
+            {
+              "speaker": "B",
+              "text": "それに、AIが証明つきで作る量子アルゴリズム、2つのゼロデイ、インシデント一覧でしたわ。",
+              "section": "まとめ",
+              "startFrame": 18568,
+              "endFrame": 18789
+            },
+            {
+              "speaker": "A",
+              "text": "今日も聞いてくださり、ありがとうございましたなのだ！また明日なのだ！",
+              "section": "まとめ",
+              "startFrame": 18796,
+              "endFrame": 18958
+            },
+            {
+              "speaker": "B",
+              "text": "ご視聴ありがとうございました。また次回お会いしましょう。",
+              "section": "まとめ",
+              "startFrame": 18966,
+              "endFrame": 19079
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
     "date": "2026-11-12",
     "segments": [
       {
@@ -118577,1556 +119209,6 @@
               "section": "まとめ",
               "startFrame": 20518,
               "endFrame": 20671
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "date": "2026-09-14",
-    "segments": [
-      {
-        "mode": "ai",
-        "label": "生成AIニュース",
-        "iaId": "news-pickup-2026-09-14-ai",
-        "title": "AI監査法と256量子ビット量産、Microsoft974件修正 2026/09/14",
-        "audioUrl": "https://archive.org/download/news-pickup-2026-09-14-ai/ai_yukkuri.m4a",
-        "markdown": "<h1>生成AI・量子・セキュリティニュース（2026年9月14日）</h1>\n<p><strong>キーワード:</strong> AI安全規制 / カリフォルニア州法 / Superion 256 / 量産型量子計算機 / Patch Tuesday / CVE-2026-85880</p>\n<h2>オープニング：2026年9月14日 — 生成AI・量子・セキュリティニュース</h2>\n<ul>\n<li>2026年9月14日、生成AI、量子コンピュータ、セキュリティの最新動向をまとめる。</li>\n<li>AIでは、米国で安全規制が選挙争点になり、カリフォルニア州が独立評価と監査人の制度を先に法制化した。</li>\n<li>量子ではIonQが256量子ビット機を「一台ずつ作る装置」から「数百台作る製品」へ変える構想を発表。セキュリティではMicrosoftが過去最大規模の974件を修正した。</li>\n</ul>\n<h2>生成AIと政治：オバマ氏が民主党に具体策を要求</h2>\n<ul>\n<li>APは9月13日、バラク・オバマ元大統領が民主党にAIを中心的な政策課題とし、安全、子ども、雇用への具体策を示すよう促したと報じた。</li>\n<li>同じ報道でドナルド・トランプ大統領は、開発速度を抑えれば中国へ優位を譲るとして、業界の警告に距離を置いた。争点は「規制か無規制か」より、競争力を損なわず被害へ備える制度の速度である。</li>\n<li>オバマ氏は雇用代替がどこへ集中し、政府がどう応じるかを具体的に考えるべきだとした。抽象的な破滅論ではなく、職種・地域・所得層ごとの移行支援が政策の試金石になる。</li>\n<li>前日は企業自身による能力開発のペース調整を扱った。本日は、その提案を選挙、公的規制、対中競争へ接続する政治側の応答が新しい主視点である。</li>\n</ul>\n<h2>生成AI規制：カリフォルニア州が独立評価を制度化</h2>\n<ul>\n<li>ギャビン・ニューサム知事は9月9日、SB 813とAB 1405に署名した。前者はAIシステムを州法に照らして評価する独立検証組織の枠組み、後者はAI監査人の登録と独立性・透明性・誠実性の基準を設ける。</li>\n<li>OpenAIは同日、この2法に加え、未成年向けコンパニオン・チャットボットの年齢確認、リスク評価、独立監査、保護者機能を求めるSB 1119など計4法案への支持を公表した。</li>\n<li>SB 1119は9月10日に署名された。企業の自主的な安全評価だけでなく、評価する側の利益相反と資格まで制度の対象にした点が重要である。</li>\n<li>一方、州ごとに基準が違えば開発者の負担は増える。OpenAIも連邦レベルの能力基準型規制を優先するとしつつ、連邦議会が動くまで州法を支持する立場を示した。</li>\n</ul>\n<h2>量子コンピュータ：IonQがSuperion 256を量産設計へ</h2>\n<ul>\n<li>IonQは9月8日、第6世代のトラップドイオン型量子計算基盤「Superion 256」を発表した。子会社SkyWaterで256量子ビットの統合チップを初めて製造し、試作機でイオンを捕捉した段階である。</li>\n<li>受注は開始済みで、顧客への納入目標は2027年。256量子ビット機が完成して性能試験を終えたという発表ではなく、チップ製造と試作の工程が進んだという発表である。</li>\n<li>従来のレーザー中心の制御から、チップ上の電子回路でイオンを制御するEQCへ移す。標準的な半導体工程、一般的なサーバーラック、通常のデータセンター冷却へ寄せ、数百台規模での生産を狙う。</li>\n<li>前日のスイス拠点は誰が量子装置へアクセスするかが主題だった。本日の焦点は、研究設備を反復製造できる工業製品へ変えられるかである。量子ビット数だけでなく、ゲート忠実度、稼働率、納期、同一品質での製造が成否を決める。</li>\n</ul>\n<h2>セキュリティ：Microsoftが974件を一括修正</h2>\n<ul>\n<li>Microsoftは9月8日、Windows 11、Windows Server、Officeなどの月例セキュリティ更新を公開した。Krebs on SecurityはMicrosoft製品の修正が974件に達し、同社史上最大の単月バッチだと報じた。</li>\n<li>実際の悪用が確認されたCVE-2026-81963とCVE-2026-85880はいずれもCVSS 7.8。標準利用者として端末へ入った攻撃者がSYSTEM権限へ昇格できるローカル攻撃で、初期侵入後の被害拡大に使われる。</li>\n<li>CVE-2026-85880はWindowsのALPCにあるヒープ領域のバッファーオーバーフローで、Windows 10の複数版とWindows Server 2012から2022などが影響を受ける。該当する9月更新を適用すれば修正される。</li>\n<li>さらにWindows DHCP ServerのCVE-2026-69845はCVSS 9.8。認証も利用者操作もなくネットワーク越しにコードを実行できる可能性があり、DHCP役割を持つサーバーでは更新の優先度が高い。</li>\n<li>974という総数だけで一律に緊急度を決めると運用が詰まる。悪用実績、外部公開の有無、権限、資産の重要度で優先順位を付け、検証後に配備する人手がボトルネックになる。</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>AIでは、企業の警告が選挙論と州法へ移り、評価する組織の独立性まで制度化された。</li>\n<li>IonQの発表は、量子計算機の競争軸を最大量子ビット数だけでなく、製造工程、設置条件、納入能力へ広げた。</li>\n<li>Microsoftの大型更新は、AIによる発見速度が上がっても、組織の試験と配備は人と資産管理に依存するという非対称を映す。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li><a href=\"https://apnews.com/article/9df0ebb4c1b0619aa0f88057b5a1092d\">AP: Trump downplays the need to check AI development</a></li>\n<li><a href=\"https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/\">California Governor: Independent AI assessment and auditor laws</a></li>\n<li><a href=\"https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/\">California Governor: Child safety chatbot laws</a></li>\n<li><a href=\"https://openai.com/index/ai-policy-window/\">OpenAI: The AI policy window is open</a></li>\n<li><a href=\"https://www.ionq.com/news/ionq-launches-superion-product-line-industry-leading-upgradeable-platform-designed-to-scale-manufacturable-fault-tolerant-quantum-computing\">IonQ: IonQ debuts Superion 256</a></li>\n<li><a href=\"https://www.microsoft.com/en-us/msrc/blog/2026/09/202609-security-update\">Microsoft: 2026年9月のセキュリティ更新プログラム</a></li>\n<li><a href=\"https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/\">Krebs on Security: Microsoft Plugs Nearly 1,000 Security Holes</a></li>\n<li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-85880\">NVD: CVE-2026-85880</a></li>\n<li><a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-69845\">NVD: CVE-2026-69845</a></li>\n</ul>",
-        "markdownSource": "# 生成AI・量子・セキュリティニュース（2026年9月14日）\n\n**キーワード:** AI安全規制 / カリフォルニア州法 / Superion 256 / 量産型量子計算機 / Patch Tuesday / CVE-2026-85880\n\n## オープニング：2026年9月14日 — 生成AI・量子・セキュリティニュース\n\n- 2026年9月14日、生成AI、量子コンピュータ、セキュリティの最新動向をまとめる。\n- AIでは、米国で安全規制が選挙争点になり、カリフォルニア州が独立評価と監査人の制度を先に法制化した。\n- 量子ではIonQが256量子ビット機を「一台ずつ作る装置」から「数百台作る製品」へ変える構想を発表。セキュリティではMicrosoftが過去最大規模の974件を修正した。\n\n## 生成AIと政治：オバマ氏が民主党に具体策を要求\n\n- APは9月13日、バラク・オバマ元大統領が民主党にAIを中心的な政策課題とし、安全、子ども、雇用への具体策を示すよう促したと報じた。\n- 同じ報道でドナルド・トランプ大統領は、開発速度を抑えれば中国へ優位を譲るとして、業界の警告に距離を置いた。争点は「規制か無規制か」より、競争力を損なわず被害へ備える制度の速度である。\n- オバマ氏は雇用代替がどこへ集中し、政府がどう応じるかを具体的に考えるべきだとした。抽象的な破滅論ではなく、職種・地域・所得層ごとの移行支援が政策の試金石になる。\n- 前日は企業自身による能力開発のペース調整を扱った。本日は、その提案を選挙、公的規制、対中競争へ接続する政治側の応答が新しい主視点である。\n\n## 生成AI規制：カリフォルニア州が独立評価を制度化\n\n- ギャビン・ニューサム知事は9月9日、SB 813とAB 1405に署名した。前者はAIシステムを州法に照らして評価する独立検証組織の枠組み、後者はAI監査人の登録と独立性・透明性・誠実性の基準を設ける。\n- OpenAIは同日、この2法に加え、未成年向けコンパニオン・チャットボットの年齢確認、リスク評価、独立監査、保護者機能を求めるSB 1119など計4法案への支持を公表した。\n- SB 1119は9月10日に署名された。企業の自主的な安全評価だけでなく、評価する側の利益相反と資格まで制度の対象にした点が重要である。\n- 一方、州ごとに基準が違えば開発者の負担は増える。OpenAIも連邦レベルの能力基準型規制を優先するとしつつ、連邦議会が動くまで州法を支持する立場を示した。\n\n## 量子コンピュータ：IonQがSuperion 256を量産設計へ\n\n- IonQは9月8日、第6世代のトラップドイオン型量子計算基盤「Superion 256」を発表した。子会社SkyWaterで256量子ビットの統合チップを初めて製造し、試作機でイオンを捕捉した段階である。\n- 受注は開始済みで、顧客への納入目標は2027年。256量子ビット機が完成して性能試験を終えたという発表ではなく、チップ製造と試作の工程が進んだという発表である。\n- 従来のレーザー中心の制御から、チップ上の電子回路でイオンを制御するEQCへ移す。標準的な半導体工程、一般的なサーバーラック、通常のデータセンター冷却へ寄せ、数百台規模での生産を狙う。\n- 前日のスイス拠点は誰が量子装置へアクセスするかが主題だった。本日の焦点は、研究設備を反復製造できる工業製品へ変えられるかである。量子ビット数だけでなく、ゲート忠実度、稼働率、納期、同一品質での製造が成否を決める。\n\n## セキュリティ：Microsoftが974件を一括修正\n\n- Microsoftは9月8日、Windows 11、Windows Server、Officeなどの月例セキュリティ更新を公開した。Krebs on SecurityはMicrosoft製品の修正が974件に達し、同社史上最大の単月バッチだと報じた。\n- 実際の悪用が確認されたCVE-2026-81963とCVE-2026-85880はいずれもCVSS 7.8。標準利用者として端末へ入った攻撃者がSYSTEM権限へ昇格できるローカル攻撃で、初期侵入後の被害拡大に使われる。\n- CVE-2026-85880はWindowsのALPCにあるヒープ領域のバッファーオーバーフローで、Windows 10の複数版とWindows Server 2012から2022などが影響を受ける。該当する9月更新を適用すれば修正される。\n- さらにWindows DHCP ServerのCVE-2026-69845はCVSS 9.8。認証も利用者操作もなくネットワーク越しにコードを実行できる可能性があり、DHCP役割を持つサーバーでは更新の優先度が高い。\n- 974という総数だけで一律に緊急度を決めると運用が詰まる。悪用実績、外部公開の有無、権限、資産の重要度で優先順位を付け、検証後に配備する人手がボトルネックになる。\n\n## まとめ\n\n- AIでは、企業の警告が選挙論と州法へ移り、評価する組織の独立性まで制度化された。\n- IonQの発表は、量子計算機の競争軸を最大量子ビット数だけでなく、製造工程、設置条件、納入能力へ広げた。\n- Microsoftの大型更新は、AIによる発見速度が上がっても、組織の試験と配備は人と資産管理に依存するという非対称を映す。\n\n## 参考ソース\n\n- [AP: Trump downplays the need to check AI development](https://apnews.com/article/9df0ebb4c1b0619aa0f88057b5a1092d)\n- [California Governor: Independent AI assessment and auditor laws](https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/)\n- [California Governor: Child safety chatbot laws](https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/)\n- [OpenAI: The AI policy window is open](https://openai.com/index/ai-policy-window/)\n- [IonQ: IonQ debuts Superion 256](https://www.ionq.com/news/ionq-launches-superion-product-line-industry-leading-upgradeable-platform-designed-to-scale-manufacturable-fault-tolerant-quantum-computing)\n- [Microsoft: 2026年9月のセキュリティ更新プログラム](https://www.microsoft.com/en-us/msrc/blog/2026/09/202609-security-update)\n- [Krebs on Security: Microsoft Plugs Nearly 1,000 Security Holes](https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/)\n- [NVD: CVE-2026-85880](https://nvd.nist.gov/vuln/detail/CVE-2026-85880)\n- [NVD: CVE-2026-69845](https://nvd.nist.gov/vuln/detail/CVE-2026-69845)\n",
-        "timeline": {
-          "version": 1,
-          "source": "tts_voicevox",
-          "fps": 30,
-          "totalFrames": 15903,
-          "audioDurationSec": 530.101333,
-          "cues": [
-            {
-              "speaker": "A",
-              "text": "2026年9月14日、生成AI・量子・セキュリティニュースなのだ。今日は、安全策を誰が作り、技術をどう量産し、修正をどう配るかを追うのだ。",
-              "section": "オープニング：2026年9月14日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 18,
-              "endFrame": 465
-            },
-            {
-              "speaker": "B",
-              "text": "エーアイ規制を選挙の争点にする動き、数百台の製造を目指す量子計算機、過去最大規模のマイクロソフト更新を見ていきます。",
-              "section": "オープニング：2026年9月14日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 473,
-              "endFrame": 762
-            },
-            {
-              "speaker": "A",
-              "text": "分野は違っても、発明した後に社会へ届ける仕組みが問われているのだな。",
-              "section": "オープニング：2026年9月14日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 770,
-              "endFrame": 950
-            },
-            {
-              "speaker": "B",
-              "text": "ええ。性能競争の次に来る、監査、製造、配備という地味ですが決定的な工程が今日の共通項です。",
-              "section": "オープニング：2026年9月14日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 958,
-              "endFrame": 1237
-            },
-            {
-              "speaker": "B",
-              "text": "エーピー通信は9月13日、バラク・オバマ元大統領が民主党に、エーアイを中心的な政策課題にするよう促したと報じました。",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 1255,
-              "endFrame": 1563
-            },
-            {
-              "speaker": "A",
-              "text": "エーアイ安全が、技術委員会の話から選挙の話へ移ってきたのだ。",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 1571,
-              "endFrame": 1751
-            },
-            {
-              "speaker": "B",
-              "text": "オバマ氏は、安全、子どもの保護、経済への影響について明確な計画を示すべきだと述べています。",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 1759,
-              "endFrame": 1983
-            },
-            {
-              "speaker": "A",
-              "text": "経済への影響というと、仕事を奪うかどうかだけなのだ？",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 1991,
-              "endFrame": 2141
-            },
-            {
-              "speaker": "B",
-              "text": "もう一段具体的です。雇用代替がどこを直撃し、政府がどう応じるかを職種や地域に落として考えるよう求めました。",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 2149,
-              "endFrame": 2415
-            },
-            {
-              "speaker": "A",
-              "text": "同じ日に、トランプ大統領はどんな立場を示したのだ？",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 2422,
-              "endFrame": 2563
-            },
-            {
-              "speaker": "B",
-              "text": "開発を抑えれば中国に優位を譲るとして、エーアイ業界から出た減速論に距離を置きました。",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 2571,
-              "endFrame": 2773
-            },
-            {
-              "speaker": "A",
-              "text": "安全のための時間と、競争で先に進む時間が正面からぶつかっているのだな。",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 2781,
-              "endFrame": 2979
-            },
-            {
-              "speaker": "B",
-              "text": "その対立を「規制するか、しないか」だけで語ると粗くなります。事故報告や子どもの保護と、モデル開発の一律停止では負担も効果も違います。",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 2987,
-              "endFrame": 3315
-            },
-            {
-              "speaker": "A",
-              "text": "前日は企業が能力向上のペースを調整する案だったのだ。今日は政治がその提案へどう答えるか、なのだな。",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 3322,
-              "endFrame": 3603
-            },
-            {
-              "speaker": "B",
-              "text": "はい。選挙で問われるのは恐怖の強さではなく、失業支援、監督権限、競争政策を一つの実行可能な計画にできるかです。",
-              "section": "生成AIと政治：オバマ氏が民主党に具体策を要求",
-              "startFrame": 3611,
-              "endFrame": 3923
-            },
-            {
-              "speaker": "B",
-              "text": "カリフォルニア州では、ギャビン・ニューサム知事が9月9日、エスビー813とエービー1405に署名しました。",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 3941,
-              "endFrame": 4207
-            },
-            {
-              "speaker": "A",
-              "text": "二つの法律は、それぞれ何を決めるのだ？",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 4214,
-              "endFrame": 4326
-            },
-            {
-              "speaker": "B",
-              "text": "エスビー813はエーアイを州法に照らして調べる独立検証組織の枠組みを作ります。エービー1405はエーアイ監査人の登録制度と独立性の基準を設けます。",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 4334,
-              "endFrame": 4705
-            },
-            {
-              "speaker": "A",
-              "text": "モデルを試験するだけでなく、試験する人が企業から独立しているかも見るのだな。",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 4712,
-              "endFrame": 4902
-            },
-            {
-              "speaker": "B",
-              "text": "そこが核心です。高価な監査を開発会社が選んで雇うだけなら、厳しい評価を避ける誘因が生まれます。",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 4909,
-              "endFrame": 5140
-            },
-            {
-              "speaker": "A",
-              "text": "オープンエーアイは州の規制に反対しなかったのだ？",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 5147,
-              "endFrame": 5268
-            },
-            {
-              "speaker": "B",
-              "text": "同社はこの二法を含む四法案への支持を表明しました。過去に支持しなかった案も、能力の急上昇を受けて再考したと説明しています。",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 5276,
-              "endFrame": 5572
-            },
-            {
-              "speaker": "A",
-              "text": "残る二つは、生活にどう関係するのだ？",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 5579,
-              "endFrame": 5697
-            },
-            {
-              "speaker": "B",
-              "text": "エスビー1119は未成年向け会話ボットに年齢確認、リスク評価、独立監査、保護者機能を求めます。もう一つはエーアイを使う生物学的脅威への物理的な防護です。",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 5705,
-              "endFrame": 6107
-            },
-            {
-              "speaker": "A",
-              "text": "子ども向けの法律は、もう成立したのだ？",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 6114,
-              "endFrame": 6225
-            },
-            {
-              "speaker": "B",
-              "text": "ニューサム知事が9月10日に署名しました。企業の自主機能ではなく、事業者全体へ共通の最低線を引く動きです。",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 6233,
-              "endFrame": 6486
-            },
-            {
-              "speaker": "A",
-              "text": "州ごとに違う規則が増えると、小さな開発会社には重そうなのだ。",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 6494,
-              "endFrame": 6670
-            },
-            {
-              "speaker": "B",
-              "text": "オープンエーアイも本命は連邦の能力基準型規制だとしています。ただ、連邦議会の停滞中に州が先行することで、実務に耐える監査制度を試す構図です。",
-              "section": "生成AI規制：カリフォルニア州が独立評価を制度化",
-              "startFrame": 6678,
-              "endFrame": 7036
-            },
-            {
-              "speaker": "B",
-              "text": "量子では、アイオンキューが9月8日、第6世代のスーペリオン256を発表しました。",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 7054,
-              "endFrame": 7257
-            },
-            {
-              "speaker": "A",
-              "text": "名前の256は、量子ビットの数なのだ？",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 7264,
-              "endFrame": 7393
-            },
-            {
-              "speaker": "B",
-              "text": "はい。子会社スカイウォーターで256量子ビットの統合チップを初めて製造し、試作機ではイオンの捕捉まで進みました。",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 7401,
-              "endFrame": 7673
-            },
-            {
-              "speaker": "A",
-              "text": "それなら、256量子ビットの完成機がもう動いているのだ？",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 7681,
-              "endFrame": 7850
-            },
-            {
-              "speaker": "B",
-              "text": "そこは違います。発表はチップ製造と試作工程の進展で、完成機の性能試験を終えたという内容ではありません。",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 7857,
-              "endFrame": 8117
-            },
-            {
-              "speaker": "A",
-              "text": "受注開始と完成を混ぜると、技術の現在地を一段先に見てしまうのだな。",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 8125,
-              "endFrame": 8316
-            },
-            {
-              "speaker": "B",
-              "text": "顧客への納入目標は2027年です。現在の価値は、研究装置を反復製造できる設計へ移そうとしている点にあります。",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 8323,
-              "endFrame": 8615
-            },
-            {
-              "speaker": "A",
-              "text": "どうやって、一台ずつの特注品から数百台の製品へ変えるのだ？",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 8622,
-              "endFrame": 8801
-            },
-            {
-              "speaker": "B",
-              "text": "レーザー中心の制御を、チップ上の電子回路でイオンを操るイーキューシーへ置き換えます。標準的な半導体工程を使える設計です。",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 8808,
-              "endFrame": 9100
-            },
-            {
-              "speaker": "A",
-              "text": "設置にも、巨大な専用施設が要らなくなるのだ？",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 9107,
-              "endFrame": 9234
-            },
-            {
-              "speaker": "B",
-              "text": "同社は一般的なサーバーラックに収め、通常のデータセンター冷却へ統合できると説明しています。消費電力はジーピーユーラック一台より少ないという主張です。",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 9242,
-              "endFrame": 9582
-            },
-            {
-              "speaker": "A",
-              "text": "前日のスイスは、誰が専用機を使えるかという話だったのだ。今日は同じ機械を何台も作れるかが主役なのだな。",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 9590,
-              "endFrame": 9874
-            },
-            {
-              "speaker": "B",
-              "text": "その通りです。評価軸も量子ビット数だけでは足りません。同じ品質で作れる割合、稼働率、ゲート忠実度、納期が商用品としての実力になります。",
-              "section": "量子コンピュータ：IonQがSuperion 256を量産設計へ",
-              "startFrame": 9882,
-              "endFrame": 10238
-            },
-            {
-              "speaker": "B",
-              "text": "セキュリティでは、マイクロソフトが9月8日に月例更新を公開しました。クレブス・オン・セキュリティの集計では、修正は974件です。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 10256,
-              "endFrame": 10601
-            },
-            {
-              "speaker": "A",
-              "text": "一か月で974件。数字が大きすぎて、全部を同じ緊急度では扱えないのだ。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 10609,
-              "endFrame": 10851
-            },
-            {
-              "speaker": "B",
-              "text": "まず優先したいのは、すでに悪用が確認された二件です。シーブイイー2026の81963と85880で、深刻度はどちらも7.8です。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 10859,
-              "endFrame": 11244
-            },
-            {
-              "speaker": "A",
-              "text": "どういう条件で攻撃されるのだ？",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 11252,
-              "endFrame": 11338
-            },
-            {
-              "speaker": "B",
-              "text": "攻撃者が標準利用者として端末へ入った後、最高権限のシステムへ昇格するローカル攻撃です。最初の侵入手段ではなく、侵入後の被害拡大に使われます。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 11345,
-              "endFrame": 11717
-            },
-            {
-              "speaker": "A",
-              "text": "85880は、どこにある弱点なのだ？",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 11724,
-              "endFrame": 11868
-            },
-            {
-              "speaker": "B",
-              "text": "ウィンドウズのエーエルピーシーというプロセス間通信部分です。ヒープ領域の境界を越えてデータを書き込める欠陥で、複数のウィンドウズ10とサーバーが影響を受けます。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 11876,
-              "endFrame": 12221
-            },
-            {
-              "speaker": "A",
-              "text": "パッチはあるのだ？",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 12229,
-              "endFrame": 12277
-            },
-            {
-              "speaker": "B",
-              "text": "はい。対象製品の9月更新に修正が含まれます。端末管理者は更新を配るだけでなく、再起動と適用結果まで確認します。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 12285,
-              "endFrame": 12598
-            },
-            {
-              "speaker": "A",
-              "text": "もっと点数が高い脆弱性も含まれるのだ？",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 12606,
-              "endFrame": 12720
-            },
-            {
-              "speaker": "B",
-              "text": "ウィンドウズのディーエイチシーピー・サーバーにある69845は9.8です。認証も利用者操作もなく、ネットワーク越しにコードを実行される可能性があります。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 12728,
-              "endFrame": 13104
-            },
-            {
-              "speaker": "A",
-              "text": "会社のパソコン全部より、まず外から届く重要サーバーを急ぐ判断もありそうなのだ。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 13112,
-              "endFrame": 13322
-            },
-            {
-              "speaker": "B",
-              "text": "ええ。悪用実績、外部公開、必要権限、資産価値で順序を付けます。974という総数は、試験と配備を担う人員まで含めた運用能力を問う数字です。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 13330,
-              "endFrame": 13754
-            },
-            {
-              "speaker": "A",
-              "text": "エーアイが弱点を速く見つけても、現場が974件を安全に配る速度は自動では上がらないのだな。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 13761,
-              "endFrame": 14025
-            },
-            {
-              "speaker": "B",
-              "text": "そこが今回の逆説です。発見の自動化が進むほど、資産台帳、検証環境、再起動計画という人間側の基礎が効きます。",
-              "section": "セキュリティ：Microsoftが974件を一括修正",
-              "startFrame": 14032,
-              "endFrame": 14337
-            },
-            {
-              "speaker": "A",
-              "text": "エーアイの監査、量子計算機の量産、974件の修正。今日は技術を社会へ届ける裏側が見えたのだ。",
-              "section": "まとめ",
-              "startFrame": 14355,
-              "endFrame": 14662
-            },
-            {
-              "speaker": "B",
-              "text": "カリフォルニア州は評価者の独立性を法律にし、アイオンキューは製造工程を製品の中心に置きました。",
-              "section": "まとめ",
-              "startFrame": 14669,
-              "endFrame": 14897
-            },
-            {
-              "speaker": "A",
-              "text": "マイクロソフトの更新は、発見が速くなるほど配備の交通整理が大事になると示したのだ。",
-              "section": "まとめ",
-              "startFrame": 14904,
-              "endFrame": 15130
-            },
-            {
-              "speaker": "B",
-              "text": "今日の結論は、優れた技術だけでは普及しないことです。監査できる人、再現できる工場、優先順位を付ける運用が価値を完成させます。",
-              "section": "まとめ",
-              "startFrame": 15137,
-              "endFrame": 15459
-            },
-            {
-              "speaker": "A",
-              "text": "最後まで聞いてくれてありがとうなのだ。また次回、数字の向こうの仕組みを一緒に見ていくのだ。",
-              "section": "まとめ",
-              "startFrame": 15467,
-              "endFrame": 15687
-            },
-            {
-              "speaker": "B",
-              "text": "ご視聴ありがとうございました。次回の生成AI・量子・セキュリティニュースでお会いしましょう。",
-              "section": "まとめ",
-              "startFrame": 15695,
-              "endFrame": 15903
-            }
-          ]
-        }
-      },
-      {
-        "mode": "arxiv_ai",
-        "label": "arxiv Frontier AI・最先端AI論文解説",
-        "iaId": "news-pickup-2026-09-14-arxiv-ai",
-        "title": "解除評価の揺れ、Lean数学証明、AI調査の限界｜arXiv論文5選 2026/09/14",
-        "audioUrl": "https://archive.org/download/news-pickup-2026-09-14-arxiv-ai/arxiv_ai_yukkuri.m4a",
-        "markdown": "<h1>arXiv Frontier AI論文解説（2026年9月14日）</h1>\n<p><strong>キーワード:</strong> 機械学習解除 / 形式検証 / 長期深掘り調査 / 不確実性推定 / エージェント基盤</p>\n<p>本日は、公開済み解除モデル263件の監査、自然言語の数学推論とLean証明の閉ループ化、依存鎖を持つ深掘り調査ベンチマーク、単一生成からの不確実性推定、多数サンドボックスのメモリ圧縮を扱う。いずれもモデル規模ではなく、評価手順、検証器、内部活性、実行基盤に残る誤差や費用を明示的に扱う研究である。</p>\n<h2>オープニング：2026年9月14日 — arXiv Frontier AI論文解説</h2>\n<p>五つの研究を、課題設定、評価条件、核心数値、一般化の境界という共通の順序で比較する。</p>\n<h2>論文1: 公開済み解除モデル263件で判定値の揺れを監査</h2>\n<p><strong>出典:</strong> Published Unlearning Numbers Move Per Checkpoint, and Not Because the Removed Data Survives: An Audit of 263 Released Batch-Normalized Checkpoints. <a href=\"https://arxiv.org/abs/2609.11490\">arXiv:2609.11490</a> (2026).</p>\n<p>機械学習解除の評価値が、解除アルゴリズム以外の保存状態にどれだけ依存するかを公開チェックポイント単位で調べた点を採用理由とした。解除済みモデルと再学習参照モデルには、勾配更新が直接書き込まないバッチ正規化統計も同梱されるが、その再計算規約は通常記録されない。著者らは重みをビット単位で固定したまま保持データで統計を再適合し、221件中47件で、同じリリースの乱数シード間変動幅を超えて公表値が動くことを示した。平均では動かない手法の内部にも動く個別チェックポイントがあり、手法平均だけでは測定チャネルを隠す。</p>\n<p>削除データが状態に残存したためかを切り分けるため、固定した適合集合の内部で保持レコードを削除レコードへ交換したところ、公表セルの変化はほぼなかった。一方、配布時の統計が再適合可能な状態からどれだけずれているかは変動を追跡した。判定への影響は限定的だが実在し、12件の判定が境界を越え、4件は測定した再較正予算を超え、2件は全反復で超えた。ただし著者らが自ら訓練し判定基準近傍へ配置した母集団では越境はゼロだった。したがって結論は解除一般の破綻ではなく、バッチ正規化を持つ視覚モデルでは、数値とともに統計の適合規約を公開しなければチェックポイント単位の判定を再現できない、という狭く具体的な監査結果である。</p>\n<p>この設計では重みを固定しているため、解除アルゴリズムの再訓練差と、評価直前の状態調整を混同しない。報告単位を手法平均だけにせず、個別チェックポイントと反復へ下げたことで、測定規約が意思決定へ入る位置を特定している。</p>\n<h2>論文2: 自然言語の数学解答をLean証明まで閉ループ化</h2>\n<p><strong>出典:</strong> Magenta: Closing the Loop Between Mathematical Reasoning and Lean Verification. <a href=\"https://arxiv.org/abs/2609.11319\">arXiv:2609.11319</a> (2026).</p>\n<p>自然言語で正しいらしい解答を得るだけでなく、問題文の意味を保つ形式化と機械検証済み証明まで一つの推論ループに入れた点が新しい。Magentaは追加学習を使わず、自然言語問題から解答を作り、それをLean 4の命題へ変換し、証明を構成する。ここで証明器が通るだけでは十分でない。誤って弱い命題へ形式化すれば偽の証明書を作れるため、statement judgeが元問題と形式命題の意味保存を判定する。失敗時にはerror-attribution judgeが、数学的導出そのものの再実行と、局所的なLeanコード修復へ経路を分ける。</p>\n<p>評価ではAIME 2025、AIME 2026、HMMT February 2026を含む全オリンピック系ベンチマークで100パーセントを報告し、オープンウェイトのK2-Horizon-7Bと組み合わせてIMO 2026の6問すべてを解いた。分析ではstatement adjudicationが偽の証明書を防ぐために不可欠で、フィードバック誘導修正が難問で独立再サンプリングを上回った。比較の核心は、単なる多数決や試行回数ではなく、失敗原因を数学と形式言語へ分解したことにある。ただし要旨は計算予算、試行数、各問題の証明長を示しておらず、100パーセントという結果を同一予算の単発モデル精度として解釈できない。自然言語から命題への意味保存を別判定器へ依存する構造も残り、再現にはプロンプト、探索上限、Lean環境を含む実行条件が必要である。</p>\n<p>訓練不要という主張は基盤モデルを更新しないという意味であり、推論時の探索が無料という意味ではない。最終証明の検証可能性と、そこへ到達する計算効率は別指標であるため、後者の比較には同一モデルと同一予算での成功率が要る。</p>\n<h2>論文3: 平均12.1個の中間結論を要求する深掘り調査評価</h2>\n<p><strong>出典:</strong> Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents. <a href=\"https://arxiv.org/abs/2609.11318\">arXiv:2609.11318</a> (2026).</p>\n<p>検索件数ではなく、依存関係を壊さずに長い証拠鎖を維持できるかを測る設計が、既存の中程度ホライズン評価との差分である。Mr.LHDRの各問いは非公開のノード関係グラフから構成され、短く一意で検証可能な最終解へ至るまで、平均12.1個の必須中間結論と平均依存深さ10.4を要求する。8カテゴリを含み、画像、地図、PDF、ロゴ、チャート、表、動画フレームの少なくとも一つが推論状態を変えるように設計される。最終答だけでなく、注釈済み依存関係に沿った中間結論も採点するため、偶然正答と証拠鎖の完成を分離できる。</p>\n<p>一般モデル、深掘り調査システム、エージェント枠組みを、Overall Accuracy、Strict Accuracy、Checklist Score、Dependency-Aware Checklist Scoreで比較した。最強システムでもOverall Accuracyは43.1パーセント、Strict Accuracyは34.3パーセントで、最終答中心の値が調査工程の完全性を過大評価する。画像を除くと依存関係を考慮したスコアが12.6ポイント下がり、推論鎖が長くなるほどStrict Accuracyは一貫して低下した。隠しグラフは精密な診断を可能にする反面、現実の調査課題の分布をどこまで代表するか、検索環境やページ更新に対して評価をどう固定するかが再現上の境界になる。ここで測られたボトルネックは単発の検索失敗ではなく、長距離の依存整合性である。</p>\n<p>四つの指標を併置することで、正答へ到達したが根拠鎖を欠く系と、途中まで正しい証拠を集めたが結論に失敗した系を区別できる。この区別は、検索器、視覚認識器、証拠統合器のどこへ改善を配分するかを決める診断情報になる。</p>\n<h2>論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮</h2>\n<p><strong>出典:</strong> ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps. <a href=\"https://arxiv.org/abs/2609.11498\">arXiv:2609.11498</a> (2026).</p>\n<p>複数回答のサンプリングをせず、特定の一回答を信頼するかを単一生成から推定するため、内部計算の軌跡を固定形状へ保存する。既存法は複数生成を要求するか、出力トークン確率だけを見るか、内部状態を一つの隠れベクトルへ潰す。ActMapは全層・全生成トークンの隠れ状態を時間統計チャネルへ圧縮し、モデルの深さや隠れ次元に依存しない12掛ける32掛ける128のテンソルを作る。生成時に計測可能な追加時間なしで取得でき、容量は96キロバイトである。オクルージョン分析では分類器の信号がマップの中間深度領域へ局在した。</p>\n<p>軽量な視覚トランスフォーマーが各マップから正答確率を1ミリ秒未満で読み、容量を合わせた多層パーセプトロンも同程度だったため、性能源は特定分類器より表現自体にあると解釈される。短答式質問応答、直接回答型数学、要約の事実性を、3つの70億から80億パラメータ級指示調整モデルでドメイン内学習・評価した。サンプリング、トークン確率、アテンション、埋め込みの各ベースラインを一貫して上回り、67倍大きい密な活性テンソルで学ぶACT-ViTと平均AUROCがほぼ同じで、12組中10組では較正誤差が低かった。限界はホワイトボックスアクセスとドメイン内評価であり、未知モデル、分布外課題、長文生成で同じ較正を保つことは示されていない。それでも棄却、モデル振り分け、選択的検証へ渡せる監査単位を単一生成から作る点は実装上明確である。</p>\n<p>固定形状なので異なる深さのモデル間で下流分類器の設計を共有できる一方、表現の座標がモデル間で対応することまでは保証しない。96キロバイトという保存費用と、モデルごとの較正データ取得費用を分けて評価する必要がある。</p>\n<h2>論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮</h2>\n<p><strong>出典:</strong> Memory Compression for High-Fanout Agent Sandboxes. <a href=\"https://arxiv.org/abs/2609.11294\">arXiv:2609.11294</a> (2026).</p>\n<p>一つの課題から多数の隔離サンドボックスを並行起動する高ファンアウト型エージェントでは、モデル推論だけでなく環境複製のメモリが律速になる。これらの環境は共通テンプレートから始まり、関連した軌跡を実行するため、完全に独立ではなくテンプレート相対およびサンドボックス間の冗長性を持つ。従来圧縮は、非同一ページ間の類似を利用しにくく、ページフォールトを避けるため対象を保守的に選び、メモリ圧迫時または実行位相と無関係な時刻に圧縮する。AgentZipは、この三点をエージェント実行に合わせて再設計した最初の専用システムとして提示される。</p>\n<p>手法はテンプレートとの差分とサンドボックス横断の類似を圧縮に使い、利益のある表現を持つ任意ページまで対象を広げる。前景のツール実行を妨げないよう、高価な圧縮を言語モデル応答待ち時間へ合わせ、復元時プリフェッチでページフォールト費用を制御する。言語モデルの訓練・推論ワークロードでサンドボックス所有メモリを最大8.7分の1へ削減し、比較したLinux設定は2.1分の1だった。積極圧縮の減速は最大3.1倍だったが、プリフェッチと実行位相対応スケジューリングにより1.40倍へ抑え、メモリ利得のほぼ全てを保った。最大値はワークロードと共有度に依存し、異質な環境や待ち時間の短いツール中心処理では冗長性と隠蔽余地が減る。モデル品質を変えず同時実行数を増やすシステム研究として、エージェント評価時には推論トークンだけでなく環境メモリも端から端の費用へ含める必要を示す。</p>\n<p>圧縮率だけを最大化すると復元遅延でスループットを失うため、この研究の比較対象は容量と減速の組である。待ち時間へ処理を重ねる設計は、モデル応答時間が変われば最適点も変わるので、配備環境ごとの位相計測が前提になる。</p>\n<h2>まとめ</h2>\n<p>五本は、公開数値の裏にあるバッチ正規化状態、数学解答と形式証明の意味対応、長い調査鎖の依存整合性、生成中の内部活性、並行環境の共有メモリを、それぞれ観測・検証可能な対象へ変えた。強い数値も、解除モデルの特定構造、オリンピック問題と探索条件、構成済み調査グラフ、ドメイン内の70億から80億級モデル、共有度の高いサンドボックスという条件に結び付く。共通する研究課題は、最終出力だけでは見えない状態を計測し、性能と再現性の境界を工程単位で特定することである。</p>\n<h2>参考ソース</h2>\n<ul>\n<li>論文1: Published Unlearning Numbers Move Per Checkpoint, and Not Because the Removed Data Survives: An Audit of 263 Released Batch-Normalized Checkpoints. <a href=\"https://arxiv.org/abs/2609.11490\">arXiv:2609.11490</a></li>\n<li>論文2: Magenta: Closing the Loop Between Mathematical Reasoning and Lean Verification. <a href=\"https://arxiv.org/abs/2609.11319\">arXiv:2609.11319</a></li>\n<li>論文3: Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents. <a href=\"https://arxiv.org/abs/2609.11318\">arXiv:2609.11318</a></li>\n<li>論文4: ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps. <a href=\"https://arxiv.org/abs/2609.11498\">arXiv:2609.11498</a></li>\n<li>論文5: Memory Compression for High-Fanout Agent Sandboxes. <a href=\"https://arxiv.org/abs/2609.11294\">arXiv:2609.11294</a></li>\n</ul>",
-        "markdownSource": "# arXiv Frontier AI論文解説（2026年9月14日）\n\n**キーワード:** 機械学習解除 / 形式検証 / 長期深掘り調査 / 不確実性推定 / エージェント基盤\n\n本日は、公開済み解除モデル263件の監査、自然言語の数学推論とLean証明の閉ループ化、依存鎖を持つ深掘り調査ベンチマーク、単一生成からの不確実性推定、多数サンドボックスのメモリ圧縮を扱う。いずれもモデル規模ではなく、評価手順、検証器、内部活性、実行基盤に残る誤差や費用を明示的に扱う研究である。\n\n## オープニング：2026年9月14日 — arXiv Frontier AI論文解説\n\n五つの研究を、課題設定、評価条件、核心数値、一般化の境界という共通の順序で比較する。\n\n## 論文1: 公開済み解除モデル263件で判定値の揺れを監査\n\n**出典:** Published Unlearning Numbers Move Per Checkpoint, and Not Because the Removed Data Survives: An Audit of 263 Released Batch-Normalized Checkpoints. [arXiv:2609.11490](https://arxiv.org/abs/2609.11490) (2026).\n\n機械学習解除の評価値が、解除アルゴリズム以外の保存状態にどれだけ依存するかを公開チェックポイント単位で調べた点を採用理由とした。解除済みモデルと再学習参照モデルには、勾配更新が直接書き込まないバッチ正規化統計も同梱されるが、その再計算規約は通常記録されない。著者らは重みをビット単位で固定したまま保持データで統計を再適合し、221件中47件で、同じリリースの乱数シード間変動幅を超えて公表値が動くことを示した。平均では動かない手法の内部にも動く個別チェックポイントがあり、手法平均だけでは測定チャネルを隠す。\n\n削除データが状態に残存したためかを切り分けるため、固定した適合集合の内部で保持レコードを削除レコードへ交換したところ、公表セルの変化はほぼなかった。一方、配布時の統計が再適合可能な状態からどれだけずれているかは変動を追跡した。判定への影響は限定的だが実在し、12件の判定が境界を越え、4件は測定した再較正予算を超え、2件は全反復で超えた。ただし著者らが自ら訓練し判定基準近傍へ配置した母集団では越境はゼロだった。したがって結論は解除一般の破綻ではなく、バッチ正規化を持つ視覚モデルでは、数値とともに統計の適合規約を公開しなければチェックポイント単位の判定を再現できない、という狭く具体的な監査結果である。\n\nこの設計では重みを固定しているため、解除アルゴリズムの再訓練差と、評価直前の状態調整を混同しない。報告単位を手法平均だけにせず、個別チェックポイントと反復へ下げたことで、測定規約が意思決定へ入る位置を特定している。\n\n## 論文2: 自然言語の数学解答をLean証明まで閉ループ化\n\n**出典:** Magenta: Closing the Loop Between Mathematical Reasoning and Lean Verification. [arXiv:2609.11319](https://arxiv.org/abs/2609.11319) (2026).\n\n自然言語で正しいらしい解答を得るだけでなく、問題文の意味を保つ形式化と機械検証済み証明まで一つの推論ループに入れた点が新しい。Magentaは追加学習を使わず、自然言語問題から解答を作り、それをLean 4の命題へ変換し、証明を構成する。ここで証明器が通るだけでは十分でない。誤って弱い命題へ形式化すれば偽の証明書を作れるため、statement judgeが元問題と形式命題の意味保存を判定する。失敗時にはerror-attribution judgeが、数学的導出そのものの再実行と、局所的なLeanコード修復へ経路を分ける。\n\n評価ではAIME 2025、AIME 2026、HMMT February 2026を含む全オリンピック系ベンチマークで100パーセントを報告し、オープンウェイトのK2-Horizon-7Bと組み合わせてIMO 2026の6問すべてを解いた。分析ではstatement adjudicationが偽の証明書を防ぐために不可欠で、フィードバック誘導修正が難問で独立再サンプリングを上回った。比較の核心は、単なる多数決や試行回数ではなく、失敗原因を数学と形式言語へ分解したことにある。ただし要旨は計算予算、試行数、各問題の証明長を示しておらず、100パーセントという結果を同一予算の単発モデル精度として解釈できない。自然言語から命題への意味保存を別判定器へ依存する構造も残り、再現にはプロンプト、探索上限、Lean環境を含む実行条件が必要である。\n\n訓練不要という主張は基盤モデルを更新しないという意味であり、推論時の探索が無料という意味ではない。最終証明の検証可能性と、そこへ到達する計算効率は別指標であるため、後者の比較には同一モデルと同一予算での成功率が要る。\n\n## 論文3: 平均12.1個の中間結論を要求する深掘り調査評価\n\n**出典:** Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents. [arXiv:2609.11318](https://arxiv.org/abs/2609.11318) (2026).\n\n検索件数ではなく、依存関係を壊さずに長い証拠鎖を維持できるかを測る設計が、既存の中程度ホライズン評価との差分である。Mr.LHDRの各問いは非公開のノード関係グラフから構成され、短く一意で検証可能な最終解へ至るまで、平均12.1個の必須中間結論と平均依存深さ10.4を要求する。8カテゴリを含み、画像、地図、PDF、ロゴ、チャート、表、動画フレームの少なくとも一つが推論状態を変えるように設計される。最終答だけでなく、注釈済み依存関係に沿った中間結論も採点するため、偶然正答と証拠鎖の完成を分離できる。\n\n一般モデル、深掘り調査システム、エージェント枠組みを、Overall Accuracy、Strict Accuracy、Checklist Score、Dependency-Aware Checklist Scoreで比較した。最強システムでもOverall Accuracyは43.1パーセント、Strict Accuracyは34.3パーセントで、最終答中心の値が調査工程の完全性を過大評価する。画像を除くと依存関係を考慮したスコアが12.6ポイント下がり、推論鎖が長くなるほどStrict Accuracyは一貫して低下した。隠しグラフは精密な診断を可能にする反面、現実の調査課題の分布をどこまで代表するか、検索環境やページ更新に対して評価をどう固定するかが再現上の境界になる。ここで測られたボトルネックは単発の検索失敗ではなく、長距離の依存整合性である。\n\n四つの指標を併置することで、正答へ到達したが根拠鎖を欠く系と、途中まで正しい証拠を集めたが結論に失敗した系を区別できる。この区別は、検索器、視覚認識器、証拠統合器のどこへ改善を配分するかを決める診断情報になる。\n\n## 論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮\n\n**出典:** ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps. [arXiv:2609.11498](https://arxiv.org/abs/2609.11498) (2026).\n\n複数回答のサンプリングをせず、特定の一回答を信頼するかを単一生成から推定するため、内部計算の軌跡を固定形状へ保存する。既存法は複数生成を要求するか、出力トークン確率だけを見るか、内部状態を一つの隠れベクトルへ潰す。ActMapは全層・全生成トークンの隠れ状態を時間統計チャネルへ圧縮し、モデルの深さや隠れ次元に依存しない12掛ける32掛ける128のテンソルを作る。生成時に計測可能な追加時間なしで取得でき、容量は96キロバイトである。オクルージョン分析では分類器の信号がマップの中間深度領域へ局在した。\n\n軽量な視覚トランスフォーマーが各マップから正答確率を1ミリ秒未満で読み、容量を合わせた多層パーセプトロンも同程度だったため、性能源は特定分類器より表現自体にあると解釈される。短答式質問応答、直接回答型数学、要約の事実性を、3つの70億から80億パラメータ級指示調整モデルでドメイン内学習・評価した。サンプリング、トークン確率、アテンション、埋め込みの各ベースラインを一貫して上回り、67倍大きい密な活性テンソルで学ぶACT-ViTと平均AUROCがほぼ同じで、12組中10組では較正誤差が低かった。限界はホワイトボックスアクセスとドメイン内評価であり、未知モデル、分布外課題、長文生成で同じ較正を保つことは示されていない。それでも棄却、モデル振り分け、選択的検証へ渡せる監査単位を単一生成から作る点は実装上明確である。\n\n固定形状なので異なる深さのモデル間で下流分類器の設計を共有できる一方、表現の座標がモデル間で対応することまでは保証しない。96キロバイトという保存費用と、モデルごとの較正データ取得費用を分けて評価する必要がある。\n\n## 論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮\n\n**出典:** Memory Compression for High-Fanout Agent Sandboxes. [arXiv:2609.11294](https://arxiv.org/abs/2609.11294) (2026).\n\n一つの課題から多数の隔離サンドボックスを並行起動する高ファンアウト型エージェントでは、モデル推論だけでなく環境複製のメモリが律速になる。これらの環境は共通テンプレートから始まり、関連した軌跡を実行するため、完全に独立ではなくテンプレート相対およびサンドボックス間の冗長性を持つ。従来圧縮は、非同一ページ間の類似を利用しにくく、ページフォールトを避けるため対象を保守的に選び、メモリ圧迫時または実行位相と無関係な時刻に圧縮する。AgentZipは、この三点をエージェント実行に合わせて再設計した最初の専用システムとして提示される。\n\n手法はテンプレートとの差分とサンドボックス横断の類似を圧縮に使い、利益のある表現を持つ任意ページまで対象を広げる。前景のツール実行を妨げないよう、高価な圧縮を言語モデル応答待ち時間へ合わせ、復元時プリフェッチでページフォールト費用を制御する。言語モデルの訓練・推論ワークロードでサンドボックス所有メモリを最大8.7分の1へ削減し、比較したLinux設定は2.1分の1だった。積極圧縮の減速は最大3.1倍だったが、プリフェッチと実行位相対応スケジューリングにより1.40倍へ抑え、メモリ利得のほぼ全てを保った。最大値はワークロードと共有度に依存し、異質な環境や待ち時間の短いツール中心処理では冗長性と隠蔽余地が減る。モデル品質を変えず同時実行数を増やすシステム研究として、エージェント評価時には推論トークンだけでなく環境メモリも端から端の費用へ含める必要を示す。\n\n圧縮率だけを最大化すると復元遅延でスループットを失うため、この研究の比較対象は容量と減速の組である。待ち時間へ処理を重ねる設計は、モデル応答時間が変われば最適点も変わるので、配備環境ごとの位相計測が前提になる。\n\n## まとめ\n\n五本は、公開数値の裏にあるバッチ正規化状態、数学解答と形式証明の意味対応、長い調査鎖の依存整合性、生成中の内部活性、並行環境の共有メモリを、それぞれ観測・検証可能な対象へ変えた。強い数値も、解除モデルの特定構造、オリンピック問題と探索条件、構成済み調査グラフ、ドメイン内の70億から80億級モデル、共有度の高いサンドボックスという条件に結び付く。共通する研究課題は、最終出力だけでは見えない状態を計測し、性能と再現性の境界を工程単位で特定することである。\n\n## 参考ソース\n\n- 論文1: Published Unlearning Numbers Move Per Checkpoint, and Not Because the Removed Data Survives: An Audit of 263 Released Batch-Normalized Checkpoints. [arXiv:2609.11490](https://arxiv.org/abs/2609.11490)\n- 論文2: Magenta: Closing the Loop Between Mathematical Reasoning and Lean Verification. [arXiv:2609.11319](https://arxiv.org/abs/2609.11319)\n- 論文3: Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents. [arXiv:2609.11318](https://arxiv.org/abs/2609.11318)\n- 論文4: ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps. [arXiv:2609.11498](https://arxiv.org/abs/2609.11498)\n- 論文5: Memory Compression for High-Fanout Agent Sandboxes. [arXiv:2609.11294](https://arxiv.org/abs/2609.11294)\n",
-        "timeline": {
-          "version": 1,
-          "source": "tts_voicevox",
-          "fps": 30,
-          "totalFrames": 19903,
-          "audioDurationSec": 663.442667,
-          "cues": [
-            {
-              "speaker": "A",
-              "text": "2026年9月14日、アーカイブ・フロンティアエーアイ論文解説なのだ。今日は、評価、検証、内部状態、実行基盤を扱う五本なのだ。",
-              "section": "オープニング：2026年9月14日 — arXiv Frontier AI論文解説",
-              "startFrame": 18,
-              "endFrame": 429
-            },
-            {
-              "speaker": "B",
-              "text": "最終出力だけでは見えない状態を計測し、どの条件で性能値が成立するかを分解した研究を、比較条件と定量結果から整理します。",
-              "section": "オープニング：2026年9月14日 — arXiv Frontier AI論文解説",
-              "startFrame": 436,
-              "endFrame": 755
-            },
-            {
-              "speaker": "B",
-              "text": "一本目は「公開済み解除モデル263件で判定値の揺れを監査」です。ジュンロン・シェンとシンユー・リーによるチェックポイント監査です。",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 773,
-              "endFrame": 1113
-            },
-            {
-              "speaker": "A",
-              "text": "機械学習解除なら、削除対象データの影響が重みから消えたかを測るはずなのだ。なぜ保存状態が問題になるのだ？",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 1121,
-              "endFrame": 1421
-            },
-            {
-              "speaker": "B",
-              "text": "解除済みモデルと再学習参照モデルには、勾配更新が直接書かないバッチ正規化統計も同梱されます。その再計算規約がリリースに記録されていません。",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 1428,
-              "endFrame": 1763
-            },
-            {
-              "speaker": "A",
-              "text": "同じ重みでも、平均と分散の保存値を作り直すだけで評価が変わる可能性があるのだな。",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 1771,
-              "endFrame": 2003
-            },
-            {
-              "speaker": "B",
-              "text": "著者らは重みをビット単位で固定し、保持データで統計だけを再適合しました。221件中47件が、そのリリース自身の乱数シード間変動幅を超えて動きました。",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 2010,
-              "endFrame": 2393
-            },
-            {
-              "speaker": "A",
-              "text": "手法平均が安定していても、個別チェックポイントの合否は安定しない場合があるのだ。",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 2400,
-              "endFrame": 2608
-            },
-            {
-              "speaker": "B",
-              "text": "その切り分けが重要です。平均では動かない一つの手法内にも、測定値が動くチェックポイントが含まれていました。",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 2615,
-              "endFrame": 2858
-            },
-            {
-              "speaker": "A",
-              "text": "では、削除データがバッチ正規化統計に残っていたことが原因なのだ？",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 2866,
-              "endFrame": 3043
-            },
-            {
-              "speaker": "B",
-              "text": "固定した適合集合で保持レコードを削除レコードへ交換しても、公表セルはほぼ動きませんでした。削除データの残存より、配布統計と再適合状態のずれが変動を追跡しました。",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 3050,
-              "endFrame": 3447
-            },
-            {
-              "speaker": "A",
-              "text": "実際の判定を変えるほど大きかった例は何件なのだ？",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 3455,
-              "endFrame": 3590
-            },
-            {
-              "speaker": "B",
-              "text": "12件が判定境界を越え、4件は測定した再較正予算を超え、2件は全反復で超えました。ただし著者らが基準近傍へ作った母集団では越境はゼロです。",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 3598,
-              "endFrame": 3965
-            },
-            {
-              "speaker": "A",
-              "text": "解除一般が無効という主張ではなく、バッチ正規化を持つ視覚モデルの再現手順に穴があるのだな。",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 3972,
-              "endFrame": 4212
-            },
-            {
-              "speaker": "B",
-              "text": "結論はそこです。公表値に統計の適合規約を添えなければ、同じ重みを受け取ってもチェックポイント単位の判定を再現できません。",
-              "section": "論文1: 公開済み解除モデル263件で判定値の揺れを監査",
-              "startFrame": 4220,
-              "endFrame": 4508
-            },
-            {
-              "speaker": "B",
-              "text": "二本目は「自然言語の数学解答をリーン証明まで閉ループ化」です。ジョシュア・オン・ジュン・リアンらがマジェンタを提案しました。",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 4526,
-              "endFrame": 4860
-            },
-            {
-              "speaker": "A",
-              "text": "証明器を通れば正しさは保証されるのに、自然言語との間にまだ何が残るのだ？",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 4867,
-              "endFrame": 5079
-            },
-            {
-              "speaker": "B",
-              "text": "元問題より弱い別命題へ誤って形式化すれば、その命題の証明は正しくても元問題の証明書にはなりません。形式化の意味保存が独立した失敗点です。",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 5086,
-              "endFrame": 5450
-            },
-            {
-              "speaker": "A",
-              "text": "この手法は、その意味のずれも推論ループの中で判定するのだな。",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 5457,
-              "endFrame": 5614
-            },
-            {
-              "speaker": "B",
-              "text": "自然言語問題から解答、リーン・フォーの命題、機械検証済み証明を順に作ります。ステートメント判定器が元問題との対応を検査します。",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 5622,
-              "endFrame": 5957
-            },
-            {
-              "speaker": "A",
-              "text": "証明が失敗したら、全部を最初から引き直すのだ？",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 5964,
-              "endFrame": 6105
-            },
-            {
-              "speaker": "B",
-              "text": "エラー帰属判定器が、数学的推論の再実行と、局所的なリーン修復へ経路を分けます。独立再サンプリングより、失敗の種類に応じた修正を使います。",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 6113,
-              "endFrame": 6473
-            },
-            {
-              "speaker": "A",
-              "text": "定量結果はかなり強いのだ。どの問題集合で測ったのだ？",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 6480,
-              "endFrame": 6638
-            },
-            {
-              "speaker": "B",
-              "text": "エイム2025、エイム2026、エイチエムエムティー2026年2月を含む全評価ベンチマークで100パーセントでした。",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 6645,
-              "endFrame": 6920
-            },
-            {
-              "speaker": "A",
-              "text": "オープンウェイトの小型推論器との組み合わせも試しているのだな。",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 6927,
-              "endFrame": 7070
-            },
-            {
-              "speaker": "B",
-              "text": "ケーツー・ホライズン・セブンビーと組み合わせ、アイエムオー2026の6問を全て解きました。ステートメント判定を外すと偽の証明書を防げず、難問ではフィードバック修正が独立再試行を上回りました。",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 7078,
-              "endFrame": 7515
-            },
-            {
-              "speaker": "A",
-              "text": "100パーセントを、同じ計算量の単発正答率とは読めないのだ。",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 7523,
-              "endFrame": 7693
-            },
-            {
-              "speaker": "B",
-              "text": "要旨には試行数、探索上限、問題ごとの証明長がありません。再現対象はモデル名だけでなく、判定器、プロンプト、リーン環境、修正予算を含むパイプライン全体です。",
-              "section": "論文2: 自然言語の数学解答をLean証明まで閉ループ化",
-              "startFrame": 7700,
-              "endFrame": 8137
-            },
-            {
-              "speaker": "B",
-              "text": "三本目は「平均12.1個の中間結論を要求する深掘り調査評価」です。ミンハオ・グオらが長期調査用のミスター・エルエイチディーアールを構築しました。",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 8155,
-              "endFrame": 8511
-            },
-            {
-              "speaker": "A",
-              "text": "普通の調査ベンチマークと違って、検索回数が多いだけではないのだ？",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 8518,
-              "endFrame": 8699
-            },
-            {
-              "speaker": "B",
-              "text": "各問いは非公開のノード関係グラフから作られます。一意な短答へ至るまで、平均12.1個の必須中間結論と、平均10.4の依存深さがあります。",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 8707,
-              "endFrame": 9070
-            },
-            {
-              "speaker": "A",
-              "text": "途中の一つを間違えると、その先が全部つながらなくなる設計なのだな。",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 9078,
-              "endFrame": 9256
-            },
-            {
-              "speaker": "B",
-              "text": "そうです。8カテゴリを含み、画像、地図、ピー ディー エフ、ロゴ、チャート、表、動画フレームの少なくとも一つが推論状態を変えます。",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 9263,
-              "endFrame": 9652
-            },
-            {
-              "speaker": "A",
-              "text": "最終答が偶然当たった場合と、証拠鎖を完成した場合は分けて採点できるのだ？",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 9660,
-              "endFrame": 9881
-            },
-            {
-              "speaker": "B",
-              "text": "最終答の総合精度と厳格精度に加え、チェックリスト、依存関係を考慮したチェックリストで中間結論を評価します。",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 9888,
-              "endFrame": 10162
-            },
-            {
-              "speaker": "A",
-              "text": "現在の深掘り調査システムは、どの水準だったのだ？",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 10169,
-              "endFrame": 10310
-            },
-            {
-              "speaker": "B",
-              "text": "最強システムでも総合精度は43.1パーセント、厳格精度は34.3パーセントでした。最終答だけの採点が工程の完全性を高く見せます。",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 10318,
-              "endFrame": 10678
-            },
-            {
-              "speaker": "A",
-              "text": "マルチモーダル証拠は、飾りではなく答えを変える情報なのだな。",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 10685,
-              "endFrame": 10840
-            },
-            {
-              "speaker": "B",
-              "text": "画像を除くと依存対応スコアが12.6ポイント下がりました。また推論鎖が長いほど厳格精度は一貫して低下しました。",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 10847,
-              "endFrame": 11114
-            },
-            {
-              "speaker": "A",
-              "text": "隠しグラフで診断は精密になるけれど、現実の調査分布そのものではないのだ。",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 11122,
-              "endFrame": 11325
-            },
-            {
-              "speaker": "B",
-              "text": "その境界があります。検索環境やページ更新を固定する再現手順も必要です。ここで明確になった失敗は、検索一回ではなく長距離の依存整合性です。",
-              "section": "論文3: 平均12.1個の中間結論を要求する深掘り調査評価",
-              "startFrame": 11332,
-              "endFrame": 11690
-            },
-            {
-              "speaker": "B",
-              "text": "四本目は「全層・全生成トークンの活性を96キロバイトへ圧縮」です。ヤコポ・ダルディーニとロベルタ・カレガリがアクトマップを提案しました。",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 11708,
-              "endFrame": 12063
-            },
-            {
-              "speaker": "A",
-              "text": "一つの回答を信頼するか決めるなら、複数回答を出して一致を見る方法は費用が重いのだ。",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 12071,
-              "endFrame": 12296
-            },
-            {
-              "speaker": "B",
-              "text": "出力トークン確率だけでは内部軌跡を捨て、単一の隠れ状態では時間方向を潰します。この研究は全層、全生成トークンの隠れ状態を時間統計へ圧縮します。",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 12303,
-              "endFrame": 12685
-            },
-            {
-              "speaker": "A",
-              "text": "モデルごとに層数や隠れ次元が違っても、同じ形へできるのだ？",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 12692,
-              "endFrame": 12861
-            },
-            {
-              "speaker": "B",
-              "text": "12掛ける32掛ける128の固定テンソルです。深さと隠れ次元に依存せず、容量は96キロバイト、生成時の計測可能な時間追加はありませんでした。",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 12869,
-              "endFrame": 13244
-            },
-            {
-              "speaker": "A",
-              "text": "正誤を読む分類器が強いだけではないことも調べたのだな。",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 13251,
-              "endFrame": 13385
-            },
-            {
-              "speaker": "B",
-              "text": "軽量な視覚トランスフォーマーは1ミリ秒未満で読みますが、容量を合わせた多層パーセプトロンも同程度でした。表現自体が信号を保持しています。",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 13393,
-              "endFrame": 13698
-            },
-            {
-              "speaker": "A",
-              "text": "比較は、どのモデルと課題で行われたのだ？",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 13705,
-              "endFrame": 13820
-            },
-            {
-              "speaker": "B",
-              "text": "70億から80億パラメータ級の指示調整モデル三つを使い、短答質問応答、直接回答型数学、要約の事実性でドメイン内学習と評価をしました。",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 13828,
-              "endFrame": 14206
-            },
-            {
-              "speaker": "A",
-              "text": "密な全活性を使う検出器と比べ、どれだけ小さいのだ？",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 14213,
-              "endFrame": 14369
-            },
-            {
-              "speaker": "B",
-              "text": "67倍大きい密活性テンソルのアクト・ブイアイティーと平均エーユーロックはほぼ同じで、12組中10組では較正誤差が低くなりました。",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 14377,
-              "endFrame": 14691
-            },
-            {
-              "speaker": "A",
-              "text": "単一生成の棄却や振り分けには使えるけれど、内部活性を取れない閉鎖モデルには使えないのだ。",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 14698,
-              "endFrame": 14940
-            },
-            {
-              "speaker": "B",
-              "text": "さらに評価はドメイン内です。未知モデル、分布外課題、長文生成で較正を保つかは未評価で、配備時には再較正費用が残ります。",
-              "section": "論文4: 全層・全生成トークンの活性を96キロバイトへ圧縮",
-              "startFrame": 14947,
-              "endFrame": 15263
-            },
-            {
-              "speaker": "B",
-              "text": "五本目は「多数エージェント環境のメモリを最大8.7分の1へ圧縮」です。モンミン・リーらのエージェントジップです。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 15281,
-              "endFrame": 15551
-            },
-            {
-              "speaker": "A",
-              "text": "エージェントを多数並べると、モデル推論以外に隔離環境の複製もメモリを使うのだな。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 15559,
-              "endFrame": 15776
-            },
-            {
-              "speaker": "B",
-              "text": "一課題から多数サンドボックスを起動する高ファンアウト処理では、共通テンプレートと関連軌跡に大きな冗長性があります。環境は完全には独立していません。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 15783,
-              "endFrame": 16122
-            },
-            {
-              "speaker": "A",
-              "text": "普通のメモリ圧縮では、その類似を使い切れないのだ？",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 16129,
-              "endFrame": 16268
-            },
-            {
-              "speaker": "B",
-              "text": "非同一ページ間の類似を扱いにくく、ページフォールトを避けて圧縮対象を保守的にします。圧縮時刻もエージェントの実行位相と合いません。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 16275,
-              "endFrame": 16572
-            },
-            {
-              "speaker": "A",
-              "text": "この手法は、何を、いつ圧縮するかを両方変えるのだな。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 16579,
-              "endFrame": 16729
-            },
-            {
-              "speaker": "B",
-              "text": "テンプレート相対とサンドボックス横断の冗長性を使い、利益のある表現を持つ任意ページまで対象を広げます。復元時プリフェッチで費用を制御します。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 16737,
-              "endFrame": 17067
-            },
-            {
-              "speaker": "A",
-              "text": "言語モデルの応答待ちへ圧縮を寄せれば、前景のツール実行を邪魔しにくいのだ。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 17074,
-              "endFrame": 17276
-            },
-            {
-              "speaker": "B",
-              "text": "そのスケジューリングも中核です。訓練・推論ワークロードでサンドボックス所有メモリを最大8.7分の1にし、比較したリナックス設定は2.1分の1でした。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 17284,
-              "endFrame": 17641
-            },
-            {
-              "speaker": "A",
-              "text": "積極圧縮は復元待ちで遅くなるはずなのだ。減速はどこまで抑えたのだ？",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 17649,
-              "endFrame": 17844
-            },
-            {
-              "speaker": "B",
-              "text": "最大3.1倍だった減速を、プリフェッチと位相対応により1.40倍へ抑え、メモリ節約のほぼ全てを維持しました。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 17851,
-              "endFrame": 18128
-            },
-            {
-              "speaker": "A",
-              "text": "共通部分が少ない環境や、モデル待ちが短い処理では同じ8.7倍は出ないのだ。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 18135,
-              "endFrame": 18351
-            },
-            {
-              "speaker": "B",
-              "text": "その通りです。共有度と待ち時間が償却条件です。エージェント基盤の端から端費用には、推論トークンだけでなく環境メモリと復元遅延も含まれます。",
-              "section": "論文5: 多数エージェント環境のメモリを最大8.7分の1へ圧縮",
-              "startFrame": 18358,
-              "endFrame": 18695
-            },
-            {
-              "speaker": "A",
-              "text": "五本とも、最終精度の裏に隠れていた統計、意味対応、依存鎖、内部活性、共有メモリを測れる対象へ変えたのだ。",
-              "section": "まとめ",
-              "startFrame": 18713,
-              "endFrame": 19062
-            },
-            {
-              "speaker": "B",
-              "text": "強い成績は、特定のモデル構造、問題集合、構成済み調査グラフ、ドメイン内評価、共有度の高い環境という条件に結び付きます。",
-              "section": "まとめ",
-              "startFrame": 19070,
-              "endFrame": 19399
-            },
-            {
-              "speaker": "A",
-              "text": "出力だけを見る評価から、途中の状態と費用を監査する評価へ移る流れが共通しているのだ。",
-              "section": "まとめ",
-              "startFrame": 19407,
-              "endFrame": 19638
-            },
-            {
-              "speaker": "B",
-              "text": "以上、2026年9月14日のアーカイブ・フロンティアエーアイ論文解説でした。ご視聴ありがとうございました。",
-              "section": "まとめ",
-              "startFrame": 19645,
-              "endFrame": 19903
-            }
-          ]
-        }
-      },
-      {
-        "mode": "arxiv_qc",
-        "label": "arxiv 量子コンピュータ論文解説",
-        "iaId": "news-pickup-2026-09-14-arxiv-qc",
-        "title": "線形光学の50%限界を突破？量子計算の重要論文5本【2026/09/14】",
-        "audioUrl": "https://archive.org/download/news-pickup-2026-09-14-arxiv-qc/arxiv_qc_yukkuri.m4a",
-        "markdown": "<h1>arXiv量子コンピュータ論文解説（2026年9月14日）</h1>\n<p><strong>キーワード:</strong> 論理ベル測定 / 漏洩低減 / クライオCMOS / バイアス雑音 / 中性原子CCZゲート</p>\n<h2>オープニング：2026年9月14日 — arXiv量子コンピュータ論文解説</h2>\n<p>週末のRSSに新規項目がなかったため、9月9日から10日に量子物理カテゴリーへ初回投稿された論文のうち、直近3回で未採用の5本を選んだ。線形光学の50%限界を超える論理ベル状態測定、追加量子ビットなしで漏洩を排出するフロケ符号、極低温CMOS制御、相関クロストーク下の表面符号閾値、有限リュードベリ blockade を含む三量子ビットゲートを扱う。</p>\n<h2>論文1: 線形光学限界を超える論理ベル状態測定</h2>\n<p><strong>出典:</strong> Demonstration of a logical Bell-state measurement beyond the linear-optical limit. Shreya Kumar, Simon D. Reiß, Peter van Loock, Stefanie Barz. <a href=\"https://arxiv.org/abs/2609.10698\">arXiv:2609.10698</a> (2026).</p>\n<p>誤り訂正された光量子ビット上でベル状態測定を実験し、標準的な線形光学方式の成功確率上限50%を超えた点を選んだ。測定型・融合型量子計算と量子ネットワークではベル測定が接続操作になる。研究チームは量子パリティ符号の一例である二量子ビット反復符号を用い、ビット反転誤りを検出しながら論理ベル測定を構成した。</p>\n<p>平均成功確率は70.8±0.4%で、50%を20.8ポイント上回った。著者らは、フォールトトレラント方式ではもともと誤り訂正符号が必要なので、この向上に追加資源オーバーヘッドはないと位置づける。ただし二量子ビット反復符号が検出するのはビット反転であり、任意の誤りを訂正する完全な論理量子ビット実証ではない。安全鍵率や大規模グラフ状態生成への利点も、要旨ではシステム全体の実測値ではなく含意として示される。</p>\n<p>比較の核心は、物理ベル測定器だけを改良したのではなく、符号化そのものを測定成功率の資源に転換したことにある。再現性の評価には、70.8%の信頼区間に加え、光子損失、検出効率、符号化・復号を含む総成功率を同一条件で報告する必要がある。実用化に至るまでの距離は、より完全な符号と多段融合へ拡張したときにも優位が残るかで決まる。</p>\n<p>50%は補助光子を使わない標準線形光学ベル測定の識別限界であり、あらゆる光学的実装の絶対上限ではない。したがって比較対象を「標準方式」に固定することが重要になる。符号化準備の損失を分母へ含める比較と、既に符号化済みの論理量子ビットを入力とする比較では、70.8%のシステム上の意味が変わる。</p>\n<h2>論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号</h2>\n<p><strong>出典:</strong> Walking Floquet code circuits for zero-overhead leakage reduction. Hanna Westerheim, Kaavya Sahay, Shruti Puri. <a href=\"https://arxiv.org/abs/2609.10666\">arXiv:2609.10666</a> (2026).</p>\n<p>計算部分空間からの漏洩が時空間相関誤りを生み、符号距離と閾値を同時に損なう問題に、追加の量子ビットを要求しない回路で対処した点が重要である。提案する旋回型と滑走型の二つの歩行回路は、反交換する二体測定の時系列によって論理情報を動的に保護しながら、漏洩を周期的に排出する。従来のハニカム・フロケ符号用動的回路と異なり、パウリ誤りに対する距離を保存する。</p>\n<p>二種類の漏洩雑音模型の数値計算では、漏洩誤りをパウリ誤りと同程度まで訂正しうる。有限誤り率ではエントロピー効果による顕著なウォーターフォール領域が現れ、論理誤り率が距離だけから予想されるスケーリングより急速に低下した。この領域では、漸近予測が逆を示す条件でも、同距離の歩行表面符号より誤り率と閾値以下のスケーリングで優位になった。</p>\n<p>「ゼロオーバーヘッド」は漏洩低減専用の追加量子ビットがないという意味で、測定スケジュールや制御複雑度がゼロという意味ではない。また優位は二つの漏洩模型と有限サイズ領域に依存する。実機へ移すには、漏洩の持続時間、測定誤り、リセット不完全性を含む回路レベル模型で、ウォーターフォールがどの符号距離まで残るかを検証する必要がある。</p>\n<p>歩行回路の比較では、同じ符号距離だけでなく、1周期の二体測定数、漏洩が次の量子ビットへ伝播する確率、論理観測量を読み出すまでの周期数も揃える必要がある。有限サイズの急減領域が実用的な物理誤り率と重なるなら、漸近閾値で劣る構成にも装置規模での利点が生じる。</p>\n<h2>論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器</h2>\n<p><strong>出典:</strong> Programmable CMOS DAC Operating in Cryogenic Environments for Controlling Superconducting Qubits. A. Pelteku et al. <a href=\"https://arxiv.org/abs/2609.10834\">arXiv:2609.10834</a> (2026).</p>\n<p>超伝導量子ビットの配線・熱負荷を支配する制御電子回路を極低温側へ移すため、実際に製造した電流型デジタル・アナログ変換器の試験結果を示した点を選んだ。90ナノメートルの平面CMOSプロセスで実装し、量子ビットへ結合する磁束制御と超伝導回路の読み出しを対象とする。出力電流パルスは振幅、立上り・立下り勾配をデジタル制御し、幅を外部トリガーで設定できる。</p>\n<p>極低温試験結果は回路予測とよく一致したと報告される。広いデジタル可調範囲を持つため、対象外の量子回路にも転用可能だと著者らは論じる。一方、要旨には動作温度、分解能、更新速度、消費電力、積分非直線性、出力雑音の具体値がない。したがって、量子ビット忠実度をどこまで維持できるか、室温配線を何本削減できるかは、この要旨の範囲では定量比較できない。</p>\n<p>この研究の価値は量子アルゴリズムではなく制御スタックのスケーリングにある。再現・採用判断では、同じ90ナノメートル回路の室温特性との差、冷凍機各温度段での電力予算、磁束雑音が位相緩和へ与える寄与を測る必要がある。汎用性を実用性へ変えるには、多チャネル化した際のクロストークと校正ドリフトが次の律速になる。</p>\n<p>とくに制御回路の電力は、単一チャネルの値よりチャネル数に対する増え方が重要である。デジタル可調性が外部配線を減らしても、局所発熱が量子ビット温度や準粒子密度を上げれば利得を相殺する。変換器単体の波形精度と、接続後の量子ゲート誤差を段階的に対応づける測定が必要になる。</p>\n<h2>論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値</h2>\n<p><strong>出典:</strong> Threshold Behavior of ZX and ZY Surface Codes Under Circuit-Level Biased and Crosstalk Noise. Pritesh Thakur, Jean-François Van Huele. <a href=\"https://arxiv.org/abs/2609.10876\">arXiv:2609.10876</a> (2026).</p>\n<p>符号容量レベルの理想化された位相雑音で知られていた安定化子置換の利点を、回路レベルのパウリXバイアス雑音とXXクロストークへ拡張した点を選んだ。著者らは標準ZX表面符号と、X型安定化子をY型へ置換したZY表面符号を比較し、クロストークの有無と制御NOTゲート順序を独立に変えた。</p>\n<p>ZX符号ではバイアス増加とともにXメモリー閾値が単調増加し、Zメモリー閾値は低下後に飽和した。ZY符号のYメモリー閾値は全バイアス範囲でほぼ一定で、両符号のZメモリー閾値は不確かさの範囲で一致した。XXクロストークを加えるとZメモリー閾値はフィット不確かさを超えて低下した一方、Xメモリー閾値はほぼ不変だった。制御NOT順序は二つの論理メモリー間で閾値性能を再配分した。</p>\n<p>結果は、雑音バイアスへ安定化子を合わせるだけでは相関症候情報を取り切れないことを示す。特にクロストークへの非対称な感度は、単一の閾値だけで符号を順位付けできない理由になる。定量的な閾値値そのものは要旨にないため、実装判断には本文の雑音率定義、符号距離、デコーダー、有限サイズフィットを揃える必要がある。共同分布を扱うデコーダーがZY構造の潜在利点を回収できるかが残る課題である。</p>\n<h2>論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート</h2>\n<p><strong>出典:</strong> Finite-blockade dynamics of a three-qubit ccz gate in neutral-atom arrays. Paramjeet Banger, Ajay Wasan. <a href=\"https://arxiv.org/abs/2609.11159\">arXiv:2609.11159</a> (2026).</p>\n<p>理想的な無限ブロッケード近似ではなく、有限のリュードベリ相互作用と非計算状態への漏洩を明示して三量子ビット制御制御Zゲートを解析した点を選んだ。対称な三中性原子系へ単一ガウスレーザーパルスを加え、置換対称性に適合したハミルトニアンで厳密な力学を保ったまま計算量を削減する。</p>\n<p>ラビ周波数、レーザー離調、ブロッケード強度を走査し、高忠実度、短いゲート時間、低漏洩を両立する動作領域を特定した。位相誤差、人口漏洩、有限リュードベリ寿命を主要誤差源として分離し、実験的に到達可能な条件だと述べる。ただし要旨は最良忠実度、ゲート時間、原子間隔の数値を示さず、実験実証ではなく理論研究である。</p>\n<p>三体ゲートを二量子ビットゲート列へ分解しない利点は回路深さを減らせる可能性だが、単一パルス制御では各誤差源のトレードオフが同じパラメータへ結びつく。再現には、対称性縮約前の全ハミルトニアンとの一致、パルス面積と離調の許容幅、運動・ドップラー雑音を含む頑健性が必要になる。実用化距離は、提示した最適領域を実機校正で維持できるかにある。</p>\n<h2>まとめ</h2>\n<p>5本は、符号化を測定成功率へ転換する実験、漏洩を排出する測定スケジュール、極低温制御回路、相関雑音下の符号比較、有限相互作用下の多体ゲートという異なる層を扱った。最も明確な核心値は論理ベル測定の70.8±0.4%である。一方、ゼロオーバーヘッド、閾値優位、高忠実度という表現は、それぞれ追加量子ビット、限定雑音模型、理論上の最適領域という条件を伴う。システム統合へ進むほど、損失、電力、相関雑音、校正ドリフトを同一評価へ入れる必要がある。</p>\n<h2>参考ソース</h2>\n<ul>\n<li><strong>論文1</strong>: Demonstration of a logical Bell-state measurement beyond the linear-optical limit. <a href=\"https://arxiv.org/abs/2609.10698\">arXiv:2609.10698</a></li>\n<li><strong>論文2</strong>: Walking Floquet code circuits for zero-overhead leakage reduction. <a href=\"https://arxiv.org/abs/2609.10666\">arXiv:2609.10666</a></li>\n<li><strong>論文3</strong>: Programmable CMOS DAC Operating in Cryogenic Environments for Controlling Superconducting Qubits. <a href=\"https://arxiv.org/abs/2609.10834\">arXiv:2609.10834</a></li>\n<li><strong>論文4</strong>: Threshold Behavior of ZX and ZY Surface Codes Under Circuit-Level Biased and Crosstalk Noise. <a href=\"https://arxiv.org/abs/2609.10876\">arXiv:2609.10876</a></li>\n<li><strong>論文5</strong>: Finite-blockade dynamics of a three-qubit ccz gate in neutral-atom arrays. <a href=\"https://arxiv.org/abs/2609.11159\">arXiv:2609.11159</a></li>\n</ul>",
-        "markdownSource": "# arXiv量子コンピュータ論文解説（2026年9月14日）\n\n**キーワード:** 論理ベル測定 / 漏洩低減 / クライオCMOS / バイアス雑音 / 中性原子CCZゲート\n\n## オープニング：2026年9月14日 — arXiv量子コンピュータ論文解説\n\n週末のRSSに新規項目がなかったため、9月9日から10日に量子物理カテゴリーへ初回投稿された論文のうち、直近3回で未採用の5本を選んだ。線形光学の50%限界を超える論理ベル状態測定、追加量子ビットなしで漏洩を排出するフロケ符号、極低温CMOS制御、相関クロストーク下の表面符号閾値、有限リュードベリ blockade を含む三量子ビットゲートを扱う。\n\n## 論文1: 線形光学限界を超える論理ベル状態測定\n\n**出典:** Demonstration of a logical Bell-state measurement beyond the linear-optical limit. Shreya Kumar, Simon D. Reiß, Peter van Loock, Stefanie Barz. [arXiv:2609.10698](https://arxiv.org/abs/2609.10698) (2026).\n\n誤り訂正された光量子ビット上でベル状態測定を実験し、標準的な線形光学方式の成功確率上限50%を超えた点を選んだ。測定型・融合型量子計算と量子ネットワークではベル測定が接続操作になる。研究チームは量子パリティ符号の一例である二量子ビット反復符号を用い、ビット反転誤りを検出しながら論理ベル測定を構成した。\n\n平均成功確率は70.8±0.4%で、50%を20.8ポイント上回った。著者らは、フォールトトレラント方式ではもともと誤り訂正符号が必要なので、この向上に追加資源オーバーヘッドはないと位置づける。ただし二量子ビット反復符号が検出するのはビット反転であり、任意の誤りを訂正する完全な論理量子ビット実証ではない。安全鍵率や大規模グラフ状態生成への利点も、要旨ではシステム全体の実測値ではなく含意として示される。\n\n比較の核心は、物理ベル測定器だけを改良したのではなく、符号化そのものを測定成功率の資源に転換したことにある。再現性の評価には、70.8%の信頼区間に加え、光子損失、検出効率、符号化・復号を含む総成功率を同一条件で報告する必要がある。実用化に至るまでの距離は、より完全な符号と多段融合へ拡張したときにも優位が残るかで決まる。\n\n50%は補助光子を使わない標準線形光学ベル測定の識別限界であり、あらゆる光学的実装の絶対上限ではない。したがって比較対象を「標準方式」に固定することが重要になる。符号化準備の損失を分母へ含める比較と、既に符号化済みの論理量子ビットを入力とする比較では、70.8%のシステム上の意味が変わる。\n\n## 論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号\n\n**出典:** Walking Floquet code circuits for zero-overhead leakage reduction. Hanna Westerheim, Kaavya Sahay, Shruti Puri. [arXiv:2609.10666](https://arxiv.org/abs/2609.10666) (2026).\n\n計算部分空間からの漏洩が時空間相関誤りを生み、符号距離と閾値を同時に損なう問題に、追加の量子ビットを要求しない回路で対処した点が重要である。提案する旋回型と滑走型の二つの歩行回路は、反交換する二体測定の時系列によって論理情報を動的に保護しながら、漏洩を周期的に排出する。従来のハニカム・フロケ符号用動的回路と異なり、パウリ誤りに対する距離を保存する。\n\n二種類の漏洩雑音模型の数値計算では、漏洩誤りをパウリ誤りと同程度まで訂正しうる。有限誤り率ではエントロピー効果による顕著なウォーターフォール領域が現れ、論理誤り率が距離だけから予想されるスケーリングより急速に低下した。この領域では、漸近予測が逆を示す条件でも、同距離の歩行表面符号より誤り率と閾値以下のスケーリングで優位になった。\n\n「ゼロオーバーヘッド」は漏洩低減専用の追加量子ビットがないという意味で、測定スケジュールや制御複雑度がゼロという意味ではない。また優位は二つの漏洩模型と有限サイズ領域に依存する。実機へ移すには、漏洩の持続時間、測定誤り、リセット不完全性を含む回路レベル模型で、ウォーターフォールがどの符号距離まで残るかを検証する必要がある。\n\n歩行回路の比較では、同じ符号距離だけでなく、1周期の二体測定数、漏洩が次の量子ビットへ伝播する確率、論理観測量を読み出すまでの周期数も揃える必要がある。有限サイズの急減領域が実用的な物理誤り率と重なるなら、漸近閾値で劣る構成にも装置規模での利点が生じる。\n\n## 論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器\n\n**出典:** Programmable CMOS DAC Operating in Cryogenic Environments for Controlling Superconducting Qubits. A. Pelteku et al. [arXiv:2609.10834](https://arxiv.org/abs/2609.10834) (2026).\n\n超伝導量子ビットの配線・熱負荷を支配する制御電子回路を極低温側へ移すため、実際に製造した電流型デジタル・アナログ変換器の試験結果を示した点を選んだ。90ナノメートルの平面CMOSプロセスで実装し、量子ビットへ結合する磁束制御と超伝導回路の読み出しを対象とする。出力電流パルスは振幅、立上り・立下り勾配をデジタル制御し、幅を外部トリガーで設定できる。\n\n極低温試験結果は回路予測とよく一致したと報告される。広いデジタル可調範囲を持つため、対象外の量子回路にも転用可能だと著者らは論じる。一方、要旨には動作温度、分解能、更新速度、消費電力、積分非直線性、出力雑音の具体値がない。したがって、量子ビット忠実度をどこまで維持できるか、室温配線を何本削減できるかは、この要旨の範囲では定量比較できない。\n\nこの研究の価値は量子アルゴリズムではなく制御スタックのスケーリングにある。再現・採用判断では、同じ90ナノメートル回路の室温特性との差、冷凍機各温度段での電力予算、磁束雑音が位相緩和へ与える寄与を測る必要がある。汎用性を実用性へ変えるには、多チャネル化した際のクロストークと校正ドリフトが次の律速になる。\n\nとくに制御回路の電力は、単一チャネルの値よりチャネル数に対する増え方が重要である。デジタル可調性が外部配線を減らしても、局所発熱が量子ビット温度や準粒子密度を上げれば利得を相殺する。変換器単体の波形精度と、接続後の量子ゲート誤差を段階的に対応づける測定が必要になる。\n\n## 論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値\n\n**出典:** Threshold Behavior of ZX and ZY Surface Codes Under Circuit-Level Biased and Crosstalk Noise. Pritesh Thakur, Jean-François Van Huele. [arXiv:2609.10876](https://arxiv.org/abs/2609.10876) (2026).\n\n符号容量レベルの理想化された位相雑音で知られていた安定化子置換の利点を、回路レベルのパウリXバイアス雑音とXXクロストークへ拡張した点を選んだ。著者らは標準ZX表面符号と、X型安定化子をY型へ置換したZY表面符号を比較し、クロストークの有無と制御NOTゲート順序を独立に変えた。\n\nZX符号ではバイアス増加とともにXメモリー閾値が単調増加し、Zメモリー閾値は低下後に飽和した。ZY符号のYメモリー閾値は全バイアス範囲でほぼ一定で、両符号のZメモリー閾値は不確かさの範囲で一致した。XXクロストークを加えるとZメモリー閾値はフィット不確かさを超えて低下した一方、Xメモリー閾値はほぼ不変だった。制御NOT順序は二つの論理メモリー間で閾値性能を再配分した。\n\n結果は、雑音バイアスへ安定化子を合わせるだけでは相関症候情報を取り切れないことを示す。特にクロストークへの非対称な感度は、単一の閾値だけで符号を順位付けできない理由になる。定量的な閾値値そのものは要旨にないため、実装判断には本文の雑音率定義、符号距離、デコーダー、有限サイズフィットを揃える必要がある。共同分布を扱うデコーダーがZY構造の潜在利点を回収できるかが残る課題である。\n\n## 論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート\n\n**出典:** Finite-blockade dynamics of a three-qubit ccz gate in neutral-atom arrays. Paramjeet Banger, Ajay Wasan. [arXiv:2609.11159](https://arxiv.org/abs/2609.11159) (2026).\n\n理想的な無限ブロッケード近似ではなく、有限のリュードベリ相互作用と非計算状態への漏洩を明示して三量子ビット制御制御Zゲートを解析した点を選んだ。対称な三中性原子系へ単一ガウスレーザーパルスを加え、置換対称性に適合したハミルトニアンで厳密な力学を保ったまま計算量を削減する。\n\nラビ周波数、レーザー離調、ブロッケード強度を走査し、高忠実度、短いゲート時間、低漏洩を両立する動作領域を特定した。位相誤差、人口漏洩、有限リュードベリ寿命を主要誤差源として分離し、実験的に到達可能な条件だと述べる。ただし要旨は最良忠実度、ゲート時間、原子間隔の数値を示さず、実験実証ではなく理論研究である。\n\n三体ゲートを二量子ビットゲート列へ分解しない利点は回路深さを減らせる可能性だが、単一パルス制御では各誤差源のトレードオフが同じパラメータへ結びつく。再現には、対称性縮約前の全ハミルトニアンとの一致、パルス面積と離調の許容幅、運動・ドップラー雑音を含む頑健性が必要になる。実用化距離は、提示した最適領域を実機校正で維持できるかにある。\n\n## まとめ\n\n5本は、符号化を測定成功率へ転換する実験、漏洩を排出する測定スケジュール、極低温制御回路、相関雑音下の符号比較、有限相互作用下の多体ゲートという異なる層を扱った。最も明確な核心値は論理ベル測定の70.8±0.4%である。一方、ゼロオーバーヘッド、閾値優位、高忠実度という表現は、それぞれ追加量子ビット、限定雑音模型、理論上の最適領域という条件を伴う。システム統合へ進むほど、損失、電力、相関雑音、校正ドリフトを同一評価へ入れる必要がある。\n\n## 参考ソース\n\n- **論文1**: Demonstration of a logical Bell-state measurement beyond the linear-optical limit. [arXiv:2609.10698](https://arxiv.org/abs/2609.10698)\n- **論文2**: Walking Floquet code circuits for zero-overhead leakage reduction. [arXiv:2609.10666](https://arxiv.org/abs/2609.10666)\n- **論文3**: Programmable CMOS DAC Operating in Cryogenic Environments for Controlling Superconducting Qubits. [arXiv:2609.10834](https://arxiv.org/abs/2609.10834)\n- **論文4**: Threshold Behavior of ZX and ZY Surface Codes Under Circuit-Level Biased and Crosstalk Noise. [arXiv:2609.10876](https://arxiv.org/abs/2609.10876)\n- **論文5**: Finite-blockade dynamics of a three-qubit ccz gate in neutral-atom arrays. [arXiv:2609.11159](https://arxiv.org/abs/2609.11159)\n",
-        "timeline": {
-          "version": 1,
-          "source": "tts_voicevox",
-          "fps": 30,
-          "totalFrames": 17246,
-          "audioDurationSec": 574.876667,
-          "cues": [
-            {
-              "speaker": "A",
-              "text": "2026年9月14日、アーカイブ量子コンピュータ論文解説なのだ。",
-              "section": "オープニング：2026年9月14日 — arXiv量子コンピュータ論文解説",
-              "startFrame": 18,
-              "endFrame": 209
-            },
-            {
-              "speaker": "B",
-              "text": "週末の新規配信がないため、9月9日から10日の未採用論文5本を精査します。",
-              "section": "オープニング：2026年9月14日 — arXiv量子コンピュータ論文解説",
-              "startFrame": 217,
-              "endFrame": 408
-            },
-            {
-              "speaker": "A",
-              "text": "今日の核心値は、論理ベル状態測定の成功確率70.8プラスマイナス0.4パーセントなのだ。",
-              "section": "オープニング：2026年9月14日 — arXiv量子コンピュータ論文解説",
-              "startFrame": 415,
-              "endFrame": 690
-            },
-            {
-              "speaker": "B",
-              "text": "線形光学の50パーセント限界を、符号化した量子ビット上で超えました。",
-              "section": "オープニング：2026年9月14日 — arXiv量子コンピュータ論文解説",
-              "startFrame": 697,
-              "endFrame": 865
-            },
-            {
-              "speaker": "A",
-              "text": "その差が装置全体でも残るのか、比較条件まで追うのだ。",
-              "section": "オープニング：2026年9月14日 — arXiv量子コンピュータ論文解説",
-              "startFrame": 873,
-              "endFrame": 1020
-            },
-            {
-              "speaker": "B",
-              "text": "漏洩低減、極低温制御、表面符号、中性原子ゲートも同じ基準で見ます。",
-              "section": "オープニング：2026年9月14日 — arXiv量子コンピュータ論文解説",
-              "startFrame": 1027,
-              "endFrame": 1231
-            },
-            {
-              "speaker": "B",
-              "text": "1本目は「線形光学限界を超える論理ベル状態測定」です。マインツ大学などの研究チームによる実験です。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 1249,
-              "endFrame": 1519
-            },
-            {
-              "speaker": "A",
-              "text": "ベル測定は、融合型量子計算や量子ネットワークで量子ビット同士を接続する操作なのだ。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 1526,
-              "endFrame": 1762
-            },
-            {
-              "speaker": "B",
-              "text": "標準的な線形光学ベル測定には、成功確率50パーセントという上限があります。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 1770,
-              "endFrame": 1969
-            },
-            {
-              "speaker": "A",
-              "text": "この研究は光学素子だけでなく、誤り訂正符号を測定資源に使ったのだね。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 1976,
-              "endFrame": 2183
-            },
-            {
-              "speaker": "B",
-              "text": "二量子ビット反復符号を用います。量子パリティ符号の一例で、ビット反転誤りを検出できます。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 2191,
-              "endFrame": 2413
-            },
-            {
-              "speaker": "A",
-              "text": "実験の平均成功確率が70.8プラスマイナス0.4パーセントなのだ。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 2421,
-              "endFrame": 2625
-            },
-            {
-              "speaker": "B",
-              "text": "50パーセントより20.8ポイント高く、統計誤差より十分に大きい差です。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 2633,
-              "endFrame": 2804
-            },
-            {
-              "speaker": "A",
-              "text": "追加資源なし、という主張は何を基準にしているのだ？",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 2811,
-              "endFrame": 2954
-            },
-            {
-              "speaker": "B",
-              "text": "フォールトトレラント方式では誤り訂正符号が元から必要なので、ベル測定専用の符号化を追加しないという意味です。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 2961,
-              "endFrame": 3214
-            },
-            {
-              "speaker": "A",
-              "text": "ただし、この二量子ビット符号が任意の誤りを訂正するわけではないのだ。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 3222,
-              "endFrame": 3402
-            },
-            {
-              "speaker": "B",
-              "text": "そうです。ビット反転検出の実証で、光子損失や符号化を含む総成功率は別に評価する必要があります。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 3410,
-              "endFrame": 3661
-            },
-            {
-              "speaker": "A",
-              "text": "物理測定器の限界を、論理表現の設計で越えたことが差分なのだね。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 3669,
-              "endFrame": 3852
-            },
-            {
-              "speaker": "B",
-              "text": "次は、より完全な符号と多段融合でも安全鍵率やグラフ状態生成率の利点が残るかです。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 3860,
-              "endFrame": 4075
-            },
-            {
-              "speaker": "A",
-              "text": "既に符号化した入力だけを分母にする場合と、符号化の損失も含める場合では総効率が変わるのだ。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 4083,
-              "endFrame": 4338
-            },
-            {
-              "speaker": "B",
-              "text": "検出効率と光子損失を固定した同一条件比較が、20.8ポイントの利得をシステム性能へ結びつけます。",
-              "section": "論文1: 線形光学限界を超える論理ベル状態測定",
-              "startFrame": 4345,
-              "endFrame": 4594
-            },
-            {
-              "speaker": "B",
-              "text": "2本目は「追加量子ビットなしで漏洩を排出する歩行フロケ符号」です。エール大学のチームです。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 4612,
-              "endFrame": 4836
-            },
-            {
-              "speaker": "A",
-              "text": "漏洩は量子ビットが計算部分空間を抜け、時空間に相関した誤りを作るのだ。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 4843,
-              "endFrame": 5057
-            },
-            {
-              "speaker": "B",
-              "text": "その相関は符号閾値だけでなく、実効符号距離も低下させます。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 5064,
-              "endFrame": 5215
-            },
-            {
-              "speaker": "A",
-              "text": "提案する旋回型と滑走型は、どうやって漏洩を外へ運ぶのだ？",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 5223,
-              "endFrame": 5400
-            },
-            {
-              "speaker": "B",
-              "text": "反交換する二体測定の順序を動かし、論理情報を保護しながら漏洩を周期的に排出します。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 5407,
-              "endFrame": 5622
-            },
-            {
-              "speaker": "A",
-              "text": "漏洩除去専用の補助量子ビットを足さないから、ゼロオーバーヘッドなのだね。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 5629,
-              "endFrame": 5808
-            },
-            {
-              "speaker": "B",
-              "text": "その意味に限られます。測定スケジュールや制御の複雑さがゼロではありません。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 5815,
-              "endFrame": 5975
-            },
-            {
-              "speaker": "A",
-              "text": "従来のハニカム・フロケ動的回路との違いは？",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 5983,
-              "endFrame": 6112
-            },
-            {
-              "speaker": "B",
-              "text": "パウリ誤りに対する符号距離を保存します。二つの漏洩模型では、漏洩をパウリ誤りと同程度まで訂正しえました。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 6120,
-              "endFrame": 6382
-            },
-            {
-              "speaker": "A",
-              "text": "有限誤り率でウォーターフォール領域も現れたのだ。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 6389,
-              "endFrame": 6519
-            },
-            {
-              "speaker": "B",
-              "text": "エントロピー効果により、論理誤り率が距離予測より急に低下します。その領域では同距離の歩行表面符号を上回りました。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 6527,
-              "endFrame": 6808
-            },
-            {
-              "speaker": "A",
-              "text": "漸近解析の順位と、有限サイズ装置の順位が逆転しうるのだね。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 6816,
-              "endFrame": 6997
-            },
-            {
-              "speaker": "B",
-              "text": "優位は二つの漏洩模型に依存します。測定誤りと不完全リセットを含む回路模型での持続性が課題です。",
-              "section": "論文2: 追加量子ビットなしで漏洩を排出する歩行フロケ符号",
-              "startFrame": 7004,
-              "endFrame": 7243
-            },
-            {
-              "speaker": "B",
-              "text": "3本目は「超伝導量子ビット制御用の極低温プログラマブルシーモス変換器」です。米国海軍研究所のチームです。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 7261,
-              "endFrame": 7548
-            },
-            {
-              "speaker": "A",
-              "text": "量子ビット数を増やすと、室温から冷凍機へ入る配線と熱負荷が厳しくなるのだ。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 7555,
-              "endFrame": 7763
-            },
-            {
-              "speaker": "B",
-              "text": "そこで電流型デジタル・アナログ変換器を極低温側へ置き、磁束制御や読み出しに使います。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 7770,
-              "endFrame": 7986
-            },
-            {
-              "speaker": "A",
-              "text": "製造プロセスは90ナノメートルの平面シーモスなのだ。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 7994,
-              "endFrame": 8131
-            },
-            {
-              "speaker": "B",
-              "text": "パルス振幅と立上り・立下り勾配をデジタル制御し、幅は外部トリガーで設定します。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 8139,
-              "endFrame": 8345
-            },
-            {
-              "speaker": "A",
-              "text": "超伝導回路を実際に駆動し、試験結果が回路予測とよく一致したのだね。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 8352,
-              "endFrame": 8547
-            },
-            {
-              "speaker": "B",
-              "text": "ただし要旨には、温度、分解能、更新速度、消費電力、出力雑音の具体値がありません。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 8554,
-              "endFrame": 8809
-            },
-            {
-              "speaker": "A",
-              "text": "だから高忠実度制御を可能にする候補でも、忠実度を実証したとは言えないのだ。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 8816,
-              "endFrame": 9018
-            },
-            {
-              "speaker": "B",
-              "text": "採用判断には、冷凍機の温度段ごとの電力予算と、磁束雑音が位相緩和へ与える寄与が必要です。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 9026,
-              "endFrame": 9272
-            },
-            {
-              "speaker": "A",
-              "text": "多チャネル化するとクロストークと校正ドリフトも増えるのだ。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 9280,
-              "endFrame": 9406
-            },
-            {
-              "speaker": "B",
-              "text": "単体変換器の一致から、量子プロセッサ全体の配線削減へ進む間に残る評価項目です。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 9413,
-              "endFrame": 9624
-            },
-            {
-              "speaker": "A",
-              "text": "外部配線を減らしても、局所発熱が量子ビット温度を上げれば利得を相殺するのだ。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 9632,
-              "endFrame": 9842
-            },
-            {
-              "speaker": "B",
-              "text": "単一チャネルの消費電力だけでなく、チャネル数に対する発熱と雑音の増え方が比較軸です。",
-              "section": "論文3: 超伝導量子ビット制御用の極低温プログラマブルCMOS変換器",
-              "startFrame": 9850,
-              "endFrame": 10054
-            },
-            {
-              "speaker": "B",
-              "text": "4本目は「バイアス雑音とクロストーク下のゼットエックス・ゼットワイ表面符号閾値」です。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 10072,
-              "endFrame": 10291
-            },
-            {
-              "speaker": "A",
-              "text": "標準のゼットエックス符号と、エックス型安定化子をワイ型へ替えたゼットワイ符号を比べるのだ。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 10299,
-              "endFrame": 10530
-            },
-            {
-              "speaker": "B",
-              "text": "回路レベルのパウリエックス・バイアス雑音に、ゲート由来のエックスエックス・クロストークも加えます。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 10538,
-              "endFrame": 10761
-            },
-            {
-              "speaker": "A",
-              "text": "ゼットエックス符号の二つの論理メモリーは、バイアスへ逆向きに応答したのだね。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 10768,
-              "endFrame": 10959
-            },
-            {
-              "speaker": "B",
-              "text": "エックスメモリー閾値は単調増加し、ゼットメモリー閾値は低下して飽和しました。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 10967,
-              "endFrame": 11154
-            },
-            {
-              "speaker": "A",
-              "text": "ゼットワイ符号のワイメモリー閾値は、バイアス全域でほぼ一定なのだ。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 11161,
-              "endFrame": 11334
-            },
-            {
-              "speaker": "B",
-              "text": "両符号のゼットメモリー閾値は不確かさ内で一致しました。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 11342,
-              "endFrame": 11463
-            },
-            {
-              "speaker": "A",
-              "text": "相関クロストークを足すと、どこが壊れたのだ？",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 11470,
-              "endFrame": 11590
-            },
-            {
-              "speaker": "B",
-              "text": "ゼットメモリー閾値はフィット不確かさを超えて低下し、エックスメモリー閾値はほぼ変わりませんでした。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 11597,
-              "endFrame": 11808
-            },
-            {
-              "speaker": "A",
-              "text": "制御ノットの順序でも、二つのメモリー間に性能が再配分されるのだ。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 11815,
-              "endFrame": 11996
-            },
-            {
-              "speaker": "B",
-              "text": "雑音バイアスへ符号を合わせるだけでは不十分で、相関した症候を共同で扱うデコーダーが必要です。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 12004,
-              "endFrame": 12228
-            },
-            {
-              "speaker": "A",
-              "text": "要旨に閾値の絶対値がないから、有限サイズフィットまで揃えて比較するのだね。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 12235,
-              "endFrame": 12436
-            },
-            {
-              "speaker": "B",
-              "text": "符号距離、雑音率の定義、デコーダーを固定して初めて実装候補を順位付けできます。",
-              "section": "論文4: バイアス雑音とクロストーク下のZX・ZY表面符号閾値",
-              "startFrame": 12444,
-              "endFrame": 12641
-            },
-            {
-              "speaker": "B",
-              "text": "5本目は「有限ブロッケード下の中性原子三量子ビット制御制御ゼットゲート」です。インド工科大学のチームです。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 12659,
-              "endFrame": 12926
-            },
-            {
-              "speaker": "A",
-              "text": "無限に強いブロッケードを仮定せず、有限相互作用で三体ゲートを解析するのだ。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 12934,
-              "endFrame": 13146
-            },
-            {
-              "speaker": "B",
-              "text": "対称な三中性原子系へ単一ガウスレーザーパルスを加え、非計算リュードベリ状態への人口漏洩も含めます。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 13154,
-              "endFrame": 13401
-            },
-            {
-              "speaker": "A",
-              "text": "置換対称性に適合したハミルトニアンで、厳密な力学を保って計算量を減らすのだね。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 13408,
-              "endFrame": 13636
-            },
-            {
-              "speaker": "B",
-              "text": "ラビ周波数、レーザー離調、ブロッケード強度を走査し、高忠実度、短時間、低漏洩の領域を探します。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 13643,
-              "endFrame": 13920
-            },
-            {
-              "speaker": "A",
-              "text": "誤差を一つの忠実度へ潰さず、位相誤差、人口漏洩、有限寿命に分けたのだ。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 13928,
-              "endFrame": 14161
-            },
-            {
-              "speaker": "B",
-              "text": "その分解により、強ブロッケードへ近づく過程で何が律速するかを追えます。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 14169,
-              "endFrame": 14333
-            },
-            {
-              "speaker": "A",
-              "text": "ただし要旨に最良忠実度とゲート時間の具体的な値はないのだ。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 14341,
-              "endFrame": 14504
-            },
-            {
-              "speaker": "B",
-              "text": "実験的に到達可能という主張はありますが、これは理論研究で、実機実証ではありません。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 14512,
-              "endFrame": 14718
-            },
-            {
-              "speaker": "A",
-              "text": "三体ゲートを二体ゲート列へ分解しない利点も、校正感度と一緒に比べる必要があるのだ。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 14726,
-              "endFrame": 14958
-            },
-            {
-              "speaker": "B",
-              "text": "運動・ドップラー雑音とパルス誤差を含め、最適領域の幅を実測することが実用化への次の段階です。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 14965,
-              "endFrame": 15205
-            },
-            {
-              "speaker": "A",
-              "text": "単一パルスだから回路深さは減らせても、三つの原子へ同じ波形を再現する精度が必要なのだ。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 15213,
-              "endFrame": 15456
-            },
-            {
-              "speaker": "B",
-              "text": "二量子ビットゲート列との比較では、総時間、漏洩、校正パラメータ数を同時に揃えるべきです。",
-              "section": "論文5: 有限ブロッケード下の中性原子三量子ビットCCZゲート",
-              "startFrame": 15463,
-              "endFrame": 15686
-            },
-            {
-              "speaker": "B",
-              "text": "今日の最も強い実験値は、論理ベル測定の70.8プラスマイナス0.4パーセントでした。",
-              "section": "まとめ",
-              "startFrame": 15704,
-              "endFrame": 15925
-            },
-            {
-              "speaker": "A",
-              "text": "50パーセント限界超えは明確でも、損失込みの総成功率とは分けるのだ。",
-              "section": "まとめ",
-              "startFrame": 15932,
-              "endFrame": 16130
-            },
-            {
-              "speaker": "B",
-              "text": "漏洩除去の追加量子ビット不要、表面符号の閾値傾向、中性原子の高忠実度領域にも限定条件があります。",
-              "section": "まとめ",
-              "startFrame": 16137,
-              "endFrame": 16416
-            },
-            {
-              "speaker": "A",
-              "text": "制御回路では、回路予測との一致から多チャネルの電力と雑音評価まで距離があるのだ。",
-              "section": "まとめ",
-              "startFrame": 16423,
-              "endFrame": 16638
-            },
-            {
-              "speaker": "B",
-              "text": "符号、制御、物理ゲートを同じ装置へ積むと、相関雑音と校正ドリフトが共通の評価軸になります。",
-              "section": "まとめ",
-              "startFrame": 16645,
-              "endFrame": 16897
-            },
-            {
-              "speaker": "A",
-              "text": "数字が示す層と、まだ測っていない層を分けると実用化距離が見えるのだ。",
-              "section": "まとめ",
-              "startFrame": 16904,
-              "endFrame": 17086
-            },
-            {
-              "speaker": "B",
-              "text": "最後までお聞きいただき、ありがとうございました。また次回お会いしましょう。",
-              "section": "まとめ",
-              "startFrame": 17094,
-              "endFrame": 17246
             }
           ]
         }
