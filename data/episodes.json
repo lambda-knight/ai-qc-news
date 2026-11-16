@@ -1,5 +1,462 @@
 [
   {
+    "date": "2026-11-16",
+    "segments": [
+      {
+        "mode": "ai",
+        "label": "生成AIニュース",
+        "iaId": "news-pickup-2026-11-16-ai",
+        "title": "【速報】FBIがAI攻撃ツールに警告、AppleがAI健康相談を検証ほか今週のAI業界まとめ 2026/11/16",
+        "audioUrl": "https://archive.org/download/news-pickup-2026-11-16-ai/ai_yukkuri.m4a",
+        "markdown": "<h1>FBIがAI攻撃ツールARTEXに警告、AppleがAI健康相談を20万人で検証、GitHub 4,837アカウント乗っ取り（2026年11月16日）</h1>\n<p><strong>キーワード:</strong> ARTEX・FBI警告 / Apple Health AI Study / llama.cpp 1.0 / GHZベンチマーク / 量子供給網 / wfx-loot</p>\n<h2>オープニング：2026年11月16日 — 生成AI・量子・セキュリティニュース</h2>\n<ul>\n<li><strong>放送日</strong>: 2026年11月16日</li>\n<li><strong>本日の主要トピック</strong>:</li>\n<li>FBIがAI侵入試験枠組み「ARTEX」に13ページの緊急警告、ConnectWise供給網攻撃との関係も判明</li>\n<li>AppleとOpenEvidenceのAI健康相談研究、llama.cpp 1.0.0の公開</li>\n<li>クラウド量子機9台のGHZ状態測定、米国の量子供給網への警鐘</li>\n<li>GitHub 4,837アカウント乗っ取りによるCI秘密情報の窃取</li>\n<li><strong>本日の問い</strong>: AIが攻撃にも開発にも深く入り込んだ今、守りの穴はどこにあるのか</li>\n</ul>\n<h2>AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告</h2>\n<ul>\n<li><strong>警告（BleepingComputer, 2026-11-15）</strong>: FBIが13ページのFLASH警告を公表。少なくとも2026年8月から複数の攻撃者が使用</li>\n<li><strong>ARTEXとは</strong>: Go製のオープンソース自律型侵入試験枠組み。自前モデルはなく、Claude・GPT・DeepSeek・GLM・Grok・Kimiなど外部LLMを呼び出し、偵察→脆弱性発見→侵入→権限昇格→窃取をAIエージェントで進める</li>\n<li><strong>経緯</strong>: 7月にGitHubで公開、悪用報告を受け10月8日に削除。フォーク・複製・商用版「ARTEX PRO」で流通。11月初めに公開状態の管理画面が1,600超</li>\n<li><strong>被害の傾向</strong>: 金融・政府・技術・防衛・医療など。標的選定から特権取得まで3時間未満の事例。パートナーポータル・社員向けアプリ・旧来サービス・第三者連携など見落とされやすい系統に強い</li>\n<li><strong>新たな結び付き</strong>: 10月のConnectWise Cloud Backup（旧SkyKick）供給網攻撃。Huntressが少なくとも162テナントの侵害を確認。MicrosoftはStorm-0940（中国の国家寄りの集団）と帰属し、2,250超のMicrosoft 365テナントへの認証試行を報告</li>\n<li><strong>FBIの対策</strong>: 外部公開アプリの保護、クラウド管理画面のアクセス制限、アプリ権限と認証ログの見直し、機微なAPIのレート制限、自動化された大量リクエストや権限変更の監視、IC3への報告</li>\n<li><strong>留意点</strong>: 警告のIPアドレスは変わっている恐れ。検知シグネチャを公開したMalwareMustDieもIPベースの指標は古くなりやすいと注意</li>\n</ul>\n<h2>生成AI：Apple、AIの健康相談を最大20万人で検証</h2>\n<ul>\n<li><strong>発表（TechCrunch, 2026-11-15）</strong>: AppleがOpenEvidence（医療特化AI企業）と「Apple Health AI Study」アプリを米国で公開</li>\n<li><strong>規模</strong>: 最大20万人、12か月超の研究</li>\n<li><strong>参加条件</strong>: 米国在住の21歳超、iPhone 15以降・iOS 26以降、Apple Intelligence有効</li>\n<li><strong>仕組み</strong>: NEJM・JAMA・Natureなどの臨床データに基づいて回答。参加者は回答を評価し月次アンケートに回答。安静時心拍・活動・睡眠・検査結果のHealthKitデータを任意で共有</li>\n<li><strong>データの扱い</strong>: 匿名化して第三者クラウドへ。AIモデルの学習には使わない。OpenEvidenceは問い合わせと回答を24時間で削除</li>\n<li><strong>発言</strong>: Sumbul Desai氏（Apple 健康・フィットネス担当VP）「責任あるイノベーションは科学的厳密さと臨床的根拠から始まる」</li>\n<li><strong>背景</strong>: OpenAIは今年、健康関連の質問が週3億件超と公表</li>\n<li><strong>留意点</strong>: 製品ではなく研究枠。HealthアプリやSiriへのAI回答搭載は不明</li>\n</ul>\n<h2>生成AI：llama.cpp 1.0、ローカルAIの土台が初の正式版</h2>\n<ul>\n<li><strong>公開（GitHub, 2026-11-13）</strong>: llama.cpp v1.0.0。計算ライブラリggmlも同時に1.0.0</li>\n<li><strong>互換性</strong>: 非推奨の公開APIを削除（35関数など）。旧APIを使うアプリは改修が必要</li>\n<li><strong>性能機能</strong>: FP8のKVキャッシュ、MoEの専門家重みをホストメモリに置くキャッシュ（CPU分担率を設定可）</li>\n<li><strong>新モデル</strong>: Kimi-K3.1-Pro、Ripple-65B-Preview（650億パラメータの密なモデル）、xing4_0、drama-3 TTS</li>\n<li><strong>サーバーの安全対策</strong>: 外部到達可能なアドレスで認証なしツールを使うには明示的オプトイン（<code>--allow-unauthenticated-tools</code>）。SSRF・CORS・DNSリバインディングを修正、HF_TOKENはhuggingface.coのホストに限定</li>\n<li><strong>意味</strong>: 手軽に立てたローカルAIサーバーが社内ネットの穴になる危険を、既定で閉じる方向へ</li>\n</ul>\n<h2>量子コンピュータ：9機種のGHZ測定、もつれは物理量子ビットの4分の1未満</h2>\n<ul>\n<li><strong>研究（Quantum Computing Report, 2026-11-15）</strong>: Gradiant、バスク大学（UPV/EHU）、BCAMほか。arXiv 2611.14114v1（プレプリント）</li>\n<li><strong>方法</strong>: 5社9台を標準コンパイル・誤り抑制なしで測定。回路ごとに2,952個のスタビライザーを無作為抽出する直接忠実度推定</li>\n<li><strong>結果（最大GHZサイズ／物理量子ビット）</strong>:</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>機種</th>\n<th>結果</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>IBM Phoenix（Nighthawk r2）</td>\n<td>27／120</td>\n</tr>\n<tr>\n<td>IBM Basquecountry（Heron r2）</td>\n<td>24／156</td>\n</tr>\n<tr>\n<td>IBM Pittsburgh（Heron r3）</td>\n<td>21／156</td>\n</tr>\n<tr>\n<td>IQM Emerald</td>\n<td>20／54</td>\n</tr>\n<tr>\n<td>IBM Miami（Nighthawk r1）</td>\n<td>18／120</td>\n</tr>\n<tr>\n<td>IQM Garnet</td>\n<td>13／20</td>\n</tr>\n<tr>\n<td>AQT IBEX Q1（イオントラップ）</td>\n<td>12／12</td>\n</tr>\n<tr>\n<td>Rigetti Cepheus-1</td>\n<td>4／107</td>\n</tr>\n<tr>\n<td>CESGA Qmio（OQC）</td>\n<td>3／32</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><strong>技術的な要点</strong>: 大型超伝導機は物理レジスタの4分の1未満でしか多体もつれを保てない。量子ビットあたりのGHZ誤差は2量子ビットゲート誤差中央値の約1桁上。著者は中央値の校正指標は多量子ビット性能の予測に不向きと指摘</li>\n<li><strong>留意点</strong>: 厳しい判定（真の多体もつれ）では合格は4機種。過去の各社実証は独自パルス最適化・後選択・読み出し誤り抑制を使っており直接比較できない。データはZenodo、コードはGitHubで公開</li>\n</ul>\n<h2>量子コンピュータ：米国の量子供給網、AI需要が光部品を吸い上げる</h2>\n<ul>\n<li><strong>分析（The Quantum Insider, 2026-11-13）</strong>: Foundation for American Innovation（FAI）の政策文書。Playground Globalとの円卓会議に基づく</li>\n<li><strong>数字</strong>: 冷凍機・特殊素材・光部品・電子部品など供給層への連邦量子予算は12%未満</li>\n<li><strong>AIとの競合</strong>: 光集積チップ、低損失光スイッチ、高品質光ファイバーをAIインフラ需要が大きく吸収</li>\n<li><strong>素材</strong>: ヘリウム3、シリコン28、バリウム、イッテルビウム、エルビウム、プラセオジム</li>\n<li><strong>技術的な要点</strong>: 超伝導とイオントラップでは必要部品が異なり、単一の供給網図では漏れが出る</li>\n<li><strong>提言</strong>: 部品・システムの事前購入確約（2〜4年で生産開始）、CHIPS研究開発室・戦略資本室・開発金融公社・国防生産法の連携、DARPA QBIのデータ共有</li>\n<li><strong>時間軸</strong>: 今後2〜5年の投資判断が主導権を左右。国家量子戦略の改定は12月予定</li>\n</ul>\n<h2>セキュリティ：GitHubの4,837アカウント乗っ取り、CIから秘密を抜く</h2>\n<ul>\n<li><strong>事件（BleepingComputer, 2026-11-12）</strong>: Aikidoが「wfx-loot」と命名。11月10日開始</li>\n<li><strong>規模</strong>: 盗んだ認証情報で4,837アカウントを使用。6万1,764リポジトリに「docs: dependency audit notes」のプルリクエストで書き込み権限を探索、92%が開いたまま。少なくとも1,835の対象から秘密情報の窃取を確認</li>\n<li><strong>被害先の例</strong>: Fortune 100企業、米一般調達局、フランス政府、Nextcloud、WebdriverIO。パッケージ公開権限を持つアカウントが約50</li>\n<li><strong>手口</strong>: GitHub Actionsのワークフロー改変などで約1,500行のシェルスクリプトを実行</li>\n<li><strong>狙う情報</strong>: GITHUB_TOKEN・OIDC、AWS・Azure・Google Cloudの認証情報、OpenAI・Anthropic・Gemini・Hugging Faceなどの鍵</li>\n<li><strong>技術的な要点</strong>: OIDCトークンをクラウドの一時権限に交換し、長期の認証情報作成も試行。終了後1分足らずで変更と実行記録を削除</li>\n<li><strong>対策</strong>: 「wfx-docs」ブランチ、探索用プルリクエスト、ワークフロー実行番号の欠けを確認。実行が確認されたら、そのワークフローで使えた秘密とクラウド権限をすべて交換</li>\n</ul>\n<h2>セキュリティ：最近のインシデント一覧</h2>\n<ul>\n<li><strong>TSMC</strong>（台湾／11月15日報道／委託先クラウド経由の従業員データ流出）：SEC提出書類で流出を認める。販売者は約4万6,000件・6.9GBと主張し3BTCから競売／自社システム侵害の証拠なし、業務・顧客への影響なし、対象者へ通知中</li>\n<li><strong>新韓・KB国民・ハナ銀行</strong>（韓国／11月15日報道／AIエージェント併用の攻撃）：ARTEXとClaude Codeエージェントを併用。約6万7,000人の個人情報が流出</li>\n<li><strong>韓国の90超の組織</strong>（韓国警察／11月15日報道／連続侵入）：病院・教育機関・企業から約820万件のデータ窃取。7人逮捕</li>\n<li><strong>ScreenConnect利用の管理代行業者</strong>（11月12日報道／11月13日回の続報、マルウェア「SCKit」）：被害は48組織・288台に。技術者端末への拡散機能は成功例なし／拡張機能の停止と、CVE-2026-84869を直したクライアント26.6.5への更新を推奨</li>\n<li><strong>Windows</strong>（11月13日報道／更新後の不具合）：11月の更新後にライセンス認証が失敗する問題をMicrosoftが確認</li>\n<li><strong>利用者の対策</strong>: 開発者はワークフローの秘密とクラウド権限を見直し、遠隔管理ツールの不要な拡張機能を停止</li>\n</ul>\n<h2>まとめ</h2>\n<ul>\n<li>ご視聴ありがとうございました。また明日。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li>https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/</li>\n<li>https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/</li>\n<li>https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0</li>\n<li>https://quantumcomputingreport.com/cross-platform-cloud-benchmark-reveals-wide-gap-between-physical-qubit-counts-and-entangled-ghz-state-sizes/</li>\n<li>https://thequantuminsider.com/2026/11/13/u-s-quantum-ambitions-face-a-supply-chain-test-policy-analysts-warn/</li>\n<li>https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/</li>\n<li>https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/</li>\n<li>https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/</li>\n<li>https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/</li>\n</ul>",
+        "markdownSource": "# FBIがAI攻撃ツールARTEXに警告、AppleがAI健康相談を20万人で検証、GitHub 4,837アカウント乗っ取り（2026年11月16日）\n\n**キーワード:** ARTEX・FBI警告 / Apple Health AI Study / llama.cpp 1.0 / GHZベンチマーク / 量子供給網 / wfx-loot\n\n## オープニング：2026年11月16日 — 生成AI・量子・セキュリティニュース\n- **放送日**: 2026年11月16日\n- **本日の主要トピック**:\n  - FBIがAI侵入試験枠組み「ARTEX」に13ページの緊急警告、ConnectWise供給網攻撃との関係も判明\n  - AppleとOpenEvidenceのAI健康相談研究、llama.cpp 1.0.0の公開\n  - クラウド量子機9台のGHZ状態測定、米国の量子供給網への警鐘\n  - GitHub 4,837アカウント乗っ取りによるCI秘密情報の窃取\n- **本日の問い**: AIが攻撃にも開発にも深く入り込んだ今、守りの穴はどこにあるのか\n\n## AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告\n- **警告（BleepingComputer, 2026-11-15）**: FBIが13ページのFLASH警告を公表。少なくとも2026年8月から複数の攻撃者が使用\n- **ARTEXとは**: Go製のオープンソース自律型侵入試験枠組み。自前モデルはなく、Claude・GPT・DeepSeek・GLM・Grok・Kimiなど外部LLMを呼び出し、偵察→脆弱性発見→侵入→権限昇格→窃取をAIエージェントで進める\n- **経緯**: 7月にGitHubで公開、悪用報告を受け10月8日に削除。フォーク・複製・商用版「ARTEX PRO」で流通。11月初めに公開状態の管理画面が1,600超\n- **被害の傾向**: 金融・政府・技術・防衛・医療など。標的選定から特権取得まで3時間未満の事例。パートナーポータル・社員向けアプリ・旧来サービス・第三者連携など見落とされやすい系統に強い\n- **新たな結び付き**: 10月のConnectWise Cloud Backup（旧SkyKick）供給網攻撃。Huntressが少なくとも162テナントの侵害を確認。MicrosoftはStorm-0940（中国の国家寄りの集団）と帰属し、2,250超のMicrosoft 365テナントへの認証試行を報告\n- **FBIの対策**: 外部公開アプリの保護、クラウド管理画面のアクセス制限、アプリ権限と認証ログの見直し、機微なAPIのレート制限、自動化された大量リクエストや権限変更の監視、IC3への報告\n- **留意点**: 警告のIPアドレスは変わっている恐れ。検知シグネチャを公開したMalwareMustDieもIPベースの指標は古くなりやすいと注意\n\n## 生成AI：Apple、AIの健康相談を最大20万人で検証\n- **発表（TechCrunch, 2026-11-15）**: AppleがOpenEvidence（医療特化AI企業）と「Apple Health AI Study」アプリを米国で公開\n- **規模**: 最大20万人、12か月超の研究\n- **参加条件**: 米国在住の21歳超、iPhone 15以降・iOS 26以降、Apple Intelligence有効\n- **仕組み**: NEJM・JAMA・Natureなどの臨床データに基づいて回答。参加者は回答を評価し月次アンケートに回答。安静時心拍・活動・睡眠・検査結果のHealthKitデータを任意で共有\n- **データの扱い**: 匿名化して第三者クラウドへ。AIモデルの学習には使わない。OpenEvidenceは問い合わせと回答を24時間で削除\n- **発言**: Sumbul Desai氏（Apple 健康・フィットネス担当VP）「責任あるイノベーションは科学的厳密さと臨床的根拠から始まる」\n- **背景**: OpenAIは今年、健康関連の質問が週3億件超と公表\n- **留意点**: 製品ではなく研究枠。HealthアプリやSiriへのAI回答搭載は不明\n\n## 生成AI：llama.cpp 1.0、ローカルAIの土台が初の正式版\n- **公開（GitHub, 2026-11-13）**: llama.cpp v1.0.0。計算ライブラリggmlも同時に1.0.0\n- **互換性**: 非推奨の公開APIを削除（35関数など）。旧APIを使うアプリは改修が必要\n- **性能機能**: FP8のKVキャッシュ、MoEの専門家重みをホストメモリに置くキャッシュ（CPU分担率を設定可）\n- **新モデル**: Kimi-K3.1-Pro、Ripple-65B-Preview（650億パラメータの密なモデル）、xing4_0、drama-3 TTS\n- **サーバーの安全対策**: 外部到達可能なアドレスで認証なしツールを使うには明示的オプトイン（`--allow-unauthenticated-tools`）。SSRF・CORS・DNSリバインディングを修正、HF_TOKENはhuggingface.coのホストに限定\n- **意味**: 手軽に立てたローカルAIサーバーが社内ネットの穴になる危険を、既定で閉じる方向へ\n\n## 量子コンピュータ：9機種のGHZ測定、もつれは物理量子ビットの4分の1未満\n- **研究（Quantum Computing Report, 2026-11-15）**: Gradiant、バスク大学（UPV/EHU）、BCAMほか。arXiv 2611.14114v1（プレプリント）\n- **方法**: 5社9台を標準コンパイル・誤り抑制なしで測定。回路ごとに2,952個のスタビライザーを無作為抽出する直接忠実度推定\n- **結果（最大GHZサイズ／物理量子ビット）**:\n\n| 機種 | 結果 |\n|---|---|\n| IBM Phoenix（Nighthawk r2） | 27／120 |\n| IBM Basquecountry（Heron r2） | 24／156 |\n| IBM Pittsburgh（Heron r3） | 21／156 |\n| IQM Emerald | 20／54 |\n| IBM Miami（Nighthawk r1） | 18／120 |\n| IQM Garnet | 13／20 |\n| AQT IBEX Q1（イオントラップ） | 12／12 |\n| Rigetti Cepheus-1 | 4／107 |\n| CESGA Qmio（OQC） | 3／32 |\n\n- **技術的な要点**: 大型超伝導機は物理レジスタの4分の1未満でしか多体もつれを保てない。量子ビットあたりのGHZ誤差は2量子ビットゲート誤差中央値の約1桁上。著者は中央値の校正指標は多量子ビット性能の予測に不向きと指摘\n- **留意点**: 厳しい判定（真の多体もつれ）では合格は4機種。過去の各社実証は独自パルス最適化・後選択・読み出し誤り抑制を使っており直接比較できない。データはZenodo、コードはGitHubで公開\n\n## 量子コンピュータ：米国の量子供給網、AI需要が光部品を吸い上げる\n- **分析（The Quantum Insider, 2026-11-13）**: Foundation for American Innovation（FAI）の政策文書。Playground Globalとの円卓会議に基づく\n- **数字**: 冷凍機・特殊素材・光部品・電子部品など供給層への連邦量子予算は12%未満\n- **AIとの競合**: 光集積チップ、低損失光スイッチ、高品質光ファイバーをAIインフラ需要が大きく吸収\n- **素材**: ヘリウム3、シリコン28、バリウム、イッテルビウム、エルビウム、プラセオジム\n- **技術的な要点**: 超伝導とイオントラップでは必要部品が異なり、単一の供給網図では漏れが出る\n- **提言**: 部品・システムの事前購入確約（2〜4年で生産開始）、CHIPS研究開発室・戦略資本室・開発金融公社・国防生産法の連携、DARPA QBIのデータ共有\n- **時間軸**: 今後2〜5年の投資判断が主導権を左右。国家量子戦略の改定は12月予定\n\n## セキュリティ：GitHubの4,837アカウント乗っ取り、CIから秘密を抜く\n- **事件（BleepingComputer, 2026-11-12）**: Aikidoが「wfx-loot」と命名。11月10日開始\n- **規模**: 盗んだ認証情報で4,837アカウントを使用。6万1,764リポジトリに「docs: dependency audit notes」のプルリクエストで書き込み権限を探索、92%が開いたまま。少なくとも1,835の対象から秘密情報の窃取を確認\n- **被害先の例**: Fortune 100企業、米一般調達局、フランス政府、Nextcloud、WebdriverIO。パッケージ公開権限を持つアカウントが約50\n- **手口**: GitHub Actionsのワークフロー改変などで約1,500行のシェルスクリプトを実行\n- **狙う情報**: GITHUB_TOKEN・OIDC、AWS・Azure・Google Cloudの認証情報、OpenAI・Anthropic・Gemini・Hugging Faceなどの鍵\n- **技術的な要点**: OIDCトークンをクラウドの一時権限に交換し、長期の認証情報作成も試行。終了後1分足らずで変更と実行記録を削除\n- **対策**: 「wfx-docs」ブランチ、探索用プルリクエスト、ワークフロー実行番号の欠けを確認。実行が確認されたら、そのワークフローで使えた秘密とクラウド権限をすべて交換\n\n## セキュリティ：最近のインシデント一覧\n- **TSMC**（台湾／11月15日報道／委託先クラウド経由の従業員データ流出）：SEC提出書類で流出を認める。販売者は約4万6,000件・6.9GBと主張し3BTCから競売／自社システム侵害の証拠なし、業務・顧客への影響なし、対象者へ通知中\n- **新韓・KB国民・ハナ銀行**（韓国／11月15日報道／AIエージェント併用の攻撃）：ARTEXとClaude Codeエージェントを併用。約6万7,000人の個人情報が流出\n- **韓国の90超の組織**（韓国警察／11月15日報道／連続侵入）：病院・教育機関・企業から約820万件のデータ窃取。7人逮捕\n- **ScreenConnect利用の管理代行業者**（11月12日報道／11月13日回の続報、マルウェア「SCKit」）：被害は48組織・288台に。技術者端末への拡散機能は成功例なし／拡張機能の停止と、CVE-2026-84869を直したクライアント26.6.5への更新を推奨\n- **Windows**（11月13日報道／更新後の不具合）：11月の更新後にライセンス認証が失敗する問題をMicrosoftが確認\n- **利用者の対策**: 開発者はワークフローの秘密とクラウド権限を見直し、遠隔管理ツールの不要な拡張機能を停止\n\n## まとめ\n- ご視聴ありがとうございました。また明日。\n\n## 参考ソース\n- https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/\n- https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/\n- https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0\n- https://quantumcomputingreport.com/cross-platform-cloud-benchmark-reveals-wide-gap-between-physical-qubit-counts-and-entangled-ghz-state-sizes/\n- https://thequantuminsider.com/2026/11/13/u-s-quantum-ambitions-face-a-supply-chain-test-policy-analysts-warn/\n- https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/\n- https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/\n- https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/\n- https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/\n",
+        "timeline": {
+          "version": 1,
+          "source": "tts_voicevox",
+          "fps": 30,
+          "totalFrames": 21805,
+          "audioDurationSec": 726.820667,
+          "cues": [
+            {
+              "speaker": "A",
+              "text": "2026年11月16日、「生成AI・量子・セキュリティニュース」の時間なのだ！最初は、AIで侵入を自動化する道具アーテックスに、FBIが公式の警告を出した話なのだ。",
+              "section": "オープニング：2026年11月16日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 18,
+              "endFrame": 553
+            },
+            {
+              "speaker": "B",
+              "text": "生成AIは、アップルが20万人規模で始めたAI健康相談の研究と、ローカルAIの土台ラマ・シーピーピーの正式版1.0です。",
+              "section": "オープニング：2026年11月16日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 561,
+              "endFrame": 887
+            },
+            {
+              "speaker": "A",
+              "text": "量子は、9台のクラウド量子機を同じ条件で比べた測定と、アメリカの量子部品の供給網なのだ。",
+              "section": "オープニング：2026年11月16日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 894,
+              "endFrame": 1155
+            },
+            {
+              "speaker": "B",
+              "text": "セキュリティは、ギットハブの4,837アカウントが乗っ取られた事件です。AIが攻撃にも開発にも深く入り込んだ今、守りの穴はどこにあるのか。それが今日の問いですわ。",
+              "section": "オープニング：2026年11月16日 — 生成AI・量子・セキュリティニュース",
+              "startFrame": 1163,
+              "endFrame": 1554
+            },
+            {
+              "speaker": "B",
+              "text": "FBIは13ページの緊急警告を出しました。対象はアーテックス、AIエージェントが侵入試験を自動で進めるオープンソースの枠組みです。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 1572,
+              "endFrame": 1888
+            },
+            {
+              "speaker": "A",
+              "text": "自前のAIモデルは持たないのだ。クロードやGPT、ディープシーク、グロック、キミなど外部のモデルを呼び出して、偵察から侵入、データの持ち出しまで進めるのだ。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 1895,
+              "endFrame": 2323
+            },
+            {
+              "speaker": "B",
+              "text": "7月にギットハブで公開され、悪用の報告を受けて10月8日に削除されました。それでもフォークや複製、商用版の「アーテックス・プロ」で出回っています。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 2330,
+              "endFrame": 2682
+            },
+            {
+              "speaker": "A",
+              "text": "11月初めの時点で、ネットにむき出しの管理画面が1,600を超えていたのだ。FBIによると、少なくとも8月から複数の攻撃者が使っているのだ。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 2690,
+              "endFrame": 3090
+            },
+            {
+              "speaker": "B",
+              "text": "狙われたのは金融・政府・技術・防衛・医療などです。最初の標的選びから特権の奪取まで、3時間かからなかった侵入もありました。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 3097,
+              "endFrame": 3450
+            },
+            {
+              "speaker": "A",
+              "text": "3時間！侵入に気づく前に、もう管理者の権限を取られているかもしれないのだ。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 3457,
+              "endFrame": 3663
+            },
+            {
+              "speaker": "B",
+              "text": "今回新たに結び付けられたのが、10月のコネクトワイズ・クラウドバックアップへの供給網攻撃です。ハントレスは少なくとも162のテナントの侵害を確認しました。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 3670,
+              "endFrame": 4038
+            },
+            {
+              "speaker": "A",
+              "text": "マイクロソフトは中国の国家寄りの集団、Storm-0940の仕業として、2,250を超えるマイクロソフト365のテナントへの認証の試みを報告していたのだ。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 4045,
+              "endFrame": 4482
+            },
+            {
+              "speaker": "B",
+              "text": "技術的に重要なのは、AIが手順を自動でつなぐ速さと、パートナー向けポータルや古いサービスなど見落とされがちな入口に強い点です。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 4490,
+              "endFrame": 4788
+            },
+            {
+              "speaker": "A",
+              "text": "FBIの対策は、外部公開アプリの保護、クラウド管理画面の制限、アプリ権限と認証ログの見直し、重要なAPIの回数制限なのだ。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 4795,
+              "endFrame": 5188
+            },
+            {
+              "speaker": "B",
+              "text": "警告に載ったIPアドレスはすでに変わっている恐れがあります。検知の目印を公開した研究者も、IPに頼る検知は古くなりやすいと注意していますわ。",
+              "section": "AIと安全保障：FBIがAI攻撃枠組み「ARTEX」に公式警告",
+              "startFrame": 5196,
+              "endFrame": 5525
+            },
+            {
+              "speaker": "A",
+              "text": "アップルが「アップル・ヘルスAIスタディ」というアプリを米国で公開したのだ。医療に特化したAI企業、オープンエビデンスと組んだ研究なのだ。",
+              "section": "生成AI：Apple、AIの健康相談を最大20万人で検証",
+              "startFrame": 5543,
+              "endFrame": 5914
+            },
+            {
+              "speaker": "B",
+              "text": "目標は最大20万人の参加で、期間は12か月以上です。参加できるのは21歳超で、アイフォーン15以降、アイオーエス26以降、アップル・インテリジェンスが有効な人です。",
+              "section": "生成AI：Apple、AIの健康相談を最大20万人で検証",
+              "startFrame": 5922,
+              "endFrame": 6349
+            },
+            {
+              "speaker": "A",
+              "text": "健康の質問をすると、ニューイングランド・ジャーナル・オブ・メディシンやJAMA、ネイチャーなどの臨床データに基づいて答えるのだ。",
+              "section": "生成AI：Apple、AIの健康相談を最大20万人で検証",
+              "startFrame": 6357,
+              "endFrame": 6686
+            },
+            {
+              "speaker": "B",
+              "text": "参加者は回答を評価し、毎月アンケートに答えます。安静時の心拍や睡眠、検査結果などのヘルスキットのデータを、任意で共有することもできます。",
+              "section": "生成AI：Apple、AIの健康相談を最大20万人で検証",
+              "startFrame": 6694,
+              "endFrame": 7036
+            },
+            {
+              "speaker": "A",
+              "text": "データは匿名化して外部のクラウドに送り、AIの学習には使わないと説明しているのだ。オープンエビデンスは質問と回答を24時間で消すのだ。",
+              "section": "生成AI：Apple、AIの健康相談を最大20万人で検証",
+              "startFrame": 7043,
+              "endFrame": 7411
+            },
+            {
+              "speaker": "B",
+              "text": "背景として、オープンAIは今年、健康に関する質問が週に3億件を超えると明かしています。",
+              "section": "生成AI：Apple、AIの健康相談を最大20万人で検証",
+              "startFrame": 7418,
+              "endFrame": 7637
+            },
+            {
+              "speaker": "A",
+              "text": "3億件も！日本ではこのアプリはまだ使えないのに、米国では健康相談の大きな入口になっているのだ。",
+              "section": "生成AI：Apple、AIの健康相談を最大20万人で検証",
+              "startFrame": 7644,
+              "endFrame": 7921
+            },
+            {
+              "speaker": "B",
+              "text": "注目点は、製品ではなく研究の枠で、利用者の評価データを集めることです。ヘルスアプリやシリにAIの回答が載るかは分かっていませんわ。",
+              "section": "生成AI：Apple、AIの健康相談を最大20万人で検証",
+              "startFrame": 7928,
+              "endFrame": 8246
+            },
+            {
+              "speaker": "B",
+              "text": "手元のパソコンでAIモデルを動かすための土台、ラマ・シーピーピーが11月13日、バージョン1.0.0を公開しました。計算ライブラリのジージーエムルも同時に1.0です。",
+              "section": "生成AI：llama.cpp 1.0、ローカルAIの土台が初の正式版",
+              "startFrame": 8264,
+              "endFrame": 8684
+            },
+            {
+              "speaker": "A",
+              "text": "大きな変更は、非推奨だった35の関数を消したことなのだ。古いAPIに頼っているアプリは、作り直しが必要になるのだ。",
+              "section": "生成AI：llama.cpp 1.0、ローカルAIの土台が初の正式版",
+              "startFrame": 8692,
+              "endFrame": 9024
+            },
+            {
+              "speaker": "B",
+              "text": "性能面では、注意機構の記憶をFP8で持つKVキャッシュが入りました。専門家を切り替えるMoE型モデル向けに、専門家の重みをホストのメモリに置くキャッシュも加わりました。",
+              "section": "生成AI：llama.cpp 1.0、ローカルAIの土台が初の正式版",
+              "startFrame": 9032,
+              "endFrame": 9421
+            },
+            {
+              "speaker": "A",
+              "text": "新しいモデルも増えたのだ。キミ・ケー3.1プロや、650億パラメータの密なモデル、リップルに対応したのだ。",
+              "section": "生成AI：llama.cpp 1.0、ローカルAIの土台が初の正式版",
+              "startFrame": 9429,
+              "endFrame": 9743
+            },
+            {
+              "speaker": "B",
+              "text": "見逃せないのはサーバーの安全対策です。外部から到達できるアドレスで認証なしのツールを使うには、明示的なオプトインが必要になりました。",
+              "section": "生成AI：llama.cpp 1.0、ローカルAIの土台が初の正式版",
+              "startFrame": 9750,
+              "endFrame": 10049
+            },
+            {
+              "speaker": "A",
+              "text": "SSRFやDNSリバインディングの穴もふさいだのだ。ハギングフェイスのトークンは、ハギングフェイスのホストにしか送らないようにしたのだ。",
+              "section": "生成AI：llama.cpp 1.0、ローカルAIの土台が初の正式版",
+              "startFrame": 10056,
+              "endFrame": 10381
+            },
+            {
+              "speaker": "B",
+              "text": "ローカルAIは、手軽さの裏で、社内ネットに無防備なサーバーを置く危険がありました。1.0は、その入口を既定で閉じる方向に動いた版と言えますわ。",
+              "section": "生成AI：llama.cpp 1.0、ローカルAIの土台が初の正式版",
+              "startFrame": 10389,
+              "endFrame": 10731
+            },
+            {
+              "speaker": "A",
+              "text": "スペインのバスク大学などの研究チームが、5社9台のクラウド量子機で、全部の量子ビットをもつれさせるジーエイチゼット状態を作ってみたのだ。",
+              "section": "量子コンピュータ：9機種のGHZ測定、もつれは物理量子ビットの4分の1未満",
+              "startFrame": 10749,
+              "endFrame": 11095
+            },
+            {
+              "speaker": "B",
+              "text": "条件はそろえました。標準のコンパイルで、誤り抑制はなしです。回路ごとに2,952個のスタビライザーを無作為に選び、忠実度を推定しています。",
+              "section": "量子コンピュータ：9機種のGHZ測定、もつれは物理量子ビットの4分の1未満",
+              "startFrame": 11102,
+              "endFrame": 11458
+            },
+            {
+              "speaker": "A",
+              "text": "最大はIBMのフェニックスで、120量子ビットのうち27なのだ。156量子ビットのヘロン機は24と21なのだ。",
+              "section": "量子コンピュータ：9機種のGHZ測定、もつれは物理量子ビットの4分の1未満",
+              "startFrame": 11465,
+              "endFrame": 11800
+            },
+            {
+              "speaker": "B",
+              "text": "IQMのエメラルドは54のうち20でした。リゲッティの107量子ビット機は4、OQCの32量子ビット機は3にとどまりました。",
+              "section": "量子コンピュータ：9機種のGHZ測定、もつれは物理量子ビットの4分の1未満",
+              "startFrame": 11808,
+              "endFrame": 12106
+            },
+            {
+              "speaker": "A",
+              "text": "イオントラップのAQTは12量子ビット全部でもつれたのだ！全部がつながる方式の強みなのだ。",
+              "section": "量子コンピュータ：9機種のGHZ測定、もつれは物理量子ビットの4分の1未満",
+              "startFrame": 12113,
+              "endFrame": 12351
+            },
+            {
+              "speaker": "B",
+              "text": "大型の超伝導機は、物理量子ビットの4分の1未満でしか多体のもつれを保てませんでした。量子ビットあたりの誤差は、2量子ビットゲート誤差の中央値より約1桁大きいのです。",
+              "section": "量子コンピュータ：9機種のGHZ測定、もつれは物理量子ビットの4分の1未満",
+              "startFrame": 12359,
+              "endFrame": 12742
+            },
+            {
+              "speaker": "A",
+              "text": "カタログの性能値だけ見て選ぶと、当てが外れるのだ。著者たちも、中央値の校正指標は多量子ビットの性能の予測には向かないと指摘しているのだ。",
+              "section": "量子コンピュータ：9機種のGHZ測定、もつれは物理量子ビットの4分の1未満",
+              "startFrame": 12749,
+              "endFrame": 13111
+            },
+            {
+              "speaker": "B",
+              "text": "ただ、より厳しい判定では合格は4機種に減ります。各社の過去の実証は独自のパルス最適化や後選択を使っていて、直接は比べられません。査読前のプレプリントですわ。",
+              "section": "量子コンピュータ：9機種のGHZ測定、もつれは物理量子ビットの4分の1未満",
+              "startFrame": 13118,
+              "endFrame": 13509
+            },
+            {
+              "speaker": "B",
+              "text": "ファウンデーション・フォー・アメリカン・イノベーションの政策文書が、アメリカの量子の供給網に警鐘を鳴らしました。",
+              "section": "量子コンピュータ：米国の量子供給網、AI需要が光部品を吸い上げる",
+              "startFrame": 13527,
+              "endFrame": 13787
+            },
+            {
+              "speaker": "A",
+              "text": "冷凍機や特殊な素材、光部品、電子部品といった供給の層には、連邦の量子予算の12%未満しか回っていないのだ。",
+              "section": "量子コンピュータ：米国の量子供給網、AI需要が光部品を吸い上げる",
+              "startFrame": 13794,
+              "endFrame": 14133
+            },
+            {
+              "speaker": "B",
+              "text": "特に、光を操るチップや損失の少ない光スイッチ、高品質の光ファイバーは、AI向けインフラの需要が大きく吸収していると指摘しています。",
+              "section": "量子コンピュータ：米国の量子供給網、AI需要が光部品を吸い上げる",
+              "startFrame": 14141,
+              "endFrame": 14470
+            },
+            {
+              "speaker": "A",
+              "text": "AIのデータセンターが、量子の部品まで持っていくのだ！ほかにもヘリウム3、シリコン28、イッテルビウムなどが挙がっているのだ。",
+              "section": "量子コンピュータ：米国の量子供給網、AI需要が光部品を吸い上げる",
+              "startFrame": 14478,
+              "endFrame": 14801
+            },
+            {
+              "speaker": "B",
+              "text": "超伝導とイオントラップでは、必要な部品が違います。1枚の供給網の図では抜けが出るという点が、技術的な要点です。",
+              "section": "量子コンピュータ：米国の量子供給網、AI需要が光部品を吸い上げる",
+              "startFrame": 14809,
+              "endFrame": 15083
+            },
+            {
+              "speaker": "A",
+              "text": "提言は、部品やシステムを前もって買うと約束して、2〜4年で生産を始めさせることなのだ。国防生産法なども組み合わせるのだ。",
+              "section": "量子コンピュータ：米国の量子供給網、AI需要が光部品を吸い上げる",
+              "startFrame": 15090,
+              "endFrame": 15439
+            },
+            {
+              "speaker": "B",
+              "text": "今後2〜5年の投資判断が、部品の設計と生産の主導権を左右するとしています。国家量子戦略の改定は12月の予定ですわ。",
+              "section": "量子コンピュータ：米国の量子供給網、AI需要が光部品を吸い上げる",
+              "startFrame": 15447,
+              "endFrame": 15751
+            },
+            {
+              "speaker": "A",
+              "text": "11月10日から、盗んだ認証情報で4,837のギットハブアカウントを使う攻撃が起きたのだ。セキュリティ企業アイキドーが分析して、「ダブリューエフエックス・ルート」と呼んでいるのだ。",
+              "section": "セキュリティ：GitHubの4,837アカウント乗っ取り、CIから秘密を抜く",
+              "startFrame": 15769,
+              "endFrame": 16242
+            },
+            {
+              "speaker": "B",
+              "text": "攻撃者は6万1,764のリポジトリに、「依存関係の監査メモ」と題したプルリクエストを出し、書き込み権限があるかを探りました。92%は開いたまま放置されていました。",
+              "section": "セキュリティ：GitHubの4,837アカウント乗っ取り、CIから秘密を抜く",
+              "startFrame": 16249,
+              "endFrame": 16664
+            },
+            {
+              "speaker": "A",
+              "text": "気づかれていないのだ！少なくとも1,835の対象から秘密情報が盗まれたことが確かめられているのだ。",
+              "section": "セキュリティ：GitHubの4,837アカウント乗っ取り、CIから秘密を抜く",
+              "startFrame": 16672,
+              "endFrame": 16938
+            },
+            {
+              "speaker": "B",
+              "text": "手口は、ギットハブ・アクションズのワークフローを書き換えるなどして、約1,500行のシェルスクリプトを走らせるものです。",
+              "section": "セキュリティ：GitHubの4,837アカウント乗っ取り、CIから秘密を抜く",
+              "startFrame": 16946,
+              "endFrame": 17191
+            },
+            {
+              "speaker": "A",
+              "text": "狙いはワークフローのトークンや、AWS、アジュール、グーグルクラウドの認証情報なのだ。オープンAIやアンソロピック、ジェミニのAIの鍵まで集めるのだ。",
+              "section": "セキュリティ：GitHubの4,837アカウント乗っ取り、CIから秘密を抜く",
+              "startFrame": 17199,
+              "endFrame": 17617
+            },
+            {
+              "speaker": "B",
+              "text": "技術的に怖いのは、OIDCトークンをクラウドの一時的な権限に交換し、長く使える認証情報まで作ろうとする点です。終わると1分足らずで変更と記録を消します。",
+              "section": "セキュリティ：GitHubの4,837アカウント乗っ取り、CIから秘密を抜く",
+              "startFrame": 17625,
+              "endFrame": 18005
+            },
+            {
+              "speaker": "A",
+              "text": "米政府の一般調達局やフランス政府、ネクストクラウドのアカウントも含まれていたのだ。パッケージを公開できる権限を持つアカウントも約50あったのだ。",
+              "section": "セキュリティ：GitHubの4,837アカウント乗っ取り、CIから秘密を抜く",
+              "startFrame": 18012,
+              "endFrame": 18390
+            },
+            {
+              "speaker": "B",
+              "text": "確認すべきは、「ダブリューエフエックス・ドックス」というブランチ、問題のプルリクエスト、ワークフロー実行番号の欠けです。実行が確認されたら、使えた秘密はすべて交換してくださいね。",
+              "section": "セキュリティ：GitHubの4,837アカウント乗っ取り、CIから秘密を抜く",
+              "startFrame": 18397,
+              "endFrame": 18804
+            },
+            {
+              "speaker": "A",
+              "text": "まずTSMCなのだ。現・元従業員のデータが外部サイトに出たと、米SECへの書類で認めたのだ。販売者は約4万6,000件と主張し、3ビットコインから競売にかけているのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 18822,
+              "endFrame": 19327
+            },
+            {
+              "speaker": "B",
+              "text": "TSMCは、使っているクラウド事業者のデータと一致したとし、自社システムが侵害された証拠はないとしています。業務や顧客への影響もないとのことです。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 19335,
+              "endFrame": 19674
+            },
+            {
+              "speaker": "A",
+              "text": "韓国では、新韓・KB国民・ハナの3銀行が、アーテックスとクロード・コードのエージェントを組み合わせた攻撃で狙われたのだ。約6万7,000人の個人情報が出たのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 19681,
+              "endFrame": 20136
+            },
+            {
+              "speaker": "B",
+              "text": "韓国警察は、90を超える組織への攻撃に関わったとして7人を逮捕しました。病院や教育機関、企業から約820万件のデータが盗まれたとしています。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 20144,
+              "endFrame": 20515
+            },
+            {
+              "speaker": "A",
+              "text": "スクリーンコネクトを狙った攻撃の続報なのだ。使われたマルウェアは「エスシーキット」と名付けられ、被害は48組織、288台になったのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 20522,
+              "endFrame": 20920
+            },
+            {
+              "speaker": "B",
+              "text": "技術者の端末へ広がる仕組みも含まれますが、成功した例は確認されていません。マイクロソフトは、11月の更新後にウィンドウズのライセンス認証が失敗する不具合を認めました。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 20928,
+              "endFrame": 21323
+            },
+            {
+              "speaker": "A",
+              "text": "開発者は、ワークフローの秘密とクラウドの権限を見直すのだ。管理ツールの拡張機能も、使っていないものは止めておくのだ。",
+              "section": "セキュリティ：最近のインシデント一覧",
+              "startFrame": 21330,
+              "endFrame": 21642
+            },
+            {
+              "speaker": "B",
+              "text": "今日も聞いてくださって、ありがとうございました。",
+              "section": "まとめ",
+              "startFrame": 21660,
+              "endFrame": 21755
+            },
+            {
+              "speaker": "A",
+              "text": "また明日なのだ！",
+              "section": "まとめ",
+              "startFrame": 21762,
+              "endFrame": 21805
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
     "date": "2026-11-15",
     "segments": [
       {
@@ -114037,1773 +114494,6 @@
               "section": "エンディング",
               "startFrame": 17878,
               "endFrame": 17949
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "date": "2026-09-17",
-    "segments": [
-      {
-        "mode": "ai",
-        "label": "生成AIニュース",
-        "iaId": "news-pickup-2026-09-17-ai",
-        "title": "AIが家を操作、Pixelゼロクリック攻撃と量子20億ドル投資 2026/09/17",
-        "audioUrl": "https://archive.org/download/news-pickup-2026-09-17-ai/ai_yukkuri.m4a",
-        "markdown": "<h1>生成AI・量子・セキュリティニュース（2026年9月17日）</h1>\n<p><strong>キーワード:</strong> AIエージェント / スマートホーム / 独立安全評価 / 量子ウエハー / CVE-2026-58704 / CVE-2026-84869</p>\n<h2>オープニング：2026年9月17日 — 生成AI・量子・セキュリティニュース</h2>\n<ul>\n<li>今日の焦点は、AIに家庭の鍵を渡す設計、安全評価者の独立性、量子チップの製造基盤、スマートフォンと遠隔管理ソフトの緊急更新です。</li>\n<li>共通する問いは、強い権限を便利な仕組みに集めたとき、誰が監督し、事故時にどこで止められるかです。</li>\n</ul>\n<h2>生成AIと家庭：Google Homeを操作するエージェントの権限</h2>\n<ul>\n<li>Googleは9月16日、AIエージェントがGoogle Home機器を自然言語で操作できるMCPサーバーの早期アクセスを始めました。ClaudeやChatGPTなどから、接続機器の操作、カメラ要約、家庭内活動の参照を行える構想です。</li>\n<li>MCPは、モデルと外部サービスを共通の手順で接続する規格です。照明の操作だけでなく、カメラや在宅状況へ接続範囲が広がると、誤指示や乗っ取られたアカウントの影響も物理空間へ及びます。</li>\n<li>利便性の核心は、複数のアプリを開かず、目的だけ伝えて一連の操作を任せられることです。一方、エージェントには利用者、部屋、機器、時間帯ごとの最小権限と、実行前の確認、操作履歴が必要になります。</li>\n<li>従来のスマートホームは利用者が機器を一つずつ選びました。今回はAIが意図を解釈して操作を組み立てるため、「何を頼んだか」と「実際に何が実行されたか」を分けて記録する設計が争点です。</li>\n</ul>\n<h2>生成AIの安全監督：研究所内の評価者は独立できるか</h2>\n<ul>\n<li>TechCrunchは9月16日、AnthropicとOpenAIが外部の安全評価者を研究所内へ受け入れ、開発中モデルへ継続的にアクセスさせる構想を報じました。</li>\n<li>外部から完成版だけを試すより、訓練過程、内部評価、未公開能力へ触れられる点は前進です。しかし、研究所が資金、アクセス範囲、公開時期を握れば、不都合な結果を評価者が公表できるかという利益相反が残ります。</li>\n<li>独立性を測る具体的な基準は、評価対象を企業だけが選ばないこと、否定的結果の公表権、資金源の開示、経営陣へ直接報告できる経路、規制当局が記録を検査できることです。</li>\n<li>前日は大手三社が共通課題を話し合う動きを扱いました。今日は合意の有無ではなく、監督者が開発企業へ深く入るほど得られる情報と、同時に生じる依存を主視点にします。</li>\n</ul>\n<h2>生成AIとプライバシー：Metaがカメラなし眼鏡を準備</h2>\n<ul>\n<li>TechCrunchは9月16日、Metaがカメラを搭載しないスマート眼鏡を販売する準備を進めていると報じました。既存のカメラ付き製品には、周囲の人が撮影を認識しにくいとの批判が続いています。</li>\n<li>カメラを外せば、無断撮影と顔画像収集の危険は小さくなります。ただし、音声入力、位置、利用履歴、クラウド処理が残るなら、プライバシー問題がすべて消えるわけではありません。</li>\n<li>重要なのは、機能を追加してから通知表示で補うのではなく、最初からセンサーを減らす選択肢を商品として用意した点です。利用者は撮影機能を失う代わりに、周囲へ説明しやすい機器を選べます。</li>\n<li>社会的受容は装着者だけで決まりません。撮られる側が拒否しにくい公共空間では、表示灯よりも「そもそも撮れない」という構造的な制約の方が強い保証になります。</li>\n</ul>\n<h2>量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤</h2>\n<ul>\n<li>IBM子会社Anderonは9月16日、米商務省とCHIPS法に基づく10億ドルの研究開発助成を確定しました。IBMも追加で10億ドルを投じ、ニューヨーク州オールバニーで量子ウエハーの専業ファウンドリーを運営します。</li>\n<li>工場は300ミリメートルのウエハーに対応し、超伝導量子ビット配列、量子入出力、読み出し信号系の部品を顧客企業向けに製造します。最初の量子ウエハーはすでに施設内の工程へ入ったと同社は説明しています。</li>\n<li>前日の論文賞は量子計算を何に使い、どう評価するかが焦点でした。今回は、研究室ごとの試作から、複数企業が利用できる共通製造設備へ移せるかが主視点です。</li>\n<li>助成決定は誤り耐性量子計算の完成を示しません。歩留まり、同一設計の再現性、量子ビットの品質、顧客への納期という半導体製造の指標が、量子ロードマップの実行力を左右します。</li>\n</ul>\n<h2>セキュリティ：PixelモデムのCVE-2026-58704</h2>\n<ul>\n<li>Googleは9月15日のPixel更新で、携帯回線用モデムのCVE-2026-58704を修正しました。深刻度はHighで、限定的かつ標的型の実攻撃が確認されています。</li>\n<li>この脆弱性はアクセス制御の論理不備による権限昇格です。利用者がリンクを押したりファイルを開いたりしなくても悪用できるゼロクリック型で、モデムの隔離領域から端末の広いデータへ到達する恐れがあります。</li>\n<li>Googleは攻撃主体と対象を公表していません。したがって一般利用者への無差別攻撃とまでは言えませんが、標的型攻撃では操作の有無だけで安全を判断できません。</li>\n<li>対象のPixel利用者は2026年9月5日以降のセキュリティパッチレベルへ更新します。通信を担う基盤部品の欠陥なので、不審なリンクを避けるだけでは代替策になりません。</li>\n</ul>\n<h2>セキュリティ：ScreenConnectのCVE-2026-84869</h2>\n<ul>\n<li>ConnectWiseは9月8日、遠隔管理ソフトScreenConnectのCVE-2026-84869を公開しました。CVSSは9.9で、26.6.5未満のクラウド版とオンプレミス版のクライアントが影響を受けます。</li>\n<li>権限の低い攻撃者でも、進行中の遠隔セッションでホスト側の承認なしにファイルを転送・実行できる場合があります。管理ソフトは多数の端末へ正規の操作権限を持つため、一つの弱点が組織内の横展開に結びつきます。</li>\n<li>修正版は26.6.5です。クラウド環境は自動更新済みですが、オンプレミス環境は管理者が更新し、ホストクライアントとアクセスエージェントも入れ直します。</li>\n<li>すぐ更新できない場合、全役割からTransferFiles権限を外す暫定策があります。ただし更新の代替ではありません。利用者、役割、監査ログを見直し、未知のアカウントがあれば認証情報も変更します。</li>\n</ul>\n<h2>まとめ：便利な接続ほど停止点を設計する</h2>\n<ul>\n<li>AIエージェントは家庭機器、評価者は研究所内部、量子ファウンドリーは複数企業、遠隔管理ソフトは多数端末へ接続します。</li>\n<li>接続が価値を生む一方、権限の集中は誤操作、利益相反、供給遅延、侵入の影響も広げます。</li>\n<li>今日の結論は、接続を増やすだけでなく、最小権限、独立した公表権、製造指標、迅速な更新という停止点を同時に設計する必要があるということです。</li>\n</ul>\n<h2>参考ソース</h2>\n<ul>\n<li><a href=\"https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/\">TechCrunch: Your AI agents can now control your Google Home devices</a></li>\n<li><a href=\"https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/\">TechCrunch: Anthropic and OpenAI want to embed safety evaluators</a></li>\n<li><a href=\"https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/\">TechCrunch: Meta prepares to sell smart glasses without a camera</a></li>\n<li><a href=\"https://newsroom.ibm.com/2026-09-16-anderon,-an-ibm-company,-finalizes-agreement-with-the-u-s-department-of-commerce-for-a-1-billion-chips-award-to-accelerate-r-d-for-u-s-based-pure-play-quantum-foundry\">IBM Newsroom: Anderon finalizes $1 billion CHIPS award</a></li>\n<li><a href=\"https://source.android.com/docs/security/bulletin/pixel/2026-09-01\">Google: Pixel Update Bulletin—September 2026</a></li>\n<li><a href=\"https://techcrunch.com/2026/09/16/google-says-some-pixel-phone-owners-were-hacked-in-zero-day-attacks/\">TechCrunch: Google says some Pixel owners were hacked in zero-day attacks</a></li>\n<li><a href=\"https://www.connectwise.com/company/trust/security-bulletins/2026-09-08-screenconnect-bulletin\">ConnectWise: ScreenConnect 26.6.5 Security Patch</a></li>\n</ul>",
-        "markdownSource": "# 生成AI・量子・セキュリティニュース（2026年9月17日）\n\n**キーワード:** AIエージェント / スマートホーム / 独立安全評価 / 量子ウエハー / CVE-2026-58704 / CVE-2026-84869\n\n## オープニング：2026年9月17日 — 生成AI・量子・セキュリティニュース\n\n- 今日の焦点は、AIに家庭の鍵を渡す設計、安全評価者の独立性、量子チップの製造基盤、スマートフォンと遠隔管理ソフトの緊急更新です。\n- 共通する問いは、強い権限を便利な仕組みに集めたとき、誰が監督し、事故時にどこで止められるかです。\n\n## 生成AIと家庭：Google Homeを操作するエージェントの権限\n\n- Googleは9月16日、AIエージェントがGoogle Home機器を自然言語で操作できるMCPサーバーの早期アクセスを始めました。ClaudeやChatGPTなどから、接続機器の操作、カメラ要約、家庭内活動の参照を行える構想です。\n- MCPは、モデルと外部サービスを共通の手順で接続する規格です。照明の操作だけでなく、カメラや在宅状況へ接続範囲が広がると、誤指示や乗っ取られたアカウントの影響も物理空間へ及びます。\n- 利便性の核心は、複数のアプリを開かず、目的だけ伝えて一連の操作を任せられることです。一方、エージェントには利用者、部屋、機器、時間帯ごとの最小権限と、実行前の確認、操作履歴が必要になります。\n- 従来のスマートホームは利用者が機器を一つずつ選びました。今回はAIが意図を解釈して操作を組み立てるため、「何を頼んだか」と「実際に何が実行されたか」を分けて記録する設計が争点です。\n\n## 生成AIの安全監督：研究所内の評価者は独立できるか\n\n- TechCrunchは9月16日、AnthropicとOpenAIが外部の安全評価者を研究所内へ受け入れ、開発中モデルへ継続的にアクセスさせる構想を報じました。\n- 外部から完成版だけを試すより、訓練過程、内部評価、未公開能力へ触れられる点は前進です。しかし、研究所が資金、アクセス範囲、公開時期を握れば、不都合な結果を評価者が公表できるかという利益相反が残ります。\n- 独立性を測る具体的な基準は、評価対象を企業だけが選ばないこと、否定的結果の公表権、資金源の開示、経営陣へ直接報告できる経路、規制当局が記録を検査できることです。\n- 前日は大手三社が共通課題を話し合う動きを扱いました。今日は合意の有無ではなく、監督者が開発企業へ深く入るほど得られる情報と、同時に生じる依存を主視点にします。\n\n## 生成AIとプライバシー：Metaがカメラなし眼鏡を準備\n\n- TechCrunchは9月16日、Metaがカメラを搭載しないスマート眼鏡を販売する準備を進めていると報じました。既存のカメラ付き製品には、周囲の人が撮影を認識しにくいとの批判が続いています。\n- カメラを外せば、無断撮影と顔画像収集の危険は小さくなります。ただし、音声入力、位置、利用履歴、クラウド処理が残るなら、プライバシー問題がすべて消えるわけではありません。\n- 重要なのは、機能を追加してから通知表示で補うのではなく、最初からセンサーを減らす選択肢を商品として用意した点です。利用者は撮影機能を失う代わりに、周囲へ説明しやすい機器を選べます。\n- 社会的受容は装着者だけで決まりません。撮られる側が拒否しにくい公共空間では、表示灯よりも「そもそも撮れない」という構造的な制約の方が強い保証になります。\n\n## 量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤\n\n- IBM子会社Anderonは9月16日、米商務省とCHIPS法に基づく10億ドルの研究開発助成を確定しました。IBMも追加で10億ドルを投じ、ニューヨーク州オールバニーで量子ウエハーの専業ファウンドリーを運営します。\n- 工場は300ミリメートルのウエハーに対応し、超伝導量子ビット配列、量子入出力、読み出し信号系の部品を顧客企業向けに製造します。最初の量子ウエハーはすでに施設内の工程へ入ったと同社は説明しています。\n- 前日の論文賞は量子計算を何に使い、どう評価するかが焦点でした。今回は、研究室ごとの試作から、複数企業が利用できる共通製造設備へ移せるかが主視点です。\n- 助成決定は誤り耐性量子計算の完成を示しません。歩留まり、同一設計の再現性、量子ビットの品質、顧客への納期という半導体製造の指標が、量子ロードマップの実行力を左右します。\n\n## セキュリティ：PixelモデムのCVE-2026-58704\n\n- Googleは9月15日のPixel更新で、携帯回線用モデムのCVE-2026-58704を修正しました。深刻度はHighで、限定的かつ標的型の実攻撃が確認されています。\n- この脆弱性はアクセス制御の論理不備による権限昇格です。利用者がリンクを押したりファイルを開いたりしなくても悪用できるゼロクリック型で、モデムの隔離領域から端末の広いデータへ到達する恐れがあります。\n- Googleは攻撃主体と対象を公表していません。したがって一般利用者への無差別攻撃とまでは言えませんが、標的型攻撃では操作の有無だけで安全を判断できません。\n- 対象のPixel利用者は2026年9月5日以降のセキュリティパッチレベルへ更新します。通信を担う基盤部品の欠陥なので、不審なリンクを避けるだけでは代替策になりません。\n\n## セキュリティ：ScreenConnectのCVE-2026-84869\n\n- ConnectWiseは9月8日、遠隔管理ソフトScreenConnectのCVE-2026-84869を公開しました。CVSSは9.9で、26.6.5未満のクラウド版とオンプレミス版のクライアントが影響を受けます。\n- 権限の低い攻撃者でも、進行中の遠隔セッションでホスト側の承認なしにファイルを転送・実行できる場合があります。管理ソフトは多数の端末へ正規の操作権限を持つため、一つの弱点が組織内の横展開に結びつきます。\n- 修正版は26.6.5です。クラウド環境は自動更新済みですが、オンプレミス環境は管理者が更新し、ホストクライアントとアクセスエージェントも入れ直します。\n- すぐ更新できない場合、全役割からTransferFiles権限を外す暫定策があります。ただし更新の代替ではありません。利用者、役割、監査ログを見直し、未知のアカウントがあれば認証情報も変更します。\n\n## まとめ：便利な接続ほど停止点を設計する\n\n- AIエージェントは家庭機器、評価者は研究所内部、量子ファウンドリーは複数企業、遠隔管理ソフトは多数端末へ接続します。\n- 接続が価値を生む一方、権限の集中は誤操作、利益相反、供給遅延、侵入の影響も広げます。\n- 今日の結論は、接続を増やすだけでなく、最小権限、独立した公表権、製造指標、迅速な更新という停止点を同時に設計する必要があるということです。\n\n## 参考ソース\n\n- [TechCrunch: Your AI agents can now control your Google Home devices](https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/)\n- [TechCrunch: Anthropic and OpenAI want to embed safety evaluators](https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/)\n- [TechCrunch: Meta prepares to sell smart glasses without a camera](https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/)\n- [IBM Newsroom: Anderon finalizes $1 billion CHIPS award](https://newsroom.ibm.com/2026-09-16-anderon,-an-ibm-company,-finalizes-agreement-with-the-u-s-department-of-commerce-for-a-1-billion-chips-award-to-accelerate-r-d-for-u-s-based-pure-play-quantum-foundry)\n- [Google: Pixel Update Bulletin—September 2026](https://source.android.com/docs/security/bulletin/pixel/2026-09-01)\n- [TechCrunch: Google says some Pixel owners were hacked in zero-day attacks](https://techcrunch.com/2026/09/16/google-says-some-pixel-phone-owners-were-hacked-in-zero-day-attacks/)\n- [ConnectWise: ScreenConnect 26.6.5 Security Patch](https://www.connectwise.com/company/trust/security-bulletins/2026-09-08-screenconnect-bulletin)\n",
-        "timeline": {
-          "version": 1,
-          "source": "tts_voicevox",
-          "fps": 30,
-          "totalFrames": 19331,
-          "audioDurationSec": 644.356667,
-          "cues": [
-            {
-              "speaker": "A",
-              "text": "2026年9月17日、生成エーアイ・量子・セキュリティニュースなのだ。",
-              "section": "オープニング：2026年9月17日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 18,
-              "endFrame": 244
-            },
-            {
-              "speaker": "B",
-              "text": "今日は、便利な接続へ強い権限を渡すとき、誰が監督し、どこで止めるのかを考えます。",
-              "section": "オープニング：2026年9月17日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 252,
-              "endFrame": 466
-            },
-            {
-              "speaker": "A",
-              "text": "エーアイが家電やカメラを動かし、評価者は研究所の内側へ入るのだな。",
-              "section": "オープニング：2026年9月17日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 474,
-              "endFrame": 655
-            },
-            {
-              "speaker": "B",
-              "text": "量子では製造設備を企業間で共有し、遠隔管理ソフトは一つの窓口から多数の端末を動かします。",
-              "section": "オープニング：2026年9月17日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 663,
-              "endFrame": 896
-            },
-            {
-              "speaker": "A",
-              "text": "接続が増えるほど便利だけれど、間違いや侵入の届く範囲も広がるのだ。",
-              "section": "オープニング：2026年9月17日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 904,
-              "endFrame": 1091
-            },
-            {
-              "speaker": "B",
-              "text": "そこで、権限を小さく分ける仕組み、独立した監督、製造の再現性、更新の速さを比べます。",
-              "section": "オープニング：2026年9月17日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 1099,
-              "endFrame": 1344
-            },
-            {
-              "speaker": "A",
-              "text": "ピクセルのゼロクリック攻撃は、何も押さなくても狙われるというから気になるのだ。",
-              "section": "オープニング：2026年9月17日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 1351,
-              "endFrame": 1539
-            },
-            {
-              "speaker": "B",
-              "text": "家庭から研究所、工場、スマートフォンまで、止める場所を具体的にたどりましょう。",
-              "section": "オープニング：2026年9月17日 — 生成AI・量子・セキュリティニュース",
-              "startFrame": 1547,
-              "endFrame": 1732
-            },
-            {
-              "speaker": "B",
-              "text": "グーグルは9月16日、エーアイエージェントをグーグルホームへつなぐエムシーピーサーバーの早期アクセスを始めました。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 1750,
-              "endFrame": 1993
-            },
-            {
-              "speaker": "A",
-              "text": "話しかけるだけで、照明や家電をまとめて動かせるようになるのだ？",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 2000,
-              "endFrame": 2161
-            },
-            {
-              "speaker": "B",
-              "text": "接続機器の操作に加え、カメラ映像の要約や家庭内の活動履歴も扱う構想です。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 2169,
-              "endFrame": 2372
-            },
-            {
-              "speaker": "A",
-              "text": "便利だけれど、チャットの返事を間違えるのと、家の中を動かし間違えるのは重さが違うのだ。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 2379,
-              "endFrame": 2616
-            },
-            {
-              "speaker": "B",
-              "text": "その通り。エムシーピーは、モデルと外部サービスを共通の手順で結ぶ規格です。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 2623,
-              "endFrame": 2799
-            },
-            {
-              "speaker": "A",
-              "text": "共通化すればクロードやチャットジーピーティーなど、複数のエージェントをつなげられるのだな。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 2807,
-              "endFrame": 3006
-            },
-            {
-              "speaker": "B",
-              "text": "一方で、乗っ取られたアカウントや誤った指示の影響が、カメラや在宅情報を経て物理空間へ及びます。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 3013,
-              "endFrame": 3244
-            },
-            {
-              "speaker": "A",
-              "text": "家全体を一つの許可で渡すのは、合鍵を何本も配るようで怖いのだ。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 3252,
-              "endFrame": 3436
-            },
-            {
-              "speaker": "B",
-              "text": "利用者、部屋、機器、時間帯ごとに権限を分け、危険な操作には実行前の確認を置く設計が要ります。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 3443,
-              "endFrame": 3698
-            },
-            {
-              "speaker": "A",
-              "text": "「玄関を確認して」と頼んだ記録と、実際に鍵を操作した記録も分けたいのだ。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 3706,
-              "endFrame": 3912
-            },
-            {
-              "speaker": "B",
-              "text": "従来は人が機器を一つずつ選びました。今回はエーアイが意図を解釈し、複数の操作を組み立てます。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 3920,
-              "endFrame": 4144
-            },
-            {
-              "speaker": "A",
-              "text": "便利さの値段は、エージェントが何を考えたかではなく、何を実行したか追える仕組みなのだな。",
-              "section": "生成AIと家庭：Google Homeを操作するエージェントの権限",
-              "startFrame": 4151,
-              "endFrame": 4383
-            },
-            {
-              "speaker": "B",
-              "text": "テッククランチは9月16日、アンソロピックとオープンエーアイが外部評価者を研究所内へ受け入れる構想を報じました。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 4401,
-              "endFrame": 4649
-            },
-            {
-              "speaker": "A",
-              "text": "完成したモデルを外から試すのではなく、開発現場へ入って調べるのだ？",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 4656,
-              "endFrame": 4845
-            },
-            {
-              "speaker": "B",
-              "text": "ええ。訓練過程、内部評価、未公開の能力へ継続的に触れられる点は大きな違いです。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 4852,
-              "endFrame": 5082
-            },
-            {
-              "speaker": "A",
-              "text": "それなら、会社が選んだデモだけを見るより、ずっと深く検査できそうなのだ。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 5089,
-              "endFrame": 5276
-            },
-            {
-              "speaker": "B",
-              "text": "ただし研究所が資金、入室範囲、公開時期を握れば、不都合な結果を公表できるかという利益相反が残ります。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 5284,
-              "endFrame": 5551
-            },
-            {
-              "speaker": "A",
-              "text": "社員と同じ入館証を持っても、給料や発表許可を相手に頼れば、完全な独立とは言いにくいのだ。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 5558,
-              "endFrame": 5821
-            },
-            {
-              "speaker": "B",
-              "text": "独立性は肩書ではなく、評価対象を自分で選べるか、否定的結果を公表できるかで測れます。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 5828,
-              "endFrame": 6054
-            },
-            {
-              "speaker": "A",
-              "text": "資金源の開示や、経営陣を通さず規制当局へ報告できる経路も必要なのだな。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 6061,
-              "endFrame": 6286
-            },
-            {
-              "speaker": "B",
-              "text": "さらに、企業が公表を遅らせた場合でも、検査記録を規制当局が読める仕組みが重要です。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 6293,
-              "endFrame": 6501
-            },
-            {
-              "speaker": "A",
-              "text": "前日は大手三社が安全の共通課題を話したけれど、今日は監督する側の足場が焦点なのだ。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 6508,
-              "endFrame": 6752
-            },
-            {
-              "speaker": "B",
-              "text": "内部へ深く入るほど情報は増えます。同時に、企業との関係が近すぎる危険も増えます。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 6760,
-              "endFrame": 6960
-            },
-            {
-              "speaker": "A",
-              "text": "「中にいる外部の人」という矛盾を、公表権と報告経路で解けるかが勝負なのだ。",
-              "section": "生成AIの安全監督：研究所内の評価者は独立できるか",
-              "startFrame": 6968,
-              "endFrame": 7178
-            },
-            {
-              "speaker": "B",
-              "text": "テッククランチは9月16日、メタがカメラを搭載しないスマート眼鏡を準備していると報じました。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 7196,
-              "endFrame": 7401
-            },
-            {
-              "speaker": "A",
-              "text": "スマート眼鏡なのに、あえて撮影機能を外すのだ？",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 7409,
-              "endFrame": 7542
-            },
-            {
-              "speaker": "B",
-              "text": "既存のカメラ付き製品には、周囲の人が撮影中だと気づきにくいという批判が続いています。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 7550,
-              "endFrame": 7745
-            },
-            {
-              "speaker": "A",
-              "text": "表示灯があっても、向けられた側がいつも確認できるとは限らないのだ。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 7752,
-              "endFrame": 7924
-            },
-            {
-              "speaker": "B",
-              "text": "カメラを物理的に外せば、無断撮影や顔画像収集の危険を構造的に減らせます。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 7932,
-              "endFrame": 8121
-            },
-            {
-              "speaker": "A",
-              "text": "でも、音声入力や位置情報まで消えるわけではないのだな。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 8128,
-              "endFrame": 8279
-            },
-            {
-              "speaker": "B",
-              "text": "ええ。利用履歴やクラウド処理が残れば、プライバシー問題がすべて解決するわけではありません。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 8286,
-              "endFrame": 8499
-            },
-            {
-              "speaker": "A",
-              "text": "それでも、設定で撮影を切るのと、最初から撮れないのでは、周りの安心が違うのだ。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 8506,
-              "endFrame": 8736
-            },
-            {
-              "speaker": "B",
-              "text": "機能を足した後に通知で補うのではなく、センサーを減らした商品を選べる点が重要です。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 8744,
-              "endFrame": 8938
-            },
-            {
-              "speaker": "A",
-              "text": "装着者は撮影機能を失う代わりに、公共の場所で説明しやすくなるのだな。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 8945,
-              "endFrame": 9142
-            },
-            {
-              "speaker": "B",
-              "text": "スマート眼鏡の社会的受容は、買った人だけでなく、映り込む人の拒否しやすさで決まります。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 9149,
-              "endFrame": 9346
-            },
-            {
-              "speaker": "A",
-              "text": "高性能を全部載せる競争に、載せないことを価値にする製品が入ってきたのだ。",
-              "section": "生成AIとプライバシー：Metaがカメラなし眼鏡を準備",
-              "startFrame": 9354,
-              "endFrame": 9546
-            },
-            {
-              "speaker": "B",
-              "text": "アイビーエム子会社のアンダロンは9月16日、米商務省と10億ドルの研究開発助成を確定しました。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 9564,
-              "endFrame": 9805
-            },
-            {
-              "speaker": "A",
-              "text": "アイビーエムも10億ドルを出して、合計20億ドル規模になるのだな。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 9812,
-              "endFrame": 9977
-            },
-            {
-              "speaker": "B",
-              "text": "ニューヨーク州オールバニーで、量子ウエハーを顧客企業向けに作る専業ファウンドリーを運営します。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 9985,
-              "endFrame": 10188
-            },
-            {
-              "speaker": "A",
-              "text": "一つの研究所が自分の量子チップだけを作る工場とは違うのだ？",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 10196,
-              "endFrame": 10359
-            },
-            {
-              "speaker": "B",
-              "text": "複数企業が共通設備を使える点が狙いです。300ミリメートルのウエハーへ対応します。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 10367,
-              "endFrame": 10567
-            },
-            {
-              "speaker": "A",
-              "text": "そこで超伝導量子ビットの配列や、読み出し信号の部品を作るのだな。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 10574,
-              "endFrame": 10757
-            },
-            {
-              "speaker": "B",
-              "text": "量子入出力を含む部品を扱い、最初の量子ウエハーはすでに施設内の工程へ入ったと説明しています。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 10765,
-              "endFrame": 10999
-            },
-            {
-              "speaker": "A",
-              "text": "前日の論文賞は量子計算を何に使うかだったけれど、今日は同じ物を安定して作れるかの話なのだ。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 11007,
-              "endFrame": 11267
-            },
-            {
-              "speaker": "B",
-              "text": "研究室の試作品から製造基盤へ移るには、歩留まりと同一設計の再現性が欠かせません。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 11275,
-              "endFrame": 11485
-            },
-            {
-              "speaker": "A",
-              "text": "10億ドルの助成が決まっても、誤り耐性量子コンピュータが完成したわけではないのだ。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 11493,
-              "endFrame": 11704
-            },
-            {
-              "speaker": "B",
-              "text": "その通り。量子ビットの品質、顧客への納期、製造した部品のばらつきが実行力を示します。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 11711,
-              "endFrame": 11940
-            },
-            {
-              "speaker": "A",
-              "text": "量子の競争が、物理学の記録だけでなく、半導体工場の地道な数字へ降りてきたのだな。",
-              "section": "量子コンピュータ：米政府とIBMが20億ドル規模の製造基盤",
-              "startFrame": 11947,
-              "endFrame": 12182
-            },
-            {
-              "speaker": "B",
-              "text": "グーグルは9月15日のピクセル更新で、携帯回線用モデムの脆弱性を修正しました。",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 12200,
-              "endFrame": 12409
-            },
-            {
-              "speaker": "A",
-              "text": "番号はシーブイイー2026の58704なのだ。危険度はどのくらいなのだ？",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 12416,
-              "endFrame": 12636
-            },
-            {
-              "speaker": "B",
-              "text": "深刻度はハイで、限定的かつ標的型の実攻撃が確認されています。",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 12643,
-              "endFrame": 12811
-            },
-            {
-              "speaker": "A",
-              "text": "モデムというと、スマートフォンが携帯電話網へつながる部分なのだな。",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 12819,
-              "endFrame": 12986
-            },
-            {
-              "speaker": "B",
-              "text": "アクセス制御の論理不備による権限昇格で、隔離されたモデム領域から端末の広いデータへ届く恐れがあります。",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 12993,
-              "endFrame": 13234
-            },
-            {
-              "speaker": "A",
-              "text": "ゼロクリック型なら、怪しいリンクを押さなくても攻撃が進むのだ？",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 13241,
-              "endFrame": 13405
-            },
-            {
-              "speaker": "B",
-              "text": "はい。利用者の操作を必要としないため、「何も開いていない」ことが防御になりません。",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 13412,
-              "endFrame": 13609
-            },
-            {
-              "speaker": "A",
-              "text": "攻撃した組織や狙われた人は分かっているのだ？",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 13617,
-              "endFrame": 13737
-            },
-            {
-              "speaker": "B",
-              "text": "グーグルは公表していません。確認されているのは、限定的な標的型攻撃だったという範囲です。",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 13744,
-              "endFrame": 13960
-            },
-            {
-              "speaker": "A",
-              "text": "では、対象のピクセル利用者が取れる対策は更新なのだな。",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 13968,
-              "endFrame": 14120
-            },
-            {
-              "speaker": "B",
-              "text": "2026年9月5日以降のセキュリティパッチレベルへ更新します。通信基盤の欠陥なので、リンク対策では代えられません。",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 14127,
-              "endFrame": 14400
-            },
-            {
-              "speaker": "A",
-              "text": "触らなければ安全という感覚が通じないから、自動更新を止めたままにしないことが大切なのだ。",
-              "section": "セキュリティ：PixelモデムのCVE-2026-58704",
-              "startFrame": 14408,
-              "endFrame": 14640
-            },
-            {
-              "speaker": "B",
-              "text": "コネクトワイズは9月8日、遠隔管理ソフトのスクリーンコネクトに関する脆弱性を公開しました。",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 14658,
-              "endFrame": 14868
-            },
-            {
-              "speaker": "A",
-              "text": "番号はシーブイイー2026の84869、シーブイエスエスは9.9なのだ。",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 14875,
-              "endFrame": 15126
-            },
-            {
-              "speaker": "B",
-              "text": "26.6.5未満のクライアントが影響を受けます。サーバー本体ではなく、遠隔操作を受ける側の問題です。",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 15133,
-              "endFrame": 15387
-            },
-            {
-              "speaker": "A",
-              "text": "どんな権限を持つ攻撃者が悪用できるのだ？",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 15395,
-              "endFrame": 15510
-            },
-            {
-              "speaker": "B",
-              "text": "低い権限があれば、進行中の遠隔セッションでホスト側の承認なしにファイルを転送し、実行できる場合があります。",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 15517,
-              "endFrame": 15769
-            },
-            {
-              "speaker": "A",
-              "text": "遠隔管理ソフトは正規に端末を操作できるから、悪用されたときの届く範囲が広いのだな。",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 15776,
-              "endFrame": 16001
-            },
-            {
-              "speaker": "B",
-              "text": "修正版は26.6.5です。クラウド環境は自動更新済みで、オンプレミス環境は管理者が更新します。",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 16008,
-              "endFrame": 16264
-            },
-            {
-              "speaker": "A",
-              "text": "サーバーだけ更新すれば終わりなのだ？",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 16272,
-              "endFrame": 16363
-            },
-            {
-              "speaker": "B",
-              "text": "ホストクライアントとアクセスエージェントも入れ直します。公式案内はそこまでを手順に含めています。",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 16371,
-              "endFrame": 16569
-            },
-            {
-              "speaker": "A",
-              "text": "すぐに更新できない現場には、何か暫定策があるのだ？",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 16576,
-              "endFrame": 16725
-            },
-            {
-              "speaker": "B",
-              "text": "全役割からファイル転送権限を外します。ただし更新の代わりではなく、露出を減らす一時策です。",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 16733,
-              "endFrame": 16954
-            },
-            {
-              "speaker": "A",
-              "text": "更新後は未知の利用者や不自然な役割、監査ログを見て、必要なら認証情報も変えるのだな。",
-              "section": "セキュリティ：ScreenConnectのCVE-2026-84869",
-              "startFrame": 16961,
-              "endFrame": 17207
-            },
-            {
-              "speaker": "A",
-              "text": "今日は、エーアイが家庭へ、評価者が研究所へ、量子工場が複数企業へつながる話だったのだ。",
-              "section": "まとめ：便利な接続ほど停止点を設計する",
-              "startFrame": 17225,
-              "endFrame": 17484
-            },
-            {
-              "speaker": "B",
-              "text": "そしてスマートフォンと遠隔管理ソフトでは、接続の強さが侵入時の影響も広げました。",
-              "section": "まとめ：便利な接続ほど停止点を設計する",
-              "startFrame": 17492,
-              "endFrame": 17683
-            },
-            {
-              "speaker": "A",
-              "text": "接続を減らせばよい、という単純な話でもないのだな。便利さや共同利用の価値は確かにあるのだ。",
-              "section": "まとめ：便利な接続ほど停止点を設計する",
-              "startFrame": 17690,
-              "endFrame": 17943
-            },
-            {
-              "speaker": "B",
-              "text": "だから、家庭では最小権限、研究所では公表権、量子工場では歩留まり、端末では迅速な更新が停止点になります。",
-              "section": "まとめ：便利な接続ほど停止点を設計する",
-              "startFrame": 17951,
-              "endFrame": 18248
-            },
-            {
-              "speaker": "A",
-              "text": "メタのカメラなし眼鏡は、機能を載せないことも強い制約になると示したのだ。",
-              "section": "まとめ：便利な接続ほど停止点を設計する",
-              "startFrame": 18256,
-              "endFrame": 18438
-            },
-            {
-              "speaker": "B",
-              "text": "今日の結論は、接続を増やす設計と、事故を狭い範囲で止める設計を同時に進めることです。",
-              "section": "まとめ：便利な接続ほど停止点を設計する",
-              "startFrame": 18445,
-              "endFrame": 18659
-            },
-            {
-              "speaker": "A",
-              "text": "技術ができることだけでなく、誰が止められるかまで見ると、ニュースの輪郭がはっきりするのだ。",
-              "section": "まとめ：便利な接続ほど停止点を設計する",
-              "startFrame": 18666,
-              "endFrame": 18888
-            },
-            {
-              "speaker": "B",
-              "text": "最後まで聞いてくださり、ありがとうございました。次回も生成AI・量子・セキュリティの接点を追います。",
-              "section": "まとめ：便利な接続ほど停止点を設計する",
-              "startFrame": 18895,
-              "endFrame": 19137
-            },
-            {
-              "speaker": "A",
-              "text": "また次回なのだ。便利さを支える権限の形を、一緒に見ていくのだ。",
-              "section": "まとめ：便利な接続ほど停止点を設計する",
-              "startFrame": 19144,
-              "endFrame": 19331
-            }
-          ]
-        }
-      },
-      {
-        "mode": "arxiv_ai",
-        "label": "arxiv Frontier AI・最先端AI論文解説",
-        "iaId": "news-pickup-2026-09-17-arxiv-ai",
-        "title": "AIはいつ答えないべきか？世界モデルほか重要論文5本【2026/09/17】",
-        "audioUrl": "https://archive.org/download/news-pickup-2026-09-17-arxiv-ai/arxiv_ai_yukkuri.m4a",
-        "markdown": "<h1>arXiv Frontier AI論文解説（2026年9月17日）</h1>\n<p><strong>キーワード:</strong> 世界行動モデル / 選択的棄権 / モデル枝刈り / エピソード校正 / バイアス耐性蒸留</p>\n<p>本日は、ロボットの予測表現、誤答を抑える回答拒否、圧縮モデルのツール実行、逐次ナビゲーションの不確実性、分布移動下の知識蒸留を扱う。五本に共通する問いは、平均性能では隠れる失敗をどの単位で測り、限られた計算や監督をどこへ割り当てるかである。</p>\n<h2>オープニング：2026年9月17日 — arXiv Frontier AI論文解説</h2>\n<p>評価値は、データ規模、回答率、枝刈り方式、交換可能性、学生モデル族という条件と一緒に読む。最大改善だけでなく、何を保証せず、どの比較が残っているかまで切り分ける。</p>\n<h2>論文1: 複数の未来表現を順番に生成する世界行動モデル</h2>\n<p><strong>出典:</strong> Modality-Autoregressive World-Action Models. <a href=\"https://arxiv.org/abs/2609.17524\">arXiv:2609.17524</a> (2026).</p>\n<p>アダム・ハンらは、未来の観測と行動を同時に扱う世界行動モデルで、未来のRGB画像だけを予測する設計を再検討した。採用理由は、点軌跡、DINO特徴、深度という幾何・意味・運動を異なる形で担う表現を、単なる並列補助損失ではなく自己回帰的な生成順序へ組み込んだからである。提案するModARは、複数の未来モダリティーを順にノイズ除去し、後段の予測を先に生成したモダリティーへ条件付けてから行動を出す。著者らは事前学習済み動画モデルに依存せず、訓練データ混合、予測対象、世界行動モデル形式の効果をスクラッチ学習で比較した。</p>\n<p>評価では、点軌跡、DINO特徴、深度の予測が有益だった一方、未来RGBの追加には一貫した利得がなかった。ModARは評価した全データ規模で平均成功率が最も高く、同じデータで動画初期化モデルFlex-piを微調整した比較でも、観測平均成功率75%対72%となり、訓練FLOPsは約20分の1だった。さらに三つの実世界双腕課題でベースラインを上回り、人間動画を加えると改善した。ただし3ポイント差の分散や試行数、個別課題の成功率は要旨にないため、統計的優位性までは確定しない。</p>\n<p>結果が示すのは、高帯域なRGBを再構成することと、制御に必要な状態を保持することが同義ではない点である。点軌跡は運動、深度は幾何、事前学習特徴は意味を圧縮しており、生成順序が相互条件付けを可能にする。ただし順序ごとのアブレーション、推論遅延、モダリティー推定誤差の連鎖は残る。人間動画の利得も、ロボット行動ラベルを持たない観測から何が移ったかを、動画量とロボットデータ量を揃えて分離する必要がある。</p>\n<h2>論文2: 自己質問で回答と棄権を選ぶリスク制御</h2>\n<p><strong>出典:</strong> When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control. <a href=\"https://arxiv.org/abs/2609.17516\">arXiv:2609.17516</a> (2026).</p>\n<p>アリ・シェノルは、知識の裏付けが弱いのに流暢に答える問題へ、追加学習を使わないChain-of-Self-Questioningを提案した。選定理由は、正答率だけでなく、誤って回答を確定する率と回答率を同時に操作できる選択予測として評価した点にある。モデルは質問へ答える前に、回答に必要な情報を明示的に自己評価し、その評価を閾値と比較して回答または棄権を決める。三変種を、TruthfulQA多肢選択検証817問、十一の公開・ホスト型モデル族、十七条件で比較した。</p>\n<p>最終の選択肢均衡プロトコルでは、Grounded-CoSQを閾値0.90で使うと、思考連鎖プロンプトの無条件誤確定率13.1%が8.9%へ下がった。相対減少は32.1%で、回答した問題内の正答率は86.9%から89.7%へ上がり、全問題の87.6%へ回答した。著者によれば、誤確定率と回答内正答率の改善は十一モデル、全評価閾値で成立した。Critical版とAdaptive版はそれぞれ回答率88.6%、86.5%という隣接する運用点を与え、Natural Questions短答式でも同方向の証拠を報告する。</p>\n<p>この方式の価値は、棄権を単なる低信頼度フィルターでなく、必要情報の不足という中間判断へ結び付けたことにある。一方、回答率を下げれば誤答率が下がりやすいため、比較にはリスク・カバレッジ曲線、同一回答率での誤確定率、棄権コストが必要である。TruthfulQAの選択肢均衡は選択位置の偏りを制御するが、自由回答の採点誤差や実務上の誤答損失までは表さない。プロンプトだけの改善が、自己評価文を模倣しにくい分布外領域でも校正を保つかが境界になる。</p>\n<h2>論文3: スマートホームで枝刈り後に最初に壊れるもの</h2>\n<p><strong>出典:</strong> What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity. <a href=\"https://arxiv.org/abs/2609.17515\">arXiv:2609.17515</a> (2026).</p>\n<p>コンジン・ジャンらは、モデル枝刈りが文脈依存のツール呼び出しへ与える影響を、総合正答率より細かい単位で調べた。採用理由は、密なトランスフォーマー、密なハイブリッド、混合エキスパートという四モデルに、深さ、幅、ハイブリッド、エキスパート枝刈りを組み合わせ、劣化位置を操作、機器、引数、値へ分解した点である。枝刈り後には教師あり微調整を行い、三つのスマートホームデータセットから一万九千五百件超を評価した。</p>\n<p>密モデルには狭い安全域があり、それを越すと急激に劣化したのに対し、混合エキスパートモデルはより大きな枝刈りへ耐えた。エラーの順序も一様ではなく、スキーマ水準の意図、たとえば操作種別を保ったまま、対象機器や具体的な値に結び付く接地特異性が先に落ちた。密モデルを強く枝刈りすると、実行すべき依頼まで拒む系統的な過剰拒否も生じた。これは、集約正答率が同程度でも、誤った機器を動かすモデルと何も動かさないモデルを区別すべきことを示す。</p>\n<p>要旨は安全域の正確な枝刈り率、各モデル名、タスク複雑度別の絶対値を示さない。そのため混合エキスパート一般の優位ではなく、評価した四モデルと微調整条件での傾向として扱う必要がある。また、パラメータ削減率が同じでも、深さ削減とエキスパート削減では実行速度、活性パラメータ、メモリ帯域が異なる。配備判断には、操作成分ごとの誤りコスト、推論費用、拒否率を同じ圧縮曲線へ置き、微調整データへの適合と構造的耐性を分けることが重要である。</p>\n<h2>論文4: エピソード単位で校正する視覚言語ナビゲーション</h2>\n<p><strong>出典:</strong> ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation. <a href=\"https://arxiv.org/abs/2609.17499\">arXiv:2609.17499</a> (2026).</p>\n<p>ヴィッキー・フェリレンらは、視覚言語ナビゲーションへ標準的な共形予測をそのまま適用すると、依存した可変長ステップからなる一エピソード全体の被覆を保証できない問題を扱う。選定理由は、独立な一問ごとの不確実性ではなく、途中の一度の逸脱が以降の観測分布を変える逐次意思決定に合わせて校正単位を設計した点である。Episode-Normalized Conformal Predictionは、非適合度を方策の残余信頼度で再尺度化し、各エピソードから最大スコアを一つだけ取り出して校正する。</p>\n<p>校正エピソードと試験エピソードが交換可能なら、エピソード内のステップ間依存を許したまま、全ステップで正解を含む確率を少なくとも1マイナス・アルファにする構成である。R2RとREVERIE上で、四つのナビゲーション方策、三つの非適合度を評価し、既知環境から未知環境への設定で報告した全ての経験的ステップ被覆目標を満たした。モデル非依存の不確実性として、より能力の高い予測器や人間へ委譲する判定へ使える可能性がある。</p>\n<p>保証の核はステップの独立性ではなく、エピソード間の交換可能性である。建物、指示長、経路難度が時間とともに変われば、この前提は崩れ得る。またエピソード最大値による校正は、長い経路ほど極端値を取りやすく、予測集合を保守的にする可能性がある。被覆率だけでなく集合サイズ、委譲頻度、到達成功率、経路長別の効率を併記しなければ、安全性と実用性の均衡は分からない。全ステップ被覆と最終到達成功も異なる指標である。</p>\n<h2>論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留</h2>\n<p><strong>出典:</strong> Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback. <a href=\"https://arxiv.org/abs/2609.17474\">arXiv:2609.17474</a> (2026).</p>\n<p>ハイチェン・フーらは、強い教師を模倣すると教師の系統誤差まで学生へ移る問題を、共変量シフトかつ目標領域の報酬がない条件で定式化した。選定理由は、教師の方が全学生より高い目標報酬を持つ場合でも、直接照合が学生クラス内の最適解へ届かない分離を示した点にある。Coupled Calibration and Learningは、トークン単位の分岐を介して教師校正と学生更新を結合する。各反復で、源領域の質問にだけある報酬で教師を校正し、その教師から目標領域の学生を学習し、更新後の学生を次の教師校正へ戻す。</p>\n<p>自己回帰方策の解析では、出力学生とオラクル学生の期待平均カルバック・ライブラー発散が、反復回数に対して多項式速度でゼロへ収束する。ここでオラクルは、学生クラス内で真の参照正則化付き目標報酬を最大化する方策であり、制約のない最適方策とは限らない。解析は、射影された学生勾配更新の進展と教師校正誤差を同時に制御する。対して正則化付き直接照合は、教師の目標報酬が全学生を上回っても、オラクル学生への誤差がゼロから離れたままになり得る。</p>\n<p>これは理論上の回復可能性であり、要旨は実モデル、データ規模、有限反復での経験的利得を報告しない。多項式速度の次数や定数、報酬モデルの仮定、源と目標の支持集合の重なりが実用性を左右す。学生が表現できるクラス内最適性なので、容量不足そのものは解消しない。重要な差分は、教師出力を固定ラベルとして受け取らず、学生の更新を教師の再校正情報に使う閉ループであり、理論仮定を崩したときの安定性が次の評価軸になる。</p>\n<h2>まとめ</h2>\n<p>五本は、表現、棄権、圧縮、校正、蒸留の各段階で平均値の内訳を問い直す。未来RGBは常に有益ではなく、誤答低減には回答率が伴い、枝刈りでは接地情報が意図より先に壊れる。逐次ナビゲーションの保証はエピソード間交換可能性に依存し、蒸留の収束先は学生クラス内のオラクルである。実運用へ移す際は、成功率と計算量、リスクとカバレッジ、圧縮と誤動作、被覆と集合効率、理論収束と有限標本を対にして測る必要がある。</p>\n<h2>参考ソース</h2>\n<ul>\n<li>論文1: Modality-Autoregressive World-Action Models. <a href=\"https://arxiv.org/abs/2609.17524\">arXiv:2609.17524</a></li>\n<li>論文2: When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control. <a href=\"https://arxiv.org/abs/2609.17516\">arXiv:2609.17516</a></li>\n<li>論文3: What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity. <a href=\"https://arxiv.org/abs/2609.17515\">arXiv:2609.17515</a></li>\n<li>論文4: ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation. <a href=\"https://arxiv.org/abs/2609.17499\">arXiv:2609.17499</a></li>\n<li>論文5: Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback. <a href=\"https://arxiv.org/abs/2609.17474\">arXiv:2609.17474</a></li>\n</ul>",
-        "markdownSource": "# arXiv Frontier AI論文解説（2026年9月17日）\n\n**キーワード:** 世界行動モデル / 選択的棄権 / モデル枝刈り / エピソード校正 / バイアス耐性蒸留\n\n本日は、ロボットの予測表現、誤答を抑える回答拒否、圧縮モデルのツール実行、逐次ナビゲーションの不確実性、分布移動下の知識蒸留を扱う。五本に共通する問いは、平均性能では隠れる失敗をどの単位で測り、限られた計算や監督をどこへ割り当てるかである。\n\n## オープニング：2026年9月17日 — arXiv Frontier AI論文解説\n\n評価値は、データ規模、回答率、枝刈り方式、交換可能性、学生モデル族という条件と一緒に読む。最大改善だけでなく、何を保証せず、どの比較が残っているかまで切り分ける。\n\n## 論文1: 複数の未来表現を順番に生成する世界行動モデル\n\n**出典:** Modality-Autoregressive World-Action Models. [arXiv:2609.17524](https://arxiv.org/abs/2609.17524) (2026).\n\nアダム・ハンらは、未来の観測と行動を同時に扱う世界行動モデルで、未来のRGB画像だけを予測する設計を再検討した。採用理由は、点軌跡、DINO特徴、深度という幾何・意味・運動を異なる形で担う表現を、単なる並列補助損失ではなく自己回帰的な生成順序へ組み込んだからである。提案するModARは、複数の未来モダリティーを順にノイズ除去し、後段の予測を先に生成したモダリティーへ条件付けてから行動を出す。著者らは事前学習済み動画モデルに依存せず、訓練データ混合、予測対象、世界行動モデル形式の効果をスクラッチ学習で比較した。\n\n評価では、点軌跡、DINO特徴、深度の予測が有益だった一方、未来RGBの追加には一貫した利得がなかった。ModARは評価した全データ規模で平均成功率が最も高く、同じデータで動画初期化モデルFlex-piを微調整した比較でも、観測平均成功率75%対72%となり、訓練FLOPsは約20分の1だった。さらに三つの実世界双腕課題でベースラインを上回り、人間動画を加えると改善した。ただし3ポイント差の分散や試行数、個別課題の成功率は要旨にないため、統計的優位性までは確定しない。\n\n結果が示すのは、高帯域なRGBを再構成することと、制御に必要な状態を保持することが同義ではない点である。点軌跡は運動、深度は幾何、事前学習特徴は意味を圧縮しており、生成順序が相互条件付けを可能にする。ただし順序ごとのアブレーション、推論遅延、モダリティー推定誤差の連鎖は残る。人間動画の利得も、ロボット行動ラベルを持たない観測から何が移ったかを、動画量とロボットデータ量を揃えて分離する必要がある。\n\n## 論文2: 自己質問で回答と棄権を選ぶリスク制御\n\n**出典:** When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control. [arXiv:2609.17516](https://arxiv.org/abs/2609.17516) (2026).\n\nアリ・シェノルは、知識の裏付けが弱いのに流暢に答える問題へ、追加学習を使わないChain-of-Self-Questioningを提案した。選定理由は、正答率だけでなく、誤って回答を確定する率と回答率を同時に操作できる選択予測として評価した点にある。モデルは質問へ答える前に、回答に必要な情報を明示的に自己評価し、その評価を閾値と比較して回答または棄権を決める。三変種を、TruthfulQA多肢選択検証817問、十一の公開・ホスト型モデル族、十七条件で比較した。\n\n最終の選択肢均衡プロトコルでは、Grounded-CoSQを閾値0.90で使うと、思考連鎖プロンプトの無条件誤確定率13.1%が8.9%へ下がった。相対減少は32.1%で、回答した問題内の正答率は86.9%から89.7%へ上がり、全問題の87.6%へ回答した。著者によれば、誤確定率と回答内正答率の改善は十一モデル、全評価閾値で成立した。Critical版とAdaptive版はそれぞれ回答率88.6%、86.5%という隣接する運用点を与え、Natural Questions短答式でも同方向の証拠を報告する。\n\nこの方式の価値は、棄権を単なる低信頼度フィルターでなく、必要情報の不足という中間判断へ結び付けたことにある。一方、回答率を下げれば誤答率が下がりやすいため、比較にはリスク・カバレッジ曲線、同一回答率での誤確定率、棄権コストが必要である。TruthfulQAの選択肢均衡は選択位置の偏りを制御するが、自由回答の採点誤差や実務上の誤答損失までは表さない。プロンプトだけの改善が、自己評価文を模倣しにくい分布外領域でも校正を保つかが境界になる。\n\n## 論文3: スマートホームで枝刈り後に最初に壊れるもの\n\n**出典:** What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity. [arXiv:2609.17515](https://arxiv.org/abs/2609.17515) (2026).\n\nコンジン・ジャンらは、モデル枝刈りが文脈依存のツール呼び出しへ与える影響を、総合正答率より細かい単位で調べた。採用理由は、密なトランスフォーマー、密なハイブリッド、混合エキスパートという四モデルに、深さ、幅、ハイブリッド、エキスパート枝刈りを組み合わせ、劣化位置を操作、機器、引数、値へ分解した点である。枝刈り後には教師あり微調整を行い、三つのスマートホームデータセットから一万九千五百件超を評価した。\n\n密モデルには狭い安全域があり、それを越すと急激に劣化したのに対し、混合エキスパートモデルはより大きな枝刈りへ耐えた。エラーの順序も一様ではなく、スキーマ水準の意図、たとえば操作種別を保ったまま、対象機器や具体的な値に結び付く接地特異性が先に落ちた。密モデルを強く枝刈りすると、実行すべき依頼まで拒む系統的な過剰拒否も生じた。これは、集約正答率が同程度でも、誤った機器を動かすモデルと何も動かさないモデルを区別すべきことを示す。\n\n要旨は安全域の正確な枝刈り率、各モデル名、タスク複雑度別の絶対値を示さない。そのため混合エキスパート一般の優位ではなく、評価した四モデルと微調整条件での傾向として扱う必要がある。また、パラメータ削減率が同じでも、深さ削減とエキスパート削減では実行速度、活性パラメータ、メモリ帯域が異なる。配備判断には、操作成分ごとの誤りコスト、推論費用、拒否率を同じ圧縮曲線へ置き、微調整データへの適合と構造的耐性を分けることが重要である。\n\n## 論文4: エピソード単位で校正する視覚言語ナビゲーション\n\n**出典:** ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation. [arXiv:2609.17499](https://arxiv.org/abs/2609.17499) (2026).\n\nヴィッキー・フェリレンらは、視覚言語ナビゲーションへ標準的な共形予測をそのまま適用すると、依存した可変長ステップからなる一エピソード全体の被覆を保証できない問題を扱う。選定理由は、独立な一問ごとの不確実性ではなく、途中の一度の逸脱が以降の観測分布を変える逐次意思決定に合わせて校正単位を設計した点である。Episode-Normalized Conformal Predictionは、非適合度を方策の残余信頼度で再尺度化し、各エピソードから最大スコアを一つだけ取り出して校正する。\n\n校正エピソードと試験エピソードが交換可能なら、エピソード内のステップ間依存を許したまま、全ステップで正解を含む確率を少なくとも1マイナス・アルファにする構成である。R2RとREVERIE上で、四つのナビゲーション方策、三つの非適合度を評価し、既知環境から未知環境への設定で報告した全ての経験的ステップ被覆目標を満たした。モデル非依存の不確実性として、より能力の高い予測器や人間へ委譲する判定へ使える可能性がある。\n\n保証の核はステップの独立性ではなく、エピソード間の交換可能性である。建物、指示長、経路難度が時間とともに変われば、この前提は崩れ得る。またエピソード最大値による校正は、長い経路ほど極端値を取りやすく、予測集合を保守的にする可能性がある。被覆率だけでなく集合サイズ、委譲頻度、到達成功率、経路長別の効率を併記しなければ、安全性と実用性の均衡は分からない。全ステップ被覆と最終到達成功も異なる指標である。\n\n## 論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留\n\n**出典:** Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback. [arXiv:2609.17474](https://arxiv.org/abs/2609.17474) (2026).\n\nハイチェン・フーらは、強い教師を模倣すると教師の系統誤差まで学生へ移る問題を、共変量シフトかつ目標領域の報酬がない条件で定式化した。選定理由は、教師の方が全学生より高い目標報酬を持つ場合でも、直接照合が学生クラス内の最適解へ届かない分離を示した点にある。Coupled Calibration and Learningは、トークン単位の分岐を介して教師校正と学生更新を結合する。各反復で、源領域の質問にだけある報酬で教師を校正し、その教師から目標領域の学生を学習し、更新後の学生を次の教師校正へ戻す。\n\n自己回帰方策の解析では、出力学生とオラクル学生の期待平均カルバック・ライブラー発散が、反復回数に対して多項式速度でゼロへ収束する。ここでオラクルは、学生クラス内で真の参照正則化付き目標報酬を最大化する方策であり、制約のない最適方策とは限らない。解析は、射影された学生勾配更新の進展と教師校正誤差を同時に制御する。対して正則化付き直接照合は、教師の目標報酬が全学生を上回っても、オラクル学生への誤差がゼロから離れたままになり得る。\n\nこれは理論上の回復可能性であり、要旨は実モデル、データ規模、有限反復での経験的利得を報告しない。多項式速度の次数や定数、報酬モデルの仮定、源と目標の支持集合の重なりが実用性を左右す。学生が表現できるクラス内最適性なので、容量不足そのものは解消しない。重要な差分は、教師出力を固定ラベルとして受け取らず、学生の更新を教師の再校正情報に使う閉ループであり、理論仮定を崩したときの安定性が次の評価軸になる。\n\n## まとめ\n\n五本は、表現、棄権、圧縮、校正、蒸留の各段階で平均値の内訳を問い直す。未来RGBは常に有益ではなく、誤答低減には回答率が伴い、枝刈りでは接地情報が意図より先に壊れる。逐次ナビゲーションの保証はエピソード間交換可能性に依存し、蒸留の収束先は学生クラス内のオラクルである。実運用へ移す際は、成功率と計算量、リスクとカバレッジ、圧縮と誤動作、被覆と集合効率、理論収束と有限標本を対にして測る必要がある。\n\n## 参考ソース\n\n- 論文1: Modality-Autoregressive World-Action Models. [arXiv:2609.17524](https://arxiv.org/abs/2609.17524)\n- 論文2: When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control. [arXiv:2609.17516](https://arxiv.org/abs/2609.17516)\n- 論文3: What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity. [arXiv:2609.17515](https://arxiv.org/abs/2609.17515)\n- 論文4: ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation. [arXiv:2609.17499](https://arxiv.org/abs/2609.17499)\n- 論文5: Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback. [arXiv:2609.17474](https://arxiv.org/abs/2609.17474)\n",
-        "timeline": {
-          "version": 1,
-          "source": "tts_voicevox",
-          "fps": 30,
-          "totalFrames": 23804,
-          "audioDurationSec": 793.472667,
-          "cues": [
-            {
-              "speaker": "A",
-              "text": "2026年9月17日の、アーカイブ・フロンティア・エーアイ論文解説なのだ。",
-              "section": "オープニング：2026年9月17日 — arXiv Frontier AI論文解説",
-              "startFrame": 18,
-              "endFrame": 253
-            },
-            {
-              "speaker": "B",
-              "text": "今回は、世界行動モデル、回答の棄権、モデル枝刈り、ナビゲーション校正、知識蒸留の五本です。",
-              "section": "オープニング：2026年9月17日 — arXiv Frontier AI論文解説",
-              "startFrame": 261,
-              "endFrame": 514
-            },
-            {
-              "speaker": "A",
-              "text": "成功率が高いかだけでなく、失敗がどこから始まるかを追う回なのだ。",
-              "section": "オープニング：2026年9月17日 — arXiv Frontier AI論文解説",
-              "startFrame": 522,
-              "endFrame": 700
-            },
-            {
-              "speaker": "B",
-              "text": "ええ。計算量、回答率、被覆保証、モデルクラスを、改善値と同じ重さで確認します。",
-              "section": "オープニング：2026年9月17日 — arXiv Frontier AI論文解説",
-              "startFrame": 707,
-              "endFrame": 958
-            },
-            {
-              "speaker": "A",
-              "text": "まず、未来の映像を細かく描くほどロボットが賢くなるのか、そこから聞きたいのだ。",
-              "section": "オープニング：2026年9月17日 — arXiv Frontier AI論文解説",
-              "startFrame": 965,
-              "endFrame": 1177
-            },
-            {
-              "speaker": "B",
-              "text": "実は、未来の赤緑青画像を足しても一貫した利益がないという結果です。",
-              "section": "オープニング：2026年9月17日 — arXiv Frontier AI論文解説",
-              "startFrame": 1185,
-              "endFrame": 1341
-            },
-            {
-              "speaker": "B",
-              "text": "一本目は「複数の未来表現を順番に生成する世界行動モデル」。アダム・ハンらのモッドアールです。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 1359,
-              "endFrame": 1589
-            },
-            {
-              "speaker": "A",
-              "text": "世界行動モデルは、未来の観測とロボットの行動を一緒に予測するのだ？",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 1597,
-              "endFrame": 1787
-            },
-            {
-              "speaker": "B",
-              "text": "そうです。従来は未来を赤緑青画像として予測することが多いのですが、画像再構成が制御に必要な情報と一致するとは限りません。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 1794,
-              "endFrame": 2089
-            },
-            {
-              "speaker": "A",
-              "text": "そこで、点の軌跡や深度も未来として出すのだ。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 2097,
-              "endFrame": 2217
-            },
-            {
-              "speaker": "B",
-              "text": "点軌跡は運動、深度は幾何、ディノ特徴は意味を圧縮して表します。この三種類を順番にノイズ除去してから行動を予測します。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 2224,
-              "endFrame": 2513
-            },
-            {
-              "speaker": "A",
-              "text": "同時に出すのではなく、先に生成した表現を次の予測へ渡すのが自己回帰なのだ。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 2520,
-              "endFrame": 2730
-            },
-            {
-              "speaker": "B",
-              "text": "その生成順序が提案の中心です。訓練データ混合、予測モダリティー、モデル形式を、事前学習なしのスクラッチ学習で比較しました。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 2737,
-              "endFrame": 3054
-            },
-            {
-              "speaker": "A",
-              "text": "どの未来表現が効いたのだ？",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 3061,
-              "endFrame": 3136
-            },
-            {
-              "speaker": "B",
-              "text": "点軌跡、ディノ特徴、深度は有益でした。一方、未来の赤緑青画像を追加しても、効果は一貫しませんでした。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 3144,
-              "endFrame": 3422
-            },
-            {
-              "speaker": "A",
-              "text": "見た目を完全に描く計算が、行動決定には余分な場合があるのだ。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 3430,
-              "endFrame": 3607
-            },
-            {
-              "speaker": "B",
-              "text": "同じデータで動画初期化モデルのフレックス・パイを微調整した比較では、平均成功率が75対72パーセントでした。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 3614,
-              "endFrame": 3891
-            },
-            {
-              "speaker": "A",
-              "text": "三ポイント差だけでなく、訓練費用も違うのだ？",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 3899,
-              "endFrame": 4029
-            },
-            {
-              "speaker": "B",
-              "text": "モッドアールは約20分の1の訓練フロップスで、事前学習も使いません。評価した全データ規模で平均成功率が最上位でした。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 4037,
-              "endFrame": 4328
-            },
-            {
-              "speaker": "A",
-              "text": "それなら効率面は強い。ただ、三ポイント差の試行分散は要旨から分からないのだ。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 4335,
-              "endFrame": 4558
-            },
-            {
-              "speaker": "B",
-              "text": "その通りです。三つの実世界双腕課題でもベースラインを上回りましたが、課題別試行数や信頼区間は示されていません。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 4565,
-              "endFrame": 4830
-            },
-            {
-              "speaker": "A",
-              "text": "人間動画を足すと改善したのは、行動ラベルなしでも運動構造を学べた可能性があるのだ。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 4838,
-              "endFrame": 5066
-            },
-            {
-              "speaker": "B",
-              "text": "ただし、どの表現が人間動画から移ったかは未分離です。生成順序ごとの誤差連鎖と推論遅延も運用上の評価点です。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 5074,
-              "endFrame": 5346
-            },
-            {
-              "speaker": "A",
-              "text": "高精細な未来画像より、制御に十分な未来状態を選ぶ問題だと分かったのだ。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 5353,
-              "endFrame": 5564
-            },
-            {
-              "speaker": "B",
-              "text": "表現を増やす競争ではなく、各表現が行動へ運ぶ情報と計算費用を測る研究です。",
-              "section": "論文1: 複数の未来表現を順番に生成する世界行動モデル",
-              "startFrame": 5572,
-              "endFrame": 5780
-            },
-            {
-              "speaker": "B",
-              "text": "二本目は「自己質問で回答と棄権を選ぶリスク制御」。アリ・シェノルのチェーン・オブ・セルフ・クエスチョニングです。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 5798,
-              "endFrame": 6039
-            },
-            {
-              "speaker": "A",
-              "text": "分からない質問には答えない能力を、追加学習なしで作るのだ？",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 6047,
-              "endFrame": 6217
-            },
-            {
-              "speaker": "B",
-              "text": "プロンプトだけで、回答に必要な情報を明示的に自己評価させます。その評価が閾値を満たすときだけ答えます。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 6225,
-              "endFrame": 6470
-            },
-            {
-              "speaker": "A",
-              "text": "単に自信の数値を尋ねるより、何の情報が必要かを問い直すのだ。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 6478,
-              "endFrame": 6659
-            },
-            {
-              "speaker": "B",
-              "text": "三変種を、トゥルースフル・キューエーの817問、十一モデル族、十七条件で評価しました。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 6666,
-              "endFrame": 6901
-            },
-            {
-              "speaker": "A",
-              "text": "最終プロトコルの数字を、回答率と一緒に見たいのだ。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 6908,
-              "endFrame": 7053
-            },
-            {
-              "speaker": "B",
-              "text": "グラウンデッド版を閾値0.90で使うと、無条件の誤確定率は思考連鎖の13.1から8.9パーセントへ下がりました。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 7061,
-              "endFrame": 7344
-            },
-            {
-              "speaker": "A",
-              "text": "相対では32.1パーセント減少だけれど、全問に答えたわけではないのだ。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 7351,
-              "endFrame": 7562
-            },
-            {
-              "speaker": "B",
-              "text": "回答率は87.6パーセントです。その回答内の正答率は86.9から89.7パーセントへ上がりました。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 7569,
-              "endFrame": 7848
-            },
-            {
-              "speaker": "A",
-              "text": "棄権で難問を外せば正答率は上がる。重要なのは同じ回答率で比べることなのだ。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 7856,
-              "endFrame": 8077
-            },
-            {
-              "speaker": "B",
-              "text": "ええ。リスクとカバレッジの曲線全体が必要です。著者は両改善が十一モデルと全閾値で成立したと報告しています。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 8085,
-              "endFrame": 8363
-            },
-            {
-              "speaker": "A",
-              "text": "別の変種はどんな運用点になったのだ？",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 8370,
-              "endFrame": 8472
-            },
-            {
-              "speaker": "B",
-              "text": "クリティカル版は回答率88.6パーセント、アダプティブ版は86.5パーセントで、基準より信頼性が高い隣接点を与えました。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 8480,
-              "endFrame": 8793
-            },
-            {
-              "speaker": "A",
-              "text": "自由回答でも同じ方向だったのだ？",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 8800,
-              "endFrame": 8897
-            },
-            {
-              "speaker": "B",
-              "text": "ナチュラル・クエスチョンズ短答式で収束的な証拠を報告します。ただ、採点誤差や実務の損失関数は別です。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 8904,
-              "endFrame": 9169
-            },
-            {
-              "speaker": "A",
-              "text": "医療相談と雑学では、誤答と棄権の費用がまるで違うのだ。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 9177,
-              "endFrame": 9339
-            },
-            {
-              "speaker": "B",
-              "text": "だから最良の閾値は固定できません。この方式は、回答か紹介かを損失に合わせて調整できる点に意味があります。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 9346,
-              "endFrame": 9604
-            },
-            {
-              "speaker": "A",
-              "text": "自己評価文が上手でも、未知領域で本当に校正されているとは限らないのだ。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 9612,
-              "endFrame": 9810
-            },
-            {
-              "speaker": "B",
-              "text": "分布外データで、同じ回答率における誤確定率が保たれるかが次の境界試験です。",
-              "section": "論文2: 自己質問で回答と棄権を選ぶリスク制御",
-              "startFrame": 9818,
-              "endFrame": 10005
-            },
-            {
-              "speaker": "B",
-              "text": "三本目は「スマートホームで枝刈り後に最初に壊れるもの」。コンジン・ジャンらが四モデルを調べました。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 10023,
-              "endFrame": 10246
-            },
-            {
-              "speaker": "A",
-              "text": "パラメータを削って軽くしても、会話の正答率だけなら性能を保てることがあるのだ。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 10254,
-              "endFrame": 10459
-            },
-            {
-              "speaker": "B",
-              "text": "しかしツール呼び出しでは、操作、機器、引数、値の全てが合わないと実行を誤ります。この研究はエラーを成分へ分解します。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 10467,
-              "endFrame": 10767
-            },
-            {
-              "speaker": "A",
-              "text": "モデル構造と削り方も複数なのだ？",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 10774,
-              "endFrame": 10874
-            },
-            {
-              "speaker": "B",
-              "text": "密なトランスフォーマー、密なハイブリッド、混合エキスパートを含む四モデルへ、深さ、幅、混合、エキスパート枝刈りを適用しました。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 10882,
-              "endFrame": 11200
-            },
-            {
-              "speaker": "A",
-              "text": "枝刈り後には、そのまま評価したのだ？",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 11207,
-              "endFrame": 11309
-            },
-            {
-              "speaker": "B",
-              "text": "教師あり微調整を行った後、三つのスマートホームデータセットから一万九千五百件超を評価しています。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 11317,
-              "endFrame": 11553
-            },
-            {
-              "speaker": "A",
-              "text": "密モデルは、少しずつ滑らかに悪くなるのだ？",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 11561,
-              "endFrame": 11683
-            },
-            {
-              "speaker": "B",
-              "text": "狭い安全域の後に急落しました。対して混合エキスパートは、かなり大きな枝刈りまで耐えました。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 11690,
-              "endFrame": 11904
-            },
-            {
-              "speaker": "A",
-              "text": "最初に失われた能力は何だったのだ？",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 11912,
-              "endFrame": 12016
-            },
-            {
-              "speaker": "B",
-              "text": "操作意図のようなスキーマ水準より先に、どの機器へどの値を渡すかという接地特異性が劣化しました。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 12023,
-              "endFrame": 12236
-            },
-            {
-              "speaker": "A",
-              "text": "電灯を操作する意図は合っていても、別の部屋や明るさを選ぶなら危険なのだ。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 12243,
-              "endFrame": 12431
-            },
-            {
-              "speaker": "B",
-              "text": "さらに密モデルの強い枝刈りでは、実行可能な依頼まで断る系統的な過剰拒否が生じました。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 12439,
-              "endFrame": 12648
-            },
-            {
-              "speaker": "A",
-              "text": "誤操作と過剰拒否を総合正答率で一つにすると、配備時の損失が見えないのだ。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 12656,
-              "endFrame": 12865
-            },
-            {
-              "speaker": "B",
-              "text": "その通りです。安全用途では機器選択の誤りへ重い費用を置き、利便用途では拒否にも費用を置く必要があります。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 12872,
-              "endFrame": 13130
-            },
-            {
-              "speaker": "A",
-              "text": "混合エキスパートなら常に枝刈りに強い、とまでは言えないのだ？",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 13137,
-              "endFrame": 13302
-            },
-            {
-              "speaker": "B",
-              "text": "要旨は四モデルでの傾向を示すだけです。具体的な安全域、モデル名、課題別絶対値はありません。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 13309,
-              "endFrame": 13557
-            },
-            {
-              "speaker": "A",
-              "text": "同じ削減率でも、深さとエキスパートでは実際の速度や帯域が違うのだ。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 13564,
-              "endFrame": 13757
-            },
-            {
-              "speaker": "B",
-              "text": "パラメータ数、活性計算、遅延、成分別誤りを同じ曲線へ置いて初めて、圧縮の運用点を選べます。",
-              "section": "論文3: スマートホームで枝刈り後に最初に壊れるもの",
-              "startFrame": 13764,
-              "endFrame": 14047
-            },
-            {
-              "speaker": "B",
-              "text": "四本目は「エピソード単位で校正する視覚言語ナビゲーション」。ヴィッキー・フェリレンらのイーエヌシーピーです。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 14065,
-              "endFrame": 14283
-            },
-            {
-              "speaker": "A",
-              "text": "共形予測は、指定した確率で正解を予測集合に含める仕組みなのだ。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 14291,
-              "endFrame": 14481
-            },
-            {
-              "speaker": "B",
-              "text": "ただし標準校正は、独立に近い標本を想定します。ナビゲーションでは一歩の行動が次の観測を変え、経路長も一定ではありません。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 14488,
-              "endFrame": 14800
-            },
-            {
-              "speaker": "A",
-              "text": "各ステップが当たる保証を並べても、一経路を最後まで守る保証にはならないのだ。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 14807,
-              "endFrame": 15007
-            },
-            {
-              "speaker": "B",
-              "text": "そこで非適合度を方策の残余信頼度で再尺度化し、一エピソードから最大スコアを一つだけ校正へ使います。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 15015,
-              "endFrame": 15258
-            },
-            {
-              "speaker": "A",
-              "text": "エピソード内の依存を、最大値へまとめるわけなのだ。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 15265,
-              "endFrame": 15404
-            },
-            {
-              "speaker": "B",
-              "text": "校正エピソードと試験エピソードが交換可能なら、全ステップで正解を含む確率を少なくとも1マイナス・アルファにします。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 15411,
-              "endFrame": 15677
-            },
-            {
-              "speaker": "A",
-              "text": "ステップ同士の独立は要求しないけれど、エピソード同士の交換可能性は必要なのだ。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 15685,
-              "endFrame": 15907
-            },
-            {
-              "speaker": "B",
-              "text": "そこが保証の条件です。二つのデータセット、四方策、三つの非適合度で、報告した全ての経験的被覆目標を満たしました。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 15915,
-              "endFrame": 16211
-            },
-            {
-              "speaker": "A",
-              "text": "既知環境で校正して未知環境へ移る評価も含むのだ？",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 16219,
-              "endFrame": 16362
-            },
-            {
-              "speaker": "B",
-              "text": "既知から未知への設定です。ただし建物や指示長の分布が継続的に変わる運用は、交換可能性から外れ得ます。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 16369,
-              "endFrame": 16622
-            },
-            {
-              "speaker": "A",
-              "text": "長い経路は最大値が大きくなって、予測集合が広がりすぎないのだ？",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 16629,
-              "endFrame": 16817
-            },
-            {
-              "speaker": "B",
-              "text": "その可能性があります。被覆率だけでなく集合サイズ、委譲頻度、経路長別効率を測る必要があります。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 16825,
-              "endFrame": 17080
-            },
-            {
-              "speaker": "A",
-              "text": "全ステップで候補に正解が入っても、方策が最終目的地へ着くとは限らないのだ。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 17088,
-              "endFrame": 17298
-            },
-            {
-              "speaker": "B",
-              "text": "被覆保証とタスク成功は別です。人間へ渡す基準として使うなら、委譲後の成功率と総コストまで評価対象です。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 17306,
-              "endFrame": 17568
-            },
-            {
-              "speaker": "A",
-              "text": "不確実性の保証を、逐次行動の単位に合わせ直したことが貢献なのだ。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 17576,
-              "endFrame": 17760
-            },
-            {
-              "speaker": "B",
-              "text": "そして保証を支える交換可能性を、現場の分布変化と照合することが実装条件です。",
-              "section": "論文4: エピソード単位で校正する視覚言語ナビゲーション",
-              "startFrame": 17767,
-              "endFrame": 17967
-            },
-            {
-              "speaker": "B",
-              "text": "五本目は「目標領域の報酬なしで教師バイアスを抑える蒸留」。ハイチェン・フーらの結合校正学習です。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 17985,
-              "endFrame": 18239
-            },
-            {
-              "speaker": "A",
-              "text": "強い教師をまねれば、教師の系統的な誤りも学生へ移るのだ。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 18247,
-              "endFrame": 18421
-            },
-            {
-              "speaker": "B",
-              "text": "特に、源領域から目標領域へ質問分布が変わり、目標側の報酬がないと教師の信頼度を直接直せません。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 18429,
-              "endFrame": 18700
-            },
-            {
-              "speaker": "A",
-              "text": "提案法は、教師を一度校正して固定するのではないのだ？",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 18707,
-              "endFrame": 18864
-            },
-            {
-              "speaker": "B",
-              "text": "各反復で、源領域の報酬を使って教師を校正し、その教師で目標質問上の学生を更新します。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 18871,
-              "endFrame": 19130
-            },
-            {
-              "speaker": "A",
-              "text": "更新された学生が、次の教師校正へ情報を返すから結合なのだ。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 19137,
-              "endFrame": 19321
-            },
-            {
-              "speaker": "B",
-              "text": "トークン単位の分岐を介した閉ループです。教師校正と学生学習を交互に改善します。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 19329,
-              "endFrame": 19523
-            },
-            {
-              "speaker": "A",
-              "text": "理論上は何へ収束するのだ？",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 19531,
-              "endFrame": 19614
-            },
-            {
-              "speaker": "B",
-              "text": "出力学生とオラクル学生の期待平均カルバック・ライブラー発散が、反復回数に対して多項式速度でゼロへ収束します。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 19621,
-              "endFrame": 19900
-            },
-            {
-              "speaker": "A",
-              "text": "そのオラクルは、制約のない最強モデルではないのだ。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 19908,
-              "endFrame": 20043
-            },
-            {
-              "speaker": "B",
-              "text": "学生クラス内で、真の参照正則化付き目標報酬を最大化する方策です。学生の容量不足は残ります。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 20050,
-              "endFrame": 20307
-            },
-            {
-              "speaker": "A",
-              "text": "教師の方が全学生より高性能なら、直接模倣でも最良学生へ近づきそうなのだ。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 20314,
-              "endFrame": 20536
-            },
-            {
-              "speaker": "B",
-              "text": "そこに分離があります。教師の正則化付き目標報酬が全学生を上回っても、直接照合の誤差はオラクル学生から離れたままになり得ます。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 20543,
-              "endFrame": 20852
-            },
-            {
-              "speaker": "A",
-              "text": "強い教師の出力が、制約された学生には最適な訓練目標とは限らないのだ。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 20860,
-              "endFrame": 21075
-            },
-            {
-              "speaker": "B",
-              "text": "ええ。学生の更新を教師の再校正へ戻すことで、学生クラスに適した目標へ寄せます。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 21082,
-              "endFrame": 21300
-            },
-            {
-              "speaker": "A",
-              "text": "ただし、これは実モデルの大規模実験結果ではなく理論結果なのだ。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 21308,
-              "endFrame": 21477
-            },
-            {
-              "speaker": "B",
-              "text": "要旨には経験的利得や有限反復の値がありません。収束率の定数、報酬仮定、源と目標の支持集合が実用性を決めます。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 21485,
-              "endFrame": 21810
-            },
-            {
-              "speaker": "A",
-              "text": "理論の美しさは、どの仮定を崩すと教師バイアスが戻るかを検査できる点にもあるのだ。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 21818,
-              "endFrame": 22027
-            },
-            {
-              "speaker": "B",
-              "text": "分布の重なり、校正誤差、学生容量を個別に動かす実験が、この保証を実装へつなぎます。",
-              "section": "論文5: 目標領域の報酬なしで教師バイアスを抑える蒸留",
-              "startFrame": 22034,
-              "endFrame": 22259
-            },
-            {
-              "speaker": "A",
-              "text": "五本を通すと、平均値の前に評価単位を決めることが共通していたのだ。",
-              "section": "まとめ",
-              "startFrame": 22277,
-              "endFrame": 22469
-            },
-            {
-              "speaker": "B",
-              "text": "世界モデルは表現別、枝刈りは行動成分別、ナビゲーションはエピソード別に失敗を測りました。",
-              "section": "まとめ",
-              "startFrame": 22476,
-              "endFrame": 22700
-            },
-            {
-              "speaker": "A",
-              "text": "棄権では誤答率と回答率を対にして、蒸留では収束先を学生クラス内に限定したのだ。",
-              "section": "まとめ",
-              "startFrame": 22708,
-              "endFrame": 22950
-            },
-            {
-              "speaker": "B",
-              "text": "大きな改善値も、計算量、カバレッジ、交換可能性、モデル容量と切り離せません。",
-              "section": "まとめ",
-              "startFrame": 22957,
-              "endFrame": 23183
-            },
-            {
-              "speaker": "A",
-              "text": "次の研究を見るときも、何を分母にして、何を保証した数字かを確かめたいのだ。",
-              "section": "まとめ",
-              "startFrame": 23190,
-              "endFrame": 23402
-            },
-            {
-              "speaker": "B",
-              "text": "2026年9月17日の論文解説は以上です。最後まで聞いていただき、ありがとうございました。",
-              "section": "まとめ",
-              "startFrame": 23409,
-              "endFrame": 23640
-            },
-            {
-              "speaker": "A",
-              "text": "また次回、具体的な条件と数字から研究を読み解くのだ。",
-              "section": "まとめ",
-              "startFrame": 23648,
-              "endFrame": 23804
-            }
-          ]
-        }
-      },
-      {
-        "mode": "arxiv_qc",
-        "label": "arxiv 量子コンピュータ論文解説",
-        "iaId": "news-pickup-2026-09-17-arxiv-qc",
-        "title": "量子計算は資源配分で変わる？重要論文5本【2026/09/17】",
-        "audioUrl": "https://archive.org/download/news-pickup-2026-09-17-arxiv-qc/arxiv_qc_yukkuri.m4a",
-        "markdown": "<h1>arXiv量子コンピュータ論文解説（2026年9月17日）</h1>\n<p><strong>キーワード:</strong> ADAPT-VQE / 適応制御 / リンドブラッド発展 / 検証可能な自律実験 / 定深さ量子回路</p>\n<p>本日は、変分量子アルゴリズムの演算子選択、量子計算中の資源配分、開放量子系シミュレーション、量子工学エージェントの検証、定深さ回路による状態準備を扱う。ノイズ緩和、成功確率、クエリ量、検証済み性能、回路サイズという異なる尺度を混同せずに読む。</p>\n<h2>オープニング：2026年9月17日 — arXiv量子コンピュータ論文解説</h2>\n<p>五本の焦点は、ハードウェア性能だけでは決まらない計算の組み立て方である。適応的な選択と資源配分がどこまで効くか、理論保証がゲート費用や実機信頼性へ何を残すかを比較する。</p>\n<h2>論文1: ノイズ下の適応VQEで演算子選択を回復する</h2>\n<p><strong>出典:</strong> A Case Study on Noise Resilient Operator Selection in Adaptive Variational Quantum Algorithms. <a href=\"https://arxiv.org/abs/2609.17501\">arXiv:2609.17501</a> (2026).</p>\n<p>スーリヤ・ハラヴ、マファルダ・ラモア、バラト・サンバシヴァムは、ADAPT-VQEで次に追加する演算子を選ぶ段階へノイズが与える影響を調べた。採用理由は、従来よく分析されるパラメータ最適化ではなく、誤った候補を選べば以後の変分回路構造そのものが変わる離散的な選択へ焦点を当てた点にある。線形H3分子を事例とし、複数のノイズチャネルに対する選択基準の挙動を追跡した。</p>\n<p>選択基準には一部ノイズへの自然な耐性があるが、コヒーレント、インコヒーレントのどちらでも、ノイズ率が十分に高いと収束を妨げた。著者らは動的デカップリング、ゼロノイズ外挿、パウリ・ツワリングを適切に組み合わせることで、成功する収束プロファイルを回復できると報告する。単一緩和法の万能性ではなく、系統誤差のランダム化、時間相関の抑制、ゼロノイズ推定という異なる役割を重ねた結果である。</p>\n<p>ただし要旨は、ノイズ率、エネルギー誤差、反復回数、各緩和法の追加測定量を示さない。H3という小さな単一分子事例であり、演算子プールの大きさや縮退、強相関系への一般化は未確定である。収束回復だけでなく、理想計算と同じ演算子列を選んだ割合、化学精度、ショット数、緩和オーバーヘッドを対にしなければ、近未来ハードウェアでの費用対効果は判断できない。</p>\n<h2>論文2: 状態の難しさに合わせて計算資源を配る適応制御</h2>\n<p><strong>出典:</strong> Beyond Hardware: Adaptive Algorithmic Control by State-Proxy Equalization. <a href=\"https://arxiv.org/abs/2609.17497\">arXiv:2609.17497</a> (2026).</p>\n<p>ジャンロン・ルーらは、有限の計算資源を物理時間へ均等に置く代わりに、量子状態から推定した計算困難度へ適応配分するA2Cを提案した。選定理由は、性能改善をハードウェア更新だけへ帰さず、同じ回路深さと測定予算の内部で制御スケジュールを変える比較を行った点である。状態プロキシー均等化定理は、対象とするプロキシー誤差汎関数を最小化する配分が、物理時間ではなく累積計算困難度を均等化することを示す。</p>\n<p>困難度は発展中の量子状態から直接推定するため、指数的に大きい多体系スペクトルの明示再構成を避ける。厳密シミュレーション、大規模スーパーコンピューター計算、IBM量子ハードウェア実験を組み合わせ、最大156量子ビットの量子最適化問題で評価した。同じ回路深さと測定予算の下、低エネルギー状態のサンプリング確率は22%から十万%超まで改善した。</p>\n<p>改善幅の広さは、基準確率が課題ごとに大きく異なることを示唆する。十万%という相対改善は、非常に小さい基準値なら絶対確率の大幅な上昇を意味しないため、絶対成功確率とインスタンス別分布が必要である。また定理が最適化するのは状態由来プロキシー誤差であり、全ての目的関数に対する最適性ではない。プロキシー推定のショット費用と制御更新遅延を予算へ含めた端から端の比較が、ソフトウェア制御の純利得を決める。</p>\n<h2>論文3: リンドブラッド発展を加法的クエリ量で模擬する</h2>\n<p><strong>出典:</strong> Query-optimal quantum simulation of Lindblad evolution. <a href=\"https://arxiv.org/abs/2609.17490\">arXiv:2609.17490</a> (2026).</p>\n<p>チュンハオ・ワンとクリストファー・イーは、開放量子系のリンドブラッド発展を時間t、精度イプシロンで模擬する際のクエリ複雑性を扱う。採用理由は、既知の下界が時間項と精度項の加法形であるのに、従来の一般アルゴリズムは両者が掛け合わされた上界しか持たなかった隔たりを閉じた点にある。ブロックエンコーディングモデルで、時間と精度に最適な加法依存を持つアルゴリズムを構成した。</p>\n<p>手法はトランスデューサー枠組みを使い、発展チャネルの一次近似を多数合成するときのクエリ費用を抑える。さらに長さの異なる再利用回路の線形結合により、触媒状態を除去する際の誤差を抑制する。これにより、非公式には時間tと精度の対数多項式の和という下界に一致し、必要なオラクルアクセス量については積型依存が必須ではないことを示した。</p>\n<p>重要な限界は、追加ゲート複雑性が既存アルゴリズムより高いことである。クエリ最適性は、ブロックエンコーディングへの一回のアクセスを単位費用とみなす理論モデルでの結果であり、そのオラクル構成や補助回路のゲート数を無料にはできない。実装可能性には、補助量子ビット、成功確率、チャネル合成の定数、ノイズ下での深さを評価する必要がある。残された問題は、加法的クエリ量を維持したままゲート複雑性も最適化することである。</p>\n<h2>論文4: 量子工学エージェントの行動と結論を検証する</h2>\n<p><strong>出典:</strong> Evaluating Verified Autonomy in Quantum Engineering. <a href=\"https://arxiv.org/abs/2609.17439\">arXiv:2609.17439</a> (2026).</p>\n<p>ナイシュ・グオらは、人工知能エージェントが量子実験を計画し、装置を操作し、観測を解析する能力を再現可能に評価する仮想実験室Quantum-Harborを構築した。選定理由は、最終回答のもっともらしさだけでなく、エージェントが取った操作と、そこから導いた結論の双方を環境内で直接検証する設計にある。量子装置の規模と複雑さが増すほど、人手による校正と連携が律速になるため、自律化の信頼性を独立の評価対象にした。</p>\n<p>この環境上のQIQCBenchは、専門家が作成した49課題を含み、校正と制御、誤り訂正とコンパイル、センシングとネットワーキングなど複数層にまたがる。十七の最先端エージェントシステムを比較すると、検証済み性能には大きなばらつきがあった。要旨は順位や絶対成功率を示さないが、能力の実演と、反復して信頼できる装置運用との間に大きな隔たりがあると結論する。</p>\n<p>仮想実験室は同一条件で操作履歴を再生できる一方、実機特有のドリフト、通信遅延、機器故障、校正ずれをどこまで模擬するかで外的妥当性が変わる。49課題は広い層を覆うが、各層の標本数は限られる。行動妥当性と結論妥当性を分け、危険操作の回避、回復可能性、試行回数、トークンと装置時間まで報告すると、自律性が単なるタスク完了率を越えて評価できる。</p>\n<h2>論文5: 定深さ回路で任意の対数量子ビット状態を準備する</h2>\n<p><strong>出典:</strong> QAC0 Can Prepare Every Logarithmic-Qubit State. <a href=\"https://arxiv.org/abs/2609.17408\">arXiv:2609.17408</a> (2026).</p>\n<p>ルーカス・グレッタ、メガル・グプタ、マルヴィカ・ラジ・ジョシは、任意幅のトフォリゲートを許す定深さ量子回路クラスQAC0の状態準備能力を示した。採用理由は、ファンアウトや量子ランダムアクセスメモリーを追加せず、任意の対数量子ビット状態を厳密かつ補助系を汚さずに準備できると証明した点である。QAC0は局所定深さ回路へ非局所トフォリ相互作用を加えるが、任意幅ファンアウトを持つQNC0-fより弱いと考えられている。</p>\n<p>提案結果では、Oログn量子ビット上の任意状態を、多項式個の補助量子ビットを使うQAC0回路で正確に準備できる。従来、任意のその規模の状態に対する多項式補助量子ビット構成は、QAC0へ含まれると分かっていないファンアウトまたは索引ゲートへの追加アクセスを必要とした。同値な見方では、任意のn量子ビット状態をQAC0で用意する既知構成の二重指数サイズに対し、指数因子の改善を得る。</p>\n<p>この結果は回路複雑性の漸近的包含に関するもので、近未来装置向けの浅い状態準備レシピを直ちに与えるわけではない。任意幅トフォリ自体の物理分解、接続制約、補助量子ビット初期化、誤り訂正費用を含めれば深さは変わる。また対数量子ビットという出力幅が重要で、線形規模の任意状態準備を多項式資源で解いたものではない。厳密かつクリーンな準備が、より大きな回路クラス分離へどう作用するかが理論上の含意である。</p>\n<h2>まとめ</h2>\n<p>五本は、量子計算の性能を素子品質だけでなく選択、配分、アクセスモデル、検証環境、回路クラスから捉え直す。ADAPT-VQEでは演算子選択を複合緩和で回復し、A2Cは物理時間でなく状態由来困難度へ資源を配る。リンドブラッド模擬はクエリ下界を達成する一方でゲート費用を残し、自律実験は能力と信頼性を分ける。QAC0の状態準備は漸近的な表現能力を広げるが、物理ゲート分解とは別問題である。</p>\n<h2>参考ソース</h2>\n<ul>\n<li>論文1: A Case Study on Noise Resilient Operator Selection in Adaptive Variational Quantum Algorithms. <a href=\"https://arxiv.org/abs/2609.17501\">arXiv:2609.17501</a></li>\n<li>論文2: Beyond Hardware: Adaptive Algorithmic Control by State-Proxy Equalization. <a href=\"https://arxiv.org/abs/2609.17497\">arXiv:2609.17497</a></li>\n<li>論文3: Query-optimal quantum simulation of Lindblad evolution. <a href=\"https://arxiv.org/abs/2609.17490\">arXiv:2609.17490</a></li>\n<li>論文4: Evaluating Verified Autonomy in Quantum Engineering. <a href=\"https://arxiv.org/abs/2609.17439\">arXiv:2609.17439</a></li>\n<li>論文5: QAC0 Can Prepare Every Logarithmic-Qubit State. <a href=\"https://arxiv.org/abs/2609.17408\">arXiv:2609.17408</a></li>\n</ul>",
-        "markdownSource": "# arXiv量子コンピュータ論文解説（2026年9月17日）\n\n**キーワード:** ADAPT-VQE / 適応制御 / リンドブラッド発展 / 検証可能な自律実験 / 定深さ量子回路\n\n本日は、変分量子アルゴリズムの演算子選択、量子計算中の資源配分、開放量子系シミュレーション、量子工学エージェントの検証、定深さ回路による状態準備を扱う。ノイズ緩和、成功確率、クエリ量、検証済み性能、回路サイズという異なる尺度を混同せずに読む。\n\n## オープニング：2026年9月17日 — arXiv量子コンピュータ論文解説\n\n五本の焦点は、ハードウェア性能だけでは決まらない計算の組み立て方である。適応的な選択と資源配分がどこまで効くか、理論保証がゲート費用や実機信頼性へ何を残すかを比較する。\n\n## 論文1: ノイズ下の適応VQEで演算子選択を回復する\n\n**出典:** A Case Study on Noise Resilient Operator Selection in Adaptive Variational Quantum Algorithms. [arXiv:2609.17501](https://arxiv.org/abs/2609.17501) (2026).\n\nスーリヤ・ハラヴ、マファルダ・ラモア、バラト・サンバシヴァムは、ADAPT-VQEで次に追加する演算子を選ぶ段階へノイズが与える影響を調べた。採用理由は、従来よく分析されるパラメータ最適化ではなく、誤った候補を選べば以後の変分回路構造そのものが変わる離散的な選択へ焦点を当てた点にある。線形H3分子を事例とし、複数のノイズチャネルに対する選択基準の挙動を追跡した。\n\n選択基準には一部ノイズへの自然な耐性があるが、コヒーレント、インコヒーレントのどちらでも、ノイズ率が十分に高いと収束を妨げた。著者らは動的デカップリング、ゼロノイズ外挿、パウリ・ツワリングを適切に組み合わせることで、成功する収束プロファイルを回復できると報告する。単一緩和法の万能性ではなく、系統誤差のランダム化、時間相関の抑制、ゼロノイズ推定という異なる役割を重ねた結果である。\n\nただし要旨は、ノイズ率、エネルギー誤差、反復回数、各緩和法の追加測定量を示さない。H3という小さな単一分子事例であり、演算子プールの大きさや縮退、強相関系への一般化は未確定である。収束回復だけでなく、理想計算と同じ演算子列を選んだ割合、化学精度、ショット数、緩和オーバーヘッドを対にしなければ、近未来ハードウェアでの費用対効果は判断できない。\n\n## 論文2: 状態の難しさに合わせて計算資源を配る適応制御\n\n**出典:** Beyond Hardware: Adaptive Algorithmic Control by State-Proxy Equalization. [arXiv:2609.17497](https://arxiv.org/abs/2609.17497) (2026).\n\nジャンロン・ルーらは、有限の計算資源を物理時間へ均等に置く代わりに、量子状態から推定した計算困難度へ適応配分するA2Cを提案した。選定理由は、性能改善をハードウェア更新だけへ帰さず、同じ回路深さと測定予算の内部で制御スケジュールを変える比較を行った点である。状態プロキシー均等化定理は、対象とするプロキシー誤差汎関数を最小化する配分が、物理時間ではなく累積計算困難度を均等化することを示す。\n\n困難度は発展中の量子状態から直接推定するため、指数的に大きい多体系スペクトルの明示再構成を避ける。厳密シミュレーション、大規模スーパーコンピューター計算、IBM量子ハードウェア実験を組み合わせ、最大156量子ビットの量子最適化問題で評価した。同じ回路深さと測定予算の下、低エネルギー状態のサンプリング確率は22%から十万%超まで改善した。\n\n改善幅の広さは、基準確率が課題ごとに大きく異なることを示唆する。十万%という相対改善は、非常に小さい基準値なら絶対確率の大幅な上昇を意味しないため、絶対成功確率とインスタンス別分布が必要である。また定理が最適化するのは状態由来プロキシー誤差であり、全ての目的関数に対する最適性ではない。プロキシー推定のショット費用と制御更新遅延を予算へ含めた端から端の比較が、ソフトウェア制御の純利得を決める。\n\n## 論文3: リンドブラッド発展を加法的クエリ量で模擬する\n\n**出典:** Query-optimal quantum simulation of Lindblad evolution. [arXiv:2609.17490](https://arxiv.org/abs/2609.17490) (2026).\n\nチュンハオ・ワンとクリストファー・イーは、開放量子系のリンドブラッド発展を時間t、精度イプシロンで模擬する際のクエリ複雑性を扱う。採用理由は、既知の下界が時間項と精度項の加法形であるのに、従来の一般アルゴリズムは両者が掛け合わされた上界しか持たなかった隔たりを閉じた点にある。ブロックエンコーディングモデルで、時間と精度に最適な加法依存を持つアルゴリズムを構成した。\n\n手法はトランスデューサー枠組みを使い、発展チャネルの一次近似を多数合成するときのクエリ費用を抑える。さらに長さの異なる再利用回路の線形結合により、触媒状態を除去する際の誤差を抑制する。これにより、非公式には時間tと精度の対数多項式の和という下界に一致し、必要なオラクルアクセス量については積型依存が必須ではないことを示した。\n\n重要な限界は、追加ゲート複雑性が既存アルゴリズムより高いことである。クエリ最適性は、ブロックエンコーディングへの一回のアクセスを単位費用とみなす理論モデルでの結果であり、そのオラクル構成や補助回路のゲート数を無料にはできない。実装可能性には、補助量子ビット、成功確率、チャネル合成の定数、ノイズ下での深さを評価する必要がある。残された問題は、加法的クエリ量を維持したままゲート複雑性も最適化することである。\n\n## 論文4: 量子工学エージェントの行動と結論を検証する\n\n**出典:** Evaluating Verified Autonomy in Quantum Engineering. [arXiv:2609.17439](https://arxiv.org/abs/2609.17439) (2026).\n\nナイシュ・グオらは、人工知能エージェントが量子実験を計画し、装置を操作し、観測を解析する能力を再現可能に評価する仮想実験室Quantum-Harborを構築した。選定理由は、最終回答のもっともらしさだけでなく、エージェントが取った操作と、そこから導いた結論の双方を環境内で直接検証する設計にある。量子装置の規模と複雑さが増すほど、人手による校正と連携が律速になるため、自律化の信頼性を独立の評価対象にした。\n\nこの環境上のQIQCBenchは、専門家が作成した49課題を含み、校正と制御、誤り訂正とコンパイル、センシングとネットワーキングなど複数層にまたがる。十七の最先端エージェントシステムを比較すると、検証済み性能には大きなばらつきがあった。要旨は順位や絶対成功率を示さないが、能力の実演と、反復して信頼できる装置運用との間に大きな隔たりがあると結論する。\n\n仮想実験室は同一条件で操作履歴を再生できる一方、実機特有のドリフト、通信遅延、機器故障、校正ずれをどこまで模擬するかで外的妥当性が変わる。49課題は広い層を覆うが、各層の標本数は限られる。行動妥当性と結論妥当性を分け、危険操作の回避、回復可能性、試行回数、トークンと装置時間まで報告すると、自律性が単なるタスク完了率を越えて評価できる。\n\n## 論文5: 定深さ回路で任意の対数量子ビット状態を準備する\n\n**出典:** QAC0 Can Prepare Every Logarithmic-Qubit State. [arXiv:2609.17408](https://arxiv.org/abs/2609.17408) (2026).\n\nルーカス・グレッタ、メガル・グプタ、マルヴィカ・ラジ・ジョシは、任意幅のトフォリゲートを許す定深さ量子回路クラスQAC0の状態準備能力を示した。採用理由は、ファンアウトや量子ランダムアクセスメモリーを追加せず、任意の対数量子ビット状態を厳密かつ補助系を汚さずに準備できると証明した点である。QAC0は局所定深さ回路へ非局所トフォリ相互作用を加えるが、任意幅ファンアウトを持つQNC0-fより弱いと考えられている。\n\n提案結果では、Oログn量子ビット上の任意状態を、多項式個の補助量子ビットを使うQAC0回路で正確に準備できる。従来、任意のその規模の状態に対する多項式補助量子ビット構成は、QAC0へ含まれると分かっていないファンアウトまたは索引ゲートへの追加アクセスを必要とした。同値な見方では、任意のn量子ビット状態をQAC0で用意する既知構成の二重指数サイズに対し、指数因子の改善を得る。\n\nこの結果は回路複雑性の漸近的包含に関するもので、近未来装置向けの浅い状態準備レシピを直ちに与えるわけではない。任意幅トフォリ自体の物理分解、接続制約、補助量子ビット初期化、誤り訂正費用を含めれば深さは変わる。また対数量子ビットという出力幅が重要で、線形規模の任意状態準備を多項式資源で解いたものではない。厳密かつクリーンな準備が、より大きな回路クラス分離へどう作用するかが理論上の含意である。\n\n## まとめ\n\n五本は、量子計算の性能を素子品質だけでなく選択、配分、アクセスモデル、検証環境、回路クラスから捉え直す。ADAPT-VQEでは演算子選択を複合緩和で回復し、A2Cは物理時間でなく状態由来困難度へ資源を配る。リンドブラッド模擬はクエリ下界を達成する一方でゲート費用を残し、自律実験は能力と信頼性を分ける。QAC0の状態準備は漸近的な表現能力を広げるが、物理ゲート分解とは別問題である。\n\n## 参考ソース\n\n- 論文1: A Case Study on Noise Resilient Operator Selection in Adaptive Variational Quantum Algorithms. [arXiv:2609.17501](https://arxiv.org/abs/2609.17501)\n- 論文2: Beyond Hardware: Adaptive Algorithmic Control by State-Proxy Equalization. [arXiv:2609.17497](https://arxiv.org/abs/2609.17497)\n- 論文3: Query-optimal quantum simulation of Lindblad evolution. [arXiv:2609.17490](https://arxiv.org/abs/2609.17490)\n- 論文4: Evaluating Verified Autonomy in Quantum Engineering. [arXiv:2609.17439](https://arxiv.org/abs/2609.17439)\n- 論文5: QAC0 Can Prepare Every Logarithmic-Qubit State. [arXiv:2609.17408](https://arxiv.org/abs/2609.17408)\n",
-        "timeline": {
-          "version": 1,
-          "source": "tts_voicevox",
-          "fps": 30,
-          "totalFrames": 19666,
-          "audioDurationSec": 655.542667,
-          "cues": [
-            {
-              "speaker": "A",
-              "text": "2026年9月17日、アーカイブ量子コンピュータ論文解説をお届けするのだ！",
-              "section": "オープニング：2026年9月17日 — arXiv量子コンピュータ論文解説",
-              "startFrame": 18,
-              "endFrame": 237
-            },
-            {
-              "speaker": "B",
-              "text": "今日は5本です。ADAPT-VQEの演算子選択、量子計算中の資源配分、開放量子系シミュレーション、量子工学エージェントの検証、そして定深さ量子回路による状態準備を扱います。",
-              "section": "オープニング：2026年9月17日 — arXiv量子コンピュータ論文解説",
-              "startFrame": 245,
-              "endFrame": 692
-            },
-            {
-              "speaker": "A",
-              "text": "ノイズ緩和、成功確率、クエリ量、検証済み性能、回路サイズ……全部違う尺度だから、混同しないで聞いてほしいのだ。",
-              "section": "オープニング：2026年9月17日 — arXiv量子コンピュータ論文解説",
-              "startFrame": 700,
-              "endFrame": 1053
-            },
-            {
-              "speaker": "B",
-              "text": "ハードウェア性能だけでは決まらない、計算の組み立て方の話が中心になります。適応的な選択と資源配分がどこまで効くか、理論保証がゲート費用や実機信頼性へ何を残すかを比較していきましょう。",
-              "section": "オープニング：2026年9月17日 — arXiv量子コンピュータ論文解説",
-              "startFrame": 1060,
-              "endFrame": 1500
-            },
-            {
-              "speaker": "B",
-              "text": "1本目は、ADAPT-VQEで次に追加する演算子を選ぶ段階に、ノイズがどう影響するかを調べた研究です。著者はスーリヤ・ハラヴ、マファルダ・ラモア、バラト・サンバシヴァムのチーム。",
-              "section": "論文1: ノイズ下の適応VQEで演算子選択を回復する",
-              "startFrame": 1518,
-              "endFrame": 1949
-            },
-            {
-              "speaker": "A",
-              "text": "パラメータ最適化じゃなくて、演算子を選ぶところに注目したのだ？",
-              "section": "論文1: ノイズ下の適応VQEで演算子選択を回復する",
-              "startFrame": 1957,
-              "endFrame": 2124
-            },
-            {
-              "speaker": "B",
-              "text": "そうです。誤った候補を選ぶと、以後の変分回路の構造自体が変わってしまう。従来よく分析されるのはパラメータ最適化の方なので、この離散的な選択に焦点を当てた点が採用理由です。事例は線形のH3分子で、複数のノイズチャネルに対する選択基準の挙動を追跡しています。",
-              "section": "論文1: ノイズ下の適応VQEで演算子選択を回復する",
-              "startFrame": 2132,
-              "endFrame": 2774
-            },
-            {
-              "speaker": "A",
-              "text": "で、結果はどうだったのだ?",
-              "section": "論文1: ノイズ下の適応VQEで演算子選択を回復する",
-              "startFrame": 2781,
-              "endFrame": 2863
-            },
-            {
-              "speaker": "B",
-              "text": "選択基準には一部ノイズへの自然な耐性がありますが、コヒーレント、インコヒーレントのどちらでも、ノイズ率が十分に高いと収束を妨げました。著者らは、動的デカップリング、ゼロノイズ外挿、パウリ・ツワリングを適切に組み合わせることで、成功する収束プロファイルを回復できると報告しています。",
-              "section": "論文1: ノイズ下の適応VQEで演算子選択を回復する",
-              "startFrame": 2871,
-              "endFrame": 3546
-            },
-            {
-              "speaker": "A",
-              "text": "単一の緩和法が万能ってわけじゃないのだ。",
-              "section": "論文1: ノイズ下の適応VQEで演算子選択を回復する",
-              "startFrame": 3553,
-              "endFrame": 3660
-            },
-            {
-              "speaker": "B",
-              "text": "はい。系統誤差のランダム化、時間相関の抑制、ゼロノイズ推定という異なる役割を重ねた結果です。ただし要旨は、ノイズ率やエネルギー誤差、反復回数、各緩和法の追加測定量までは示していません。",
-              "section": "論文1: ノイズ下の適応VQEで演算子選択を回復する",
-              "startFrame": 3668,
-              "endFrame": 4164
-            },
-            {
-              "speaker": "A",
-              "text": "H3分子っていう小さな単一事例なのも気になるのだ。",
-              "section": "論文1: ノイズ下の適応VQEで演算子選択を回復する",
-              "startFrame": 4171,
-              "endFrame": 4312
-            },
-            {
-              "speaker": "B",
-              "text": "その通りです。演算子プールの大きさや縮退、強相関系への一般化は未確定です。収束回復だけでなく、理想計算と同じ演算子列を選んだ割合、化学精度、ショット数、緩和オーバーヘッドを対にしなければ、近未来ハードウェアでの費用対効果は判断できません。",
-              "section": "論文1: ノイズ下の適応VQEで演算子選択を回復する",
-              "startFrame": 4319,
-              "endFrame": 4937
-            },
-            {
-              "speaker": "B",
-              "text": "2本目は、ジャンロン・ルーらによる、有限の計算資源を物理時間ではなく計算困難度へ適応配分する手法、A2Cの提案です。",
-              "section": "論文2: 状態の難しさに合わせて計算資源を配る適応制御",
-              "startFrame": 4955,
-              "endFrame": 5278
-            },
-            {
-              "speaker": "A",
-              "text": "物理時間に均等に置くんじゃなくて、量子状態から推定した難しさに合わせて配るってことなのだ?",
-              "section": "論文2: 状態の難しさに合わせて計算資源を配る適応制御",
-              "startFrame": 5285,
-              "endFrame": 5528
-            },
-            {
-              "speaker": "B",
-              "text": "そうです。性能改善をハードウェア更新だけに帰さず、同じ回路深さと測定予算の内部で制御スケジュールを変える比較を行った点が採用理由です。状態プロキシー均等化定理は、対象とするプロキシー誤差汎関数を最小化する配分が、物理時間ではなく累積計算困難度を均等化することを示しています。",
-              "section": "論文2: 状態の難しさに合わせて計算資源を配る適応制御",
-              "startFrame": 5536,
-              "endFrame": 6218
-            },
-            {
-              "speaker": "A",
-              "text": "困難度ってどうやって推定するのだ?",
-              "section": "論文2: 状態の難しさに合わせて計算資源を配る適応制御",
-              "startFrame": 6226,
-              "endFrame": 6319
-            },
-            {
-              "speaker": "B",
-              "text": "発展中の量子状態から直接推定します。指数的に大きい多体系スペクトルを明示的に再構成する必要がありません。厳密シミュレーション、大規模スーパーコンピューター計算、IBM量子ハードウェア実験を組み合わせ、最大156量子ビットの量子最適化問題で評価しました。",
-              "section": "論文2: 状態の難しさに合わせて計算資源を配る適応制御",
-              "startFrame": 6326,
-              "endFrame": 6967
-            },
-            {
-              "speaker": "A",
-              "text": "気になる数字なのだ!",
-              "section": "論文2: 状態の難しさに合わせて計算資源を配る適応制御",
-              "startFrame": 6975,
-              "endFrame": 7026
-            },
-            {
-              "speaker": "B",
-              "text": "同じ回路深さと測定予算の下、低エネルギー状態のサンプリング確率は22%から十万%超まで改善しています。",
-              "section": "論文2: 状態の難しさに合わせて計算資源を配る適応制御",
-              "startFrame": 7034,
-              "endFrame": 7319
-            },
-            {
-              "speaker": "A",
-              "text": "十万%超って、すごい伸びなのだ。",
-              "section": "論文2: 状態の難しさに合わせて計算資源を配る適応制御",
-              "startFrame": 7327,
-              "endFrame": 7435
-            },
-            {
-              "speaker": "B",
-              "text": "ただ、改善幅の広さは基準確率が課題ごとに大きく異なることを示唆しています。十万%という相対改善は、基準値が非常に小さければ絶対確率の大幅な上昇を意味しません。絶対成功確率とインスタンス別の分布が必要です。また定理が最適化するのは状態由来プロキシー誤差であり、全ての目的関数に対する最適性ではありません。プロキシー推定のショット費用と制御更新遅延を予算へ含めた端から端の比較が、ソフトウェア制御の純利得を決めます。",
-              "section": "論文2: 状態の難しさに合わせて計算資源を配る適応制御",
-              "startFrame": 7443,
-              "endFrame": 8489
-            },
-            {
-              "speaker": "B",
-              "text": "3本目は、チュンハオ・ワンとクリストファー・イーによる、開放量子系のリンドブラッド発展を、時間tと精度イプシロンで模擬する際のクエリ複雑性を扱った研究です。",
-              "section": "論文3: リンドブラッド発展を加法的クエリ量で模擬する",
-              "startFrame": 8507,
-              "endFrame": 8872
-            },
-            {
-              "speaker": "A",
-              "text": "クエリ複雑性ってどこがポイントなのだ?",
-              "section": "論文3: リンドブラッド発展を加法的クエリ量で模擬する",
-              "startFrame": 8880,
-              "endFrame": 8980
-            },
-            {
-              "speaker": "B",
-              "text": "既知の下界は時間項と精度項の加法形なのに、従来の一般アルゴリズムは両者が掛け合わされた上界しか持っていませんでした。この隔たりを閉じた点が採用理由です。ブロックエンコーディングモデルで、時間と精度に最適な加法依存を持つアルゴリズムを構成しています。",
-              "section": "論文3: リンドブラッド発展を加法的クエリ量で模擬する",
-              "startFrame": 8987,
-              "endFrame": 9550
-            },
-            {
-              "speaker": "A",
-              "text": "どうやって構成したのだ?",
-              "section": "論文3: リンドブラッド発展を加法的クエリ量で模擬する",
-              "startFrame": 9557,
-              "endFrame": 9622
-            },
-            {
-              "speaker": "B",
-              "text": "トランスデューサー枠組みを使い、発展チャネルの一次近似を多数合成するときのクエリ費用を抑えます。さらに長さの異なる再利用回路の線形結合により、触媒状態を除去する際の誤差を抑制します。これにより、非公式には時間tと精度の対数多項式の和という下界に一致し、必要なオラクルアクセス量については積型依存が必須ではないことを示しました。",
-              "section": "論文3: リンドブラッド発展を加法的クエリ量で模擬する",
-              "startFrame": 9630,
-              "endFrame": 10415
-            },
-            {
-              "speaker": "A",
-              "text": "じゃあ完璧なのだ?",
-              "section": "論文3: リンドブラッド発展を加法的クエリ量で模擬する",
-              "startFrame": 10422,
-              "endFrame": 10474
-            },
-            {
-              "speaker": "B",
-              "text": "重要な限界があります。追加ゲート複雑性が既存アルゴリズムより高いんです。クエリ最適性は、ブロックエンコーディングへの一回のアクセスを単位費用とみなす理論モデルでの結果であり、そのオラクル構成や補助回路のゲート数を無料にはできません。実装可能性には、補助量子ビット、成功確率、チャネル合成の定数、ノイズ下での深さを評価する必要があります。残された問題は、加法的クエリ量を維持したままゲート複雑性も最適化することです。",
-              "section": "論文3: リンドブラッド発展を加法的クエリ量で模擬する",
-              "startFrame": 10481,
-              "endFrame": 11482
-            },
-            {
-              "speaker": "B",
-              "text": "4本目は、ナイシュ・グオらによる、人工知能エージェントが量子実験を計画し、装置を操作し、観測を解析する能力を再現可能に評価する仮想実験室、Quantum-Harborの構築です。",
-              "section": "論文4: 量子工学エージェントの行動と結論を検証する",
-              "startFrame": 11500,
-              "endFrame": 11945
-            },
-            {
-              "speaker": "A",
-              "text": "最終回答だけ見るんじゃないのだ?",
-              "section": "論文4: 量子工学エージェントの行動と結論を検証する",
-              "startFrame": 11953,
-              "endFrame": 12039
-            },
-            {
-              "speaker": "B",
-              "text": "そうです。最終回答のもっともらしさだけでなく、エージェントが取った操作と、そこから導いた結論の双方を環境内で直接検証する設計が選定理由です。量子装置の規模と複雑さが増すほど、人手による校正と連携が律速になるため、自律化の信頼性を独立の評価対象にしています。",
-              "section": "論文4: 量子工学エージェントの行動と結論を検証する",
-              "startFrame": 12046,
-              "endFrame": 12698
-            },
-            {
-              "speaker": "A",
-              "text": "中身はどうなってるのだ?",
-              "section": "論文4: 量子工学エージェントの行動と結論を検証する",
-              "startFrame": 12706,
-              "endFrame": 12770
-            },
-            {
-              "speaker": "B",
-              "text": "この環境上のQIQCBenchは、専門家が作成した49課題を含み、校正と制御、誤り訂正とコンパイル、センシングとネットワーキングなど複数層にまたがります。十七の最先端エージェントシステムを比較すると、検証済み性能には大きなばらつきがありました。",
-              "section": "論文4: 量子工学エージェントの行動と結論を検証する",
-              "startFrame": 12777,
-              "endFrame": 13394
-            },
-            {
-              "speaker": "A",
-              "text": "順位とか成功率とかは出てるのだ?",
-              "section": "論文4: 量子工学エージェントの行動と結論を検証する",
-              "startFrame": 13401,
-              "endFrame": 13493
-            },
-            {
-              "speaker": "B",
-              "text": "要旨は順位や絶対成功率を示していません。ただ、能力の実演と、反復して信頼できる装置運用との間には大きな隔たりがあると結論しています。",
-              "section": "論文4: 量子工学エージェントの行動と結論を検証する",
-              "startFrame": 13500,
-              "endFrame": 13848
-            },
-            {
-              "speaker": "A",
-              "text": "仮想実験室だから、実機との違いも気になるのだ。",
-              "section": "論文4: 量子工学エージェントの行動と結論を検証する",
-              "startFrame": 13855,
-              "endFrame": 13985
-            },
-            {
-              "speaker": "B",
-              "text": "同一条件で操作履歴を再生できる一方、実機特有のドリフト、通信遅延、機器故障、校正ずれをどこまで模擬するかで外的妥当性が変わります。49課題は広い層を覆いますが、各層の標本数は限られています。行動妥当性と結論妥当性を分け、危険操作の回避、回復可能性、試行回数、トークンと装置時間まで報告すると、自律性が単なるタスク完了率を越えて評価できます。",
-              "section": "論文4: 量子工学エージェントの行動と結論を検証する",
-              "startFrame": 13992,
-              "endFrame": 14920
-            },
-            {
-              "speaker": "B",
-              "text": "最後の5本目は、ルーカス・グレッタ、メガル・グプタ、マルヴィカ・ラジ・ジョシによる、任意幅のトフォリゲートを許す定深さ量子回路クラス、QAC0の状態準備能力についての研究です。",
-              "section": "論文5: 定深さ回路で任意の対数量子ビット状態を準備する",
-              "startFrame": 14938,
-              "endFrame": 15388
-            },
-            {
-              "speaker": "A",
-              "text": "定深さって、回路の深さが増えないってことなのだ?",
-              "section": "論文5: 定深さ回路で任意の対数量子ビット状態を準備する",
-              "startFrame": 15396,
-              "endFrame": 15530
-            },
-            {
-              "speaker": "B",
-              "text": "そうです。ファンアウトやQRAMを追加せず、任意の対数量子ビット状態を厳密かつ補助系を汚さずに準備できると証明した点が採用理由です。QAC0は局所定深さ回路へ非局所トフォリ相互作用を加えたものですが、任意幅ファンアウトを持つQNC0-fより弱いと考えられています。",
-              "section": "論文5: 定深さ回路で任意の対数量子ビット状態を準備する",
-              "startFrame": 15538,
-              "endFrame": 16182
-            },
-            {
-              "speaker": "A",
-              "text": "どこまで準備できるようになったのだ?",
-              "section": "論文5: 定深さ回路で任意の対数量子ビット状態を準備する",
-              "startFrame": 16190,
-              "endFrame": 16276
-            },
-            {
-              "speaker": "B",
-              "text": "Oログn量子ビット上の任意状態を、多項式個の補助量子ビットを使うQAC0回路で正確に準備できます。従来、その規模の任意状態に対する多項式補助量子ビット構成は、QAC0へ含まれるとは分かっていないファンアウトまたは索引ゲートへの追加アクセスを必要としていました。同値な見方をすると、任意のn量子ビット状態をQAC0で用意する既知構成の二重指数サイズに対して、指数因子の改善を得ています。",
-              "section": "論文5: 定深さ回路で任意の対数量子ビット状態を準備する",
-              "startFrame": 16283,
-              "endFrame": 17234
-            },
-            {
-              "speaker": "A",
-              "text": "すぐハードウェアで使える結果なのだ?",
-              "section": "論文5: 定深さ回路で任意の対数量子ビット状態を準備する",
-              "startFrame": 17241,
-              "endFrame": 17330
-            },
-            {
-              "speaker": "B",
-              "text": "いえ、この結果は回路複雑性の漸近的包含に関するもので、近未来装置向けの浅い状態準備レシピを直ちに与えるわけではありません。任意幅トフォリ自体の物理分解、接続制約、補助量子ビット初期化、誤り訂正費用を含めれば深さは変わります。また対数量子ビットという出力幅が重要で、線形規模の任意状態準備を多項式資源で解いたものではありません。厳密かつクリーンな準備が、より大きな回路クラス分離へどう作用するかが理論上の含意です。",
-              "section": "論文5: 定深さ回路で任意の対数量子ビット状態を準備する",
-              "startFrame": 17338,
-              "endFrame": 18380
-            },
-            {
-              "speaker": "B",
-              "text": "5本まとめると、量子計算の性能を素子品質だけでなく選択、配分、アクセスモデル、検証環境、回路クラスから捉え直す内容でした。",
-              "section": "まとめ",
-              "startFrame": 18398,
-              "endFrame": 18731
-            },
-            {
-              "speaker": "A",
-              "text": "ADAPT-VQEは演算子選択を複合緩和で回復して、A2Cは物理時間じゃなくて状態由来困難度へ資源を配るのだ。",
-              "section": "まとめ",
-              "startFrame": 18738,
-              "endFrame": 19056
-            },
-            {
-              "speaker": "B",
-              "text": "リンドブラッド模擬はクエリ下界を達成する一方でゲート費用を残し、自律実験は能力と信頼性を分けています。QAC0の状態準備は漸近的な表現能力を広げますが、物理ゲート分解とは別問題です。",
-              "section": "まとめ",
-              "startFrame": 19063,
-              "endFrame": 19541
-            },
-            {
-              "speaker": "A",
-              "text": "今日はここまでなのだ。また次回もよろしくなのだ!",
-              "section": "まとめ",
-              "startFrame": 19549,
-              "endFrame": 19666
             }
           ]
         }
